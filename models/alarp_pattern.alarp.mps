@@ -3984,7 +3984,7 @@
         <node concept="gqqVs" id="1X8YE2QmbDt" role="37mO4d">
           <property role="gqqTZ" value="371.0" />
           <property role="gqqTW" value="334.0" />
-          <property role="gqqTX" value="216.0" />
+          <property role="gqqTX" value="244.0" />
           <property role="gqqTy" value="100.0" />
           <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
         </node>
@@ -4427,7 +4427,7 @@
       <property role="TrG5h" value="S4.2" />
       <node concept="19SGf9" id="1X8YE2QmbBc" role="2vnaTY">
         <node concept="19SUe$" id="1X8YE2QmbBd" role="19SJt6">
-          <property role="19SUeA" value="Argument over type, parameters and&#10;process development of the model&#10;are meeting defined ML safety&#10;requirements" />
+          <property role="19SUeA" value="Argument over appropriateness of&#10;selected type, parameters and process &#10;development of the model&#10;for meeting defined ML safety&#10;requirement" />
         </node>
       </node>
     </node>
