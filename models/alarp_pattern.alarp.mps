@@ -2,10 +2,13 @@
 <model ref="r:f484f3cb-b75d-4857-b03a-36f42bd7a5b9(alarp_pattern.alarp)">
   <persistence version="9" />
   <languages>
+    <use id="42606624-2faa-4717-ba66-77021cc11b53" name="com.mbeddr.formal.safety.gsn.doc" version="0" />
     <devkit ref="b64463ba-ae31-4cf7-be7b-afc13cab4daa(fasten.safety.gsn)" />
     <devkit ref="ac9a2847-3512-4af0-8db9-c20abbe2720a(fasten.safety)" />
   </languages>
-  <imports />
+  <imports>
+    <import index="dm5y" ref="r:bd72b02e-ded9-45db-b8d7-7f868df59b05(alarp_pattern.doc)" />
+  </imports>
   <registry>
     <language id="6464626a-ab04-4051-908e-5e8dc75acd78" name="com.mbeddr.formal.safety.gsn.ext">
       <concept id="2392944874759792240" name="com.mbeddr.formal.safety.gsn.ext.structure.SupportedByConnectionPattern" flags="ng" index="1a4Pjv" />
@@ -15,6 +18,7 @@
       </concept>
       <concept id="8790599356044273577" name="com.mbeddr.formal.safety.gsn.ext.structure.OrEntity" flags="ng" index="1idpKz" />
       <concept id="1629165016568013899" name="com.mbeddr.formal.safety.gsn.ext.structure.PatternDefinition" flags="ng" index="1VB52S">
+        <reference id="5931136657905181501" name="documentation" index="3UWW9w" />
         <child id="6452540484739589866" name="explanation" index="qdI68" />
       </concept>
     </language>
@@ -98,6 +102,7 @@
   </registry>
   <node concept="1VB52S" id="2a3o3cy5vqc">
     <property role="TrG5h" value="ALARP" />
+    <ref role="3UWW9w" to="dm5y:5Ac1Q93IR5r" resolve="ALARP" />
     <node concept="2vn7WC" id="2a3o3cy5vr8" role="2vn1q5">
       <property role="TrG5h" value="G11" />
       <property role="8uqrb" value="true" />
@@ -1584,6 +1589,11 @@
     <node concept="3VeUTF" id="6T$0vkPi49s" role="2vhqc$">
       <ref role="3VeSjP" node="6T$0vkPi3BE" />
       <ref role="3VeSjQ" node="3IHLeT0mNqh" resolve="G9" />
+    </node>
+    <node concept="19SGf9" id="2mgWlIyR6o4" role="qdI68">
+      <node concept="19SUe$" id="2mgWlIyR6o5" role="19SJt6">
+        <property role="19SUeA" value="This pattern provides a framework for arguing that identified risks in a system have been sufficiently addressed in accordance with the ALARP principle." />
+      </node>
     </node>
   </node>
   <node concept="1VB52S" id="6T$0vkPi3_N">
@@ -6829,6 +6839,7 @@
   </node>
   <node concept="1VB52S" id="6gOiWKwJAFu">
     <property role="TrG5h" value="Risk_Management_Argument_Pattern" />
+    <ref role="3UWW9w" to="dm5y:5Ac1Q93IYDJ" resolve="ML_Safety_Assurance_Scoping_Argument_pattern" />
     <node concept="2vn7WC" id="6gOiWKwJAGq" role="2vn1q5">
       <property role="TrG5h" value="System Safety" />
       <node concept="19SGf9" id="6gOiWKwJAGr" role="2vnaTY">
@@ -7679,6 +7690,9 @@
       <property role="1a4Pjs" value="m" />
       <ref role="3VeSjP" node="6gOiWKwJASP" resolve="Physical &amp; Functional Safety" />
       <ref role="3VeSjQ" node="6gOiWKwJAWs" resolve="Functional Safety" />
+    </node>
+    <node concept="19SGf9" id="59fClQCJhzH" role="qdI68">
+      <node concept="19SUe$" id="59fClQCJhzI" role="19SJt6" />
     </node>
   </node>
   <node concept="1VB52S" id="6bYkLspKQ9Q">
