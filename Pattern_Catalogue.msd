@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="alarp_pattern" uuid="071b5ba2-f8f1-4bc1-9ed3-d3bb1f3fedd3" moduleVersion="0" compileInMPS="true">
+<solution name="Pattern_Catalogue" uuid="071b5ba2-f8f1-4bc1-9ed3-d3bb1f3fedd3" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -57,7 +57,7 @@
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
-    <module reference="071b5ba2-f8f1-4bc1-9ed3-d3bb1f3fedd3(alarp_pattern)" version="0" />
+    <module reference="071b5ba2-f8f1-4bc1-9ed3-d3bb1f3fedd3(Pattern_Catalogue)" version="0" />
     <module reference="4dc47fba-0f4f-4162-820b-d2e1e306482d(com.fasten.safety.ft.pluginSolution)" version="0" />
     <module reference="54912f5b-43b5-48a6-b710-8bbe3bcf9649(com.fasten.safety.ft.xfta.pluginSolution)" version="0" />
     <module reference="ac9a2847-3512-4af0-8db9-c20abbe2720a(fasten.safety)" version="0" />

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:bd72b02e-ded9-45db-b8d7-7f868df59b05(alarp_pattern.doc)">
+<model ref="r:bd72b02e-ded9-45db-b8d7-7f868df59b05(_001_Pattern_Catalogue.doc)">
   <persistence version="9" />
   <languages>
     <use id="42606624-2faa-4717-ba66-77021cc11b53" name="com.mbeddr.formal.safety.gsn.doc" version="0" />
     <devkit ref="54c79f9f-f3ba-4167-91f1-eb4e98a9c47c(com.mbeddr.documentation)" />
   </languages>
   <imports>
-    <import index="hia9" ref="r:f484f3cb-b75d-4857-b03a-36f42bd7a5b9(alarp_pattern.alarp)" />
+    <import index="hia9" ref="r:f484f3cb-b75d-4857-b03a-36f42bd7a5b9(_001_Pattern_Catalogue.alarp)" />
   </imports>
   <registry>
     <language id="2dec0852-3a21-4c4e-a68c-b05236cc37f2" name="com.mbeddr.doc.gen_xhtml">
@@ -113,6 +113,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -137,7 +140,7 @@
       <node concept="1_0LV8" id="2mgWlIyR5mi" role="1_0VJ0">
         <node concept="19SGf9" id="2mgWlIyR5mj" role="1_0LWR">
           <node concept="19SUe$" id="2mgWlIyR5mw" role="19SJt6">
-            <property role="19SUeA" value="This pattern provides a framework for arguing that identified risks in a system have been sufficiently addressed in accordance with the ALARP principle.&#10;This pattern was developed for two reasons:&#10;• To argue compliance with the ALARP principle at the highest level when addressing system level hazards.&#10;• To provide a more structured approach to presenting a ‘Hazard Avoidance’ argument (See Hazard Avoidance Pattern) by showing differing treatment of hazards according to their associated risk." />
+            <property role="19SUeA" value="This pattern provides a framework for arguing that identified risks in a system have been sufficiently addressed in accordance with the ALARP principle.&#10;This pattern was developed for two reasons:&#10;• To argue compliance with the ALARP principle at the highest level when addressing system level hazards.&#10;• To provide a more structured approach to presenting a ‘Hazard Avoidance’ argument (See Hazard Avoidance Pattern) by showing differing treatment of hazards according to their associated risk. @docu" />
           </node>
         </node>
         <node concept="1xAIan" id="2mgWlIyR5ml" role="1xAIax">
@@ -433,6 +436,7 @@
   <node concept="qdN4g" id="5Ac1Q93IYDJ">
     <property role="yApLE" value="1" />
     <property role="TrG5h" value="ML_Safety_Assurance_Scoping_Argument_pattern" />
+    <property role="3GE5qa" value="_101_ML_Patterns" />
     <ref role="G9hjw" node="5Ac1Q93IR66" resolve="Config" />
     <ref role="qdN4h" to="hia9:3fm$CPEX8Bi" resolve="ML_Safety_Assurance_Scoping_Argument_pattern" />
     <node concept="3z_lpU" id="5pxSvNaX1$g" role="1_0VJ0">
@@ -1363,6 +1367,344 @@
           <property role="1xAIam" value="Related patterns &amp; Known Uses" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1To8c6dXEOu">
+    <property role="3GE5qa" value="_101_ML_Patterns" />
+    <property role="TrG5h" value="ML_Safety_Assurance_Scoping_Argument_Pattern_Config" />
+    <node concept="2SbYGw" id="1To8c6dXEOv" role="A10yx">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1To8c6dXEOw" role="9PVG_">
+        <property role="3N1Lgt" value="configs/ml/ML_Safety_Assurance_Scoping_Argument_Pattern/ml_tmp" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1To8c6dXEOx" role="Cbewh">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="1To8c6dXEOy" role="9PVG_">
+        <property role="3N1Lgt" value="configs/ml/ML_Safety_Assurance_Scoping_Argument_Pattern/ml_img" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="1To8c6dXF0s">
+    <property role="yApLE" value="1" />
+    <property role="TrG5h" value="Confidence_Argument_Structure_For_An_Asserted_Inference_Doc" />
+    <property role="3GE5qa" value="_100_Confidence_Patterns" />
+    <ref role="G9hjw" node="1To8c6dXF1d" resolve="Config_Confidence_Argument_Structure_For_An_Asserted_Inference" />
+    <ref role="qdN4h" to="hia9:2S9emLMVNZj" resolve="Confidence_Argument_Structure_For_An_Asserted_Inference" />
+    <node concept="1mvXsy" id="1To8c6dXF7a" role="1_0VJ0">
+      <property role="TrG5h" value="confidence_arg_asserted_inference" />
+      <property role="1_0VJr" value="Confidence argument structure for an asserted inference" />
+      <node concept="3z_lpU" id="1To8c6dXF7d" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="1To8c6dXF7e" role="3z_lpI">
+          <node concept="2NCMab" id="1To8c6dXF7g" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:2S9emLMVNZj" resolve="Confidence_Argument_Structure_For_An_Asserted_Inference" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6dXF8F" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6dXF8G" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6dXF8K" role="19SJt6">
+            <property role="19SUeA" value="&#10;Arguments that do not distinguish between the arguments of safety and confidence might lead to:&#10;- voluminous, rambling, ad infinitum arguments;&#10;- poorly documented safety argument and the confidence argument, because the lack of distinction between the two makes it more difficult to spot incompleteness or poor structure in either;&#10;- necessary elements of the argument being sometimes omitted, because the need for the specific elements is lost in the volume of the argument;&#10;- arguments becoming indirect and unfocused, and the link between elements of the argument and risk is often lost;&#10;- unnecessary material bein sometimes included in arguments without proper con- sideration or explanation of its relevance – ‘just in case’;&#10;- arguments becoming difficult to build, and weaknesses of the argument are sometimes not evident and so are easily overlooked;&#10;- arguments becoming difficult to review because of the size and lack of focus;&#10;Separation of the safety and confidence arguments offers the opportunity to&#10;mitigate these difficulties by providing different foci for safety and confidence. In addition, careful attention to linking the two arguments provides a mechanism for guiding analysis of the interrelationship between safety and confidence;&#10;&#10;To gain assurance in the argumentation, the sub-claims put forward to implement the chosen argument strategy need to be, if true, a sufficient basis upon which to infer the conclusion stated in the parent claim.&#10;It is necessary to provide a confidence argument that demonstrates why the asserted in- ference should be believed. The ACP for an asserted inference is the link between the parent claim and its strategy or sub-claims.&#10;&#10;This pattern demonstrates that there is sufficient confidence in the asserted inference by including a sub-argument:&#10;- that the asserted inference is true &#10;- that the assurance deficits relating to the asserted inference have been identified &#10;- that any residual assurance deficits are acceptable.&#10;" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6dXF8I" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6dXF8U" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6dXF8V" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6dXF8W" role="19SJt6">
+            <property role="19SUeA" value="Contexts in which a separate structure is needed to explicitly manage the assurance deficit such that the overall confidence is considered acceptable." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6dXF8X" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_1sxE" id="1To8c6dXF8Z" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
+      </node>
+      <node concept="1_0LV8" id="1To8c6dXF95" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6dXF96" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6dXF97" role="19SJt6">
+            <property role="19SUeA" value="The strategy used in the third sub-argument is to argue over the set of assurance deficits, and for each to show:&#10;- the existence of significant counter evidence associated with the subject assur- ance deficit is considered unlikely&#10;- the sensitivity of the remainder of the argument to the subject assurance deficit is acceptably low, i.e., the assurance deficit may be justified as acceptable when considered in the context of the other arguments and evidence in the safety case.&#10;" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6dXF98" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_1sxE" id="1To8c6dXF99" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
+      </node>
+      <node concept="1_0LV8" id="1To8c6dXF9b" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6dXF9c" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6dXF9g" role="19SJt6">
+            <property role="19SUeA" value="An example of how this pattern may be instantiated is included in:&#10;- Hawkins R., Kelly T., Knight J., Graydon P. (2011) A New Approach to creating Clear Safety Arguments. In: Dale C., Anderson T. (eds) Advances in Systems Safety. Springer, London. https://doi.org/10.1007/978-0-85729-133-2_1" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6dXF9e" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known Uses" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6dXF9m" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6dXF9n" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6dXF9v" role="19SJt6" />
+          <node concept="2vpllh" id="1To8c6dXF9r" role="19SJt6">
+            <node concept="19SGf9" id="1To8c6dXF9s" role="$DsGW">
+              <node concept="19SUe$" id="1To8c6dXF9t" role="19SJt6">
+                <property role="19SUeA" value="Note" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="1To8c6dXF9u" role="19SJt6">
+            <property role="19SUeA" value=": Documentation provided from the following publication:&#10;Hawkins R., Kelly T., Knight J., Graydon P. (2011) A New Approach to creating Clear Safety Arguments. In: Dale C., Anderson T. (eds) Advances in Systems Safety. Springer, London. https://doi.org/10.1007/978-0-85729-133-2_1" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="1To8c6dXF75" role="Wq1Bf">
+      <property role="Wq1Bt" value="Richard Hawkins" />
+      <property role="Wq1Bq" value="rhawkins@york.ac.uk" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6dXF76" role="Wq1Bf">
+      <property role="Wq1Bt" value="Tim Kelly" />
+      <property role="Wq1Bq" value="tim.kelly@cs.york.ac.uk" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6dXF77" role="Wq1Bf">
+      <property role="Wq1Bt" value="John Knight" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6dXF78" role="Wq1Bf">
+      <property role="Wq1Bt" value="Patrick Graydon" />
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1To8c6dXF1d">
+    <property role="3GE5qa" value="_100_Confidence_Patterns" />
+    <property role="TrG5h" value="Config_Confidence_Argument_Structure_For_An_Asserted_Inference" />
+    <node concept="2SbYGw" id="1To8c6dXF1e" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="1To8c6dXF1f" role="9PVG_">
+        <property role="3N1Lgt" value="configs/confidence_patterns/Confidence_Argument_Structure_For_An_Asserted_Inference/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1To8c6dXF1g" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1To8c6dXF1h" role="9PVG_">
+        <property role="3N1Lgt" value="configs/confidence_patterns/Confidence_Argument_Structure_For_An_Asserted_Inference/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1To8c6dXFb$">
+    <property role="3GE5qa" value="_100_Confidence_Patterns" />
+    <property role="TrG5h" value="Config_Confidence_Argument_Structure_For_An_Asserted_Solution" />
+    <node concept="2SbYGw" id="1To8c6dXFb_" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="1To8c6dXFbA" role="9PVG_">
+        <property role="3N1Lgt" value="configs/confidence_patterns/Confidence_Argument_Structure_For_An_Asserted_Solution/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1To8c6dXFbB" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1To8c6dXFbC" role="9PVG_">
+        <property role="3N1Lgt" value="configs/confidence_patterns/Confidence_Argument_Structure_For_An_Asserted_Solution/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="1To8c6dXFc1">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_100_Confidence_Patterns" />
+    <property role="TrG5h" value="Confidence_Argument_Structure_For_An_Asserted_Solution_Doc" />
+    <ref role="G9hjw" node="1To8c6dXFb$" resolve="Config_Confidence_Argument_Structure_For_An_Asserted_Solution" />
+    <node concept="Wq1Bs" id="1To8c6e6q_3" role="Wq1Bf">
+      <property role="Wq1Bt" value="Richard Hawkins" />
+      <property role="Wq1Bq" value="rhawkins@york.ac.uk" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e6q_4" role="Wq1Bf">
+      <property role="Wq1Bt" value="Tim Kelly" />
+      <property role="Wq1Bq" value="tim.kelly@cs.york.ac.uk" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e6q_5" role="Wq1Bf">
+      <property role="Wq1Bt" value="John Knight" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e6q_6" role="Wq1Bf">
+      <property role="Wq1Bt" value="Patrick Graydon" />
+    </node>
+    <node concept="1mvXsy" id="1To8c6dXFfB" role="1_0VJ0">
+      <property role="TrG5h" value="confidence_arg_asserted_solution" />
+      <property role="1_0VJr" value="Confidence argument structure for an asserted solution" />
+      <node concept="3z_lpU" id="1To8c6dXFfC" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="1To8c6dXFfD" role="3z_lpI">
+          <node concept="2NCMab" id="1To8c6dXFg4" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:6NzOE2eFNAx" resolve="Confidence_Argument_Structure_For_An_Asserted_Solution" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6dXFfF" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6dXFfG" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6dXFfH" role="19SJt6">
+            <property role="19SUeA" value="&#10;Arguments that do not distinguish between the arguments of safety and confidence might lead to:&#10;- voluminous, rambling, ad infinitum arguments;&#10;- poorly documented safety argument and the confidence argument, because the lack of distinction between the two makes it more difficult to spot incompleteness or poor structure in either;&#10;- necessary elements of the argument being sometimes omitted, because the need for the specific elements is lost in the volume of the argument;&#10;- arguments becoming indirect and unfocused, and the link between elements of the argument and risk is often lost;&#10;- unnecessary material bein sometimes included in arguments without proper con- sideration or explanation of its relevance – ‘just in case’;&#10;- arguments becoming difficult to build, and weaknesses of the argument are sometimes not evident and so are easily overlooked;&#10;- arguments becoming difficult to review because of the size and lack of focus;&#10;Separation of the safety and confidence arguments offers the opportunity to&#10;mitigate these difficulties by providing different foci for safety and confidence. In addition, careful attention to linking the two arguments provides a mechanism for guiding analysis of the interrelationship between safety and confidence;&#10;&#10;To gain assurance in the argumentation, the sub-claims put forward to implement the chosen argument strategy need to be, if true, a sufficient basis upon which to infer the conclusion stated in the parent claim.&#10;It is necessary to provide a confidence argument that demonstrates why the asserted in- ference should be believed. The ACP for an asserted inference is the link between the parent claim and its strategy or sub-claims.&#10;&#10;The pattern demonstrates that there is sufficient confidence in the asserted solution by including a sub-argument that:&#10;- the asserted solution is trustworthy &#10;- use of the asserted solution is appropriate.&#10;" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6dXFfI" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6dXFfJ" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6dXFfK" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6dXFfL" role="19SJt6">
+            <property role="19SUeA" value="Contexts in which it is needed to argue the confidence in the gathered evidence and in cases where a separate structure is needed to explicitly manage the assurance deficit such that the overall confidence is considered acceptable." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6dXFfM" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_1sxE" id="1To8c6dXFfN" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
+      </node>
+      <node concept="1_0LV8" id="1To8c6dXFfO" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6dXFfP" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6dXFfQ" role="19SJt6">
+            <property role="19SUeA" value="&#10;The claims regarding the acceptability of the residual assurance deficits in each case (CC13 and CC23) would be supported using the same pattern as provided under CC3 in the following documentation: Confidence_Argument_Structure_For_An_Asserted_Inference_Doc" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6dXFfR" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+      <node concept="1_1sxE" id="1To8c6dXFfS" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
+      </node>
+      <node concept="1_0LV8" id="1To8c6dXFfT" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6dXFfU" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6dXFfV" role="19SJt6">
+            <property role="19SUeA" value="An example of how this pattern may be instantiated is included in:&#10;- Hawkins R., Kelly T., Knight J., Graydon P. (2011) A New Approach to creating Clear Safety Arguments. In: Dale C., Anderson T. (eds) Advances in Systems Safety. Springer, London. https://doi.org/10.1007/978-0-85729-133-2_1" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6dXFfW" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known Uses" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6dXFfX" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6dXFfY" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6dXFfZ" role="19SJt6" />
+          <node concept="2vpllh" id="1To8c6dXFg0" role="19SJt6">
+            <node concept="19SGf9" id="1To8c6dXFg1" role="$DsGW">
+              <node concept="19SUe$" id="1To8c6dXFg2" role="19SJt6">
+                <property role="19SUeA" value="Note" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="1To8c6dXFg3" role="19SJt6">
+            <property role="19SUeA" value=": Documentation provided from the following publication:&#10;Hawkins R., Kelly T., Knight J., Graydon P. (2011) A New Approach to creating Clear Safety Arguments. In: Dale C., Anderson T. (eds) Advances in Systems Safety. Springer, London. https://doi.org/10.1007/978-0-85729-133-2_1" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1To8c6dXFcq">
+    <property role="3GE5qa" value="_100_Confidence_Patterns" />
+    <property role="TrG5h" value="Config_The_Overall_Confidence_Argument" />
+    <node concept="2SbYGw" id="1To8c6dXFcr" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="1To8c6dXFcs" role="9PVG_">
+        <property role="3N1Lgt" value="configs/confidence_patterns/The_Overall_Confidence_Argument/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1To8c6dXFct" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1To8c6dXFcu" role="9PVG_">
+        <property role="3N1Lgt" value="configs/confidence_patterns/The_Overall_Confidence_Argument/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="1To8c6dXFcR">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_100_Confidence_Patterns" />
+    <property role="TrG5h" value="The_Overall_Confidence_Argument_Doc" />
+    <ref role="G9hjw" node="1To8c6dXFcq" resolve="Config_The_Overall_Confidence_Argument" />
+    <node concept="1mvXsy" id="1To8c6e6q_b" role="1_0VJ0">
+      <property role="TrG5h" value="the_overall_confidence_argument" />
+      <property role="1_0VJr" value="Overall confidence argument" />
+      <node concept="3z_lpU" id="1To8c6e6q_c" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="1To8c6e6q_d" role="3z_lpI">
+          <node concept="2NCMab" id="1To8c6e6q_C" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:4XZ2U19jXBw" resolve="The_Overall_Confidence_Argument" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e6q_f" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e6q_g" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e6q_h" role="19SJt6">
+            <property role="19SUeA" value="&#10;Arguments that do not distinguish between the arguments of safety and confidence might lead to:&#10;- voluminous, rambling, ad infinitum arguments;&#10;- poorly documented safety argument and the confidence argument, because the lack of distinction between the two makes it more difficult to spot incompleteness or poor structure in either;&#10;- necessary elements of the argument being sometimes omitted, because the need for the specific elements is lost in the volume of the argument;&#10;- arguments becoming indirect and unfocused, and the link between elements of the argument and risk is often lost;&#10;- unnecessary material bein sometimes included in arguments without proper con- sideration or explanation of its relevance – ‘just in case’;&#10;- arguments becoming difficult to build, and weaknesses of the argument are sometimes not evident and so are easily overlooked;&#10;- arguments becoming difficult to review because of the size and lack of focus;&#10;Separation of the safety and confidence arguments offers the opportunity to&#10;mitigate these difficulties by providing different foci for safety and confidence. In addition, careful attention to linking the two arguments provides a mechanism for guiding analysis of the interrelationship between safety and confidence;&#10;&#10;To gain assurance in the argumentation, the sub-claims put forward to implement the chosen argument strategy need to be, if true, a sufficient basis upon which to infer the conclusion stated in the parent claim.&#10;It is necessary to provide a confidence argument that demonstrates why the asserted in- ference should be believed. The ACP for an asserted inference is the link between the parent claim and its strategy or sub-claims.&#10;" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e6q_i" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e6q_j" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e6q_k" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e6q_l" role="19SJt6">
+            <property role="19SUeA" value="&#10;The individual fragments of a confidence argument, each addressing a particular assurance claim point in the safety argument, should be assembled together to form a single overall confidence argument (to accompny the single safety argument). To be truly comprehensive in the construction of this overall confidence argument would require that all of the assertions of the safety argument have an accompanying confidence (sub-)argument. This is illustrated in the three legs of the argument shown in this argumentation (arguing confidence for all inferences, all context and all evidence used in the safety argument).&#10;" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e6q_m" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e6Cup" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e6Cuq" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e6Cur" role="19SJt6">
+            <property role="19SUeA" value="In addition to the simple structure of the argument, there are a number of potentially important concerns at the level of the overall confidence argument. &#10;Firstly, arguing the sufficiency of the overall confidence in the safety argument can be more complex than the simple composition of arguments of sufficient confidence for each argument assertion (in the same way that arguing the acceptability of overall risk is more complex than simply arguing the acceptability of the risk posed by each individual hazard). For example, an assurance deficit for one argument assertion may be justified as acceptable when considered in the context of other arguments and evidence in the safety case. Such a justification of how shortfalls in one part of the safety argument are compensated by other arguments and evidence needs to be addressed at the level of the overall confidence argument. Secondly, it is useful to examine and justify whether the multiple lines of argument offered up in the safety argument (undesirably) share common underlying assurance deficits (i.e. there are common modes of failure in the argument). Thirdly, for large safety arguments it may simply not be practical to provide arguments of confidence for every assertion in the safety argument. Instead, some selection and prioritisation of the assertions of the safety arguments to be covered by the confidence argument may need to be performed. This prioritisation would be done most appropriately by addressing those assertions relating to the most significant arguments of risk reduction in the primary safety argument. Obviously, care must be taken when making any decisions regarding parts of the confidence argument to omit." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e6Cus" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e6q_t" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e6q_u" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e6q_v" role="19SJt6">
+            <property role="19SUeA" value="More information about this pattern in:&#10;- Hawkins R., Kelly T., Knight J., Graydon P. (2011) A New Approach to creating Clear Safety Arguments. In: Dale C., Anderson T. (eds) Advances in Systems Safety. Springer, London. https://doi.org/10.1007/978-0-85729-133-2_1" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e6q_w" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known Uses" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e6q_x" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e6q_y" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e6q_z" role="19SJt6" />
+          <node concept="2vpllh" id="1To8c6e6q_$" role="19SJt6">
+            <node concept="19SGf9" id="1To8c6e6q__" role="$DsGW">
+              <node concept="19SUe$" id="1To8c6e6q_A" role="19SJt6">
+                <property role="19SUeA" value="Note" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="1To8c6e6q_B" role="19SJt6">
+            <property role="19SUeA" value=": Documentation provided from the following publication:&#10;Hawkins R., Kelly T., Knight J., Graydon P. (2011) A New Approach to creating Clear Safety Arguments. In: Dale C., Anderson T. (eds) Advances in Systems Safety. Springer, London. https://doi.org/10.1007/978-0-85729-133-2_1" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e6q_7" role="Wq1Bf">
+      <property role="Wq1Bt" value="Richard Hawkins" />
+      <property role="Wq1Bq" value="rhawkins@york.ac.uk" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e6q_8" role="Wq1Bf">
+      <property role="Wq1Bt" value="Tim Kelly" />
+      <property role="Wq1Bq" value="tim.kelly@cs.york.ac.uk" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e6q_9" role="Wq1Bf">
+      <property role="Wq1Bt" value="John Knight" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e6q_a" role="Wq1Bf">
+      <property role="Wq1Bt" value="Patrick Graydon" />
     </node>
   </node>
 </model>

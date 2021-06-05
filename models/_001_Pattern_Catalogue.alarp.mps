@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:f484f3cb-b75d-4857-b03a-36f42bd7a5b9(alarp_pattern.alarp)">
+<model ref="r:f484f3cb-b75d-4857-b03a-36f42bd7a5b9(_001_Pattern_Catalogue.alarp)">
   <persistence version="9" />
   <languages>
     <use id="42606624-2faa-4717-ba66-77021cc11b53" name="com.mbeddr.formal.safety.gsn.doc" version="0" />
@@ -7,7 +7,7 @@
     <devkit ref="ac9a2847-3512-4af0-8db9-c20abbe2720a(fasten.safety)" />
   </languages>
   <imports>
-    <import index="dm5y" ref="r:bd72b02e-ded9-45db-b8d7-7f868df59b05(alarp_pattern.doc)" />
+    <import index="dm5y" ref="r:bd72b02e-ded9-45db-b8d7-7f868df59b05(_001_Pattern_Catalogue.doc)" />
   </imports>
   <registry>
     <language id="6464626a-ab04-4051-908e-5e8dc75acd78" name="com.mbeddr.formal.safety.gsn.ext">
@@ -7211,8 +7211,8 @@
             <property role="3ul5GH" value="label" />
             <node concept="3wpmZ1" id="6gOiWKwJBSZ" role="3ul5Gz">
               <node concept="2VclrF" id="6gOiWKwJBT0" role="3wpmZR">
-                <property role="2Vclpx" value="301.2694361902368" />
-                <property role="2Vclpz" value="333.263156575401" />
+                <property role="2Vclpx" value="398.2694361902368" />
+                <property role="2Vclpz" value="450.263156575401" />
               </node>
               <node concept="2VclrF" id="6gOiWKwJBT1" role="3wpmZP">
                 <property role="2Vclpx" value="0.0" />
