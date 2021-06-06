@@ -90,6 +90,9 @@
       </concept>
     </language>
     <language id="42606624-2faa-4717-ba66-77021cc11b53" name="com.mbeddr.formal.safety.gsn.doc">
+      <concept id="2186533634770957791" name="com.mbeddr.formal.safety.gsn.doc.structure.DocumentGSNWord" flags="ng" index="2jFPku">
+        <reference id="2186533634770957794" name="document" index="2jFPkz" />
+      </concept>
       <concept id="6452540484739798626" name="com.mbeddr.formal.safety.gsn.doc.structure.JustificationWord" flags="ng" index="qcx40">
         <reference id="6452540484739798629" name="justification" index="qcx47" />
       </concept>
@@ -150,7 +153,7 @@
       <node concept="1_0LV8" id="2mgWlIyR5qF" role="1_0VJ0">
         <node concept="19SGf9" id="2mgWlIyR5qG" role="1_0LWR">
           <node concept="19SUe$" id="2mgWlIyR5qX" role="19SJt6">
-            <property role="19SUeA" value="This pattern is applicable in contexts where the ALARP principle is accepted as the device for reasoning about the relative importance of risks and the cost-effectiveness of risk reduction.&#10;In order to apply this pattern it is necessary to have access to the following contextual information: • C1: Identified System Hazards (See Participants section)&#10;• C2, C3, C4: Definition of Intolerable / Tolerable / Negligible Risk (See Participants section)&#10;These definitions are typically provided by the appropriate regulatory authority, standards or through investigations by safety engineers, including discussions with customers.&#10;• C5: Definition of Disproportionate (See Participants section)" />
+            <property role="19SUeA" value="This pattern is applicable in contexts where the ALARP principle is accepted as the device for reasoning about the relative importance of risks and the cost-effectiveness of risk reduction.&#10;In order to apply this pattern it is necessary to have access to the following contextual information: &#10;• C1: Identified System Hazards (See Participants section)&#10;• C2, C3, C4: Definition of Intolerable / Tolerable / Negligible Risk (See Participants section)&#10;These definitions are typically provided by the appropriate regulatory authority, standards or through investigations by safety engineers, including discussions with customers. &#10;• C5: Definition of Disproportionate (See Participants section) " />
           </node>
         </node>
         <node concept="1xAIan" id="2mgWlIyR5qI" role="1xAIax">
@@ -436,7 +439,7 @@
   <node concept="qdN4g" id="5Ac1Q93IYDJ">
     <property role="yApLE" value="1" />
     <property role="TrG5h" value="ML_Safety_Assurance_Scoping_Argument_pattern" />
-    <property role="3GE5qa" value="_101_ML_Patterns" />
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1010_AMLAS_ML_Patterns" />
     <ref role="G9hjw" node="5Ac1Q93IR66" resolve="Config" />
     <ref role="qdN4h" to="hia9:3fm$CPEX8Bi" resolve="ML_Safety_Assurance_Scoping_Argument_pattern" />
     <node concept="3z_lpU" id="5pxSvNaX1$g" role="1_0VJ0">
@@ -458,22 +461,6 @@
           </node>
           <node concept="19SUe$" id="5Ac1Q93IYHA" role="19SJt6">
             <property role="19SUeA" value="&#10;sdlkfms&#10;" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1_1swa" id="5Ac1Q93J1X6">
-    <property role="yApLE" value="1" />
-    <property role="TrG5h" value="proba" />
-    <ref role="G9hjw" node="5Ac1Q93IR66" resolve="Config" />
-    <node concept="1mvXsy" id="5Ac1Q93J1X7" role="1_0VJ0">
-      <property role="TrG5h" value="bla" />
-      <property role="1_0VJr" value="bla" />
-      <node concept="1_0LV8" id="5Ac1Q93J1X9" role="1_0VJ0">
-        <node concept="19SGf9" id="5Ac1Q93J1Xa" role="1_0LWR">
-          <node concept="19SUe$" id="5Ac1Q93J1Xb" role="19SJt6">
-            <property role="19SUeA" value="bla" />
           </node>
         </node>
       </node>
@@ -1370,18 +1357,18 @@
     </node>
   </node>
   <node concept="2SbYGP" id="1To8c6dXEOu">
-    <property role="3GE5qa" value="_101_ML_Patterns" />
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1010_AMLAS_ML_Patterns" />
     <property role="TrG5h" value="ML_Safety_Assurance_Scoping_Argument_Pattern_Config" />
     <node concept="2SbYGw" id="1To8c6dXEOv" role="A10yx">
       <property role="TrG5h" value="tmp" />
       <node concept="9PVaO" id="1To8c6dXEOw" role="9PVG_">
-        <property role="3N1Lgt" value="configs/ml/ML_Safety_Assurance_Scoping_Argument_Pattern/ml_tmp" />
+        <property role="3N1Lgt" value="configs/automotive_patterns/ml/ML_Safety_Assurance_Scoping_Argument_Pattern/ml_tmp" />
       </node>
     </node>
     <node concept="2SbYGw" id="1To8c6dXEOx" role="Cbewh">
       <property role="TrG5h" value="img" />
       <node concept="9PVaO" id="1To8c6dXEOy" role="9PVG_">
-        <property role="3N1Lgt" value="configs/ml/ML_Safety_Assurance_Scoping_Argument_Pattern/ml_img" />
+        <property role="3N1Lgt" value="configs/automotive_patterns/ml/ML_Safety_Assurance_Scoping_Argument_Pattern/ml_img" />
       </node>
     </node>
   </node>
@@ -1705,6 +1692,599 @@
     </node>
     <node concept="Wq1Bs" id="1To8c6e6q_a" role="Wq1Bf">
       <property role="Wq1Bt" value="Patrick Graydon" />
+    </node>
+  </node>
+  <node concept="qdN4g" id="1To8c6e6DkJ">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_102_Formal_Verification_Patterns" />
+    <property role="TrG5h" value="2016_hawkins_fm_verif_evidence_Doc" />
+    <ref role="G9hjw" node="1To8c6e6Dl8" resolve="Config_2016_hawkins_fm_verif_evidence" />
+    <ref role="qdN4h" to="hia9:6T$0vkPi3_N" resolve="2016_hawkins_fm_verif_evidence" />
+    <node concept="Wq1Bs" id="1To8c6e6Dm8" role="Wq1Bf">
+      <property role="Wq1Bt" value="Richard Hawkins" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e6Dm9" role="Wq1Bf">
+      <property role="Wq1Bt" value="Thomas Richardson" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e6Dma" role="Wq1Bf">
+      <property role="Wq1Bt" value="Tim Kelly" />
+    </node>
+    <node concept="1mvXsy" id="1To8c6e6Dmb" role="1_0VJ0">
+      <property role="TrG5h" value="fm_verif_evidence" />
+      <property role="1_0VJr" value="Property Assurance using formal evidence" />
+      <node concept="3z_lpU" id="1To8c6e6Dml" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="1To8c6e6Dmm" role="3z_lpI">
+          <node concept="2NCMab" id="1To8c6e6Dmo" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:6T$0vkPi3_N" resolve="2016_hawkins_fm_verif_evidence" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_1sxE" id="1To8c6e6Dz7" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
+      </node>
+      <node concept="1_0LV8" id="1To8c6e6Dmg" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e6Dmh" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e6Dmi" role="19SJt6">
+            <property role="19SUeA" value="This pattern should be used to create arguments that formally defined properties of a D-MILS are satisfied by a MILS-AADL model of that system." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e6Dmj" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e6DAC" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e6DAD" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e6DAE" role="19SJt6">
+            <property role="19SUeA" value="This pattern is applicable to any D-MILS system that uses a formal verification approach to prove properties of the system." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e6DAF" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e6Dza" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e6Dzb" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e6Dzf" role="19SJt6">
+            <property role="19SUeA" value="-" />
+          </node>
+          <node concept="qdJI3" id="1To8c6e6Dze" role="19SJt6">
+            <ref role="qdJxC" to="hia9:6T$0vkPi4i2" resolve="propSat" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e6Dzg" role="19SJt6">
+            <property role="19SUeA" value=": It is necessary to demonstrate that each of the formal properties specified in the MILS-AADL model is satisfied. This is done using a formal verification approach.&#10;-" />
+          </node>
+          <node concept="qdJI3" id="1To8c6e6Dzj" role="19SJt6">
+            <ref role="qdJxC" to="hia9:6T$0vkPi4gY" resolve="verifResults" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e6Dzk" role="19SJt6">
+            <property role="19SUeA" value=": The results of the formal verification are used to demonstrate that the formal property is satisfied. The type of formal technique used to verify the property will depend on the property itself.&#10;-" />
+          </node>
+          <node concept="qcx9v" id="1To8c6e6Dzn" role="19SJt6">
+            <ref role="qcx8m" to="hia9:6T$0vkPi4tp" resolve="components" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e6Dzo" role="19SJt6">
+            <property role="19SUeA" value=": As part of the verification of the formal properties, formal requirements may be specified for components of the system that refine the formal system property. Components for which a requirement has been specified are referred to as trusted software components. The trusted software components are referred to from elsewhere in the D-MILS assurance case.&#10;-" />
+          </node>
+          <node concept="qcx9v" id="1To8c6e6Dzp" role="19SJt6">
+            <ref role="qcx8m" to="hia9:6T$0vkPi4x0" resolve="enviroProps" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e6Dzq" role="19SJt6">
+            <property role="19SUeA" value=": As part of the verification of the formal properties, assumptions may be made regarding properties of the environment of the D-MILS system. The assumed environmental properties are referred to from elsewhere in the D-MILS assurance case.&#10;-" />
+          </node>
+          <node concept="qcx9v" id="1To8c6e6Dzr" role="19SJt6">
+            <ref role="qcx8m" to="hia9:6T$0vkPi4va" resolve="platformProps" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e6Dzs" role="19SJt6">
+            <property role="19SUeA" value=": As part of the verification of the formal properties, it may be necessary to make additional assumptions made about the properties of the D-MILS platform over and above the generic platform properties described in the DMILS platform pattern. The assumed platform properties are referred to from elsewhere in the D-MILS assurance case.&#10;-" />
+          </node>
+          <node concept="qdJI3" id="1To8c6e6Dzv" role="19SJt6">
+            <ref role="qdJxC" to="hia9:6T$0vkPi4lJ" resolve="formalConf" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e6Dzw" role="19SJt6">
+            <property role="19SUeA" value=": As well as presenting the results of the formal verification, it is also necessary to demonstrate that there is sufficient confidence in the correctness of those formal verification results.&#10;-" />
+          </node>
+          <node concept="qdJI3" id="1To8c6e6Dzy" role="19SJt6">
+            <ref role="qdJxC" to="hia9:6T$0vkPi4je" resolve="verification" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e6Dzx" role="19SJt6">
+            <property role="19SUeA" value=": The verification technique applied will be selected based upon the type of prop- erty to be verified. It must be demonstrated that the process of verification using the technique generates trustworthy results.&#10;-" />
+          </node>
+          <node concept="qdJI3" id="1To8c6e6DzB" role="19SJt6">
+            <ref role="qdJxC" to="hia9:6T$0vkPi4ks" resolve="activityTrust_Process" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e6DzC" role="19SJt6">
+            <property role="19SUeA" value=": A claim is made that the activity of performing the verification using the applied technique is sufficiently trustworthy. This claim is supported by an assurance case module for the verification process, which is an instantiation of the generic process argument pattern (see the process pattern in section 2.6 of the referenced paper at the end of this documentation). Where a process model of the verification activity is provided, the appropriate process model is selected according to the name of the technique used (as specified in the MILS-AADL model of the system)." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e6Dzd" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e6DAH" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e6DAI" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e6DAM" role="19SJt6">
+            <property role="19SUeA" value="&#10;The argument created from this pattern supports the argument created using the D-MILS system properties pattern and requires support from arguments created using the process argument pattern. This pattern is used along with other patterns from the publication referenced at the end of this documentation." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e6DAK" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known uses" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e6Dmv" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e6Dmw" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e6Dmx" role="19SJt6" />
+          <node concept="2vpllh" id="1To8c6e6Dmz" role="19SJt6">
+            <node concept="19SGf9" id="1To8c6e6Dm$" role="$DsGW">
+              <node concept="19SUe$" id="1To8c6e6Dm_" role="19SJt6">
+                <property role="19SUeA" value="Note:" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="1To8c6e6DmA" role="19SJt6">
+            <property role="19SUeA" value=" Pattern and information has been taken from:&#10;Integration of Formal Evidence and Expression in MILS Assurance Case. Technical Report D4.3, D-MILS Project, March 2015. http://www.d-mils.org/page/results." />
+          </node>
+        </node>
+      </node>
+      <node concept="1_1sxE" id="1To8c6e6DAN" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
+      </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1To8c6e6Dl8">
+    <property role="3GE5qa" value="_102_Formal_Verification_Patterns" />
+    <property role="TrG5h" value="Config_2016_hawkins_fm_verif_evidence" />
+    <node concept="2SbYGw" id="1To8c6e6Dl9" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="1To8c6e6Dla" role="9PVG_">
+        <property role="3N1Lgt" value="configs/formal_verification_patterns/formal_verif_poperty/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1To8c6e6Dlb" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1To8c6e6Dlc" role="9PVG_">
+        <property role="3N1Lgt" value="configs/formal_verification_patterns/formal_verif_poperty/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="1To8c6e6DC4">
+    <property role="yApLE" value="1" />
+    <property role="TrG5h" value="High_Level_Vehicle_Safety_Argument_Pattern_Doc" />
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1011_SAFECOMP_Automotives_Pattern_Catalogue" />
+    <ref role="G9hjw" node="1To8c6e6DGl" resolve="Config_High_Level_Vehicle_Safety_Argument_Pattern_Doc" />
+    <ref role="qdN4h" to="hia9:5xKN$GcBTot" resolve="High_Level_Vehicle_Safety_Argument_Pattern" />
+    <node concept="1mvXsy" id="1To8c6e7R5T" role="1_0VJ0">
+      <property role="TrG5h" value="automotive_safety" />
+      <property role="1_0VJr" value="High Level Vehicle Argument Pattern" />
+      <node concept="3z_lpU" id="1To8c6e7R6w" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="1To8c6e7R6x" role="3z_lpI">
+          <node concept="2NCMab" id="1To8c6e7R6z" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:5xKN$GcBTot" resolve="High_Level_Vehicle_Safety_Argument_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7R62" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7R63" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7R67" role="19SJt6">
+            <property role="19SUeA" value="Problem: The automotive industry has never been required to produce a safety case. Instead, it has relied on compliance with extensive regional and national regulation. With the imminent introduction of the automotive safety standard ISO 26262, the production of a safety case is now explicitly required by the standard for electrical and electronic systems. This presents both opportunities and challenges to safety practitioners and researchers within that industry. &#10;Solution: The High Level Vehicle Argument Pattern concerns the overall safety of a vehicle and is the top-level goal of an Argument Pattern Catalogue for the automotive industry." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7R65" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7R6k" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7R6l" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7R6p" role="19SJt6">
+            <property role="19SUeA" value="Pattern is used in the context of the automotive industry, in order to look at the issues of what a safety case might look like for a complete vehicle and how the ISO 26262 fits into the existing framework of automotive safety.&#10;The top-level claim, ‘The vehicle is acceptable safety’, is made in the context of a definition of the vehicle (e.g. private passenger vehicle or commercial vehicle), a definition of the vehicle attributes (e.g. 0-60 time) and a physical representation of the vehicle." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7R6n" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7R6r" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7R6s" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7R6t" role="19SJt6">
+            <property role="19SUeA" value="The two high level strategies," />
+          </node>
+          <node concept="qcxat" id="1To8c6e7R7v" role="19SJt6">
+            <ref role="qcx5w" to="hia9:5xKN$GcBTua" resolve="Product Development" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7R7w" role="19SJt6">
+            <property role="19SUeA" value="and " />
+          </node>
+          <node concept="qcxat" id="1To8c6e7R7x" role="19SJt6">
+            <ref role="qcx5w" to="hia9:5xKN$GcBTvy" resolve="Post Product Development" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7R7y" role="19SJt6">
+            <property role="19SUeA" value=", developed to support the top-level claim are based on the stage of the product within the product lifecycle, namely during and after product development. Four different Away Goals support these strategies. An Away Goal is a goal reference which is used to support, or provide contextual backing for, an argument presented in one argument module. However, the argument supporting that goal is presented in another argument module (hence creating interdependencies between argument modules). The Away Goal used are:&#10;-" />
+          </node>
+          <node concept="qdJI3" id="1To8c6e7R7z" role="19SJt6">
+            <ref role="qdJxC" to="hia9:5xKN$GcBT$8" resolve="Pre-defined Safety Requirements" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7R7$" role="19SJt6">
+            <property role="19SUeA" value=": The vehicle satisfies predefined safety requirements, i.e. it has been homologated against regulations which capture essential vehicle attributes (e.g. braking system and steering system). The argument supporting the goals are represented as patterns from an Architecture Argument Pattern catalogue (referenced at the end of this document) and is explained in" />
+          </node>
+          <node concept="2jFPku" id="1To8c6e7R7_" role="19SJt6">
+            <ref role="2jFPkz" node="1To8c6e7R94" resolve="Predefined_Safety_Requirements_Argument_Pattern" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7R7A" role="19SJt6">
+            <property role="19SUeA" value=";&#10;-" />
+          </node>
+          <node concept="qdJI3" id="1To8c6e7R7B" role="19SJt6">
+            <ref role="qdJxC" to="hia9:5xKN$GcBTyx" resolve="System Safety" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7R7C" role="19SJt6">
+            <property role="19SUeA" value=": A vehicle system is acceptably safe to operate in the specified environment; The argument supporting the goals are represented as patterns from an Architecture Argument Pattern catalogue (referenced at the end of this document) and is explained in " />
+          </node>
+          <node concept="2jFPku" id="1To8c6e7R7D" role="19SJt6">
+            <ref role="2jFPkz" node="1To8c6e7T32" resolve="Risk_Management_Argument_Pattern" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7R7E" role="19SJt6">
+            <property role="19SUeA" value="&#10;-" />
+          </node>
+          <node concept="qdJI3" id="1To8c6e7T4S" role="19SJt6">
+            <ref role="qdJxC" to="hia9:5xKN$GcBTB2" resolve="Production Errors" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7T4T" role="19SJt6">
+            <property role="19SUeA" value=": The vehicle was free from known safety related defects when it was built. The argument supporting the goals are represented as patterns from an Architecture Argument Pattern catalogue (referenced at the end of this document);&#10;-" />
+          </node>
+          <node concept="qdJI3" id="1To8c6e7T4U" role="19SJt6">
+            <ref role="qdJxC" to="hia9:5xKN$GcBTCw" resolve="Through Life Safety" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7T4V" role="19SJt6">
+            <property role="19SUeA" value=": The vehicle is subject to in-use monitoring, service updates and prescribed in-use maintenance. That is, the OEM has a dealer network capable of maintaining the vehicles correctly and has processes in place for evaluating and responding to field accidents or incidents. The argument supporting the goals are represented as patterns from an Architecture Argument Pattern catalogue (referenced at the end of this document)" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7R6u" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7T57" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7T58" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7T59" role="19SJt6">
+            <property role="19SUeA" value="The pattern presented here is part of an Architecture Argument Pattern Catalogue for the automotive domain. All the information provided here is found in the following publication:&#10;Robert Palin and Ibrahim Habli. 2010. Assurance of automotive safety - a safety case approach. In Proceedings of the 29th international conference on Computer safety, reliability, and security (SAFECOMP'10). Springer-Verlag, Berlin, Heidelberg, 82–96." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7T5a" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known uses" />
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7R5S" role="Wq1Bf">
+      <property role="Wq1Bt" value="Robert Palin" />
+      <property role="Wq1Bq" value="rpalin@jaguarlandrover.com" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7R5O" role="Wq1Bf">
+      <property role="Wq1Bt" value="Jaguar Land Rover" />
+      <property role="Wq1Bq" value="Ibrahim.Habli@cs.york.ac.uk" />
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1To8c6e6DGl">
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1011_SAFECOMP_Automotives_Pattern_Catalogue" />
+    <property role="TrG5h" value="Config_High_Level_Vehicle_Safety_Argument_Pattern_Doc" />
+    <node concept="2SbYGw" id="1To8c6e6DGm" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="1To8c6e6DGn" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/safecomp_autom_catalogue/high_level_vehicle_safety/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1To8c6e6DGo" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1To8c6e6DGp" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/safecomp_autom_catalogue/high_level_vehicle_safety/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="1To8c6e7R94">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1011_SAFECOMP_Automotives_Pattern_Catalogue" />
+    <property role="TrG5h" value="Predefined_Safety_Requirements_Argument_Pattern" />
+    <ref role="G9hjw" node="1To8c6e7T19" resolve="Config_Predefined_Safety_Requirements_Argument_Pattern" />
+    <ref role="qdN4h" to="hia9:1To8c6e7R97" resolve="Predefined_Safety_Requirements_Argument_Pattern" />
+    <node concept="Wq1Bs" id="1To8c6e7T8p" role="Wq1Bf">
+      <property role="Wq1Bt" value="Robert Palin" />
+      <property role="Wq1Bq" value="rpalin@jaguarlandrover.com" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7T8q" role="Wq1Bf">
+      <property role="Wq1Bt" value="Jaguar Land Rover" />
+      <property role="Wq1Bq" value="Ibrahim.Habli@cs.york.ac.uk" />
+    </node>
+    <node concept="1mvXsy" id="1To8c6e7T5b" role="1_0VJ0">
+      <property role="TrG5h" value="predefined_safety_requirements" />
+      <property role="1_0VJr" value="Predefined Safety Requirements Argument Pattern" />
+      <node concept="3z_lpU" id="1To8c6e7T5c" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="1To8c6e7T5d" role="3z_lpI">
+          <node concept="2NCMab" id="1To8c6e7T5J" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:1To8c6e7R97" resolve="Predefined_Safety_Requirements_Argument_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7T5f" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7T5g" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7T5h" role="19SJt6">
+            <property role="19SUeA" value="Problem: The automotive industry has never been required to produce a safety case. Instead, it has relied on compliance with extensive regional and national regulation. With the imminent introduction of the automotive safety standard ISO 26262, the production of a safety case is now explicitly required by the standard for electrical and electronic systems. This presents both opportunities and challenges to safety practitioners and researchers within that industry. &#10;Solution: The Predefined Safety Requirements Argument Pattern is part of an Argument Pattern Catalogue for the automotive industry. There are different types of automotive safety requirements. One type are the predefined safety requirements (1) which include the statutory regulations that must be met as a bare minimum in order to sell cars in the first instance. The Predefined Safety Argument Pattern is a reusable structure that provides guidance on how to address the safety requirements of cars." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7T5i" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7T5j" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7T5k" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7T5l" role="19SJt6">
+            <property role="19SUeA" value="Pattern is used in the context of the automotive industry, in order to look at the issues of what a safety case might look like for a complete vehicle and how the ISO 26262 fits into the existing framework of automotive safety.&#10;The pre-defined safety requirements are mainly based on applicable regulations. Regulations, whether international or regional, are an agreed way of assessing vehicle systems." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7T5m" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7T5n" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7T5o" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7T5p" role="19SJt6">
+            <property role="19SUeA" value="It would seem appropriate to group the various regulations and vehicle assessment tests according to the initiatives in use within the bigger picture of road safety as defined by the Haddon matrix, mentioned in " />
+          </node>
+          <node concept="qcx40" id="1To8c6e7T5K" role="19SJt6">
+            <ref role="qcx47" to="hia9:1To8c6e7Rf4" resolve="Haddon Matrix" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7T5L" role="19SJt6">
+            <property role="19SUeA" value=". In the argument, three main claims are made concerning the pre-crash (" />
+          </node>
+          <node concept="qdJI3" id="1To8c6e7T5M" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1To8c6e7Ra3" resolve="Pre-Crash" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7T5N" role="19SJt6">
+            <property role="19SUeA" value="), crashworthiness (" />
+          </node>
+          <node concept="qdJI3" id="1To8c6e7T5O" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1To8c6e7Rl4" resolve="Crashworthiness" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7T5P" role="19SJt6">
+            <property role="19SUeA" value=") and post-crash (" />
+          </node>
+          <node concept="qdJI3" id="1To8c6e7T5Q" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1To8c6e7Rg4" resolve="Post-crash" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7T5R" role="19SJt6">
+            <property role="19SUeA" value=") attributes of the vehicle, which need to be developed and instantiated. It is important to note that the evidence is used in the context of an Away Goal " />
+          </node>
+          <node concept="qdJI3" id="1To8c6e7T6N" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1To8c6e7Ri4" resolve="Homologation" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7T6O" role="19SJt6">
+            <property role="19SUeA" value=". This Away Goal refers to an argument which justifies that the evidence is independently verified and traceable. This is normally called a process-based argument or backing argument, which aims at justifying the process by which the evidence used in the primary product-based argument is generated (e.g. justifying the thoroughness of the review, quality of the review methods and competency and independence of the reviewers). Process-based arguments play a key role in justifying the trustworthiness of the evidence (i.e. addressing the simple question: why should anyone trust the evidence?)." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7T5E" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7T5F" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7T5G" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7T5H" role="19SJt6">
+            <property role="19SUeA" value="The pattern presented here is part of an Architecture Argument Pattern Catalogue for the automotive domain. All the information provided here is found in the following publication:&#10;Robert Palin and Ibrahim Habli. 2010. Assurance of automotive safety - a safety case approach. In Proceedings of the 29th international conference on Computer safety, reliability, and security (SAFECOMP'10). Springer-Verlag, Berlin, Heidelberg, 82–96." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7T5I" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known uses" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1To8c6e7T19">
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1011_SAFECOMP_Automotives_Pattern_Catalogue" />
+    <property role="TrG5h" value="Config_Predefined_Safety_Requirements_Argument_Pattern" />
+    <node concept="2SbYGw" id="1To8c6e7T1a" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="1To8c6e7T1b" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/safecomp_autom_catalogue/Predefined_Safety_Requirements_Argument_Pattern/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1To8c6e7T1c" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1To8c6e7T1d" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/safecomp_autom_catalogue/Predefined_Safety_Requirements_Argument_Pattern/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="1To8c6e7T2D">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1011_SAFECOMP_Automotives_Pattern_Catalogue" />
+    <property role="TrG5h" value="Risk_Mitigation_Argument_Pattern" />
+    <ref role="G9hjw" node="1To8c6e7T4m" resolve="Config_Risk_Mitigation_Argument_Pattern" />
+    <ref role="qdN4h" to="hia9:6bYkLspKQ9Q" resolve="Risk_Mitigation_Argument_Pattern" />
+    <node concept="1mvXsy" id="1To8c6e7T8v" role="1_0VJ0">
+      <property role="TrG5h" value="risk_mitigation_pattern" />
+      <property role="1_0VJr" value="Risk Mitigation Argument Pattern" />
+      <node concept="3z_lpU" id="1To8c6e7T8w" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="1To8c6e7T8x" role="3z_lpI">
+          <node concept="2NCMab" id="1To8c6e7T8V" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:6bYkLspKQ9Q" resolve="Risk_Mitigation_Argument_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7T8z" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7T8$" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7T8_" role="19SJt6">
+            <property role="19SUeA" value="Problem: The automotive industry has never been required to produce a safety case. Instead, it has relied on compliance with extensive regional and national regulation. With the imminent introduction of the automotive safety standard ISO 26262, the production of a safety case is now explicitly required by the standard for electrical and electronic systems. This presents both opportunities and challenges to safety practitioners and researchers within that industry. &#10;Solution: The Risk Mitigation Argument Pattern is part of an Argument Pattern Catalogue for the automotive industry. In the pattern documented in " />
+          </node>
+          <node concept="2jFPku" id="1To8c6e7T9R" role="19SJt6">
+            <ref role="2jFPkz" node="1To8c6e7T32" resolve="Risk_Management_Argument_Pattern" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7T9S" role="19SJt6">
+            <property role="19SUeA" value=", risk mitigation was considered as a means for managing the risks of the hazards addressed by the safety goals. Now it is described an argument pattern which appeals to mitigation by means of failure detection and diagnostics (reliability) and system degradation (availability)." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7T8A" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7T8B" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7T8C" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7T8D" role="19SJt6">
+            <property role="19SUeA" value="Pattern is used in the context of the automotive industry, in order to look at the issues of what a safety case might look like for a complete vehicle and how the ISO 26262 fits into the existing framework of automotive safety. " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7T8E" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7T8F" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7T8G" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7T8H" role="19SJt6">
+            <property role="19SUeA" value="The structure of the pattern is based upon the ability to detect hazardous conditions and reconfigure the system to a justified safe state, referred to as ‘system degradation’ in the ISO 26262 terminology. It is important to note that the system degradation leg is optional. This is because alternative strategies such notifying the driver or writing emergency procedures might be more applicable. With regard to restrictive or preventative use, there is an assumption in the argument regarding the driver being able to maintain the safety of the vehicle when the system or the vehicle is in the degraded state." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7T8Q" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7T8R" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7T8S" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7T8T" role="19SJt6">
+            <property role="19SUeA" value="The pattern presented here is part of an Architecture Argument Pattern Catalogue for the automotive domain. All the information provided here is found in the following publication:&#10;Robert Palin and Ibrahim Habli. 2010. Assurance of automotive safety - a safety case approach. In Proceedings of the 29th international conference on Computer safety, reliability, and security (SAFECOMP'10). Springer-Verlag, Berlin, Heidelberg, 82–96." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7T8U" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known uses" />
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7T8r" role="Wq1Bf">
+      <property role="Wq1Bt" value="Robert Palin" />
+      <property role="Wq1Bq" value="rpalin@jaguarlandrover.com" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7T8s" role="Wq1Bf">
+      <property role="Wq1Bt" value="Jaguar Land Rover" />
+      <property role="Wq1Bq" value="Ibrahim.Habli@cs.york.ac.uk" />
+    </node>
+  </node>
+  <node concept="qdN4g" id="1To8c6e7T32">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1011_SAFECOMP_Automotives_Pattern_Catalogue" />
+    <property role="TrG5h" value="Risk_Management_Argument_Pattern" />
+    <ref role="G9hjw" node="1To8c6e7T4N" resolve="Config_Risk_Management_Argument_Pattern" />
+    <ref role="qdN4h" to="hia9:6gOiWKwJAFu" resolve="Risk_Management_Argument_Pattern" />
+    <node concept="Wq1Bs" id="1To8c6e7T8t" role="Wq1Bf">
+      <property role="Wq1Bt" value="Robert Palin" />
+      <property role="Wq1Bq" value="rpalin@jaguarlandrover.com" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7T8u" role="Wq1Bf">
+      <property role="Wq1Bt" value="Jaguar Land Rover" />
+      <property role="Wq1Bq" value="Ibrahim.Habli@cs.york.ac.uk" />
+    </node>
+    <node concept="1mvXsy" id="1To8c6e7T6P" role="1_0VJ0">
+      <property role="TrG5h" value="risk_management_pattern" />
+      <property role="1_0VJr" value="Risk Management Argument Pattern" />
+      <node concept="3z_lpU" id="1To8c6e7T6Q" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="1To8c6e7T6R" role="3z_lpI">
+          <node concept="2NCMab" id="1To8c6e7T7j" role="2NCMaf">
+            <ref role="2NCMaa" node="1To8c6e7T32" resolve="Risk_Management_Argument_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7T6T" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7T6U" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7T6V" role="19SJt6">
+            <property role="19SUeA" value="Problem: The automotive industry has never been required to produce a safety case. Instead, it has relied on compliance with extensive regional and national regulation. With the imminent introduction of the automotive safety standard ISO 26262, the production of a safety case is now explicitly required by the standard for electrical and electronic systems. This presents both opportunities and challenges to safety practitioners and researchers within that industry. &#10;Solution: The Risk Management Argument Pattern is part of an Argument Pattern Catalogue for the automotive industry. This argument is one of the most important patterns described in the catalogue as it explicitly addresses the hazards and risks posed by a vehicle system. The argument supports the claim that a vehicle system is acceptably safe by justifying that the residual risks associated with the identified hazards have been reduced to an acceptable level. " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7T6W" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7T6X" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7T6Y" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7T6Z" role="19SJt6">
+            <property role="19SUeA" value="Pattern is used in the context of the automotive industry, in order to look at the issues of what a safety case might look like for a complete vehicle and how the ISO 26262 fits into the existing framework of automotive safety. The argument supports the claim that a vehicle system is acceptably safe by justifying that the residual risks associated with the identified hazards have been reduced to an acceptable level. " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7T70" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7T71" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7T72" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7T73" role="19SJt6">
+            <property role="19SUeA" value="The argument that the residual risks associated with the identified hazards have been reduced to an acceptable level is split into two parts, addressing both the physical ( " />
+          </node>
+          <node concept="qdJI3" id="1To8c6e7T7k" role="19SJt6">
+            <ref role="qdJxC" to="hia9:6gOiWKwJAUA" resolve="Physical safety" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7T7l" role="19SJt6">
+            <property role="19SUeA" value=") and functional safety attributes ( " />
+          </node>
+          <node concept="qdJI3" id="1To8c6e7T7m" role="19SJt6">
+            <ref role="qdJxC" to="hia9:6gOiWKwJAWs" resolve="Functional Safety" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7T7n" role="19SJt6">
+            <property role="19SUeA" value=") of the system. In particular, the claims concerning the hazards related to the functional safety attributes are supported by the definition of safety goals which address these hazards. Finally, this argument addresses the claims concerning the safety goals by considering how the risks of the hazards have been managed by means of elimination, mitigation or mininisation. &#10;Finally, within this argument pattern, there are three Away Goals, which refer to process-based arguments. The @goal Away Goal refers to an&#10;argument which justifies the process by which the hazards have been identified. The" />
+          </node>
+          <node concept="qdJI3" id="1To8c6e7T7s" role="19SJt6">
+            <ref role="qdJxC" to="hia9:6gOiWKwJAGq" resolve="System Safety" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7T7t" role="19SJt6">
+            <property role="19SUeA" value=", which is actually an Away Goal, refers to an argument which justifies the specification of the safety goals. The " />
+          </node>
+          <node concept="qdJI3" id="1To8c6e7T7q" role="19SJt6">
+            <ref role="qdJxC" to="hia9:6gOiWKwJAGq" resolve="System Safety" />
+          </node>
+          <node concept="19SUe$" id="1To8c6e7T7r" role="19SJt6">
+            <property role="19SUeA" value=", whic is actually an Away Goal refers to an argument which justifies the FMEA process. These Away Goals are developed in separate argument patterns." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7T7e" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1To8c6e7T7f" role="1_0VJ0">
+        <node concept="19SGf9" id="1To8c6e7T7g" role="1_0LWR">
+          <node concept="19SUe$" id="1To8c6e7T7h" role="19SJt6">
+            <property role="19SUeA" value="The pattern presented here is part of an Architecture Argument Pattern Catalogue for the automotive domain. All the information provided here is found in the following publication, including an example of how the pattern can be instantiated:&#10;Robert Palin and Ibrahim Habli. 2010. Assurance of automotive safety - a safety case approach. In Proceedings of the 29th international conference on Computer safety, reliability, and security (SAFECOMP'10). Springer-Verlag, Berlin, Heidelberg, 82–96." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1To8c6e7T7i" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known uses" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1To8c6e7T4m">
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1011_SAFECOMP_Automotives_Pattern_Catalogue" />
+    <property role="TrG5h" value="Config_Risk_Mitigation_Argument_Pattern" />
+    <node concept="2SbYGw" id="1To8c6e7T4n" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="1To8c6e7T4o" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/safecomp_autom_catalogue/Risk_Mitigation_Argument_Pattern/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1To8c6e7T4p" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1To8c6e7T4q" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/safecomp_autom_catalogue/Risk_Mitigation_Argument_Pattern/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1To8c6e7T4N">
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1011_SAFECOMP_Automotives_Pattern_Catalogue" />
+    <property role="TrG5h" value="Config_Risk_Management_Argument_Pattern" />
+    <node concept="2SbYGw" id="1To8c6e7T4O" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="1To8c6e7T4P" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/safecomp_autom_catalogue/Risk_Management_Argument_Pattern/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1To8c6e7T4Q" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1To8c6e7T4R" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/safecomp_autom_catalogue/Risk_Management_Argument_Pattern/tmp" />
+      </node>
     </node>
   </node>
 </model>
