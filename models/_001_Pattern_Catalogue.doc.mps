@@ -6068,5 +6068,83 @@
       </node>
     </node>
   </node>
+  <node concept="qdN4g" id="1FKYJgs7JlY">
+    <property role="yApLE" value="1" />
+    <property role="TrG5h" value="Refinement_of_G2_HLRSAT" />
+    <property role="3GE5qa" value="_106_DO-178C_Patterns" />
+    <ref role="G9hjw" node="1FKYJgs7Jni" resolve="Config_Refinement_of_G2_HLRSAT" />
+    <ref role="qdN4h" to="hia9:3bxKdImh2EH" resolve="Refinement_of_G2:HLRSAT" />
+    <node concept="Wq1Bs" id="1FKYJgs7JrF" role="Wq1Bf">
+      <property role="Wq1Bt" value="C. Michael Holloway" />
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1FKYJgs7Jni">
+    <property role="TrG5h" value="Config_Refinement_of_G2_HLRSAT" />
+    <property role="3GE5qa" value="_106_DO-178C_Patterns" />
+    <node concept="2SbYGw" id="1FKYJgs7Jnj" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="1FKYJgs7Jnk" role="9PVG_">
+        <property role="3N1Lgt" value="configs/DO-178C_Patterns/Refinement_of_G2_HLRSAT/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1FKYJgs7Jnl" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1FKYJgs7Jnm" role="9PVG_">
+        <property role="3N1Lgt" value="configs/DO-178C_Patterns/Refinement_of_G2_HLRSAT/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="1FKYJgs7Jp2">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_106_DO-178C_Patterns" />
+    <property role="TrG5h" value="Refinement_of_G3_EOCSAT" />
+    <ref role="G9hjw" node="1FKYJgs7Jpr" resolve="Config_Refinement_of_G3_EOCSAT" />
+    <ref role="qdN4h" to="hia9:3bxKdImh2S1" resolve="Refinement_of_G3:EOCSAT" />
+    <node concept="Wq1Bs" id="1FKYJgs7JrD" role="Wq1Bf">
+      <property role="Wq1Bt" value="C. Michael Holloway" />
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1FKYJgs7Jpr">
+    <property role="3GE5qa" value="_106_DO-178C_Patterns" />
+    <property role="TrG5h" value="Config_Refinement_of_G3_EOCSAT" />
+    <node concept="2SbYGw" id="1FKYJgs7Jps" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="1FKYJgs7Jpt" role="9PVG_">
+        <property role="3N1Lgt" value="configs/DO-178C_Patterns/Refinement_of_G3_EOCSAT/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1FKYJgs7Jpu" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1FKYJgs7Jpv" role="9PVG_">
+        <property role="3N1Lgt" value="configs/DO-178C_Patterns/Refinement_of_G3_EOCSAT/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="1FKYJgs7Jrb">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_106_DO-178C_Patterns" />
+    <property role="TrG5h" value="Beginning_of_primary_argument_for_level_D_software" />
+    <ref role="G9hjw" node="1FKYJgs7Jr$" resolve="Config_Beginning_of_primary_argument_for_level_D_software" />
+    <ref role="qdN4h" to="hia9:3bxKdImh2oI" resolve="Beginning_of_primary_argument_for_level_D_software" />
+    <node concept="Wq1Bs" id="1FKYJgs7JrH" role="Wq1Bf">
+      <property role="Wq1Bt" value="C. Michael Holloway" />
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1FKYJgs7Jr$">
+    <property role="3GE5qa" value="_106_DO-178C_Patterns" />
+    <property role="TrG5h" value="Config_Beginning_of_primary_argument_for_level_D_software" />
+    <node concept="2SbYGw" id="1FKYJgs7Jr_" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="1FKYJgs7JrA" role="9PVG_">
+        <property role="3N1Lgt" value="configs/DO-178C_Patterns/Beginning_of_primary_argument_for_level_D_software/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1FKYJgs7JrB" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1FKYJgs7JrC" role="9PVG_">
+        <property role="3N1Lgt" value="configs/DO-178C_Patterns/Beginning_of_primary_argument_for_level_D_software/tmp" />
+      </node>
+    </node>
+  </node>
 </model>
 
