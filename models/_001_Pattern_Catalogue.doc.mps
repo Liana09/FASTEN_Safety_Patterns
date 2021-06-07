@@ -21,7 +21,6 @@
       </concept>
     </language>
     <language id="2374bc90-7e37-41f1-a9c4-c2e35194c36a" name="com.mbeddr.doc">
-      <concept id="4317007310193476045" name="com.mbeddr.doc.structure.ScaleDownNotUp100" flags="ng" index="2bctqb" />
       <concept id="620304030119138923" name="com.mbeddr.doc.structure.BoldFormattedText" flags="ng" index="2vpllh" />
       <concept id="6165313375055797476" name="com.mbeddr.doc.structure.FormattedText" flags="ng" index="$DsGX">
         <child id="6165313375055797477" name="text" index="$DsGW" />
@@ -53,10 +52,6 @@
       <concept id="5185579450379273118" name="com.mbeddr.doc.structure.TextParHeader" flags="ng" index="1xAIan">
         <property id="5185579450379273119" name="text" index="1xAIam" />
       </concept>
-      <concept id="6955693250238922827" name="com.mbeddr.doc.structure.ModelContentAsImageParagraph" flags="ng" index="3z_lpz">
-        <child id="6955693250238922832" name="description" index="3z_lpS" />
-        <child id="6955693250238922833" name="sizeSpec" index="3z_lpT" />
-      </concept>
       <concept id="6955693250238922820" name="com.mbeddr.doc.structure.AbstractModelContentParagraph" flags="ng" index="3z_lpG">
         <child id="6955693250238922822" name="codeptr" index="3z_lpI" />
       </concept>
@@ -77,11 +72,6 @@
         <property id="5572730672710143343" name="chapterStartIndex" index="yApLE" />
       </concept>
       <concept id="3350625596579911760" name="com.mbeddr.doc.structure.EmptyDocContent" flags="ng" index="1_1sxE" />
-    </language>
-    <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
-      <concept id="8375407818529178006" name="com.mbeddr.core.base.structure.TextBlock" flags="ng" index="OjmMv">
-        <child id="8375407818529178007" name="text" index="OjmMu" />
-      </concept>
     </language>
     <language id="d3a0fd26-445a-466c-900e-10444ddfed52" name="com.mbeddr.mpsutil.filepicker">
       <concept id="2642765975824060179" name="com.mbeddr.mpsutil.filepicker.structure.SolutionRelativeDirPicker" flags="ng" index="9PVaO" />
@@ -127,8 +117,9 @@
   <node concept="qdN4g" id="5Ac1Q93IR5r">
     <property role="yApLE" value="1" />
     <property role="TrG5h" value="ALARP" />
+    <property role="3GE5qa" value="_103_Timothy_Kelly_Pattern_Catalogue" />
     <ref role="qdN4h" to="hia9:2a3o3cy5vqc" resolve="ALARP" />
-    <ref role="G9hjw" node="5Ac1Q93IR66" resolve="Config" />
+    <ref role="G9hjw" node="2c7PXw4QODH" resolve="Config_ALARP" />
     <node concept="1mvXsy" id="2mgWlIyR5kK" role="1_0VJ0">
       <property role="TrG5h" value="alarp" />
       <property role="1_0VJr" value="ALARP (As-Low-As-Reasonably-Practicable) Safety Argument Pattern" />
@@ -407,7 +398,17 @@
       <node concept="1_0LV8" id="2mgWlIyR5JS" role="1_0VJ0">
         <node concept="19SGf9" id="2mgWlIyR5JT" role="1_0LWR">
           <node concept="19SUe$" id="2mgWlIyR5JU" role="19SJt6">
-            <property role="19SUeA" value="Safe By Hazard Mitigation Argument  " />
+            <property role="19SUeA" value="Safe By Hazard Mitigation Argument&#10;" />
+          </node>
+          <node concept="1jUjqm" id="2c7PXw4QOZn" role="19SJt6">
+            <node concept="19SGf9" id="2c7PXw4QOZo" role="$DsGW">
+              <node concept="19SUe$" id="2c7PXw4QOZp" role="19SJt6">
+                <property role="19SUeA" value="PAttern and documentation taken from: Kelly, Tim. (2001). Arguing Safety -- A Systematic Approach to Managing Safety Cases Timothy Patrick Kelly. " />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOZx" role="19SJt6">
+            <property role="19SUeA" value="  " />
           </node>
         </node>
         <node concept="1xAIan" id="2mgWlIyR5JV" role="1xAIax">
@@ -421,18 +422,19 @@
     </node>
   </node>
   <node concept="2SbYGP" id="5Ac1Q93IR66">
-    <property role="TrG5h" value="Config" />
+    <property role="TrG5h" value="Config_Requirements_Breakdown_Pattern" />
+    <property role="3GE5qa" value="_104_Theory_and_Applications_NASA_Catalogue" />
     <node concept="1_07dB" id="5Ac1Q93IR6d" role="2wNnkt" />
     <node concept="2SbYGw" id="5Ac1Q93IR67" role="A10yx">
       <property role="TrG5h" value="img" />
       <node concept="9PVaO" id="5Ac1Q93IR68" role="9PVG_">
-        <property role="3N1Lgt" value="img" />
+        <property role="3N1Lgt" value="configs/automotive_patterns/Theory_and_Applications_NASA_Catalogue/Requirements_Breakdown_Pattern/img" />
       </node>
     </node>
     <node concept="2SbYGw" id="5Ac1Q93IR69" role="Cbewh">
       <property role="TrG5h" value="tmp" />
       <node concept="9PVaO" id="5Ac1Q93IR6a" role="9PVG_">
-        <property role="3N1Lgt" value="tmp" />
+        <property role="3N1Lgt" value="configs/automotive_patterns/Theory_and_Applications_NASA_Catalogue/Requirements_Breakdown_Pattern/tmp" />
       </node>
     </node>
   </node>
@@ -440,28 +442,105 @@
     <property role="yApLE" value="1" />
     <property role="TrG5h" value="ML_Safety_Assurance_Scoping_Argument_pattern" />
     <property role="3GE5qa" value="_101_Automotive_Patterns._1010_AMLAS_ML_Patterns" />
-    <ref role="G9hjw" node="5Ac1Q93IR66" resolve="Config" />
+    <ref role="G9hjw" node="5Ac1Q93IR66" resolve="Config_Requirements_Breakdown_Pattern" />
     <ref role="qdN4h" to="hia9:3fm$CPEX8Bi" resolve="ML_Safety_Assurance_Scoping_Argument_pattern" />
-    <node concept="3z_lpU" id="5pxSvNaX1$g" role="1_0VJ0">
-      <property role="3z_lpW" value="mbeddr" />
-      <node concept="2NCZwO" id="5pxSvNaX1$h" role="3z_lpI">
-        <node concept="2NCMab" id="5pxSvNaX1$u" role="2NCMaf">
-          <ref role="2NCMaa" to="hia9:2S9emLMVNZj" resolve="Confidence_Argument_Structure_For_An_Asserted_Inference" />
+    <node concept="1mvXsy" id="5Ac1Q93IYHs" role="1_0VJ0">
+      <property role="TrG5h" value="scoping_argument_pattern" />
+      <property role="1_0VJr" value="ML Safety Assurance Scoping" />
+      <node concept="3z_lpU" id="3bxKdImh3e0" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="3bxKdImh3e1" role="3z_lpI">
+          <node concept="2NCMab" id="3bxKdImh3e9" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:3fm$CPEX8Bi" resolve="ML_Safety_Assurance_Scoping_Argument_pattern" />
+          </node>
         </node>
       </node>
-    </node>
-    <node concept="1mvXsy" id="5Ac1Q93IYHs" role="1_0VJ0">
-      <property role="TrG5h" value="intent" />
-      <property role="1_0VJr" value="Intent" />
-      <node concept="1_0LV8" id="5Ac1Q93IYHu" role="1_0VJ0">
-        <node concept="19SGf9" id="5Ac1Q93IYHv" role="1_0LWR">
-          <node concept="19SUe$" id="5Ac1Q93IYH_" role="19SJt6" />
-          <node concept="qdJI3" id="5Ac1Q93IYH$" role="19SJt6">
+      <node concept="1_0LV8" id="3bxKdImh3dE" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3dF" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3dP" role="19SJt6">
+            <property role="19SUeA" value="Problem: Machine Learning (ML) is now used in a range of systems with results that are reported to exceed, under certain conditions, human performance. Establishing justified confidence in ML forms a core part of the safety case for these systems. Assurance of Machine Learning for use in Autonomous Systems (AMLAS) is a methodology which comprises a set of safety case patterns and a process for (1) systematically integrating safety assurance into the development of ML components and (2) for generating the evidence base for explicitly justifying the acceptable safety of these components when integrated into autonomous system. AMLAS scope covers the following ML lifecycle stages: ML safety assurance scoping, safety requirements elicitation, data management, model learning, model verification and model deployment. &#10;Solution: ML safety assurance scoping and the safety requirements elicitation stages explicitly establishes the fundamental link between the system‐level hazard and risk analysis and the ML safety requirements. That is, AMLAS takes a whole system approach to ML assurance in which safety considerations are only meaningful once scoped within the wider system and operational context. In this documentation, the ML Safety Assurance Scoping pattern is presented.&#10;&#10;The pattern has the following objectives:&#10;1. Define the scope of the safety assurance process for the ML component. &#10;2. Define the scope of the safety case for the ML component.&#10;3. Create the top‐level safety assurance claim and specify the relevant contextual information for the ML safety argument." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3dH" role="1xAIax">
+          <property role="1xAIam" value="Problem &amp; Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3hg" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3hh" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3hi" role="19SJt6">
+            <property role="19SUeA" value="For an ML component in a particular system context, the AMLAS process supports the development of an explicit safety case for the ML component. The AMLAS process requires as input the system safety requirements generated from the system safety process. The assurance activities are performed in parallel to the development process of the ML component. Further, the AMLAS process is iterative. Each stage of the AMLAS process is linked to the ‘Feedback and Iterate’ thread and could trigger the need to reconsider information generated or consumed by other stages. This is also necessary because of the interdependencies between the different stages, e.g. an activity in one stage might use artefacts produced by another activity in a previous stage.&#10;&#10;AMLAS has a primary focus on off‐line supervised learning. Off‐line supervised learning, particularly applied to classification tasks, is currently the predominant application of ML for autonomous systems. Other types of ML such as reinforcement learning may also benefit from this guidance, particularly with regard to safety requirements and data management." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3hu" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3iF" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3iG" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3iH" role="19SJt6">
+            <property role="19SUeA" value="This pattern is part of the AMLAS ML Assurance Scoping stage This process consists of two activities that are performed to define the safety assur‐ ance scope for an ML component. The artefacts generated from this stage are used to instantiate the ML safety assurance scoping argument pattern as part of Activity 2. An ML component comprises an ML model, e.g. a neural network, that is deployed onto the intended computing platform (i.e. comprising both hardware and software).&#10;The AMLAS ML Assurance Scoping Process consists of the following activities: &#10;Activity 1: Define the Safety Assurance Scope for the ML Component [E];&#10;Activity 2: Instantiate ML Safety Assurance Scoping Argument Pattern [G];&#10;&#10;" />
+          </node>
+          <node concept="2vpllh" id="3bxKdImh3jE" role="19SJt6">
+            <node concept="19SGf9" id="3bxKdImh3jF" role="$DsGW">
+              <node concept="19SUe$" id="3bxKdImh3jG" role="19SJt6">
+                <property role="19SUeA" value="Inputs to the process" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3jH" role="19SJt6">
+            <property role="19SUeA" value=" &#10;[A] : System Safety Requirements &#10;[B] : Description of Operating Environment of System &#10;[C] : System Description &#10;[D] : ML Component Description &#10;[F] : ML Assurance Scoping Argument Pattern&#10;&#10;" />
+          </node>
+          <node concept="2vpllh" id="3bxKdImh3jN" role="19SJt6">
+            <node concept="19SGf9" id="3bxKdImh3jO" role="$DsGW">
+              <node concept="19SUe$" id="3bxKdImh3jP" role="19SJt6">
+                <property role="19SUeA" value="Outputs of the process" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3jQ" role="19SJt6">
+            <property role="19SUeA" value="&#10;[E] : Safety Requirements Allocated to ML Component &#10;[G] : ML Safety Assurance Scoping Argument&#10;&#10;Key elements from the pattern are described in this document:&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3k0" role="19SJt6">
             <ref role="qdJxC" to="hia9:49j4XbEcqBo" resolve="G1.1" />
           </node>
-          <node concept="19SUe$" id="5Ac1Q93IYHA" role="19SJt6">
-            <property role="19SUeA" value="&#10;sdlkfms&#10;" />
+          <node concept="19SUe$" id="3bxKdImh3k1" role="19SJt6">
+            <property role="19SUeA" value=":&#10;The top claim in this argument pattern represents the starting point for the safety argument for the ML component by claiming that the system safety requirements that have been allocated to the compo‐ nent are satisfied in the defined environment. As such, this claim provides the link to the higher level system safety argument of which it is a part. The safety claim for the ML component is made within the context of the information that was used to establish the safety requirements allocation including the descriptions of the system and software architectures ([C]) and operational environment ([B]), and the description of the ML component ([D]). The allocated system safety requirements ([E]) are also provided as context. It is important to be able to show that the allocated safety requirements have been correctly defined, however this is part of the system safety process and is therefore outside of the scope of the ML safety assurance argument. An assumption to this effect is therefore made explicitly in this argument in " />
           </node>
+          <node concept="qcx6B" id="3bxKdImh3kd" role="19SJt6">
+            <ref role="qcx6E" to="hia9:49j4XbEcqHx" resolve="A1.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3ke" role="19SJt6">
+            <property role="19SUeA" value=". It should be noted that to assure the validity of this assumption, a full argument and evidence regarding the system safety requirements should be provided in the safety case for the overall system. The primary aim of the ML Safety Assurance Scoping argument is to explain and justify the essential relationship between, on the one hand, the system‐level safety requirements and associ‐ ated hazards and risks, and on the other hand, the ML‐specific safety requirements and associated ML performance and failure conditions.&#10;&#10;" />
+          </node>
+          <node concept="qcxat" id="3bxKdImh3ks" role="19SJt6">
+            <ref role="qcx5w" to="hia9:49j4XbEcqIY" resolve="S1.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3kt" role="19SJt6">
+            <property role="19SUeA" value="&#10;The approach that is adopted to support the ML safety claim is to split the argument into two parts. Firstly the development of the ML component is considered. This argument begins through the devel‐ opment of the ML safety requirements argument as discussed in Stage 2 of the process. Secondly the deployment of the ML component is addressed. The deployment argument is considered in Stage 6 of the process. " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3iX" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3jg" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3jh" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3ji" role="19SJt6">
+            <property role="19SUeA" value="The instantiated ML safety assurance scoping argument and references to artefacts shall be documented for the ML component ([G]). Along with the instantiated arguments resulting from the other stages of the AMLAS process, this will constitute the safety case for the ML component." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3jA" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3mn" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3mo" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3n3" role="19SJt6">
+            <property role="19SUeA" value="The pattern presented here is part of a document providing guidance on how to systematically integrate safety assurance into the development of ML components:&#10;Hawkins, R., Paterson, C., Picardi, C., Jia, Y., Calinescu, R., and Habli, I., “Guidance on the Assurance of Machine Learning in Autonomous Systems (AMLAS)”, &lt;i&gt;arXiv e-prints&lt;/i&gt;, 2021." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3mq" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known uses" />
         </node>
       </node>
     </node>
@@ -469,21 +548,16 @@
   <node concept="qdN4g" id="3SSXMcyVGQH">
     <property role="yApLE" value="1" />
     <property role="TrG5h" value="Hazard_Directed_Integriy_Level_Argument" />
-    <ref role="G9hjw" node="5Ac1Q93IR66" resolve="Config" />
+    <property role="3GE5qa" value="_103_Timothy_Kelly_Pattern_Catalogue" />
     <ref role="qdN4h" to="hia9:1gQflfExzgk" resolve="Hazard_Directed_Integrity_Level_Argument" />
+    <ref role="G9hjw" node="3bxKdImh43j" resolve="Config_Hazard_Directed_Integriy_Level_Argument" />
     <node concept="1mvXsy" id="6QaAXI9m8tM" role="1_0VJ0">
       <property role="TrG5h" value="hdila" />
       <property role="1_0VJr" value="Hazard Directed Integrity Level Argument" />
-      <node concept="3z_lpz" id="6QaAXI9m8_J" role="1_0VJ0">
-        <property role="TrG5h" value="HDILA" />
-        <node concept="OjmMv" id="6QaAXI9m8_L" role="3z_lpS">
-          <node concept="19SGf9" id="6QaAXI9m8_M" role="OjmMu">
-            <node concept="19SUe$" id="6QaAXI9m8_N" role="19SJt6" />
-          </node>
-        </node>
-        <node concept="2bctqb" id="6QaAXI9m8_P" role="3z_lpT" />
-        <node concept="2NCZwO" id="6QaAXI9m8_R" role="3z_lpI">
-          <node concept="2NCMab" id="6QaAXI9m8BK" role="2NCMaf">
+      <node concept="3z_lpU" id="3bxKdImh4tI" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="3bxKdImh4tJ" role="3z_lpI">
+          <node concept="2NCMab" id="3bxKdImh4wK" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:1gQflfExzgk" resolve="Hazard_Directed_Integrity_Level_Argument" />
           </node>
         </node>
@@ -984,7 +1058,17 @@
             </node>
           </node>
           <node concept="19SUe$" id="6QaAXI9maaj" role="19SJt6">
-            <property role="19SUeA" value="ALARP Pattern – a pattern that addresses hazards according the levels of risk they pose" />
+            <property role="19SUeA" value="ALARP Pattern – a pattern that addresses hazards according the levels of risk they pose&#10;" />
+          </node>
+          <node concept="1jUjqm" id="2c7PXw4QOZQ" role="19SJt6">
+            <node concept="19SGf9" id="2c7PXw4QOZR" role="$DsGW">
+              <node concept="19SUe$" id="2c7PXw4QOZS" role="19SJt6">
+                <property role="19SUeA" value="a and documentation taken from: Kelly, Tim. (2001). Arguing Safety -- A Systematic Approach to Managing Safety Cases Timothy Patrick Kelly. " />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOZT" role="19SJt6">
+            <property role="19SUeA" value="" />
           </node>
         </node>
         <node concept="1xAIan" id="6QaAXI9m8vz" role="1xAIax">
@@ -996,22 +1080,17 @@
   <node concept="qdN4g" id="6QaAXI9m8tL">
     <property role="yApLE" value="1" />
     <property role="TrG5h" value="Fault_Tree_Evidence" />
+    <property role="3GE5qa" value="_103_Timothy_Kelly_Pattern_Catalogue" />
     <ref role="qdN4h" to="hia9:6QaAXI9m4gl" resolve="Faul_Tree_Evidence" />
-    <ref role="G9hjw" node="5Ac1Q93IR66" resolve="Config" />
+    <ref role="G9hjw" node="3bxKdImh44d" resolve="Config_Fault_Tree_Evidence" />
     <node concept="1mvXsy" id="6QaAXI9mabm" role="1_0VJ0">
-      <property role="TrG5h" value="hdila" />
-      <property role="1_0VJr" value="Hazard Directed Integrity Level Argument" />
-      <node concept="3z_lpz" id="6QaAXI9mans" role="1_0VJ0">
-        <property role="TrG5h" value="Fault_Tree_Evidence_Pattern" />
-        <node concept="OjmMv" id="6QaAXI9manu" role="3z_lpS">
-          <node concept="19SGf9" id="6QaAXI9manv" role="OjmMu">
-            <node concept="19SUe$" id="6QaAXI9manw" role="19SJt6" />
-          </node>
-        </node>
-        <node concept="2bctqb" id="6QaAXI9many" role="3z_lpT" />
-        <node concept="2NCZwO" id="6QaAXI9man$" role="3z_lpI">
-          <node concept="2NCMab" id="6QaAXI9maqG" role="2NCMaf">
-            <ref role="2NCMaa" to="hia9:6QaAXI9m4gl" resolve="Faul_Tree_Evidence" />
+      <property role="TrG5h" value="fte" />
+      <property role="1_0VJr" value="Fault Tree Evidence" />
+      <node concept="3z_lpU" id="3bxKdImh4D0" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="3bxKdImh4D1" role="3z_lpI">
+          <node concept="2NCMab" id="3bxKdImh4F6" role="2NCMaf">
+            <ref role="2NCMaa" node="6QaAXI9m8tL" resolve="Fault_Tree_Evidence" />
           </node>
         </node>
       </node>
@@ -2284,6 +2363,3708 @@
       <property role="TrG5h" value="tmp" />
       <node concept="9PVaO" id="1To8c6e7T4R" role="9PVG_">
         <property role="3N1Lgt" value="configs/automotive_patterns/safecomp_autom_catalogue/Risk_Management_Argument_Pattern/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="1To8c6e7Thm">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1010_AMLAS_ML_Patterns" />
+    <property role="TrG5h" value="Assurance_Argument_Pattern_for_ML_Data" />
+    <ref role="G9hjw" node="1To8c6e7TpJ" resolve="Config_Assurance_Argument_Pattern_for_ML_Data" />
+    <ref role="qdN4h" to="hia9:1o6g2PQC_hz" resolve="Assurance_Argument_Pattern_for_ML_Data" />
+    <node concept="1mvXsy" id="3bxKdImh3vo" role="1_0VJ0">
+      <property role="TrG5h" value="data_management_argument_pattern" />
+      <property role="1_0VJr" value="Data Management" />
+      <node concept="3z_lpU" id="3bxKdImh3vp" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="3bxKdImh3vq" role="3z_lpI">
+          <node concept="2NCMab" id="3bxKdImh3wO" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:1o6g2PQC_hz" resolve="Assurance_Argument_Pattern_for_ML_Data" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3vs" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3vt" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3vu" role="19SJt6">
+            <property role="19SUeA" value="Problem: Machine Learning (ML) is now used in a range of systems with results that are reported to exceed, under certain conditions, human performance. Establishing justified confidence in ML forms a core part of the safety case for these systems. Assurance of Machine Learning for use in Autonomous Systems (AMLAS) is a methodology which comprises a set of safety case patterns and a process for (1) systematically integrating safety assurance into the development of ML components and (2) for generating the evidence base for explicitly justifying the acceptable safety of these components when integrated into autonomous system. AMLAS scope covers the following ML lifecycle stages: ML safety assurance scoping, safety requirements elicitation, data management, model learning, model verification and model deployment. &#10;Solution: In this documentation, the ML Data Management pattern is presented to achieve the following objectives:&#10;1. Develop data requirements which are sufficient to allow for the ML safety requirements to be encoded as features against which the data sets to be produced in this stage may be assessed.&#10;2. Generate data sets in accordance with the data requirements for use in the development and verification stages, providing a rationale for those activities undertaken with respect to the ML safety requirements.&#10;3. Analyse the data sets obtained by objective 2 to determine their sufficiency in meeting the data requirements.&#10;4. Create an assurance argument, based on the evidence generated by meeting the first three objec‐ tives, that provides a clear justification of the ML Data requirements. This should explicitly state the assumptions and tradeoffs made and any uncertainties concerning the data requirements and the processes by which they were developed and validated." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3vv" role="1xAIax">
+          <property role="1xAIam" value="Problem &amp; Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3vw" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3vx" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3vy" role="19SJt6">
+            <property role="19SUeA" value="For an ML component in a particular system context, the AMLAS process supports the development of an explicit safety case for the ML component. The AMLAS process requires as input the system safety requirements generated from the system safety process. The assurance activities are performed in parallel to the development process of the ML component. Further, the AMLAS process is iterative. Each stage of the AMLAS process is linked to the ‘Feedback and Iterate’ thread and could trigger the need to reconsider information generated or consumed by other stages. This is also necessary because of the interdependencies between the different stages, e.g. an activity in one stage might use artefacts produced by another activity in a previous stage.&#10;&#10;AMLAS has a primary focus on off‐line supervised learning. Off‐line supervised learning, particularly applied to classification tasks, is currently the predominant application of ML for autonomous systems. Other types of ML such as reinforcement learning may also benefit from this guidance, particularly with regard to safety requirements and data management." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3vz" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3v$" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3v_" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3vA" role="19SJt6">
+            <property role="19SUeA" value="This pattern is part of the AMLAS ML Data Management stage The artefacts generated from this stage are used to instantiate the ML data assurance argument pattern as part of Activity 9. &#10;The AMLAS ML Data Management stag consists of the following activities: &#10;Activity 6: Define Data Requirements&#10;Activity 7: Generate ML Data [N], [O], [P]&#10;Activity 8: Validate ML Data [S]&#10;Activity 9: Instantiate ML Data Argument Pattern [T]: This activity requires as input the ML data argument pattern ([R]), as well as the artefacts from the previous activities of this stage ([L], [M], [N], [O], [P], [Q]and [S]). The activity uses the activities and outputs from the previous stages to create an instantiated ML data argument ([T]).&#10;&#10;&#10;" />
+          </node>
+          <node concept="2vpllh" id="3bxKdImh3vB" role="19SJt6">
+            <node concept="19SGf9" id="3bxKdImh3vC" role="$DsGW">
+              <node concept="19SUe$" id="3bxKdImh3vD" role="19SJt6">
+                <property role="19SUeA" value="Inputs to this process" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3vE" role="19SJt6">
+            <property role="19SUeA" value=":&#10;[H] : ML safety requirements &#10;[R] : ML data argument pattern&#10;&#10;" />
+          </node>
+          <node concept="2vpllh" id="3bxKdImh3vF" role="19SJt6">
+            <node concept="19SGf9" id="3bxKdImh3vG" role="$DsGW">
+              <node concept="19SUe$" id="3bxKdImh3vH" role="19SJt6">
+                <property role="19SUeA" value="Outputs of this process" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3vI" role="19SJt6">
+            <property role="19SUeA" value=" &#10;[L] : Data requirements &#10;[M] : Data requirements justification report &#10;[N] : Development data &#10;[O] : Internal test data &#10;[P] : Verification data &#10;[Q] : Data generation log &#10;[S] : ML data validation results &#10;[T] : ML data argument&#10;&#10;Key elements from the pattern are described in this document:&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3xQ" role="19SJt6">
+            <ref role="qdJxC" to="hia9:7olw_Gz6YFa" resolve="G3.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3xR" role="19SJt6">
+            <property role="19SUeA" value="&#10;The top claim in this argument pattern is that the data used during the development and verification of the ML model is sufficient. This claim is made for all three sets of data used: development, test and verification ([N], [O], [P]). The argument sets out how the sufficiency of these data sets could be demonstrated. This provides confidence in the data used, and thus increases assurance of the model itself.&#10;" />
+          </node>
+          <node concept="qcxat" id="3bxKdImh3y3" role="19SJt6">
+            <ref role="qcx5w" to="hia9:7olw_Gz6YJV" resolve="S3.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3y4" role="19SJt6">
+            <property role="19SUeA" value="&#10;The argument strategy is to argue over the defined ML data requirements which are provided as con‐ text to the argument ([L]). To support this strategy two sub‐claims are provided in the argument, one demonstrating the sufficiency of the ML data requirements, and another to demonstrate that those defined data requirements are satisfied.&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3yi" role="19SJt6">
+            <ref role="qdJxC" to="hia9:7olw_Gz6YMK" resolve="G3.2" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3yj" role="19SJt6">
+            <property role="19SUeA" value="&#10;It is not possible to claim that the data alone can guarantee that the ML safety requirements will be satisfied, however the data used must be sufficient to enable the model that is developed to do so. This is shown by demonstrating that the requirements defined for the ML data are sufficient to ensure it is possible to create an ML model that satisfies the ML safety requirements. The ML Data Requirements Justification Report ([M]) created in Activity 4 is explicitly provided to provide evidence for this.&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3yz" role="19SJt6">
+            <ref role="qdJxC" to="hia9:7olw_Gz6YOi" resolve="G3.3" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3y$" role="19SJt6">
+            <property role="19SUeA" value="&#10;It must be demonstrated that all of the data used throughout the lifecycle (development, test and ver‐ ification) satisfies the defined ML data requirements. This is done in the context of the decisions made during data collection to ensure the data meets the requirements. These decisions are captured and explained in the data generation log ([Q]). To showthat the data requirements are satisfied, the strategy adopted is to argue over each type of data requirement (relevance, completeness etc). The types of data requirements that have been considered should be justified. This is done explicitly in " />
+          </node>
+          <node concept="qcx40" id="3bxKdImh3yQ" role="19SJt6">
+            <ref role="qcx47" to="hia9:7olw_Gz6Z1c" resolve="J3.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3yR" role="19SJt6">
+            <property role="19SUeA" value=". For each type of data requirements, the ML data validation results ([S]) are used as evidence that each data set meets the requirements." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3vX" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3w2" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3w3" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3w4" role="19SJt6">
+            <property role="19SUeA" value="The pattern presented here is part of a document providing guidance on how to systematically integrate safety assurance into the development of ML components:&#10;Hawkins, R., Paterson, C., Picardi, C., Jia, Y., Calinescu, R., and Habli, I., “Guidance on the Assurance of Machine Learning in Autonomous Systems (AMLAS)”, &lt;i&gt;arXiv e-prints&lt;/i&gt;, 2021." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3w5" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known uses" />
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqn" role="Wq1Bf">
+      <property role="Wq1Bt" value="Richard Hawkins" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqo" role="Wq1Bf">
+      <property role="Wq1Bt" value="Colin Paterson" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqp" role="Wq1Bf">
+      <property role="Wq1Bt" value="Chiara Picardi" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqq" role="Wq1Bf">
+      <property role="Wq1Bt" value="Yan Jia" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqr" role="Wq1Bf">
+      <property role="Wq1Bt" value="Radu Calinescu" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqs" role="Wq1Bf">
+      <property role="Wq1Bt" value="Ibrahim Habli" />
+    </node>
+  </node>
+  <node concept="qdN4g" id="1To8c6e7ThJ">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1010_AMLAS_ML_Patterns" />
+    <property role="TrG5h" value="Assurance_Argument_Pattern_for_ML_Safety_Requirements" />
+    <ref role="G9hjw" node="1To8c6e7Tqc" resolve="Config_Assurance_Argument_Pattern_for_ML_Safety_Requirements" />
+    <ref role="qdN4h" to="hia9:49j4XbEcrI6" resolve="Assurance_Argument_Pattern_for_ML_Safety_Requirements" />
+    <node concept="1mvXsy" id="3bxKdImh3o3" role="1_0VJ0">
+      <property role="TrG5h" value="safety_requirements_argument_pattern" />
+      <property role="1_0VJr" value="ML Safety Requirements Assurance" />
+      <node concept="3z_lpU" id="3bxKdImh3o4" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="3bxKdImh3o5" role="3z_lpI">
+          <node concept="2NCMab" id="3bxKdImh3qd" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:49j4XbEcrI6" resolve="Assurance_Argument_Pattern_for_ML_Safety_Requirements" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3o7" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3o8" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3o9" role="19SJt6">
+            <property role="19SUeA" value="Problem: Machine Learning (ML) is now used in a range of systems with results that are reported to exceed, under certain conditions, human performance. Establishing justified confidence in ML forms a core part of the safety case for these systems. Assurance of Machine Learning for use in Autonomous Systems (AMLAS) is a methodology which comprises a set of safety case patterns and a process for (1) systematically integrating safety assurance into the development of ML components and (2) for generating the evidence base for explicitly justifying the acceptable safety of these components when integrated into autonomous system. AMLAS scope covers the following ML lifecycle stages: ML safety assurance scoping, safety requirements elicitation, data management, model learning, model verification and model deployment. &#10;Solution: In this documentation, the ML Safety Requirements Assurance Pattern is presented to achieve the following objectives:&#10;1. Develop the machine learning safety requirements from the allocated system safety requirements.&#10;2. Validate the machine learning safety requirements against the allocated safety requirements, the system and software architecture and operational environment.&#10;3. Create an assurance argument, based on the evidence generated by meeting the first two ob‐ jectives, that provides a clear justification for the ML safety requirements. This should explicitly explain the tradeoffs, assumptions and uncertainties concerning both the safety requirements and the process by which they are developed and validated." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3oa" role="1xAIax">
+          <property role="1xAIam" value="Problem &amp; Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3ob" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3oc" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3od" role="19SJt6">
+            <property role="19SUeA" value="For an ML component in a particular system context, the AMLAS process supports the development of an explicit safety case for the ML component. The AMLAS process requires as input the system safety requirements generated from the system safety process. The assurance activities are performed in parallel to the development process of the ML component. Further, the AMLAS process is iterative. Each stage of the AMLAS process is linked to the ‘Feedback and Iterate’ thread and could trigger the need to reconsider information generated or consumed by other stages. This is also necessary because of the interdependencies between the different stages, e.g. an activity in one stage might use artefacts produced by another activity in a previous stage.&#10;&#10;AMLAS has a primary focus on off‐line supervised learning. Off‐line supervised learning, particularly applied to classification tasks, is currently the predominant application of ML for autonomous systems. Other types of ML such as reinforcement learning may also benefit from this guidance, particularly with regard to safety requirements and data management." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3oe" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3of" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3og" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3oh" role="19SJt6">
+            <property role="19SUeA" value="This pattern is part of the AMLAS ML Safety Requirement stage. The artefacts generated from this stage are used to instantiate the ML safety requirements assurance argument pattern as part of Activity 5. The scope of this stage is limited to the ML model, e.g. the mathematical representation of the neural network, that produces the intended output. &#10;The AMLAS ML Safety Requirements Assurance stage consists of the following activities: &#10;Activity 3: Develop ML Safety Requirements [H]&#10;Activity 4: Validate ML Safety Requirements [J]&#10;Activity 5: Instantiate ML Safety Requirements Argument Pattern [K]&#10;&#10;&#10;" />
+          </node>
+          <node concept="2vpllh" id="3bxKdImh3oi" role="19SJt6">
+            <node concept="19SGf9" id="3bxKdImh3oj" role="$DsGW">
+              <node concept="19SUe$" id="3bxKdImh3ok" role="19SJt6">
+                <property role="19SUeA" value="Inputs to the process" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3ol" role="19SJt6">
+            <property role="19SUeA" value=" &#10;[E] : Safety Requirements Allocated to ML Component &#10;[I] : ML Safety Requirements Argument Pattern&#10;&#10;" />
+          </node>
+          <node concept="2vpllh" id="3bxKdImh3qr" role="19SJt6">
+            <node concept="19SGf9" id="3bxKdImh3qs" role="$DsGW">
+              <node concept="19SUe$" id="3bxKdImh3qt" role="19SJt6">
+                <property role="19SUeA" value="Outputs of the process" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3qu" role="19SJt6">
+            <property role="19SUeA" value=" &#10;[H] : ML Safety Requirements &#10;[J] : ML Safety Requirements Validation Results &#10;[K] : ML Safety Requirements Argument&#10;&#10;Key elements from the pattern are described in this document:&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3rx" role="19SJt6">
+            <ref role="qdJxC" to="hia9:50adkO9mpMJ" resolve="G2.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3ry" role="19SJt6">
+            <property role="19SUeA" value="&#10;The top claim in this argument is that system safety requirements that have been allocated to the ML component ([E]) are satisfied by the model that is developed. This is demonstrated through considering explicit ML safety requirements defined for the ML model.&#10;&#10;" />
+          </node>
+          <node concept="qcxat" id="3bxKdImh3rV" role="19SJt6">
+            <ref role="qcx5w" to="hia9:50adkO9mpSS" resolve="S2.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3rW" role="19SJt6">
+            <property role="19SUeA" value="&#10;The argument approach is a refinement strategy that justifies the translation of the allocated safety requirements into concrete ML safety requirements ([H]) as described in Activity 3. Justification J2.1 is explicitly provided to explain the issues that were involved in translating the complex real world con‐ cepts and cognitive decisions into formats that are amenable to ML implementation. This should also explain and justify the scope of the ML safety requirements and whether any of the allocated system safety requirements were not fully specified as part of the ML safety requirements. Any such allocated requirements must be addressed as part of the system safety process. For example, allocated system safety requirements with real‐time targets, which require the consideration of the performance of the underlying hardware, cannot be fully specified and tested merely by the ML model. As such these can only be meaningfully considered by also testing the integrated ML component. To sup‐ port this strategy two subclaims are provided in the argument, one demonstrating that the ML safety requirements are valid, and one concerning the satisfaction of those requirements.&#10;&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3sa" role="19SJt6">
+            <ref role="qdJxC" to="hia9:50adkO9mpQd" resolve="G2.3" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3sb" role="19SJt6">
+            <property role="19SUeA" value="&#10;The validity claim is provided to demonstrate that the ML safety requirements are a valid development of the allocated system safety requirements. Evidence from the validation results ([J]) obtained in Activity 4 is used to support the validity claim. Justification J2.2 provides rationale for the validation strategy that was adopted for Activity 4.&#10;&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3sr" role="19SJt6">
+            <ref role="qdJxC" to="hia9:50adkO9mpNN" resolve="G2.4" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3ss" role="19SJt6">
+            <property role="19SUeA" value=" &#10;This claim focuses exclusively on the ML safety requirements. The claim states that the ML safety re‐&#10;quirements are satisfied by the ML model. The claim is made in the context of the ML model ([V]) that is generated and the data ([N], [O]and [P]) that is used to create the model. Although the satisfaction of the ML safety requirements is demonstrated through verification evidence, it is also important, as for more traditional software, to provide assurance regarding the processes used for development. The ML Learning Argument Pattern ([W]) and the ML Data Argument Pattern ([R]) are therefore used to provide argument and evidence that the model (and learning process) and the data (and data management process) are sufficient. The link with assurance in these stages is established using Assurance Claim Points (ACPs) (indicated by the black squares). These represent points in the argument at which further assurance is required, focusing specifically here on how confidence in data management and model learning can be demonstrated. These ACPs can be supported through instantiation of the ML Data Argument Pattern ([W]) and the ML Data Argument Pattern ([R]) respectively.&#10;&#10;" />
+          </node>
+          <node concept="qcxat" id="3bxKdImh3sI" role="19SJt6">
+            <ref role="qcx5w" to="hia9:50adkO9mq3x" resolve="S2.2" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3sJ" role="19SJt6">
+            <property role="19SUeA" value="&#10;This is a decomposition strategy based on the different types of ML safety requirements. This will include claims regarding performance and robustness requirements, but may also include other types of ML requirements such as interpretability where these requirements are relevant to the system safety requirements. This is indicated by the ‘to be developed’ symbol, i.e. diamond, under the strategy.&#10;&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3tH" role="19SJt6">
+            <ref role="qdJxC" to="hia9:50adkO9mpNN" resolve="G2.4" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3tI" role="19SJt6">
+            <property role="19SUeA" value="&#10;This claim focuses on the ML safety requirements that consider ML performance with respect to safety‐ related outputs. The definedMLsafety requirements that relate to performance are provided as context to the claim. The argument considers each of these requirements in turn and provides a claim regarding the satisfaction of each requirement (G5.1 in the ML verification argument pattern). The satisfaction of each requirement will be demonstrated through verification activities.&#10;&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3u4" role="19SJt6">
+            <ref role="qdJxC" to="hia9:50adkO9mpOZ" resolve="G2.5" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3u5" role="19SJt6">
+            <property role="19SUeA" value="&#10;This claim focuses on, and is stated in the context of, the ML safety requirements that consider ML robustness with respect to safety‐related outputs. The defined ML safety requirements that relate to robustness are provided as context to the claim. The argument considers each of these requirements in turn and provides a claim regarding the satisfaction of each requirement (G5.1 in the ML verification argument pattern [BB]). The satisfaction of each requirement will bedemonstrated through verification activities." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3ow" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3o_" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3oA" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3oB" role="19SJt6">
+            <property role="19SUeA" value="The pattern presented here is part of a document providing guidance on how to systematically integrate safety assurance into the development of ML components:&#10;Hawkins, R., Paterson, C., Picardi, C., Jia, Y., Calinescu, R., and Habli, I., “Guidance on the Assurance of Machine Learning in Autonomous Systems (AMLAS)”, &lt;i&gt;arXiv e-prints&lt;/i&gt;, 2021." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3oC" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known uses" />
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqz" role="Wq1Bf">
+      <property role="Wq1Bt" value="Richard Hawkins" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tq$" role="Wq1Bf">
+      <property role="Wq1Bt" value="Colin Paterson" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tq_" role="Wq1Bf">
+      <property role="Wq1Bt" value="Chiara Picardi" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7TqA" role="Wq1Bf">
+      <property role="Wq1Bt" value="Yan Jia" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7TqB" role="Wq1Bf">
+      <property role="Wq1Bt" value="Radu Calinescu" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7TqC" role="Wq1Bf">
+      <property role="Wq1Bt" value="Ibrahim Habli" />
+    </node>
+  </node>
+  <node concept="qdN4g" id="1To8c6e7TkT">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1010_AMLAS_ML_Patterns" />
+    <property role="TrG5h" value="Assurance_Argument_Pattern_for_ML_Model_Deployment" />
+    <ref role="qdN4h" to="hia9:4eWg3s95ulf" resolve="Assurance_Argument_Pattern_for_ML_Model_Deployment" />
+    <ref role="G9hjw" node="1To8c6e7Tpi" resolve="Config_Assurance_Argument_Pattern_for_ML_Model_Deployment" />
+    <node concept="1mvXsy" id="3bxKdImh3NH" role="1_0VJ0">
+      <property role="TrG5h" value="ml_verification_argument_pattern" />
+      <property role="1_0VJr" value="ML Verification pattern" />
+      <node concept="3z_lpU" id="3bxKdImh3NI" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="3bxKdImh3NJ" role="3z_lpI">
+          <node concept="2NCMab" id="3bxKdImh3Pr" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:4eWg3s95ulf" resolve="Assurance_Argument_Pattern_for_ML_Model_Deployment" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3NL" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3NM" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3NN" role="19SJt6">
+            <property role="19SUeA" value="Problem: Machine Learning (ML) is now used in a range of systems with results that are reported to exceed, under certain conditions, human performance. Establishing justified confidence in ML forms a core part of the safety case for these systems. Assurance of Machine Learning for use in Autonomous Systems (AMLAS) is a methodology which comprises a set of safety case patterns and a process for (1) systematically integrating safety assurance into the development of ML components and (2) for generating the evidence base for explicitly justifying the acceptable safety of these components when integrated into autonomous system. AMLAS scope covers the following ML lifecycle stages: ML safety assurance scoping, safety requirements elicitation, data management, model learning, model verification and model deployment. &#10;Solution: In this documentation, the ML Model Deployment Pattern is presented to achieve the following objectives:&#10;1. Integrate the machine learnt component into the target system in such a manner that the system satisfies the allocated system safety requirements. The component should be integrated in the pipeline linking its inputs and outputs to other system components.&#10;2. Demonstrate that the allocated system safety requirements are still satisfied during operation of the target system and environment.&#10;3. Create an assurance argument to demonstrate that the ML model will continue to meet the ML safety requirements once integrated into the target system." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3NO" role="1xAIax">
+          <property role="1xAIam" value="Problem &amp; Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3NP" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3NQ" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3NR" role="19SJt6">
+            <property role="19SUeA" value="For an ML component in a particular system context, the AMLAS process supports the development of an explicit safety case for the ML component. The AMLAS process requires as input the system safety requirements generated from the system safety process. The assurance activities are performed in parallel to the development process of the ML component. Further, the AMLAS process is iterative. Each stage of the AMLAS process is linked to the ‘Feedback and Iterate’ thread and could trigger the need to reconsider information generated or consumed by other stages. This is also necessary because of the interdependencies between the different stages, e.g. an activity in one stage might use artefacts produced by another activity in a previous stage.&#10;&#10;AMLAS has a primary focus on off‐line supervised learning. Off‐line supervised learning, particularly applied to classification tasks, is currently the predominant application of ML for autonomous systems. Other types of ML such as reinforcement learning may also benefit from this guidance, particularly with regard to safety requirements and data management." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3NS" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3NT" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3NU" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3NV" role="19SJt6">
+            <property role="19SUeA" value="This pattern is part of the AMLAS ML Model Learning Stage. This stage consists of three activities that provide a basis for ML component deployment assurance. This process shall be followed not only for initial deployment of the compo‐ nent but also for any subsequent deployment required to update the component within the system. The artefacts generated from this stage are used to instantiate the ML model deployment assurance argument pattern as part of Activity 17.&#10;The AMLAS ML Model Deployment Stage consists of the following activities: &#10;Activity 15: Integrate ML Model&#10;Activity 16: Test the Integration [FF]&#10;Activity 17: Instantiate ML Deployment Argument Pattern [HH]&#10;&#10;" />
+          </node>
+          <node concept="2vpllh" id="3bxKdImh3NW" role="19SJt6">
+            <node concept="19SGf9" id="3bxKdImh3NX" role="$DsGW">
+              <node concept="19SUe$" id="3bxKdImh3NY" role="19SJt6">
+                <property role="19SUeA" value="Inputs to this process" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3NZ" role="19SJt6">
+            <property role="19SUeA" value=":&#10;[A] : System Safety Requirements &#10;[B] : Environment Description &#10;[C] : System Description &#10;[V] : ML Model&#10;[GG] : ML Deployment Argument Pattern &#10;[EE] : Operational scenarios&#10;&#10;" />
+          </node>
+          <node concept="2vpllh" id="3bxKdImh3O0" role="19SJt6">
+            <node concept="19SGf9" id="3bxKdImh3O1" role="$DsGW">
+              <node concept="19SUe$" id="3bxKdImh3O2" role="19SJt6">
+                <property role="19SUeA" value="Outputs of this process" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3O3" role="19SJt6">
+            <property role="19SUeA" value="&#10;[DD] : Erroneous Behaviour Log &#10;[FF] : Integration Testing Results &#10;[HH] : ML Deployment Argument&#10;&#10;Key elements from the pattern are described in this document:&#10; " />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3PL" role="19SJt6">
+            <ref role="qdJxC" to="hia9:4eWg3s95umb" resolve="G6.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3PM" role="19SJt6">
+            <property role="19SUeA" value="&#10;It must be demonstrated that the safety requirements allocated to theML component are still met when the ML component is deployed to the system in which it operates. This is shown by providing two sub‐ claims. Firstly, the ML component integration claim demonstrates that the safety requirements (that were satisfied by the ML model) are also met when the ML component is integrated into the rest of the system. Secondly, the ML component operation claim is provided to show that the safety requirements will continue to be met throughout the operation of the system.&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3Xm" role="19SJt6">
+            <ref role="qdJxC" to="hia9:4eWg3s95uor" resolve="G6.2" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3Xn" role="19SJt6">
+            <property role="19SUeA" value="&#10;It must be demonstrated that the safety requirements allocated to the ML component are satisfied when the component is integrated to the system. To demonstrate this, the ML component must be executed as part of the system following integration. It must be checked that the safety requirements are satisfied when the defined set of operating scenarios are executed. The operating scenarios used in the integration testing ([FF]) are provided as context for the claim. The sufficiency of the operating scenarios that are used must be justified in " />
+          </node>
+          <node concept="qcx40" id="3bxKdImh3X_" role="19SJt6">
+            <ref role="qcx47" to="hia9:4eWg3s95usk" resolve="J6.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3XA" role="19SJt6">
+            <property role="19SUeA" value=". This justification explains how the scenarios were identified such that they represent real scenarios of interest that may be encountered when the system is in operation.&#10;" />
+          </node>
+          <node concept="qcxat" id="3bxKdImh3XQ" role="19SJt6">
+            <ref role="qcx5w" to="hia9:4eWg3s95utL" resolve="S6.2" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3XR" role="19SJt6">
+            <property role="19SUeA" value="&#10;The strategy to support the integration claim is to firstly use the integration test results ([FF]) to demon‐ strate the safety requirements are met for the defined operating scenarios. Integration testing is often performed for autonomous systems using a simulator. Where this is the case it is also necessary to demonstrate that the simulations that are used are a sufficient representation of the operational sys‐ tem to which the ML component is deployed. Evidence for this will be provided to support claim " />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3Y9" role="19SJt6">
+            <ref role="qdJxC" to="hia9:4eWg3s95uyA" resolve="G6.5" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3Ya" role="19SJt6">
+            <property role="19SUeA" value=".&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3Z2" role="19SJt6">
+            <ref role="qdJxC" to="hia9:4eWg3s95upD" resolve="G6.3" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3Z3" role="19SJt6">
+            <property role="19SUeA" value="&#10;It must also be demonstrated that the safety requirements allocated to the ML component continue to be satisfied during the operation of the system. To demonstrate this, claim G6.6 shows that the system is designed such that it supports the safe operation of the ML component, and " />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh41E" role="19SJt6">
+            <ref role="qdJxC" to="hia9:4eWg3s95uAd" resolve="G6.7" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh41F" role="19SJt6">
+            <property role="19SUeA" value=" demonstrates that the observed behaviour during operation continues to satisfy the safety requirements. In a complete safety case for an ML component argument and evidence to support this claim would be required.&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3Zp" role="19SJt6">
+            <ref role="qdJxC" to="hia9:4eWg3s95u$n" resolve="G6.6" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3Zq" role="19SJt6">
+            <property role="19SUeA" value="&#10;It must be demonstrated that the design of the system into which the ML component is integrated is robust by taking account of the identified potential erroneous behaviour ([DD]). It must be shown that predicted erroneous behaviour will not result in violation of the safety requirements. In particu‐ lar the argument must focus on erroneous inputs to the ML component from the rest of the system and erroneous outputs from the ML component itself. The argument must also consider assumptions made about the system and the operating environment during the development of the ML component that may become invalid during operation. The sufficiency of the identification of these erroneous behaviours must be justified in " />
+          </node>
+          <node concept="qcx40" id="3bxKdImh40E" role="19SJt6">
+            <ref role="qcx47" to="hia9:4eWg3s95v0t" resolve="J6.2" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh40F" role="19SJt6">
+            <property role="19SUeA" value=". This may be informed by the results of system safety analysis activities. Claim " />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh419" role="19SJt6">
+            <ref role="qdJxC" to="hia9:4eWg3s95u$n" resolve="G6.6" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh41a" role="19SJt6">
+            <property role="19SUeA" value=" is supported by two sub‐claims, one that demonstrates the system design incorporates sufficient monitoring of erroneous behaviours, and one demonstrating that the response of the system to such behaviours is acceptable.&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3ZM" role="19SJt6">
+            <ref role="qdJxC" to="hia9:4eWg3s95uKA" resolve="G6.8" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3ZN" role="19SJt6">
+            <property role="19SUeA" value="&#10;It must be demonstrated that the system design incorporates sufficient monitoring of the identified erroneous behaviour to ensure that any behaviour that could result in violation of a safety requirement will be identified if it occurs during operation.&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh40d" role="19SJt6">
+            <ref role="qdJxC" to="hia9:4eWg3s95uNt" resolve="G6.9" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh40e" role="19SJt6">
+            <property role="19SUeA" value="&#10;It must be demonstrated that the system design ensures that an acceptable response can be provided if monitoring reveals erroneous behaviour during operation. The responsemay takemany forms, depending on the nature of the system, the relevant system hazard behaviour and the erroneous behaviour identified. This may include, for example, the provision of redundancy in the system architecture or the specification of safe degraded operation. Evidence should be provided to show that a sufficiently safe response is provided." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3Ou" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3Ov" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3Ow" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3Ox" role="19SJt6">
+            <property role="19SUeA" value="The pattern presented here is part of a document providing guidance on how to systematically integrate safety assurance into the development of ML components:&#10;Hawkins, R., Paterson, C., Picardi, C., Jia, Y., Calinescu, R., and Habli, I., “Guidance on the Assurance of Machine Learning in Autonomous Systems (AMLAS)”, &lt;i&gt;arXiv e-prints&lt;/i&gt;, 2021." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3Oy" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known uses" />
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqt" role="Wq1Bf">
+      <property role="Wq1Bt" value="Richard Hawkins" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqu" role="Wq1Bf">
+      <property role="Wq1Bt" value="Colin Paterson" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqv" role="Wq1Bf">
+      <property role="Wq1Bt" value="Chiara Picardi" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqw" role="Wq1Bf">
+      <property role="Wq1Bt" value="Yan Jia" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqx" role="Wq1Bf">
+      <property role="Wq1Bt" value="Radu Calinescu" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqy" role="Wq1Bf">
+      <property role="Wq1Bt" value="Ibrahim Habli" />
+    </node>
+  </node>
+  <node concept="qdN4g" id="1To8c6e7Tmd">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1010_AMLAS_ML_Patterns" />
+    <property role="TrG5h" value="Assurance_Argument_Pattern_For_ML_Verification" />
+    <ref role="G9hjw" node="1To8c6e7ToP" resolve="Config_Assurance_Argument_Pattern_For_ML_Verification" />
+    <ref role="qdN4h" to="hia9:3aTA1OI2aSS" resolve="Assurance_Argument_Pattern_For_ML_Verification" />
+    <node concept="1mvXsy" id="3bxKdImh3FN" role="1_0VJ0">
+      <property role="TrG5h" value="ml_verification_argument_pattern" />
+      <property role="1_0VJr" value="ML Verification pattern" />
+      <node concept="3z_lpU" id="3bxKdImh3FO" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="3bxKdImh3FP" role="3z_lpI">
+          <node concept="2NCMab" id="3bxKdImh3Hb" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:3aTA1OI2aSS" resolve="Assurance_Argument_Pattern_For_ML_Verification" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3FR" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3FS" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3FT" role="19SJt6">
+            <property role="19SUeA" value="Problem: Machine Learning (ML) is now used in a range of systems with results that are reported to exceed, under certain conditions, human performance. Establishing justified confidence in ML forms a core part of the safety case for these systems. Assurance of Machine Learning for use in Autonomous Systems (AMLAS) is a methodology which comprises a set of safety case patterns and a process for (1) systematically integrating safety assurance into the development of ML components and (2) for generating the evidence base for explicitly justifying the acceptable safety of these components when integrated into autonomous system. AMLAS scope covers the following ML lifecycle stages: ML safety assurance scoping, safety requirements elicitation, data management, model learning, model verification and model deployment. &#10;Solution: In this documentation, the ML Verification Pattern is presented to achieve the following objectives:&#10;1. Demonstrate that the model will meet the ML safety requirements when exposed to inputs not present during the development of the model.&#10;2. Create an assurance argument, based on the evidence generated by the first objective. The ar‐ gument should clearly demonstrate the relationship between the verification evidence and the ML safety requirements. It should explicitly explain the tradeoffs, assumptions and uncertainties concerning the verification results and the process by which they were generated." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3FU" role="1xAIax">
+          <property role="1xAIam" value="Problem &amp; Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3FV" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3FW" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3FX" role="19SJt6">
+            <property role="19SUeA" value="For an ML component in a particular system context, the AMLAS process supports the development of an explicit safety case for the ML component. The AMLAS process requires as input the system safety requirements generated from the system safety process. The assurance activities are performed in parallel to the development process of the ML component. Further, the AMLAS process is iterative. Each stage of the AMLAS process is linked to the ‘Feedback and Iterate’ thread and could trigger the need to reconsider information generated or consumed by other stages. This is also necessary because of the interdependencies between the different stages, e.g. an activity in one stage might use artefacts produced by another activity in a previous stage.&#10;&#10;AMLAS has a primary focus on off‐line supervised learning. Off‐line supervised learning, particularly applied to classification tasks, is currently the predominant application of ML for autonomous systems. Other types of ML such as reinforcement learning may also benefit from this guidance, particularly with regard to safety requirements and data management." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3FY" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3FZ" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3G0" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3G1" role="19SJt6">
+            <property role="19SUeA" value="This pattern is part of the AMLAS ML Model Learning Stage. This stage consists of two activities that are performed to provide assurance in the ML Model verification process. The primary artefacts generated from this stage are ML model veri‐ fication results which are used to instantiate the ML verification argument pattern as part of Activity 14.&#10;The AMLAS ML Verification Stage consists of the following activities: &#10;Activity 13: Verify ML Model&#10;Activity 14: Instantiate ML Verification Argument Pattern [CC]&#10;&#10;" />
+          </node>
+          <node concept="2vpllh" id="3bxKdImh3G2" role="19SJt6">
+            <node concept="19SGf9" id="3bxKdImh3G3" role="$DsGW">
+              <node concept="19SUe$" id="3bxKdImh3G4" role="19SJt6">
+                <property role="19SUeA" value="Inputs to this process" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3G5" role="19SJt6">
+            <property role="19SUeA" value=":&#10;[H] : ML safety requirements &#10;[P] : Verification data &#10;[V] : ML Model&#10;[BB] : ML verification argument pattern&#10;&#10;" />
+          </node>
+          <node concept="2vpllh" id="3bxKdImh3G6" role="19SJt6">
+            <node concept="19SGf9" id="3bxKdImh3G7" role="$DsGW">
+              <node concept="19SUe$" id="3bxKdImh3G8" role="19SJt6">
+                <property role="19SUeA" value="Outputs of this process" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3G9" role="19SJt6">
+            <property role="19SUeA" value="&#10;[Z] : ML verification results&#10;[AA] : Verification log &#10;[CC] : ML Verification argument&#10;&#10;Key elements from the pattern are described in this document:&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3Hm" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3aTA1OI2aTO" resolve="G5.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3Hn" role="19SJt6">
+            <property role="19SUeA" value="&#10; The top claim in the verification argument pattern corresponds to the bottom claim in the safety re‐&#10;quirements argument pattern ([I]); it is at this point that each ML safety requirement that has been established must be shown to be met. The satisfaction of the requirement is shown through the verification activities that are performed, as discussed in Activity 6 from " />
+          </node>
+          <node concept="2jFPku" id="3bxKdImh3L8" role="19SJt6">
+            <ref role="2jFPkz" node="1To8c6e7Thm" resolve="Assurance_Argument_Pattern_for_ML_Data" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3L9" role="19SJt6">
+            <property role="19SUeA" value=". This claim is supported by strategy " />
+          </node>
+          <node concept="qcxat" id="3bxKdImh3HX" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3aTA1OI2aW4" resolve="S5.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3HY" role="19SJt6">
+            <property role="19SUeA" value=" that reasons about the verification activities undertaken and a claim " />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3Ic" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3aTA1OI2aUS" resolve="G5.2" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3Id" role="19SJt6">
+            <property role="19SUeA" value=", that provides evidence from the Verification log ([AA]) that the verification activities have been performed independently from the development of the ML model.&#10;" />
+          </node>
+          <node concept="qcxat" id="3bxKdImh3It" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3aTA1OI2aW4" resolve="S5.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3J3" role="19SJt6">
+            <property role="19SUeA" value="&#10;In order to demonstrate that the ML safety requirement is sufficiently satisfied, the pattern provides a choice over how the claim can be supported. The evidence may come, as discussed in Activity 6, from any combination of testing and formal verification. The choice in the argument should be interpreted as “at‐least‐1”, allowing for multiple legs of argumentation. The combination of verification approaches used should be justified in " />
+          </node>
+          <node concept="qcx40" id="3bxKdImh3JC" role="19SJt6">
+            <ref role="qcx47" to="hia9:3aTA1OI2aY_" resolve="J5.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3JD" role="19SJt6">
+            <property role="19SUeA" value=". The “requires development” adornment to strategy " />
+          </node>
+          <node concept="qcxat" id="3bxKdImh3JX" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3aTA1OI2aW4" resolve="S5.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3JY" role="19SJt6">
+            <property role="19SUeA" value=" indicates that other verification approaches may optionally also be adopted where this is felt to be required. An argument and evidence regarding any such approaches must be included in the assurance argument.&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3Kk" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3aTA1OI2b1q" resolve="G5.3" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3Kl" role="19SJt6">
+            <property role="19SUeA" value="&#10;When the verification strategy includes test‐based verification, it must be demonstrated that the ML model satisfies the ML safety requirement when the verification data is applied. The testing claim is supported through evidence from the test results ([Z]). For any ML safety requirement, the test data used will be a subset of the verification data samples ([P]) generated from Activity 7 from " />
+          </node>
+          <node concept="2jFPku" id="3bxKdImh3KH" role="19SJt6">
+            <ref role="2jFPkz" node="1To8c6e7Thm" resolve="Assurance_Argument_Pattern_for_ML_Data" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3KI" role="19SJt6">
+            <property role="19SUeA" value=". The test data must demonstrate that the ML safety requirement is satisfied across a sufficient range of inputs representing the operating environment, that are not included in the data used in the model learning stage. The suf‐ ficiency of the test data is justified in the verification log ([AA]). It is also necessary to consider the way in which the test results were obtained. This is particularly important where testing is not performed on the target system. This is considered in " />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3L_" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3aTA1OI2bi0" resolve="G5.6" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3LA" role="19SJt6">
+            <property role="19SUeA" value=" where evidence must be provided to demonstrate that the test platform and test environment used to carry out the verification testing is sufficiently repre‐ sentative of the operational platform of the system to which the ML component will be deployed. G5.6 is not developed further as part of this guidance.&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3M4" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3aTA1OI2b2W" resolve="Goal 5.4" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3M5" role="19SJt6">
+            <property role="19SUeA" value="&#10;When the verification strategy includes formal verification, a claim is made that the ML model satisfies formally specified properties. The formally specified properties should be a sufficient formal repre‐ sentation of the intent of the ML safety requirement that is being verified. A justification should be provided in " />
+          </node>
+          <node concept="qcx40" id="3bxKdImh3M_" role="19SJt6">
+            <ref role="qcx47" to="hia9:3aTA1OI2b6f" resolve="J5.2" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3MA" role="19SJt6">
+            <property role="19SUeA" value=" to explain the sufficiency of the translation from the ML safety requirement to the for‐ mally specified properties. The formal verification claim is supported through evidence from the formal verification results ([Z]). For those results to be valid, it must be demonstrated that the formal model created to perform the verification is sufficiently representative of the behaviour of the learnt model, and that all assumptions made as part of the verification about the system and operating environment are valid. This argument is made under " />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3N8" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3aTA1OI2bmz" resolve="G5.8" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3N9" role="19SJt6">
+            <property role="19SUeA" value=", which is not developed further as part of this guidance." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3Gq" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3Gr" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3Gs" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3Gt" role="19SJt6">
+            <property role="19SUeA" value="The pattern presented here is part of a document providing guidance on how to systematically integrate safety assurance into the development of ML components:&#10;Hawkins, R., Paterson, C., Picardi, C., Jia, Y., Calinescu, R., and Habli, I., “Guidance on the Assurance of Machine Learning in Autonomous Systems (AMLAS)”, &lt;i&gt;arXiv e-prints&lt;/i&gt;, 2021." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3Gu" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known uses" />
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqh" role="Wq1Bf">
+      <property role="Wq1Bt" value="Richard Hawkins" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqi" role="Wq1Bf">
+      <property role="Wq1Bt" value="Colin Paterson" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqj" role="Wq1Bf">
+      <property role="Wq1Bt" value="Chiara Picardi" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqk" role="Wq1Bf">
+      <property role="Wq1Bt" value="Yan Jia" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tql" role="Wq1Bf">
+      <property role="Wq1Bt" value="Radu Calinescu" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7Tqm" role="Wq1Bf">
+      <property role="Wq1Bt" value="Ibrahim Habli" />
+    </node>
+  </node>
+  <node concept="qdN4g" id="1To8c6e7Tnx">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1010_AMLAS_ML_Patterns" />
+    <property role="TrG5h" value="ML_Model_Learning_Argument_Pattern" />
+    <ref role="G9hjw" node="1To8c6e7Tpi" resolve="Config_Assurance_Argument_Pattern_for_ML_Model_Deployment" />
+    <ref role="qdN4h" to="hia9:1X8YE2QmbbO" resolve="ML_Model_Learning_Argument_Pattern" />
+    <node concept="1mvXsy" id="3bxKdImh3zO" role="1_0VJ0">
+      <property role="TrG5h" value="model_learning_argument_pattern" />
+      <property role="1_0VJr" value="Model Learning" />
+      <node concept="3z_lpU" id="3bxKdImh3zP" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="3bxKdImh3zQ" role="3z_lpI">
+          <node concept="2NCMab" id="3bxKdImh3_8" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:1X8YE2QmbbO" resolve="ML_Model_Learning_Argument_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3zS" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3zT" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3zU" role="19SJt6">
+            <property role="19SUeA" value="Problem: Machine Learning (ML) is now used in a range of systems with results that are reported to exceed, under certain conditions, human performance. Establishing justified confidence in ML forms a core part of the safety case for these systems. Assurance of Machine Learning for use in Autonomous Systems (AMLAS) is a methodology which comprises a set of safety case patterns and a process for (1) systematically integrating safety assurance into the development of ML components and (2) for generating the evidence base for explicitly justifying the acceptable safety of these components when integrated into autonomous system. AMLAS scope covers the following ML lifecycle stages: ML safety assurance scoping, safety requirements elicitation, data management, model learning, model verification and model deployment. &#10;Solution: In this documentation, the Model Learning Pattern is presented to achieve the following objectives:&#10;1. Develop the machine learnt model using the development data obtained in the previous stage such that the allocated ML safety requirements are satisfied.&#10;2. Use internal test data to assess the extent to which the machine learnt model is able to meet the ML safety requirements when presented with data not used for development.&#10;3. Create an assurance argument, based on the evidence generated by meeting the first two objec‐ tives, which provides a clear justification that the ML model meets the ML safety requirements. This should explicitly explain the tradeoffs, assumptions and uncertainties concerning both the ML model and the process by which it is developed and validated." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3zV" role="1xAIax">
+          <property role="1xAIam" value="Problem &amp; Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3zW" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3zX" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3zY" role="19SJt6">
+            <property role="19SUeA" value="For an ML component in a particular system context, the AMLAS process supports the development of an explicit safety case for the ML component. The AMLAS process requires as input the system safety requirements generated from the system safety process. The assurance activities are performed in parallel to the development process of the ML component. Further, the AMLAS process is iterative. Each stage of the AMLAS process is linked to the ‘Feedback and Iterate’ thread and could trigger the need to reconsider information generated or consumed by other stages. This is also necessary because of the interdependencies between the different stages, e.g. an activity in one stage might use artefacts produced by another activity in a previous stage.&#10;&#10;AMLAS has a primary focus on off‐line supervised learning. Off‐line supervised learning, particularly applied to classification tasks, is currently the predominant application of ML for autonomous systems. Other types of ML such as reinforcement learning may also benefit from this guidance, particularly with regard to safety requirements and data management." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3zZ" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3$0" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3$1" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3$2" role="19SJt6">
+            <property role="19SUeA" value="This pattern is part of the AMLAS ML Model Learning Stage. This stage consists of three activities. The artefacts generated from this stage are used to instantiate the ML model assurance argument pattern as part of Activity 12. &#10;The AMLAS ML Model Learning Stage consists of the following activities: &#10;Activity 10: Create ML Model [V]&#10;Activity 11: Test ML Model [V]&#10;Activity 12: Instantiate ML Learning Argument Pattern [Y] This&#10;&#10;" />
+          </node>
+          <node concept="2vpllh" id="3bxKdImh3$3" role="19SJt6">
+            <node concept="19SGf9" id="3bxKdImh3$4" role="$DsGW">
+              <node concept="19SUe$" id="3bxKdImh3$5" role="19SJt6">
+                <property role="19SUeA" value="Inputs to this process" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3$6" role="19SJt6">
+            <property role="19SUeA" value=":&#10;[H] : ML Safety Requirements &#10;[N] : Development Data &#10;[O] : Internal Test Data &#10;[W] : ML Learning Argument Pattern&#10;&#10;" />
+          </node>
+          <node concept="2vpllh" id="3bxKdImh3$7" role="19SJt6">
+            <node concept="19SGf9" id="3bxKdImh3$8" role="$DsGW">
+              <node concept="19SUe$" id="3bxKdImh3$9" role="19SJt6">
+                <property role="19SUeA" value="Outputs of this process" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3$a" role="19SJt6">
+            <property role="19SUeA" value="&#10;[V] : ML Model &#10;[X] : Internal Test Results &#10;[Y] : ML Learning Argument &#10;[U] : Model Development Log&#10;&#10;Key elements from the pattern are described in this document:&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3_l" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1X8YE2QmbcK" resolve="G4.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3_m" role="19SJt6">
+            <property role="19SUeA" value="&#10;The top claim in this argument pattern is that the development of the learnt model ([V]) is sufficient. The sufficiency of the model learning process is argued through considering the appropriateness of the model development activities undertaken.&#10;" />
+          </node>
+          <node concept="qcxat" id="3bxKdImh3_y" role="19SJt6">
+            <ref role="qcx5w" to="hia9:1X8YE2Qmbf0" resolve="S4.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3_z" role="19SJt6">
+            <property role="19SUeA" value="&#10;The argument strategy is to argue over the internal testing of the model performed during development as well as the development approach adopted. The appropriateness of the development activities is considered within the context of creating a model that both satisfies the ML safety requirements as well as meeting the additional constraints that are imposed on the model, such as performance and cost.&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3A9" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1X8YE2Qmbhx" resolve="G4.2" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3AF" role="19SJt6">
+            <property role="19SUeA" value="&#10;It must be demonstrated that the ML model that is selected satisfies the ML safety requirements. This is shown by using the internal test data ([O]) generated from Activity 7. The model must be shown to satisfy the ML safety requirements when this test data is applied. The internal testing claim is supported through evidence from the internal test results ([X]).&#10;A justification must be provided that the results obtained from the internal testing are sufficient to indicate that the ML safety requirements are satisfied. This justification is provided in" />
+          </node>
+          <node concept="qcx40" id="3bxKdImh3BV" role="19SJt6">
+            <ref role="qcx47" to="hia9:1X8YE2QmbiT" resolve="J4.1" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3BW" role="19SJt6">
+            <property role="19SUeA" value="&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3BC" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1X8YE2QmblS" resolve="G4.3" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3BD" role="19SJt6">
+            <property role="19SUeA" value=" This claim considers the approach that has been adopted in developing the model. This claim is sup‐ ported by claims regarding the type of model selected, the model parameters that are used and the process that is applied. &#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3Do" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1X8YE2Qmbpb" resolve="G4.5" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3Dp" role="19SJt6">
+            <property role="19SUeA" value="&#10;It must be demonstrated that the type of model that is created in Activity 5 is appropriate for the given set of ML safety requirements and the other model constraints. The evidence for the type of model selected is captured in the model development log ([U]), which is used as evidence to support this claim.&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3DJ" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1X8YE2QmbqW" resolve="G4.6" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3DK" role="19SJt6">
+            <property role="19SUeA" value="&#10; It must be demonstrated that the parameters of the selected model have been appropriately tuned in&#10;Activity 5. The parameters must be shown to be appropriate for the given set of ML safety require‐ ments. The rationale for how the model parameters are determined should be captured in the model development log ([U]), which is used as evidence to support this claim.&#10;" />
+          </node>
+          <node concept="qdJI3" id="3bxKdImh3E8" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1X8YE2QmbsM" resolve="G4.7" />
+          </node>
+          <node concept="19SUe$" id="3bxKdImh3E9" role="19SJt6">
+            <property role="19SUeA" value="&#10;It must be demonstrated that the process is appropriate. As discussed in Activity 5, this will be a highly iterative process involving a number of decisions on each iteration, and the development of multiple models. The process will also involve decisions regarding the model architecture. The rationale for the process decisions should be included in the model development log ([U]) along with a justification for the appropriateness of the development tool chain used." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3$l" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh3$q" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh3$r" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh3$s" role="19SJt6">
+            <property role="19SUeA" value="The pattern presented here is part of a document providing guidance on how to systematically integrate safety assurance into the development of ML components:&#10;Hawkins, R., Paterson, C., Picardi, C., Jia, Y., Calinescu, R., and Habli, I., “Guidance on the Assurance of Machine Learning in Autonomous Systems (AMLAS)”, &lt;i&gt;arXiv e-prints&lt;/i&gt;, 2021." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh3$t" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known uses" />
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7TqD" role="Wq1Bf">
+      <property role="Wq1Bt" value="Richard Hawkins" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7TqE" role="Wq1Bf">
+      <property role="Wq1Bt" value="Colin Paterson" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7TqF" role="Wq1Bf">
+      <property role="Wq1Bt" value="Chiara Picardi" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7TqG" role="Wq1Bf">
+      <property role="Wq1Bt" value="Yan Jia" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7TqH" role="Wq1Bf">
+      <property role="Wq1Bt" value="Radu Calinescu" />
+    </node>
+    <node concept="Wq1Bs" id="1To8c6e7TqI" role="Wq1Bf">
+      <property role="Wq1Bt" value="Ibrahim Habli" />
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1To8c6e7ToP">
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1010_AMLAS_ML_Patterns" />
+    <property role="TrG5h" value="Config_Assurance_Argument_Pattern_For_ML_Verification" />
+    <node concept="2SbYGw" id="1To8c6e7ToQ" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="1To8c6e7ToR" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/ml/Assurance_Argument_Pattern_For_ML_Verification/ml_img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1To8c6e7ToS" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1To8c6e7ToT" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/ml/Assurance_Argument_Pattern_For_ML_Verification/ml_tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1To8c6e7Tpi">
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1010_AMLAS_ML_Patterns" />
+    <property role="TrG5h" value="Config_Assurance_Argument_Pattern_for_ML_Model_Deployment" />
+    <node concept="2SbYGw" id="1To8c6e7Tpj" role="A10yx">
+      <property role="TrG5h" value="config" />
+      <node concept="9PVaO" id="1To8c6e7Tpk" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/ml/Assurance_Argument_Pattern_for_ML_Model_Deployment/ml_img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1To8c6e7Tpl" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1To8c6e7Tpm" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/ml/Assurance_Argument_Pattern_for_ML_Model_Deployment/ml_tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1To8c6e7TpJ">
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1010_AMLAS_ML_Patterns" />
+    <property role="TrG5h" value="Config_Assurance_Argument_Pattern_for_ML_Data" />
+    <node concept="2SbYGw" id="1To8c6e7TpK" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="1To8c6e7TpL" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/ml/Assurance_Argument_Pattern_for_ML_Data/ml_img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1To8c6e7TpM" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1To8c6e7TpN" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/ml/Assurance_Argument_Pattern_for_ML_Data/ml_tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="1To8c6e7Tqc">
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1010_AMLAS_ML_Patterns" />
+    <property role="TrG5h" value="Config_Assurance_Argument_Pattern_for_ML_Safety_Requirements" />
+    <node concept="2SbYGw" id="1To8c6e7Tqd" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="1To8c6e7Tqe" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/ml/Assurance_Argument_Pattern_for_ML_Safety_Requirements/ml_img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="1To8c6e7Tqf" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="1To8c6e7Tqg" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/ml/Assurance_Argument_Pattern_for_ML_Safety_Requirements/ml_tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="3bxKdImh04V">
+    <property role="3GE5qa" value="_101_Automotive_Patterns._1010_AMLAS_ML_Patterns" />
+    <property role="TrG5h" value="Config_ML_Model_Learning_Argument_Pattern" />
+    <node concept="2SbYGw" id="3bxKdImh04W" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="3bxKdImh04X" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/ml/ML_Model_Learning_Argument_Pattern/ml_img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="3bxKdImh04Y" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="3bxKdImh04Z" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/ml/ML_Model_Learning_Argument_Pattern/ml_tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="3bxKdImh42t">
+    <property role="yApLE" value="1" />
+    <property role="TrG5h" value="Hazard_Avoidance_Pattern" />
+    <property role="3GE5qa" value="_103_Timothy_Kelly_Pattern_Catalogue" />
+    <ref role="qdN4h" to="hia9:6QaAXI9m4aB" resolve="Hazard_Avoidance_Pattern" />
+    <ref role="G9hjw" node="3bxKdImh43K" resolve="Config_Hazard_Avoidance_Pattern" />
+    <node concept="1mvXsy" id="3bxKdImh44k" role="1_0VJ0">
+      <property role="TrG5h" value="ha_pattern" />
+      <property role="1_0VJr" value="Hazard Avoidance Pattern" />
+      <node concept="3z_lpU" id="3bxKdImh4cE" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="3bxKdImh4cF" role="3z_lpI">
+          <node concept="2NCMab" id="3bxKdImh4eK" role="2NCMaf">
+            <ref role="2NCMaa" node="3bxKdImh42t" resolve="Hazard_Avoidance_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh44s" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh44t" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh44u" role="19SJt6">
+            <property role="19SUeA" value="Patterns can emerge at many different levels in the safety argument and at varying degrees of specificity. At the highest level it is possible to identify a number of basic argument structures that are used to decompose ill-defined system safety requirements. In this pattern, the implicit definition of ‘safe’ is ‘hazard avoidance’. " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh44v" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2c7PXw4QOPa" role="1_0VJ0">
+        <node concept="19SGf9" id="2c7PXw4QOPb" role="1_0LWR">
+          <node concept="19SUe$" id="2c7PXw4QOPc" role="19SJt6">
+            <property role="19SUeA" value="The pattern is deliberately general – it can be readily understood and have wide applicability across technologies and regulatory contexts. " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2c7PXw4QOPd" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh44C" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh44D" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh44E" role="19SJt6">
+            <property role="19SUeA" value="The requirement" />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QOAO" role="19SJt6">
+            <ref role="qdJxC" to="hia9:6QaAXI9m4bz" resolve="G1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOAP" role="19SJt6">
+            <property role="19SUeA" value="is addressed by arguing that all identified hazards have been addressed " />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QOAT" role="19SJt6">
+            <ref role="qcx5w" to="hia9:6QaAXI9m4cB" resolve="S1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOAU" role="19SJt6">
+            <property role="19SUeA" value=". This strategy can only be executed in the context of some knowledge of plausible hazards, e.g. identified by Hazard Analysis. Given this information " />
+          </node>
+          <node concept="qcx9v" id="2c7PXw4QOB0" role="19SJt6">
+            <ref role="qcx8m" to="hia9:6QaAXI9m4dN" resolve="C1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOB1" role="19SJt6">
+            <property role="19SUeA" value=", identifying n hazards, n sub-goals of the form G2 can be constructed. The argument then progresses from these ‘hazard avoidance’ goals. " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh45R" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3bxKdImh46h" role="1_0VJ0">
+        <node concept="19SGf9" id="3bxKdImh46i" role="1_0LWR">
+          <node concept="19SUe$" id="3bxKdImh46j" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+          <node concept="1jUjqm" id="2c7PXw4QOZC" role="19SJt6">
+            <node concept="19SGf9" id="2c7PXw4QOZD" role="$DsGW">
+              <node concept="19SUe$" id="2c7PXw4QOZE" role="19SJt6">
+                <property role="19SUeA" value="Pattern and documentation taken from: Kelly, Tim. (2001). Arguing Safety -- A Systematic Approach to Managing Safety Cases Timothy Patrick Kelly. " />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOZB" role="19SJt6">
+            <property role="19SUeA" value="." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3bxKdImh46s" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known Uses" />
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="3bxKdImh44i" role="Wq1Bf">
+      <property role="Wq1Bt" value="Timothy Patrick Kelly" />
+    </node>
+  </node>
+  <node concept="2SbYGP" id="3bxKdImh42I">
+    <property role="3GE5qa" value="_103_Timothy_Kelly_Pattern_Catalogue" />
+    <property role="TrG5h" value="Config_Fault_Free_Software_Pattern" />
+    <node concept="2SbYGw" id="3bxKdImh42J" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="3bxKdImh42K" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/tim_kelly_catalogue/Fault_Free_Software_Pattern/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="3bxKdImh42L" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="3bxKdImh42M" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/tim_kelly_catalogue/Fault_Free_Software_Pattern/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="3bxKdImh43j">
+    <property role="3GE5qa" value="_103_Timothy_Kelly_Pattern_Catalogue" />
+    <property role="TrG5h" value="Config_Hazard_Directed_Integriy_Level_Argument" />
+    <node concept="2SbYGw" id="3bxKdImh43k" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="3bxKdImh43l" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/tim_kelly_catalogue/Fault_Tree_Evidence/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="3bxKdImh43m" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="3bxKdImh43n" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/tim_kelly_catalogue/Fault_Tree_Evidence/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="3bxKdImh43K">
+    <property role="3GE5qa" value="_103_Timothy_Kelly_Pattern_Catalogue" />
+    <property role="TrG5h" value="Config_Hazard_Avoidance_Pattern" />
+    <node concept="2SbYGw" id="3bxKdImh43L" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="3bxKdImh43M" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/tim_kelly_catalogue/Hazard_Avoidance_Pattern/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="3bxKdImh43N" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="3bxKdImh43O" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/tim_kelly_catalogue/Hazard_Avoidance_Pattern/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="3bxKdImh44d">
+    <property role="3GE5qa" value="_103_Timothy_Kelly_Pattern_Catalogue" />
+    <property role="TrG5h" value="Config_Fault_Tree_Evidence" />
+    <node concept="2SbYGw" id="3bxKdImh44e" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="3bxKdImh44f" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/tim_kelly_catalogue/Fault_Tree_Evidence/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="3bxKdImh44g" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="3bxKdImh44h" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/tim_kelly_catalogue/Fault_Tree_Evidence/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="2c7PXw4QODH">
+    <property role="3GE5qa" value="_103_Timothy_Kelly_Pattern_Catalogue" />
+    <property role="TrG5h" value="Config_ALARP" />
+    <node concept="2SbYGw" id="2c7PXw4QODI" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="2c7PXw4QODJ" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/tim_kelly_catalogue/Hazard_Avoidance_Pattern/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="2c7PXw4QODK" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="2c7PXw4QODL" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/tim_kelly_catalogue/Hazard_Avoidance_Pattern/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="2c7PXw4QOEy">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_103_Timothy_Kelly_Pattern_Catalogue" />
+    <property role="TrG5h" value="Fault_Free_Software_Pattern" />
+    <ref role="G9hjw" node="3bxKdImh42I" resolve="Config_Fault_Free_Software_Pattern" />
+    <ref role="qdN4h" to="hia9:6QaAXI9m3Xg" resolve="Fault_Free_Software_Pattern" />
+    <node concept="1mvXsy" id="2c7PXw4QOEz" role="1_0VJ0">
+      <property role="TrG5h" value="fault_free_pattern" />
+      <property role="1_0VJr" value="Fault Free Pattern" />
+      <node concept="3z_lpU" id="2c7PXw4QOE$" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="2c7PXw4QOE_" role="3z_lpI">
+          <node concept="2NCMab" id="2c7PXw4QOFn" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:6QaAXI9m3Xg" resolve="Fault_Free_Software_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2c7PXw4QOEB" role="1_0VJ0">
+        <node concept="19SGf9" id="2c7PXw4QOEC" role="1_0LWR">
+          <node concept="19SUe$" id="2c7PXw4QOED" role="19SJt6">
+            <property role="19SUeA" value="At lower levels in the safety case argument, patterns also emerge. For example, when arguing the safety of software it is often common to claim a level of software integrity from an appeal to having used best practice tools, techniques and methods during development and testing. Other common argument structures emerge from the use of particular techniques. For example, to support the claim that a particular software condition cannot arise, a pattern could be identified showing the typical use of either formal verification, Software Fault Tree Analysis (SFTA), or black box testing. &#10;The Fault Free Software pattern aims to prove that a software element of system is 'fault-free'." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2c7PXw4QOEE" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2c7PXw4QOOa" role="1_0VJ0">
+        <node concept="19SGf9" id="2c7PXw4QOOb" role="1_0LWR">
+          <node concept="19SUe$" id="2c7PXw4QOOc" role="19SJt6">
+            <property role="19SUeA" value="The pattern is deliberately general – it can be readily understood and have wide applicability across technologies and regulatory contexts. " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2c7PXw4QOOF" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2c7PXw4QOEF" role="1_0VJ0">
+        <node concept="19SGf9" id="2c7PXw4QOEG" role="1_0LWR">
+          <node concept="19SUe$" id="2c7PXw4QOEH" role="19SJt6">
+            <property role="19SUeA" value="In this pattern, the claim that the software element in a system is ‘fault free’ " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QOFu" role="19SJt6">
+            <ref role="qdJxC" to="hia9:6QaAXI9m3Yc" resolve="G1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOFv" role="19SJt6">
+            <property role="19SUeA" value=" is supported by two main strands of argument (" />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QOGu" role="19SJt6">
+            <ref role="qcx5w" to="hia9:6QaAXI9m42X" resolve="S1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOGv" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QOG_" role="19SJt6">
+            <ref role="qcx5w" to="hia9:6QaAXI9m44l" resolve="S2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOGA" role="19SJt6">
+            <property role="19SUeA" value="). " />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QOPF" role="19SJt6">
+            <ref role="qcx5w" to="hia9:6QaAXI9m42X" resolve="S1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOPG" role="19SJt6">
+            <property role="19SUeA" value=" is arguing safety over positive properties of the software. Over a list ( " />
+          </node>
+          <node concept="qcx9v" id="2c7PXw4QOPQ" role="19SJt6">
+            <ref role="qcx8m" to="hia9:6QaAXI9m48V" resolve="C3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOPR" role="19SJt6">
+            <property role="19SUeA" value=")  of identified hazardous software conditions (e.g. “Controller demands speed greater than maximum safe speed”) the m sub-goals of the form G3 are expressed, to argue that these hazards can only occur through physical component failures. " />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QOUI" role="19SJt6">
+            <ref role="qcx5w" to="hia9:6QaAXI9m44l" resolve="S2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOUJ" role="19SJt6">
+            <property role="19SUeA" value=" is arguing safety through avoidance of negative properties of the software. Over a list ( " />
+          </node>
+          <node concept="qcx9v" id="2c7PXw4QOQ3" role="19SJt6">
+            <ref role="qcx8m" to="hia9:6QaAXI9m41E" resolve="C4" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOQ4" role="19SJt6">
+            <property role="19SUeA" value=") of identified software requirements (e.g. “Operation will not start if operator detected near machinery”) the n sub-goals of the form " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QOT3" role="19SJt6">
+            <ref role="qdJxC" to="hia9:6QaAXI9m45M" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOT4" role="19SJt6">
+            <property role="19SUeA" value=" are expressed to argue that these properties are enforced in the software. In order that this pattern will be appropriately applied, the context of the pattern is made clear through the elements " />
+          </node>
+          <node concept="qcx9v" id="2c7PXw4QOU6" role="19SJt6">
+            <ref role="qcx8m" to="hia9:6QaAXI9m3Zg" resolve="C1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOU7" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="qcx9v" id="2c7PXw4QOUp" role="19SJt6">
+            <ref role="qcx8m" to="hia9:6QaAXI9m40s" resolve="C2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOUq" role="19SJt6">
+            <property role="19SUeA" value=" - both defining key terms in the top-level claim. " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2c7PXw4QOEO" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2c7PXw4QOEP" role="1_0VJ0">
+        <node concept="19SGf9" id="2c7PXw4QOEQ" role="1_0LWR">
+          <node concept="19SUe$" id="2c7PXw4QOER" role="19SJt6" />
+          <node concept="1jUjqm" id="2c7PXw4QOES" role="19SJt6">
+            <node concept="19SGf9" id="2c7PXw4QOET" role="$DsGW">
+              <node concept="19SUe$" id="2c7PXw4QOEU" role="19SJt6">
+                <property role="19SUeA" value="Known uses: Kelly, Tim. (2001). Arguing Safety -- A Systematic Approach to Managing Safety Cases Timothy Patrick Kelly. " />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QOEV" role="19SJt6">
+            <property role="19SUeA" value=" &#10;The ALARP (As-Low-As-Reasonably-Practicable) Pattern provides a more structured approach to presenting a ‘Hazard Avoidance’ argument (See Hazard Avoidance Pattern) by showing differing treatment of hazards according to their associated risk." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2c7PXw4QOEW" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known Uses" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="2c7PXw4QOVH">
+    <property role="yApLE" value="1" />
+    <property role="TrG5h" value="Requirements_Breakdown_Pattern" />
+    <property role="3GE5qa" value="_104_Theory_and_Applications_NASA_Catalogue" />
+    <ref role="G9hjw" node="5Ac1Q93IR66" resolve="Config_Requirements_Breakdown_Pattern" />
+    <ref role="qdN4h" to="hia9:3bxKdImh06T" resolve="Requirements_Breakdown_Pattern" />
+    <node concept="1mvXsy" id="2c7PXw4QOVN" role="1_0VJ0">
+      <property role="TrG5h" value="req_breakdown_pattern" />
+      <property role="1_0VJr" value=" Requirements Breakdown Pattern" />
+      <node concept="3z_lpU" id="2c7PXw4QP9h" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="2c7PXw4QP9i" role="3z_lpI">
+          <node concept="2NCMab" id="2c7PXw4QPa4" role="2NCMaf">
+            <ref role="2NCMaa" node="2c7PXw4QOVH" resolve="Requirements_Breakdown_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2c7PXw4QOVR" role="1_0VJ0">
+        <node concept="19SGf9" id="2c7PXw4QOVS" role="1_0LWR">
+          <node concept="19SUe$" id="2c7PXw4QOVT" role="19SJt6">
+            <property role="19SUeA" value="The requirements breakdown pattern provides a framework to represent the argument implicit in a requirements table, i.e., that requirements have been demonstrated by verification evidence.&#10;There are two main motivations for this pattern: The requirements breakdown pattern has been created to:&#10;(1) provide an argument structure that shows how the claims entailed by requirements (in a requirements table) have been supported by the evidence generated from verification methods.&#10;(2) be composed with the extended hazard directed breakdown pattern, i.e., by providing an argument structure to develop the claim in the extended hazard directed breakdown pattern that a safety requirement holds." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2c7PXw4QOVU" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2c7PXw4QOVZ" role="1_0VJ0">
+        <node concept="19SGf9" id="2c7PXw4QOW0" role="1_0LWR">
+          <node concept="19SUe$" id="2c7PXw4QOW1" role="19SJt6">
+            <property role="19SUeA" value="The main elements in this pattern are: &#10;• " />
+          </node>
+          <node concept="2vpllh" id="2c7PXw4QP2$" role="19SJt6">
+            <node concept="19SGf9" id="2c7PXw4QP2_" role="$DsGW">
+              <node concept="19SUe$" id="2c7PXw4QP2A" role="19SJt6">
+                <property role="19SUeA" value="Goals:" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QP2B" role="19SJt6">
+            <property role="19SUeA" value="&#10;– " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QU2P" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh09J" resolve="G1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QU2Q" role="19SJt6">
+            <property role="19SUeA" value=": The claim that a system/safety requirement holds; this is usually an entry in a requirements table and it refers to a requirement at a specific level of the system hierarchy.&#10;– " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QU3e" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0dd" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QU3f" role="19SJt6">
+            <property role="19SUeA" value=": The claim that a “lower-level” requirement holds; this is usually an entry in the requirements table following a system/safety requirement, at a lower level of the system hierarchy.&#10;– " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QU3D" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0ew" resolve="G3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QU3E" role="19SJt6">
+            <property role="19SUeA" value=": The claim that an allocated requirement holds. &#10;– " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QU46" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0fS" resolve="G4" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QU54" role="19SJt6">
+            <property role="19SUeA" value=": The claim that refines either of the instantiated" />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QU62" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh09J" resolve="G1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QU63" role="19SJt6">
+            <property role="19SUeA" value="," />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QU6$" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0dd" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QU6z" role="19SJt6">
+            <property role="19SUeA" value=", or" />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QU76" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0ew" resolve="G3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QU77" role="19SJt6">
+            <property role="19SUeA" value=" using the verification method in " />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QUdr" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0ku" resolve="S3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUds" role="19SJt6">
+            <property role="19SUeA" value=". This goal remains uninstantiated when the pattern is instantiated since its instantia- tion requires knowledge of the exact form of the claims made in its parent goals.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="2c7PXw4QP2H" role="19SJt6">
+            <node concept="19SGf9" id="2c7PXw4QP2I" role="$DsGW">
+              <node concept="19SUe$" id="2c7PXw4QP2J" role="19SJt6">
+                <property role="19SUeA" value="Strategies:" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QP2K" role="19SJt6">
+            <property role="19SUeA" value="&#10;– " />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QU7F" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0iR" resolve="S1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QU7G" role="19SJt6">
+            <property role="19SUeA" value=": Navigating to the lower-level requirements. &#10;– " />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QU8i" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0hl" resolve="S2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QU8j" role="19SJt6">
+            <property role="19SUeA" value=": Navigating to the allocated requirements. &#10;– " />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QU8V" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0ku" resolve="S3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QU8W" role="19SJt6">
+            <property role="19SUeA" value=": Application of a verification method.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="2c7PXw4QP2U" role="19SJt6">
+            <node concept="19SGf9" id="2c7PXw4QP2V" role="$DsGW">
+              <node concept="19SUe$" id="2c7PXw4QP2W" role="19SJt6">
+                <property role="19SUeA" value="Context:" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QP2X" role="19SJt6">
+            <property role="19SUeA" value=" &#10;– " />
+          </node>
+          <node concept="qcx9v" id="2c7PXw4QU9A" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0aN" resolve="C1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QU9B" role="19SJt6">
+            <property role="19SUeA" value=": Identifies the source of the requirement. &#10;– " />
+          </node>
+          <node concept="qcx9v" id="2c7PXw4QUaj" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0bZ" resolve="C2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUak" role="19SJt6">
+            <property role="19SUeA" value=": Identifies the entity, i.e., system, subsystem, component model, etc. to which the requirement applies.&#10;" />
+          </node>
+          <node concept="2vpllh" id="2c7PXw4QP3b" role="19SJt6">
+            <node concept="19SGf9" id="2c7PXw4QP3c" role="$DsGW">
+              <node concept="19SUe$" id="2c7PXw4QP3d" role="19SJt6">
+                <property role="19SUeA" value="Evidence" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QP3e" role="19SJt6">
+            <property role="19SUeA" value=" &#10;– " />
+          </node>
+          <node concept="qcx8k" id="2c7PXw4QUb2" role="19SJt6">
+            <ref role="qcx8r" to="hia9:3bxKdImh0ma" resolve="E1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUb3" role="19SJt6">
+            <property role="19SUeA" value=": The result from the verification method used in " />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QUbN" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0hl" resolve="S2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUbO" role="19SJt6">
+            <property role="19SUeA" value=", such that the claim made in " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUcA" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0fS" resolve="G4" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUcB" role="19SJt6">
+            <property role="19SUeA" value=" is supported.&#10;&#10;" />
+          </node>
+          <node concept="1jUjqm" id="2c7PXw4QP3w" role="19SJt6">
+            <node concept="19SGf9" id="2c7PXw4QP3x" role="$DsGW">
+              <node concept="19SUe$" id="2c7PXw4QP3y" role="19SJt6">
+                <property role="19SUeA" value="Collaborations:" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QP3z" role="19SJt6">
+            <property role="19SUeA" value=" The initial claim (" />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUei" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh09J" resolve="G1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUg4" role="19SJt6">
+            <property role="19SUeA" value=") in the pattern is that a safety or system requirement for a system holds, made in the context of a system / subsystem to which the requirement applies (" />
+          </node>
+          <node concept="qcx9v" id="2c7PXw4QUhP" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0bZ" resolve="C2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUhQ" role="19SJt6">
+            <property role="19SUeA" value="). The source of the requirement (" />
+          </node>
+          <node concept="qcx9v" id="2c7PXw4QUkA" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0aN" resolve="C1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUkB" role="19SJt6">
+            <property role="19SUeA" value=") is also clarified. We develop the top-level claim using (at least) one of three strategies. Namely, (" />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QUlz" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0iR" resolve="S1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUl$" role="19SJt6">
+            <property role="19SUeA" value=") by argument over lower- level requirements, (" />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QUmz" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0hl" resolve="S2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUm$" role="19SJt6">
+            <property role="19SUeA" value=") by argument over allocated requirements, and (" />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QUn_" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0ku" resolve="S3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUn$" role="19SJt6">
+            <property role="19SUeA" value=") by argument by one or more verification methods. The consequent sub-claims are, respectively, (" />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUqP" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0dd" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUqQ" role="19SJt6">
+            <property role="19SUeA" value=") that lower-level requirements are met, (" />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUrZ" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0ew" resolve="G3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUrY" role="19SJt6">
+            <property role="19SUeA" value=") that the allocated requirements hold, and (" />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUHf" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0fS" resolve="G4" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUHe" role="19SJt6">
+            <property role="19SUeA" value=") the refinement of the relevant parent claim (" />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUta" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh09J" resolve="G1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUt9" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUun" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0dd" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUum" role="19SJt6">
+            <property role="19SUeA" value=" or " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QU$m" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0ew" resolve="G3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QU$l" role="19SJt6">
+            <property role="19SUeA" value="). The sub-claims" />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUC3" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0dd" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUC2" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUDm" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0ew" resolve="G3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUDl" role="19SJt6">
+            <property role="19SUeA" value="are semantically of the same form as the top-level claim G1; hence, we can apply the same strategies used to develop . This is reflected as the loop links from " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUIA" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0dd" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUI_" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUJZ" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0ew" resolve="G3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUJY" role="19SJt6">
+            <property role="19SUeA" value=" to their parent strategies. In addition, each of the three claims can be developed using one or more verification methods (" />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QUoC" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0ku" resolve="S3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUoB" role="19SJt6">
+            <property role="19SUeA" value="), the result of which provides the evidence (" />
+          </node>
+          <node concept="qcx8k" id="2c7PXw4QUpH" role="19SJt6">
+            <ref role="qcx8r" to="hia9:3bxKdImh0ma" resolve="E1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUpI" role="19SJt6">
+            <property role="19SUeA" value=") needed to support the claims made." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2c7PXw4QOXm" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_1sxE" id="2c7PXw4QOXn" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
+      </node>
+      <node concept="1_0LV8" id="2c7PXw4QOXo" role="1_0VJ0">
+        <node concept="19SGf9" id="2c7PXw4QOXp" role="1_0LWR">
+          <node concept="19SUe$" id="2c7PXw4QOXq" role="19SJt6">
+            <property role="19SUeA" value="This pattern can be composed with the extended hazard directed breakdown pattern to develop the claim in the latter that a safety requirement holds. We also apply this pattern to make explicit, the implicit argument in a requirements table that requirements have been demonstrated by verification evidence. Cer- tain elements of the requirements table, such as the source of the requirement and the system / subsystem / component to which the requirement applies, appear as the context elements " />
+          </node>
+          <node concept="qcx9v" id="2c7PXw4QUOf" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0aN" resolve="C1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUOp" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="qcx9v" id="2c7PXw4QUOy" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0bZ" resolve="C2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUOz" role="19SJt6">
+            <property role="19SUeA" value=", when the pattern is instantiated. &#10;&#10;On instantiating the pattern, a number of goals and strategies of the following form are created: &#10;• " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUP5" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh09J" resolve="G1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUP6" role="19SJt6">
+            <property role="19SUeA" value=". System/Safety requirement {rs :: requirement} holds. There are as many goals of this form, as there are system/safety requirements in the requirements table.&#10;• " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUPf" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0dd" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUPe" role="19SJt6">
+            <property role="19SUeA" value=". Lower-level requirement {rl :: requirement} holds. There are as many goals of this form as there are lower-level requirements for each system/safety requirement.&#10;• " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUPq" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0ew" resolve="G3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUPp" role="19SJt6">
+            <property role="19SUeA" value=". Allocated requirement {ra :: requirement} holds. There are as many goals of this form as are allocated to each system/safety requirement.&#10;• " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUPB" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0fS" resolve="G4" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUPA" role="19SJt6">
+            <property role="19SUeA" value=". {g :: goal ∣ " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUSn" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh09J" resolve="G1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUSm" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUSQ" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0dd" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUSP" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUTn" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0ew" resolve="G3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUTm" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QUTT" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0ku" resolve="S3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUTU" role="19SJt6">
+            <property role="19SUeA" value="}. This goal is uninstantiated and depends on the exact form of the claim in the parent goals " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUR6" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh09J" resolve="G1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUR5" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QURv" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0dd" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QURu" role="19SJt6">
+            <property role="19SUeA" value=" or " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QURU" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0ew" resolve="G3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QURT" role="19SJt6">
+            <property role="19SUeA" value=". Depending on the number of verification methods used to develop each claim in either of " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUQ7" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh09J" resolve="G1" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUQ6" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUQq" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0dd" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUQp" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qdJI3" id="2c7PXw4QUQJ" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0ew" resolve="G3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUQI" role="19SJt6">
+            <property role="19SUeA" value=", there are as many of these claims created as there are verification methods used. Thus,&#10;• " />
+          </node>
+          <node concept="qcxat" id="2c7PXw4QUPP" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0ku" resolve="S3" />
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QUPQ" role="19SJt6">
+            <property role="19SUeA" value=". Argument by verification method {vm :: verificationMethod}. There are as many of these strategies instantiated as there are verification methods used for each of the system/safety, lower-level or allocated requirement." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2c7PXw4QOXv" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+      <node concept="1_1sxE" id="2c7PXw4QOXw" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
+      </node>
+      <node concept="1_0LV8" id="2c7PXw4QOXx" role="1_0VJ0">
+        <node concept="19SGf9" id="2c7PXw4QOXy" role="1_0LWR">
+          <node concept="19SUe$" id="2c7PXw4QOXz" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+          <node concept="1jUjqm" id="2c7PXw4QP08" role="19SJt6">
+            <node concept="19SGf9" id="2c7PXw4QP09" role="$DsGW">
+              <node concept="19SUe$" id="2c7PXw4QP0a" role="19SJt6">
+                <property role="19SUeA" value="Pattern and documentation taken from: Denney, Ewen &amp; Pai, Ganesh. (2015). Safety Case Patterns: Theory and Applications. 10.13140/2.1.1950.4161." />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QP0b" role="19SJt6">
+            <property role="19SUeA" value="  " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2c7PXw4QOX$" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known Uses" />
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="2c7PXw4QOVI" role="Wq1Bf">
+      <property role="Wq1Bt" value="Ewen W. Denney" />
+    </node>
+    <node concept="Wq1Bs" id="2c7PXw4QOVK" role="Wq1Bf">
+      <property role="Wq1Bt" value="Ganesh J. Pai" />
+    </node>
+  </node>
+  <node concept="qdN4g" id="2c7PXw4QPhw">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_104_Theory_and_Applications_NASA_Catalogue" />
+    <property role="TrG5h" value="Extended/Hierarchical_Physical_Decomposition_Pattern" />
+    <ref role="G9hjw" node="2c7PXw4QPhT" resolve="Config_Extended_Hierarchical_Physical_Decomposition_Pattern" />
+    <ref role="qdN4h" to="hia9:3bxKdImh07S" resolve="Extended/Hierarchical_Physical_Decomposition_Pattern" />
+    <node concept="1mvXsy" id="2c7PXw4QPjX" role="1_0VJ0">
+      <property role="TrG5h" value="extended_hierarchical_pattern" />
+      <property role="1_0VJr" value=" RExtended / Hierarchical Physical Decomposition Pattern" />
+      <node concept="3z_lpU" id="2c7PXw4QPjY" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="2c7PXw4QPjZ" role="3z_lpI">
+          <node concept="2NCMab" id="2c7PXw4QPlx" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:3bxKdImh07S" resolve="Extended/Hierarchical_Physical_Decomposition_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2c7PXw4QPk1" role="1_0VJ0">
+        <node concept="19SGf9" id="2c7PXw4QPk2" role="1_0LWR">
+          <node concept="19SUe$" id="2c7PXw4QPk3" role="19SJt6">
+            <property role="19SUeA" value="The intent of this pattern is the same as for the physical architecture breakdown pattern, i.e., to assure that failure hazards of a system have been sufficiently mitigated. The pattern was created to extend the physical architecture breakdown pattern, by considering hierarchy in the system structure." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2c7PXw4QPk4" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2c7PXw4QPny" role="1_0VJ0">
+        <node concept="19SGf9" id="2c7PXw4QPnz" role="1_0LWR">
+          <node concept="19SUe$" id="2c7PXw4QPn$" role="19SJt6">
+            <property role="19SUeA" value="This pattern is mainly applicable in the context of failure hazards, and when the failure hazard mitigation claim is made in the context of a system which has a physical architecture. In addition to this, the pattern can be applied when there is a nested hierarchy, i.e., when a system has several tiers of subsystems, components, etc." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2c7PXw4QPo6" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2c7PXw4QPk9" role="1_0VJ0">
+        <node concept="19SGf9" id="2c7PXw4QPka" role="1_0LWR">
+          <node concept="19SUe$" id="2c7PXw4QPkb" role="19SJt6">
+            <property role="19SUeA" value="The main elements in this pattern are: The main elements of the extended physical decomposition pattern are identical to those of the physical architecture breakdown pattern.&#10;Comparing them, we see that the extended physical decomposition pattern introduces a choice of strategies ( and " />
+          </node>
+          <node concept="qcxat" id="4n5Vvd8Dg3A" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0wP" resolve="S2" />
+          </node>
+          <node concept="19SUe$" id="4n5Vvd8Dg3B" role="19SJt6">
+            <property role="19SUeA" value=") when addressing the claim of failure hazard mitigation at either the system or subsystem level. Hierarchy in the physical architecture is addressed by iterating on over the parent strategy of argument over the physical architecture breakdown (" />
+          </node>
+          <node concept="qcxat" id="4n5Vvd8Dg3K" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0Ab" resolve="S1" />
+          </node>
+          <node concept="19SUe$" id="4n5Vvd8Dg3L" role="19SJt6">
+            <property role="19SUeA" value="). " />
+          </node>
+          <node concept="qcxat" id="4n5Vvd8Dg4W" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0wP" resolve="S2" />
+          </node>
+          <node concept="19SUe$" id="4n5Vvd8Dg4V" role="19SJt6">
+            <property role="19SUeA" value=", which is yet to be instantiated, represents any admissible set of failure mitigation strategies at the system/sub-system level, e.g., redundancy, design diversity, failure masking, etc.&#10;&#10;" />
+          </node>
+          <node concept="1jUjqm" id="2c7PXw4QPks" role="19SJt6">
+            <node concept="19SGf9" id="2c7PXw4QPkt" role="$DsGW">
+              <node concept="19SUe$" id="2c7PXw4QPku" role="19SJt6">
+                <property role="19SUeA" value="Collaborations:" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QPkv" role="19SJt6">
+            <property role="19SUeA" value="As indicated, the main difference between the extended physical decomposition pattern and the physical architecture breakdown pattern is the choice of strategies with which to develop the main claim and its sub-claims, in the pattern. Whereas in the latter, only one strategy (" />
+          </node>
+          <node concept="qcxat" id="4n5Vvd8Dg3W" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0Ab" resolve="S1" />
+          </node>
+          <node concept="19SUe$" id="4n5Vvd8Dg3V" role="19SJt6">
+            <property role="19SUeA" value=") is available, in the former, the top-level claim " />
+          </node>
+          <node concept="qdJI3" id="4n5Vvd8Dg4C" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0vD" resolve="G1" />
+          </node>
+          <node concept="19SUe$" id="4n5Vvd8Dg4D" role="19SJt6">
+            <property role="19SUeA" value=" can be developed either by argument over physical breakdown (" />
+          </node>
+          <node concept="qcxat" id="4n5Vvd8Dg4o" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0Ab" resolve="S1" />
+          </node>
+          <node concept="19SUe$" id="4n5Vvd8Dg4n" role="19SJt6">
+            <property role="19SUeA" value=") or by invoking any appropriate strategy for failure mitigation (" />
+          </node>
+          <node concept="qcxat" id="4n5Vvd8Dg49" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh0wP" resolve="S2" />
+          </node>
+          <node concept="19SUe$" id="4n5Vvd8Dg48" role="19SJt6">
+            <property role="19SUeA" value="). For the collaboration between the remaining elements," />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2c7PXw4QPkw" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2c7PXw4QPky" role="1_0VJ0">
+        <node concept="19SGf9" id="2c7PXw4QPkz" role="1_0LWR">
+          <node concept="19SUe$" id="2c7PXw4QPk$" role="19SJt6">
+            <property role="19SUeA" value="In addition to the elements instantiated as in the physical architecture breakdown pattern from the mentioned publication at the end of this document, on instantiating the extended physical decomposition pattern, strategy S1 is also instantiated, where an appropriate failure mitigation strategy {r :: strategy} is referenced." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2c7PXw4QPk_" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2c7PXw4QPkB" role="1_0VJ0">
+        <node concept="19SGf9" id="2c7PXw4QPkC" role="1_0LWR">
+          <node concept="19SUe$" id="2c7PXw4QPkD" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+          <node concept="1jUjqm" id="2c7PXw4QPkE" role="19SJt6">
+            <node concept="19SGf9" id="2c7PXw4QPkF" role="$DsGW">
+              <node concept="19SUe$" id="2c7PXw4QPkG" role="19SJt6">
+                <property role="19SUeA" value="Pattern and documentation taken from: Denney, Ewen &amp; Pai, Ganesh. (2015). Safety Case Patterns: Theory and Applications. 10.13140/2.1.1950.4161. " />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="2c7PXw4QPkH" role="19SJt6">
+            <property role="19SUeA" value="  " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2c7PXw4QPkI" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known Uses" />
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="2c7PXw4QPjO" role="Wq1Bf">
+      <property role="Wq1Bt" value="Ewen W. Denney" />
+    </node>
+    <node concept="Wq1Bs" id="2c7PXw4QPjQ" role="Wq1Bf">
+      <property role="Wq1Bt" value="Ganesh J. Pai" />
+    </node>
+  </node>
+  <node concept="2SbYGP" id="2c7PXw4QPhT">
+    <property role="3GE5qa" value="_104_Theory_and_Applications_NASA_Catalogue" />
+    <property role="TrG5h" value="Config_Extended_Hierarchical_Physical_Decomposition_Pattern" />
+    <node concept="2SbYGw" id="2c7PXw4QPhU" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="2c7PXw4QPhV" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/Theory_and_Applications_NASA_Catalogue/Extended_Hierarchical_Physical_Decomposition_Pattern/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="2c7PXw4QPhW" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="2c7PXw4QPhX" role="9PVG_">
+        <property role="3N1Lgt" value="configs/automotive_patterns/Theory_and_Applications_NASA_Catalogue/Extended_Hierarchical_Physical_Decomposition_Pattern/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="4c4SMF1zbwj">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_105_Weaver_Software_Safety_Pattern_Catalogue" />
+    <property role="TrG5h" value="Component_Contributions_to_System_Hazards" />
+    <ref role="G9hjw" node="4c4SMF1zbx4" resolve="Config_Component_Contributions_to_System_Hazards" />
+    <ref role="qdN4h" to="hia9:3bxKdImh0BI" resolve="Component_Contributions_to_System_Hazards" />
+    <node concept="1mvXsy" id="4c4SMF1zb_b" role="1_0VJ0">
+      <property role="TrG5h" value="ccsh" />
+      <property role="1_0VJr" value="Component Contributions to System Hazards" />
+      <node concept="3z_lpU" id="4c4SMF1zb_c" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="4c4SMF1zb_d" role="3z_lpI">
+          <node concept="2NCMab" id="4c4SMF1zbDl" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:3bxKdImh0BI" resolve="Component_Contributions_to_System_Hazards" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4c4SMF1zb_f" role="1_0VJ0">
+        <node concept="19SGf9" id="4c4SMF1zb_g" role="1_0LWR">
+          <node concept="19SUe$" id="4c4SMF1zb_h" role="19SJt6">
+            <property role="19SUeA" value="The intent of this pattern is to provide a top level decomposition for the safety argument of a system. In particular, the pattern provides the context for a software safety argument constructed from the Software Safety Pattern Catalogue. The focus for the argument is the identification of hazards and the assessment of the associated risks. This pattern identifies the three main claims which must be satisfied to show system safety; Valid Safety Requirements, Acceptable Levels of Risks, and Traceability of Safety Requirements and Safety Evidence. The pattern provides a suitable context and approach for developing a software safety argument." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4c4SMF1zb_i" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4c4SMF1zb_j" role="1_0VJ0">
+        <node concept="19SGf9" id="4c4SMF1zb_k" role="1_0LWR">
+          <node concept="19SUe$" id="4c4SMF1zb_l" role="19SJt6">
+            <property role="19SUeA" value="The starting point of this pattern is to have clearly identified the components of the overall system, and their functional contributions to the overall system are understood. In order to apply this pattern it is necessary to have access to a definition of ‘acceptably safe’ for the " />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBBJo" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0SG" resolve="DefnAccSafe" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBJp" role="19SJt6">
+            <property role="19SUeA" value="context. This definition is typically provided by the appropriate regulatory authority, standards or through investigations by safety engineers, including discussions with customers.&#10;This definition should encapsulate some form of " />
+          </node>
+          <node concept="2jFPku" id="5Pd2jYnBBJt" role="19SJt6">
+            <ref role="2jFPkz" node="5Ac1Q93IR5r" resolve="ALARP" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBJu" role="19SJt6">
+            <property role="19SUeA" value="consideration, which would permeate through the rest of the pattern and argument. System-level and Component-level (Software, Hardware and Other) hazard analysis are required to determine the contributions of the components to system hazards." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4c4SMF1zb_q" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4c4SMF1zb_r" role="1_0VJ0">
+        <node concept="19SGf9" id="4c4SMF1zb_s" role="1_0LWR">
+          <node concept="19SUe$" id="4c4SMF1zb_t" role="19SJt6">
+            <property role="19SUeA" value="The pattern contains the following " />
+          </node>
+          <node concept="2vpllh" id="4c4SMF1zb_u" role="19SJt6">
+            <node concept="19SGf9" id="4c4SMF1zb_v" role="$DsGW">
+              <node concept="19SUe$" id="4c4SMF1zb_w" role="19SJt6">
+                <property role="19SUeA" value="participants" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4c4SMF1zb_x" role="19SJt6">
+            <property role="19SUeA" value=":&#10;" />
+          </node>
+          <node concept="2vpllh" id="4c4SMF1zb_y" role="19SJt6">
+            <node concept="19SGf9" id="4c4SMF1zb_z" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBA5e" role="19SJt6" />
+              <node concept="qdJI3" id="5Pd2jYnBA5c" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh0Hr" resolve="SystemSafe" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBA5d" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4c4SMF1zb_B" role="19SJt6">
+            <property role="19SUeA" value=" The overall objective of the argument – to provide sufficient support for the claim that the System is acceptably safe to operate.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBA5E" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBA5F" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBA5G" role="19SJt6" />
+              <node concept="qcx9v" id="5Pd2jYnBA6e" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh0P5" resolve="SysDefn" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBA6f" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBA5D" role="19SJt6">
+            <property role="19SUeA" value="This model should give a clear definition of the system. From the model it should be possible to identify the system level hazards.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBA6k" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBA6l" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBA6m" role="19SJt6" />
+              <node concept="qcx9v" id="5Pd2jYnBA6n" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh0SG" resolve="DefnAccSafe" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBA6o" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBA6j" role="19SJt6">
+            <property role="19SUeA" value="To be able to argue that the claim is upheld, it is necessary to give a definition for the term ‘acceptably safe’.&#10;This may come from a&#10;standard or regulatory body. The definition will be the initial basis from which hazard assessment is made and an argument is generated with respect to the acceptability of the hazards.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBA6Y" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBA6Z" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBA7K" role="19SJt6" />
+              <node concept="qdJI3" id="5Pd2jYnBA7I" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh0CE" resolve="ReqValid" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBA7J" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBA73" role="19SJt6">
+            <property role="19SUeA" value="This claim asserts that the identified set of safety requirements is applicable (in the correct context) to the system, that they are complete and they are not mutually exclusive.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBA7P" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBA7Q" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBA8H" role="19SJt6" />
+              <node concept="qdJI3" id="5Pd2jYnBA8F" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh0EU" resolve="HazAccept" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBA8G" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBA7O" role="19SJt6">
+            <property role="19SUeA" value="This claim asserts the goal that all hazards at the system level have a risk which is acceptably safe as defined by DefnAccSafe.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBA8M" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBA8N" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBA8O" role="19SJt6" />
+              <node concept="qdJI3" id="5Pd2jYnBA8P" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh0G8" resolve="Traceability" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBA8Q" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBA8L" role="19SJt6">
+            <property role="19SUeA" value="This claim asserts that it is explicitly visible that the safety requirements have been satisfied through the safety evidence. This enables verification of the complete implementation of the system.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBA9I" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBA9J" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBA9K" role="19SJt6" />
+              <node concept="qcx9v" id="5Pd2jYnBA9L" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh135" resolve="SysHaz" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBA9M" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBA9H" role="19SJt6">
+            <property role="19SUeA" value="This context identifies the System Level Hazards upon which the HazAccept claim is based. These hazards form a hazard log, which identifies all unsafe behaviours of the system within its operating context.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBAaK" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBAaL" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBAfG" role="19SJt6" />
+              <node concept="qcxat" id="5Pd2jYnBAfE" role="19SJt6">
+                <ref role="qcx5w" to="hia9:5Pd2jYnBz$3" resolve="ArgSWHWOther" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBAfF" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAaJ" role="19SJt6">
+            <property role="19SUeA" value="This argument decomposes the System Level Hazards across the Hardware, Software and Other Parts of the system. This identifies what part(s) of the system contributes to each individual hazard.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBAfL" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBAfM" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBAaM" role="19SJt6" />
+              <node concept="qcx40" id="5Pd2jYnBAgW" role="19SJt6">
+                <ref role="qcx47" to="hia9:3bxKdImh0QQ" resolve="DependExplicit" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBAgX" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAfN" role="19SJt6">
+            <property role="19SUeA" value="The argument ArgSWHWOther is justified, so long as the dependencies between Hardware, Software and Other Parts of the System are explicitly documented. This encapsulates the mitigation of particular component failures through other means.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBAja" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBAjb" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBAjc" role="19SJt6" />
+              <node concept="qdJI3" id="5Pd2jYnBAjd" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh0DI" resolve="HWContribAccept" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBAje" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAj9" role="19SJt6">
+            <property role="19SUeA" value="This claim asserts that the Hazards associated with the Hardware component of the system are safe with respect to the definition given in DefnAccSafe.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBAku" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBAkv" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBAkw" role="19SJt6" />
+              <node concept="qdJI3" id="5Pd2jYnBAkx" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh0IN" resolve="SWContribAccept" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBAky" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAkt" role="19SJt6">
+            <property role="19SUeA" value="This claim asserts that the Hazardous Functions associated with the Software component of the system are safe with respect to the definition given in DefnAccSafe.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBAlS" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBAlT" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBAlU" role="19SJt6" />
+              <node concept="qdJI3" id="5Pd2jYnBAlV" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh0Kg" resolve="OtherContribAccept" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBAlW" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAlR" role="19SJt6">
+            <property role="19SUeA" value="This context gives the safety requirements which are related to the other components of the system.&#10;These can be either through other&#10;component causes or through derived requirements due to cross dependencies.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBAno" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBAnp" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBAnq" role="19SJt6" />
+              <node concept="qcx9v" id="5Pd2jYnBAnr" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh0YG" resolve="OtherDefn" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBAns" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAnn" role="19SJt6">
+            <property role="19SUeA" value="This Other Components Definition should give a clear description of the other components of the system. From the model it should be possible to identify the contribution of other components to system level hazards.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBAoY" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBAoZ" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBAp0" role="19SJt6" />
+              <node concept="qcx9v" id="5Pd2jYnBAp1" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh0Np" resolve="OtherContrib" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBAp2" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAoX" role="19SJt6">
+            <property role="19SUeA" value="This claim asserts that the Hazards associated with the Other components of the system are safe with respect to the definition given in DefnAccSafe.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBAqE" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBAqF" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBAqG" role="19SJt6" />
+              <node concept="qcx9v" id="5Pd2jYnBAqH" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh10Q" resolve="HWDefn" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBAqI" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAqD" role="19SJt6">
+            <property role="19SUeA" value="This Hardware Definition should give a clear description of the system hardware. From the model it should be possible to identify the hardware contributions to system level hazards.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBAyQ" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBAyR" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBAyS" role="19SJt6" />
+              <node concept="qcx9v" id="5Pd2jYnBAyT" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh0UB" resolve="HWContrib" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBAyU" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAyP" role="19SJt6">
+            <property role="19SUeA" value="This context gives the safety requirements which are related to the hardware. These can be either through hardware causes or through derived requirements due to cross dependencies.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBA$I" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBA$J" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBA$K" role="19SJt6" />
+              <node concept="qcx9v" id="5Pd2jYnBA$L" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh0LM" resolve="SWDefn" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBA$M" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBA$N" role="19SJt6">
+            <property role="19SUeA" value="This Software Definition should give a clear description of the system software. From the model it should be possible to identify the software contribution to system level hazards.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBAAG" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBAAH" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBAAI" role="19SJt6" />
+              <node concept="qcx9v" id="5Pd2jYnBAAJ" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh0WB" resolve="SWContrib" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBAAK" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAAF" role="19SJt6">
+            <property role="19SUeA" value="This context gives the safety requirements which are related to the software. These can be either through software causes or through derived requirements due to cross dependencies.&#10;&#10;" />
+          </node>
+          <node concept="1jUjqm" id="4c4SMF1zbAu" role="19SJt6">
+            <node concept="19SGf9" id="4c4SMF1zbAv" role="$DsGW">
+              <node concept="19SUe$" id="4c4SMF1zbAw" role="19SJt6">
+                <property role="19SUeA" value="Collaborations: " />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4c4SMF1zbAx" role="19SJt6">
+            <property role="19SUeA" value="&#10;• The " />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBAE$" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0P5" resolve="SysDefn" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAE_" role="19SJt6">
+            <property role="19SUeA" value=" model should be suitable for identifying the System Level Hazards for " />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBAKf" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh135" resolve="SysHaz" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAKg" role="19SJt6">
+            <property role="19SUeA" value=".&#10;• The " />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBAMa" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh10Q" resolve="HWDefn" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAMb" role="19SJt6">
+            <property role="19SUeA" value=", in combination with" />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBAZS" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh135" resolve="SysHaz" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAZR" role="19SJt6">
+            <property role="19SUeA" value=", should be suitable for identifying the hardware contributions to system level hazards for " />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBAXQ" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0UB" resolve="HWContrib" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAXR" role="19SJt6">
+            <property role="19SUeA" value="&#10;• The " />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBAO7" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0LM" resolve="SWDefn" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBAO8" role="19SJt6">
+            <property role="19SUeA" value="in combination with" />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBB1W" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh135" resolve="SysHaz" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBB1X" role="19SJt6">
+            <property role="19SUeA" value=", should be suitable for identifying the software contributions to system level hazards for" />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBB42" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0UB" resolve="HWContrib" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBB41" role="19SJt6">
+            <property role="19SUeA" value=".&#10;• The " />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBBau" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0Np" resolve="OtherContrib" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBat" role="19SJt6">
+            <property role="19SUeA" value=", in combination with" />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBB8i" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh135" resolve="SysHaz" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBB8h" role="19SJt6">
+            <property role="19SUeA" value=", should be suitable for identifying the other components contributions to system level hazards for " />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBB68" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0Np" resolve="OtherContrib" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBB69" role="19SJt6">
+            <property role="19SUeA" value="&#10;• " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBBlt" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0EU" resolve="HazAccept" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBlu" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBBnG" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0DI" resolve="HWContribAccept" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBnH" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBBpX" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0IN" resolve="SWContribAccept" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBpY" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBBsg" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0Kg" resolve="OtherContribAccept" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBsh" role="19SJt6">
+            <property role="19SUeA" value=" and SWHazAccept are all dependent on the definition of acceptably safe in " />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBBzf" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0SG" resolve="DefnAccSafe" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBzg" role="19SJt6">
+            <property role="19SUeA" value="&#10;• " />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBBBZ" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0UB" resolve="HWContrib" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBC0" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBBEq" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0WB" resolve="SWContrib" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBEr" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBBGS" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh0Np" resolve="OtherContrib" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBGT" role="19SJt6">
+            <property role="19SUeA" value="discharge the justification given in" />
+          </node>
+          <node concept="qcx40" id="5Pd2jYnBB_A" role="19SJt6">
+            <ref role="qcx47" to="hia9:3bxKdImh0QQ" resolve="DependExplicit" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBB_B" role="19SJt6" />
+        </node>
+        <node concept="1xAIan" id="4c4SMF1zbAE" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4c4SMF1zbAF" role="1_0VJ0">
+        <node concept="19SGf9" id="4c4SMF1zbAG" role="1_0LWR">
+          <node concept="19SUe$" id="4c4SMF1zbAH" role="19SJt6">
+            <property role="19SUeA" value="This pattern should be instantiated in a Top Down fashion. All goals, contexts and models should be instantiated before continuing to a lower level in the pattern. &#10;After instantiating this pattern a number of undeveloped goals will remain: &#10;• " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBBMZ" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0CE" resolve="ReqValid" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBN0" role="19SJt6">
+            <property role="19SUeA" value="&amp; " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBBN8" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0G8" resolve="Traceability" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBN9" role="19SJt6">
+            <property role="19SUeA" value=" In accordance with the main objective of the pattern, these goals must be developed to give a complete safety argument for the system.&#10;• " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBBO7" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0DI" resolve="HWContribAccept" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBO8" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBBOk" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0IN" resolve="SWContribAccept" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBOl" role="19SJt6">
+            <property role="19SUeA" value="&amp; " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBBOz" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0Kg" resolve="OtherContribAccept" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBO$" role="19SJt6">
+            <property role="19SUeA" value=" To complete the decomposition of " />
+          </node>
+          <node concept="qcxat" id="5Pd2jYnBBOO" role="19SJt6">
+            <ref role="qcx5w" to="hia9:5Pd2jYnBz$3" resolve="ArgSWHWOther" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBOP" role="19SJt6">
+            <property role="19SUeA" value=" these three goals need to be decomposed and satisfied. As this pattern provides context for the development of a software safety argument.  &#10;&#10;" />
+          </node>
+          <node concept="1jUjqm" id="4c4SMF1zbAU" role="19SJt6">
+            <node concept="19SGf9" id="4c4SMF1zbAV" role="$DsGW">
+              <node concept="19SUe$" id="4c4SMF1zbAW" role="19SJt6">
+                <property role="19SUeA" value="Possible Pitfalls" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4c4SMF1zbAX" role="19SJt6">
+            <property role="19SUeA" value="&#10;• Not identifying all possible system level hazards may lead to missing software safety requirements, which in turn may lead to software failure modes being missed.&#10;• Not identifying all dependencies between software, hardware and other parts of the system may cause derived safety requirements to be missed. This would lead to assumptions about mitigation not being discharged." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4c4SMF1zbB2" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4c4SMF1zbB4" role="1_0VJ0">
+        <node concept="19SGf9" id="4c4SMF1zbB5" role="1_0LWR">
+          <node concept="19SUe$" id="4c4SMF1zbB6" role="19SJt6">
+            <property role="19SUeA" value="Hazardous Software Failure Mode Decomposition – This pattern can be used to decompose the undeveloped " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBBPL" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh0IN" resolve="SWContribAccept" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBPM" role="19SJt6">
+            <property role="19SUeA" value=".&#10;This pattern forms part of a software safety argument pattern catalogue cited at the end of this document, which includes the following patterns: &#10;Component Contributions to System Hazards &#10;Hazardous Software Failure Mode Decomposition &#10;Hazardous Software Failure Mode Classification &#10;Software Safety Argument Approach &#10;Absence of Omission Hazardous Failure Mode &#10;Absence of Commission Hazardous Failure Mode &#10;Absence of Early Hazardous Failure Mode &#10;Absence of Late Hazardous Failure Mode &#10;Absence of Value Hazardous Failure Mode &#10;Effects of Other Components &#10;Handling of Software Failure &#10;Mode Handling of Hardware/Other Component Failure Mode" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4c4SMF1zbBf" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known Uses" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5Pd2jYnBBTB" role="1_0VJ0">
+        <node concept="19SGf9" id="5Pd2jYnBBTC" role="1_0LWR">
+          <node concept="19SUe$" id="5Pd2jYnBBTD" role="19SJt6" />
+          <node concept="2vpllh" id="5Pd2jYnBBWR" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBBWS" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBBWT" role="19SJt6">
+                <property role="19SUeA" value="Note:" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBBWU" role="19SJt6">
+            <property role="19SUeA" value=" Pattern and documentation taken from: Weaver, R.. “The Safety of Software - Constructing and Assuring Arguments.” (2003)." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="4c4SMF1zbzn" role="Wq1Bf">
+      <property role="Wq1Bt" value="Rob Weaver" />
+    </node>
+    <node concept="Wq1Bs" id="4c4SMF1zbzp" role="Wq1Bf">
+      <property role="Wq1Bt" value="John McDermid" />
+    </node>
+    <node concept="Wq1Bs" id="4c4SMF1zbzs" role="Wq1Bf">
+      <property role="Wq1Bt" value="Tim Kelly" />
+    </node>
+  </node>
+  <node concept="2SbYGP" id="4c4SMF1zbx4">
+    <property role="3GE5qa" value="_105_Weaver_Software_Safety_Pattern_Catalogue" />
+    <property role="TrG5h" value="Config_Component_Contributions_to_System_Hazards" />
+    <node concept="2SbYGw" id="4c4SMF1zbx5" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="4c4SMF1zbx6" role="9PVG_">
+        <property role="3N1Lgt" value="configs/Software_Safety_Pattern_Catalogue_Weaver/Component_Contributions_to_System_Hazards/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="4c4SMF1zbx7" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="4c4SMF1zbx8" role="9PVG_">
+        <property role="3N1Lgt" value="configs/Software_Safety_Pattern_Catalogue_Weaver/Component_Contributions_to_System_Hazards/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="5Pd2jYnBBYz">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_105_Weaver_Software_Safety_Pattern_Catalogue" />
+    <property role="TrG5h" value="Hazardous_Software_Failure_Mode_Decomposition" />
+    <ref role="G9hjw" node="5Ac1Q93IR66" resolve="Config_Requirements_Breakdown_Pattern" />
+    <ref role="qdN4h" to="hia9:3bxKdImh15q" resolve="Hazardous_Software_Failure_Mode_Decomposition_Pattern" />
+    <node concept="1mvXsy" id="5Pd2jYnBCE3" role="1_0VJ0">
+      <property role="TrG5h" value="hsfmd" />
+      <property role="1_0VJr" value="Hazardous Software Failure Mode Decomposition" />
+      <node concept="3z_lpU" id="5Pd2jYnBCE4" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="5Pd2jYnBCE5" role="3z_lpI">
+          <node concept="2NCMab" id="5Pd2jYnBCKC" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:3bxKdImh15q" resolve="Hazardous_Software_Failure_Mode_Decomposition_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5Pd2jYnBCE7" role="1_0VJ0">
+        <node concept="19SGf9" id="5Pd2jYnBCE8" role="1_0LWR">
+          <node concept="19SUe$" id="5Pd2jYnBCE9" role="19SJt6">
+            <property role="19SUeA" value="The intent of this pattern is to provide a decomposition for the acceptability of software with respect to system level hazards. The pattern identifies the primary claims for developing a software safety argument from a hazard control perspective.&#10;The motivation of this pattern was to identify the three primary claims which must be satisfied to show the acceptability of software; All software contributions have been identified, Acceptability of Hazardous Software Failure Modes, and Traceability of Safety Requirements and Safety Evidence." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5Pd2jYnBCEa" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5Pd2jYnBCEb" role="1_0VJ0">
+        <node concept="19SGf9" id="5Pd2jYnBCEc" role="1_0LWR">
+          <node concept="19SUe$" id="5Pd2jYnBCEd" role="19SJt6">
+            <property role="19SUeA" value="This pattern follows a hazard directed breakdown of the software, and it assumes that hazard identification and analysis have been performed at a system level and it is possible to determine the contribution of the software to system level hazards. This pattern assumes that all dependencies between software, hardware and other parts of the system have been identified. If this is not done it may cause derived safety requirements to be missed. This would lead to assumptions about mitigation not being discharged." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5Pd2jYnBCEi" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5Pd2jYnBCEj" role="1_0VJ0">
+        <node concept="19SGf9" id="5Pd2jYnBCEk" role="1_0LWR">
+          <node concept="19SUe$" id="5Pd2jYnBCEl" role="19SJt6">
+            <property role="19SUeA" value="The pattern contains the following " />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBCEm" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBCEn" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBCEo" role="19SJt6">
+                <property role="19SUeA" value="participants" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBCEp" role="19SJt6">
+            <property role="19SUeA" value=":&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBCEq" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBCEr" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBCEs" role="19SJt6" />
+              <node concept="qdJI3" id="5Pd2jYnBCEt" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh18T" resolve="SWContribAccept" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBCEu" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBCEv" role="19SJt6">
+            <property role="19SUeA" value=" This claim asserts that the Hazardous Functions associated with the Software component of the system are safe with respect to the definition given in DefnAccSafe.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBCTT" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBCTU" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBCUZ" role="19SJt6" />
+              <node concept="qcx9v" id="5Pd2jYnBCUX" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh1b$" resolve="SWDefn" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBCUY" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBCTS" role="19SJt6">
+            <property role="19SUeA" value="This Software Definition should give a clear description of the system software. From the model it should be possible to identify the software contribution to system level hazards.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBCV4" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBCV5" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBCV6" role="19SJt6" />
+              <node concept="qcx9v" id="5Pd2jYnBCV7" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh1d1" resolve="SWContrib" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBCV8" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBCV3" role="19SJt6">
+            <property role="19SUeA" value="This context identifies the software contributions to system level hazards, known as Hazardous Software Failure Modes&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBCWe" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBCWf" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBCXw" role="19SJt6" />
+              <node concept="qdJI3" id="5Pd2jYnBCXu" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh17q" resolve="SWContribIdent" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBCXv" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBCWd" role="19SJt6">
+            <property role="19SUeA" value="This context gives the safety requirements which are related to the software. These can be either through software causes or through derived requirements due to cross dependencies.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBCX_" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBCXA" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBCXB" role="19SJt6" />
+              <node concept="qdJI3" id="5Pd2jYnBCXC" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh18A" resolve="SWSRTraceability" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBCXD" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBCX$" role="19SJt6">
+            <property role="19SUeA" value="This claim asserts that it is explicitly visible that the software safety requirements have been satisfied through the safety evidence. This enables verification of the complete implementation of the system.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBD0n" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBD0o" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBD1V" role="19SJt6" />
+              <node concept="qcxat" id="5Pd2jYnBD1T" role="19SJt6">
+                <ref role="qcx5w" to="hia9:3bxKdImh1ac" resolve="ArgOverSWContrib" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBD1U" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBD0m" role="19SJt6">
+            <property role="19SUeA" value="This provides that strategy of the software safety argument - decomposing the software hazard contribution across individual hazardous software failure modes.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBCYV" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBCYW" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBCYX" role="19SJt6" />
+              <node concept="qdJI3" id="5Pd2jYnBCYY" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh16m" resolve="HSFMAccept" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBCYZ" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBCYU" role="19SJt6">
+            <property role="19SUeA" value="This claim provides the goal, which must be satisfied for each individual software hazard that has been identified.&#10;&#10;" />
+          </node>
+          <node concept="1jUjqm" id="5Pd2jYnBCG6" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBCG7" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBCG8" role="19SJt6">
+                <property role="19SUeA" value="Collaborations: " />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBCG9" role="19SJt6">
+            <property role="19SUeA" value="&#10;• The " />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBD3I" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBD3J" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBD3K" role="19SJt6" />
+              <node concept="qcx9v" id="5Pd2jYnBD3L" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh1b$" resolve="SWDefn" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBD3M" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBD3H" role="19SJt6">
+            <property role="19SUeA" value=" model, in combination with the system hazards, should be suitable for identifying the Hazardous Software Contributions for" />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBD4I" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh1d1" resolve="SWContrib" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBD4H" role="19SJt6">
+            <property role="19SUeA" value=".&#10;• Software Hazardous Failure Modes identified in" />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBD5K" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh1d1" resolve="SWContrib" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBD5L" role="19SJt6">
+            <property role="19SUeA" value=", should form a complete set, as identified by the claim" />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBD6K" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh17q" resolve="SWContribIdent" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBD6J" role="19SJt6">
+            <property role="19SUeA" value=".&#10;• The child goal instantiations of" />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBD7M" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh16m" resolve="HSFMAccept" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBD7L" role="19SJt6">
+            <property role="19SUeA" value=" should cover all possible contributions by the software to system level hazards." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5Pd2jYnBCGM" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5Pd2jYnBCGN" role="1_0VJ0">
+        <node concept="19SGf9" id="5Pd2jYnBCGO" role="1_0LWR">
+          <node concept="19SUe$" id="5Pd2jYnBCGP" role="19SJt6">
+            <property role="19SUeA" value="This pattern should be instantiated in a Top Down fashion. All goals, contexts and models should be instantiated before continuing to a lower level in the pattern.   &#10;After instantiating this pattern a number of undeveloped goals will remain: &#10;• " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBCOd" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh17q" resolve="SWContribIdent" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBCOe" role="19SJt6">
+            <property role="19SUeA" value="&amp; " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBCOo" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh18A" resolve="SWSRTraceability" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBCOp" role="19SJt6">
+            <property role="19SUeA" value=" &#10;In accordance with the main objective of the pattern, these goals must be developed to give a complete safety argument for the system.&#10;• " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBCO4" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh16m" resolve="HSFMAccept" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBCO5" role="19SJt6">
+            <property role="19SUeA" value=" &#10;An argument must be developed about each individual instantiation of this goal.&#10;&#10;" />
+          </node>
+          <node concept="1jUjqm" id="5Pd2jYnBCH2" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBCH3" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBCH4" role="19SJt6">
+                <property role="19SUeA" value="Possible Pitfalls" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBCH5" role="19SJt6">
+            <property role="19SUeA" value="&#10;• Not identifying all possible software level contributions to system level hazards may lead to missing software safety requirements and hence may lead to hazardous software failure modes not being identified.&#10;• While not a pitfall of this pattern, it is possible that all system level hazards have been identified" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5Pd2jYnBCH6" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5Pd2jYnBCH7" role="1_0VJ0">
+        <node concept="19SGf9" id="5Pd2jYnBCH8" role="1_0LWR">
+          <node concept="19SUe$" id="5Pd2jYnBCH9" role="19SJt6">
+            <property role="19SUeA" value="Hazardous Software Failure Mode Decomposition – This pattern can be used to decompose the undeveloped " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBCHa" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh18T" resolve="SWContribAccept" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBCHb" role="19SJt6">
+            <property role="19SUeA" value=".&#10;This pattern forms part of a software safety argument pattern catalogue cited at the end of this document, which includes the following patterns: &#10;Component Contributions to System Hazards &#10;Hazardous Software Failure Mode Decomposition &#10;Hazardous Software Failure Mode Classification &#10;Software Safety Argument Approach &#10;Absence of Omission Hazardous Failure Mode &#10;Absence of Commission Hazardous Failure Mode &#10;Absence of Early Hazardous Failure Mode &#10;Absence of Late Hazardous Failure Mode &#10;Absence of Value Hazardous Failure Mode &#10;Effects of Other Components &#10;Handling of Software Failure &#10;Mode Handling of Hardware/Other Component Failure Mode" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5Pd2jYnBCHc" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known Uses" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5Pd2jYnBCHd" role="1_0VJ0">
+        <node concept="19SGf9" id="5Pd2jYnBCHe" role="1_0LWR">
+          <node concept="19SUe$" id="5Pd2jYnBCHf" role="19SJt6" />
+          <node concept="2vpllh" id="5Pd2jYnBCHg" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBCHh" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBCHi" role="19SJt6">
+                <property role="19SUeA" value="Note:" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBCHj" role="19SJt6">
+            <property role="19SUeA" value=" Pattern and documentation taken from: Weaver, R.. “The Safety of Software - Constructing and Assuring Arguments.” (2003)." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="5Pd2jYnBBZ9" role="Wq1Bf">
+      <property role="Wq1Bt" value="Rob Weaver" />
+    </node>
+    <node concept="Wq1Bs" id="5Pd2jYnBBZa" role="Wq1Bf">
+      <property role="Wq1Bt" value="John McDermid" />
+    </node>
+    <node concept="Wq1Bs" id="5Pd2jYnBBZb" role="Wq1Bf">
+      <property role="Wq1Bt" value="Tim Kelly" />
+    </node>
+  </node>
+  <node concept="2SbYGP" id="5Pd2jYnBBZ4">
+    <property role="3GE5qa" value="_105_Weaver_Software_Safety_Pattern_Catalogue" />
+    <property role="TrG5h" value="Config_Hazardous_Software_Failure_Mode_Decomposition" />
+    <node concept="2SbYGw" id="5Pd2jYnBBZ5" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="5Pd2jYnBBZ6" role="9PVG_">
+        <property role="3N1Lgt" value="configs/Software_Safety_Pattern_Catalogue_Weaver/Hazardous_Software_Failure_Mode_Decomposition/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="5Pd2jYnBBZ7" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="5Pd2jYnBBZ8" role="9PVG_">
+        <property role="3N1Lgt" value="configs/Software_Safety_Pattern_Catalogue_Weaver/Hazardous_Software_Failure_Mode_Decomposition/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="2SbYGP" id="5Pd2jYnBD9d">
+    <property role="3GE5qa" value="_105_Weaver_Software_Safety_Pattern_Catalogue" />
+    <property role="TrG5h" value="Config_Software_Argument_Approach" />
+    <node concept="2SbYGw" id="5Pd2jYnBD9e" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="5Pd2jYnBD9f" role="9PVG_">
+        <property role="3N1Lgt" value="configs/Software_Safety_Pattern_Catalogue_Weaver/Software_Argument_Approach/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="5Pd2jYnBD9g" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="5Pd2jYnBD9h" role="9PVG_">
+        <property role="3N1Lgt" value="configs/Software_Safety_Pattern_Catalogue_Weaver/Software_Argument_Approach/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="5Pd2jYnBD9E">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_105_Weaver_Software_Safety_Pattern_Catalogue" />
+    <property role="TrG5h" value="Software_Argument_Approach" />
+    <ref role="qdN4h" to="hia9:3bxKdImh1e$" resolve="Software_Argument_Approach_Pattern" />
+    <ref role="G9hjw" node="5Pd2jYnBD9d" resolve="Config_Software_Argument_Approach" />
+    <node concept="1mvXsy" id="5Pd2jYnBD9F" role="1_0VJ0">
+      <property role="TrG5h" value="saa" />
+      <property role="1_0VJr" value="Software Argument Approach" />
+      <node concept="3z_lpU" id="5Pd2jYnBD9G" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="5Pd2jYnBD9H" role="3z_lpI">
+          <node concept="2NCMab" id="5Pd2jYnBDd4" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:3bxKdImh1e$" resolve="Software_Argument_Approach_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5Pd2jYnBD9J" role="1_0VJ0">
+        <node concept="19SGf9" id="5Pd2jYnBD9K" role="1_0LWR">
+          <node concept="19SUe$" id="5Pd2jYnBD9L" role="19SJt6">
+            <property role="19SUeA" value="The intent of this pattern is to identify the argument approach used for demonstrating the acceptability of the hazardous software failure mode. The argument can be made by showing Absence and/or Handling of the failure mode.&#10;Arguments for the acceptably safe nature of a hazardous software failure mode can be made two ways.&#10;As it is not possible to&#10;determine a probability for systematic software failures, evidence must be provided that the failure mode is absent or can be handled if it does occur. The structure of the pattern allows for a mixture of both argument approaches, depending upon whether individually or together enough evidence can provided to support the claims." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5Pd2jYnBD9M" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5Pd2jYnBD9N" role="1_0VJ0">
+        <node concept="19SGf9" id="5Pd2jYnBD9O" role="1_0LWR">
+          <node concept="19SUe$" id="5Pd2jYnBD9P" role="19SJt6">
+            <property role="19SUeA" value="This pattern identifies the argument approach for a particular software failure mode. It assumes that the failure mode has been identified and classified as a certain type.&#10;It also assumes that&#10;evidence can be generated about the absence or handling of the failure mode." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5Pd2jYnBD9Q" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5Pd2jYnBD9R" role="1_0VJ0">
+        <node concept="19SGf9" id="5Pd2jYnBD9S" role="1_0LWR">
+          <node concept="19SUe$" id="5Pd2jYnBD9T" role="19SJt6">
+            <property role="19SUeA" value="The pattern contains the following " />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBD9U" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBD9V" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBD9W" role="19SJt6">
+                <property role="19SUeA" value="participants" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBD9X" role="19SJt6">
+            <property role="19SUeA" value=":&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBD9Y" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBD9Z" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBDa0" role="19SJt6" />
+              <node concept="qdJI3" id="5Pd2jYnBDa1" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh1g$" resolve="HSFM{type}Accept" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBDa2" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDa3" role="19SJt6">
+            <property role="19SUeA" value=" The overall objective of the argument – to provide sufficient support to the claim that the Hazardous Software Failure Mode of a particular type under consideration is acceptably safe.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBDM2" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBDM3" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBDMI" role="19SJt6" />
+              <node concept="qcx9v" id="5Pd2jYnBDMG" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh1lg" resolve="HSFM" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBDMH" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDM1" role="19SJt6">
+            <property role="19SUeA" value="This context identifies the Hazardous Software Failure Mode, for which this pattern develops the argument approach.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBDMN" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBDMO" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBDMP" role="19SJt6" />
+              <node concept="qcx9v" id="5Pd2jYnBDMQ" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh1jm" resolve="SWDefn" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBDMR" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDMM" role="19SJt6">
+            <property role="19SUeA" value="This Software Definition should give a clear description of the system software. From the model it should be possible to determine the contributory software functionality in which the failure mode is manifested.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBDNz" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBDN$" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBDN_" role="19SJt6" />
+              <node concept="qcx9v" id="5Pd2jYnBDNA" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh1kI" resolve="ContribSWFunc" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBDNB" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDNy" role="19SJt6">
+            <property role="19SUeA" value="This context describes the software functionality that may have a contributing effect to the cause of the software failure mode.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBDOp" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBDOq" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBDOr" role="19SJt6" />
+              <node concept="qdJI3" id="5Pd2jYnBDOs" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh1gP" resolve="AbsHSFM{type}" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBDOt" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDOo" role="19SJt6">
+            <property role="19SUeA" value="This claim asserts that the hazardous software failure mode does not exist in the software, and thus cannot contribute to the hazard occurring.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBDPl" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBDPm" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBDPn" role="19SJt6" />
+              <node concept="qdJI3" id="5Pd2jYnBDPo" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh1fw" resolve="HandlHSFM{type}" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBDPp" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDPk" role="19SJt6">
+            <property role="19SUeA" value="This claim asserts that the hazardous software failure mode occurring in the particular software functionality can be handled through other means.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5Pd2jYnBDQt" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBDQu" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBDRB" role="19SJt6" />
+              <node concept="qcxat" id="5Pd2jYnBDR_" role="19SJt6">
+                <ref role="qcx5w" to="hia9:3bxKdImh1i3" resolve="ArgAbsHandl" />
+              </node>
+              <node concept="19SUe$" id="5Pd2jYnBDRA" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDQs" role="19SJt6">
+            <property role="19SUeA" value="This provides the strategy for arguing about the safety of the hazard. The argument can be decomposed by showing absence&#10;and/or&#10;handling of the failure mode.&#10;&#10;&#10;" />
+          </node>
+          <node concept="1jUjqm" id="5Pd2jYnBDaC" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBDaD" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBDaE" role="19SJt6">
+                <property role="19SUeA" value="Collaborations: " />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDaF" role="19SJt6">
+            <property role="19SUeA" value="&#10;• The contributory software functionality identified in " />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBDUf" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh1kI" resolve="ContribSWFunc" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDUe" role="19SJt6">
+            <property role="19SUeA" value=" should be determined from the software definition (" />
+          </node>
+          <node concept="qcx9v" id="5Pd2jYnBDV7" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh1jm" resolve="SWDefn" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDV6" role="19SJt6">
+            <property role="19SUeA" value=").&#10;• ContribSW identifies the software functionality on which the" />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBDW1" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1gP" resolve="AbsHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDW0" role="19SJt6">
+            <property role="19SUeA" value="and " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBDWX" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1fw" resolve="HandlHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDWW" role="19SJt6">
+            <property role="19SUeA" value="claims are made.&#10;• It is necessary for the goals " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBDXV" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1gP" resolve="AbsHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDXU" role="19SJt6">
+            <property role="19SUeA" value="," />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBDYV" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1fw" resolve="HandlHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDYU" role="19SJt6">
+            <property role="19SUeA" value=" to be suitable for providing an argument about the acceptability of the failure mode." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5Pd2jYnBDaU" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5Pd2jYnBDaV" role="1_0VJ0">
+        <node concept="19SGf9" id="5Pd2jYnBDaW" role="1_0LWR">
+          <node concept="19SUe$" id="5Pd2jYnBDaX" role="19SJt6">
+            <property role="19SUeA" value="To instantiate this pattern the means by which the argument is going to be satisfied should be chosen. The choice of the two claims (Absence and/or Handling) is an m of n selection. It is up to the implementer to choose what technique(s) will be used, depending upon the detail of the failure mode.&#10;Where sufficient evidence cannot be generated about absence or handling of the failure mode alone, it is recommended that a combination of these two types of evidence is used.&#10;After instantiating this pattern one or two undeveloped goals remain: &#10;• " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBE02" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1gP" resolve="AbsHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBE01" role="19SJt6">
+            <property role="19SUeA" value=" &amp;/or " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBE0c" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1fw" resolve="HandlHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBE0b" role="19SJt6">
+            <property role="19SUeA" value="&#10;The above goal(s) must be developed to satisfy the decomposition of " />
+          </node>
+          <node concept="qcxat" id="5Pd2jYnBE0o" role="19SJt6">
+            <ref role="qcx5w" to="hia9:3bxKdImh1i3" resolve="ArgAbsHandl" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBE0n" role="19SJt6">
+            <property role="19SUeA" value=".&#10;&#10;" />
+          </node>
+          <node concept="1jUjqm" id="5Pd2jYnBDb4" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBDb5" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBDb6" role="19SJt6">
+                <property role="19SUeA" value="Possible Pitfalls" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDb7" role="19SJt6">
+            <property role="19SUeA" value="&#10;• Selecting an argument approach for which evidence cannot be generated." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5Pd2jYnBDb8" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5Pd2jYnBDb9" role="1_0VJ0">
+        <node concept="19SGf9" id="5Pd2jYnBDba" role="1_0LWR">
+          <node concept="19SUe$" id="5Pd2jYnBDbb" role="19SJt6">
+            <property role="19SUeA" value="Hazardous Software Failure Mode Classification – This pattern provides a context for the overall objective " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBE0E" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1g$" resolve="HSFM{type}Accept" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBE0F" role="19SJt6">
+            <property role="19SUeA" value=" &#10;Absence of Omission Hazardous Failure Mode – This pattern can be used to decompose the undeveloped " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBE0J" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1gP" resolve="AbsHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBE0K" role="19SJt6">
+            <property role="19SUeA" value="for a failure mode of type Omission. &#10;Absence of Commission Hazardous Failure Mode – This pattern can be used to decompose the undeveloped " />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBE0Q" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1gP" resolve="AbsHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBE0R" role="19SJt6">
+            <property role="19SUeA" value="for a failure mode of type Commission. &#10;Absence of Early Hazardous Failure Mode – This pattern can be used to decompose the undeveloped" />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBE0Z" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1gP" resolve="AbsHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBE10" role="19SJt6">
+            <property role="19SUeA" value="for a failure mode of type Early. &#10;Absence of Late Hazardous Failure Mode – This pattern can be used to decompose the undeveloped" />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBE1b" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1gP" resolve="AbsHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBE1a" role="19SJt6">
+            <property role="19SUeA" value=" for a failure mode of type Late. &#10;Absence of Value Hazardous Failure Mode – This pattern can be used to decompose the undeveloped" />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBE1p" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1gP" resolve="AbsHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBE1q" role="19SJt6">
+            <property role="19SUeA" value=" for a failure mode of type Value. &#10;Handling of Software Failure Mode – This pattern can be used to decompose the undeveloped" />
+          </node>
+          <node concept="qdJI3" id="5Pd2jYnBE28" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1fw" resolve="HandlHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBE29" role="19SJt6">
+            <property role="19SUeA" value=".&#10;&#10;&#10;This pattern forms part of a software safety argument pattern catalogue cited at the end of this document, which includes the following patterns: &#10;Component Contributions to System Hazards &#10;Hazardous Software Failure Mode Decomposition &#10;Hazardous Software Failure Mode Classification &#10;Software Safety Argument Approach &#10;Absence of Omission Hazardous Failure Mode &#10;Absence of Commission Hazardous Failure Mode &#10;Absence of Early Hazardous Failure Mode &#10;Absence of Late Hazardous Failure Mode &#10;Absence of Value Hazardous Failure Mode &#10;Effects of Other Components &#10;Handling of Software Failure &#10;Mode Handling of Hardware/Other Component Failure Mode" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5Pd2jYnBDbe" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known Uses" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5Pd2jYnBDbf" role="1_0VJ0">
+        <node concept="19SGf9" id="5Pd2jYnBDbg" role="1_0LWR">
+          <node concept="19SUe$" id="5Pd2jYnBDbh" role="19SJt6" />
+          <node concept="2vpllh" id="5Pd2jYnBDbi" role="19SJt6">
+            <node concept="19SGf9" id="5Pd2jYnBDbj" role="$DsGW">
+              <node concept="19SUe$" id="5Pd2jYnBDbk" role="19SJt6">
+                <property role="19SUeA" value="Note:" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5Pd2jYnBDbl" role="19SJt6">
+            <property role="19SUeA" value=" Pattern and documentation taken from: Weaver, R.. “The Safety of Software - Constructing and Assuring Arguments.” (2003)." />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="5Pd2jYnBE4B">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_105_Weaver_Software_Safety_Pattern_Catalogue" />
+    <property role="TrG5h" value="Handling_of_Software_Failure_Mode" />
+    <ref role="G9hjw" node="5Pd2jYnBE50" resolve="Config_Handling_of_Software_Failure_Mode" />
+    <ref role="qdN4h" to="hia9:3bxKdImh1Q8" resolve="Handling_of_Software_Failure_Mode" />
+    <node concept="1mvXsy" id="4xQJNjc1cR" role="1_0VJ0">
+      <property role="TrG5h" value="hoSFM" />
+      <property role="1_0VJr" value="Handling of Software Failure Mode" />
+      <node concept="3z_lpU" id="4xQJNjc1cS" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="4xQJNjc1cT" role="3z_lpI">
+          <node concept="2NCMab" id="4xQJNjc1hh" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:3bxKdImh1Q8" resolve="Handling_of_Software_Failure_Mode" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4xQJNjc1cV" role="1_0VJ0">
+        <node concept="19SGf9" id="4xQJNjc1cW" role="1_0LWR">
+          <node concept="19SUe$" id="4xQJNjc1cX" role="19SJt6">
+            <property role="19SUeA" value="The intent of this pattern is to develop an argument that a software failure mode can be handled by other components (software, hardware or other).&#10;The motivation for this pattern is to be able to either identify requirements on the hardware or other component safety arguments, or to develop an argument about other software functionality that will detect and handle the failure.&#10;" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4xQJNjc1cY" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4xQJNjc1cZ" role="1_0VJ0">
+        <node concept="19SGf9" id="4xQJNjc1d0" role="1_0LWR">
+          <node concept="19SUe$" id="4xQJNjc1d1" role="19SJt6">
+            <property role="19SUeA" value="This pattern identifies the claims about handling a software failure mode by parts of the system (hardware, other software functionality, other components) for a particular software failure mode.&#10;It assumes that the failure mode has been identified, classified as a certain type and the Contributory Software Functionality has been identified. It also assumes the ability of the other parts of the system to handle the software failure mode can be identified. The pattern is only applicable to failure modes that can be detected. Undetectable failure modes cannot be argued about using this pattern." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4xQJNjc1d2" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4xQJNjc1d3" role="1_0VJ0">
+        <node concept="19SGf9" id="4xQJNjc1d4" role="1_0LWR">
+          <node concept="19SUe$" id="4xQJNjc1d5" role="19SJt6">
+            <property role="19SUeA" value="The pattern contains the following " />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc1d6" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc1d7" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc1d8" role="19SJt6">
+                <property role="19SUeA" value="participants" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc1d9" role="19SJt6">
+            <property role="19SUeA" value=":&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc1da" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc1db" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc1dc" role="19SJt6" />
+              <node concept="qdJI3" id="4xQJNjc1dd" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh1R4" resolve="HandlHSFM{type}" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc1de" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc1df" role="19SJt6">
+            <property role="19SUeA" value=" The overall objective of the argument - to provide sufficient support for the claim that that a particular type of Software failure mode can be handled by another component.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc3mD" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc3mE" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc3nn" role="19SJt6" />
+              <node concept="qcx9v" id="4xQJNjc3nl" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh276" resolve="HSFM" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc3nm" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3mC" role="19SJt6">
+            <property role="19SUeA" value="This context identifies the Hazardous Software Failure Mode, for which this pattern develops the handling argument.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc3ns" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc3nt" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc3nu" role="19SJt6" />
+              <node concept="qcx9v" id="4xQJNjc3nv" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh25g" resolve="ContribSWFunc" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc3nw" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3nr" role="19SJt6">
+            <property role="19SUeA" value="This context describes the software functionality that has a contributing effect to the cause of the software failure mode.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc3oe" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc3of" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc3og" role="19SJt6" />
+              <node concept="qcx9v" id="4xQJNjc3oh" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh21N" resolve="SafReqCSF" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc3oi" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3od" role="19SJt6">
+            <property role="19SUeA" value="The safety requirements of the contributory software functionality are given as a basis for developing evidence.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc3p6" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc3p7" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc3p8" role="19SJt6" />
+              <node concept="qcx9v" id="4xQJNjc3p9" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh291" resolve="ContextCSF" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc3pa" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3p5" role="19SJt6">
+            <property role="19SUeA" value="An assumption is made that only circumstances in which the Contributory Software Functionality (CSF) operates are considered during analysis of the failure mode.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc3q4" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc3q5" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc3rd" role="19SJt6" />
+              <node concept="qcx6B" id="4xQJNjc3rc" role="19SJt6">
+                <ref role="qcx6E" to="hia9:3bxKdImh2d6" resolve="Detectable" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc3re" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3q3" role="19SJt6">
+            <property role="19SUeA" value="This argument assumes that the software failure mode is detectable. A handling argument cannot be generated for an undetectable failure mode.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc3rj" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc3rk" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc3sv" role="19SJt6" />
+              <node concept="qdJI3" id="4xQJNjc3st" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh1Tk" resolve="HWHandling_Hardware Safety Argument" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc3su" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3ri" role="19SJt6">
+            <property role="19SUeA" value="This away goal to the hardware safety argument places a requirement on that argument that the Failure Mode can be handled by the hardware.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc3s$" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc3s_" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc3sA" role="19SJt6" />
+              <node concept="qdJI3" id="4xQJNjc3sB" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh1Uy" resolve="OthHandling_Other Safety Argument" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc3sC" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3sz" role="19SJt6">
+            <property role="19SUeA" value="This away goal to the other component safety argument places a requirement on that argument that the Failure Mode can be handled by the other component&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc3tO" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc3tP" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc3tQ" role="19SJt6" />
+              <node concept="qdJI3" id="4xQJNjc3tR" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh1S8" resolve="SWHandling" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc3tS" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3tN" role="19SJt6">
+            <property role="19SUeA" value="This claim asserts that the software failure mode can be handled by another piece of software functionality&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc3vg" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc3vh" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc3wI" role="19SJt6">
+                <property role="19SUeA" value="SWDefn:" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3vf" role="19SJt6">
+            <property role="19SUeA" value="This Software Definition should give a clear description of the system software. From the model it should be possible to determine how the software functionality can handle the failure of the contributory software functionality.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc3yE" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc3yF" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc3$c" role="19SJt6" />
+              <node concept="qcx9v" id="4xQJNjc3$a" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh20c" resolve="HandleSWFunc" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc3$b" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3yD" role="19SJt6">
+            <property role="19SUeA" value="This context describes the software functionality that can detect and handle the occurrence of the software failure mode.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc3$h" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc3$i" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc3A6" role="19SJt6" />
+              <node concept="qcxat" id="4xQJNjc3A4" role="19SJt6">
+                <ref role="qcx5w" to="hia9:3bxKdImh2hv" resolve="ArgDetHandl" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc3A5" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3$g" role="19SJt6">
+            <property role="19SUeA" value="This strategy describes the argument approach – decomposing across the detection and the handling of the software failure mode.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc3Ab" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc3Ac" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc3Ad" role="19SJt6" />
+              <node concept="qdJI3" id="4xQJNjc3Ae" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh1R4" resolve="HandlHSFM{type}" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc3Af" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3Aa" role="19SJt6">
+            <property role="19SUeA" value="This context provides the possible handling methods based upon the type of the failure mode and whether redundancy is employed.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc3BR" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc3BS" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc3BT" role="19SJt6" />
+              <node concept="qdJI3" id="4xQJNjc3BU" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh1Xd" resolve="DetectHSFM{type}" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc3BV" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3BQ" role="19SJt6">
+            <property role="19SUeA" value="This claim asserts that the software failure mode can be detected by the other software functionality&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc3DD" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc3DE" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc3DF" role="19SJt6" />
+              <node concept="qcx9v" id="4xQJNjc3DG" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh23v" resolve="HandlingMethods" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc3DH" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3DC" role="19SJt6">
+            <property role="19SUeA" value="This claim asserts that the software failure mode can be handled by the other software functionality&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc3Fx" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc3Fy" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc3Fz" role="19SJt6" />
+              <node concept="qcx9v" id="4xQJNjc3F$" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh1YE" resolve="DetectionMethods" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc3F_" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3FA" role="19SJt6">
+            <property role="19SUeA" value="This context provides the possible detection methods based upon the type of the failure mode.&#10;Detection methods include: &#10;Omission: Detection on Time (infinite threshold) &#10;Commission: Detection on Time (early) and/or unexpected input&#10;Early: Detection on Time (Early) &#10;Late: Detection on Time (Late) &#10;Coarse Value: Detection on out of safe bounds (e.g. range, rate of change) &#10;Subtle value failures can be detected if redundancy is employed.&#10;&#10;&#10;" />
+          </node>
+          <node concept="1jUjqm" id="4xQJNjc1eo" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc1ep" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc1eq" role="19SJt6">
+                <property role="19SUeA" value="Collaborations: " />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc1er" role="19SJt6">
+            <property role="19SUeA" value="&#10;• SWDefn, ContribSWFunc, " />
+          </node>
+          <node concept="qcx9v" id="4xQJNjc3PC" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh276" resolve="HSFM" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3PB" role="19SJt6">
+            <property role="19SUeA" value=" should be suitable for identifying the handling software functionality identified in HandleSWFunc.&#10;•" />
+          </node>
+          <node concept="qcx9v" id="4xQJNjc3Rk" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh1YE" resolve="DetectionMethods" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3Rj" role="19SJt6">
+            <property role="19SUeA" value="should be suitable for identifying the argument below" />
+          </node>
+          <node concept="qdJI3" id="4xQJNjc3Wm" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1Xd" resolve="DetectHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3Wl" role="19SJt6">
+            <property role="19SUeA" value=".&#10;•" />
+          </node>
+          <node concept="qcx9v" id="4xQJNjc3ZS" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh23v" resolve="HandlingMethods" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3ZR" role="19SJt6">
+            <property role="19SUeA" value="ods should be suitable for identifying the argument below" />
+          </node>
+          <node concept="qdJI3" id="4xQJNjc3Y6" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1R4" resolve="HandlHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc3Y5" role="19SJt6">
+            <property role="19SUeA" value="." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4xQJNjc1eG" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4xQJNjc1eH" role="1_0VJ0">
+        <node concept="19SGf9" id="4xQJNjc1eI" role="1_0LWR">
+          <node concept="19SUe$" id="4xQJNjc1eJ" role="19SJt6">
+            <property role="19SUeA" value="This pattern should be instantiated in a Top Down fashion. All goals and contexts should be instantiated before continuing to a lower level in the pattern. It should be determined whether the failure mode is detectable before trying to decompose the argument. A choice (1-of-3) must be made about whether the handling of the software failure mode is provided by hardware, other software functionality or another component.&#10;After instantiating this pattern the following undeveloped goals may remain:&#10;•" />
+          </node>
+          <node concept="qdJI3" id="4xQJNjc41L" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1Xd" resolve="DetectHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc41K" role="19SJt6">
+            <property role="19SUeA" value="and Handl" />
+          </node>
+          <node concept="qdJI3" id="4xQJNjc41V" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1R4" resolve="HandlHSFM{type}" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc41U" role="19SJt6">
+            <property role="19SUeA" value="&#10; After instantiating this pattern one of two away goals may need to be satisfied: &#10;• " />
+          </node>
+          <node concept="qdJI3" id="4xQJNjc427" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1Tk" resolve="HWHandling_Hardware Safety Argument" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc426" role="19SJt6">
+            <property role="19SUeA" value="," />
+          </node>
+          <node concept="qdJI3" id="4xQJNjc42k" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1Uy" resolve="OthHandling_Other Safety Argument" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc42l" role="19SJt6">
+            <property role="19SUeA" value="&#10;To satisfy the decomposition of HandlHSFM{type} the necessary goals need to be decomposed and the away goals satisfied.&#10;&#10;" />
+          </node>
+          <node concept="1jUjqm" id="4xQJNjc1eO" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc1eP" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc1eQ" role="19SJt6">
+                <property role="19SUeA" value="Possible Pitfalls" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc1eR" role="19SJt6">
+            <property role="19SUeA" value="&#10;• Not correctly determining whether the failure mode is detectable or undetectable can lead to an argument being generated that does not cover the failure mode in all possible contexts.&#10;• Not correctly identifying the correct detection or handling approaches for the failure mode can lead to an incorrect argument being developed.&#10;• Providing a requirement on the hardware or other component safety argument, which cannot be supported." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4xQJNjc1eS" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4xQJNjc1eT" role="1_0VJ0">
+        <node concept="19SGf9" id="4xQJNjc1eU" role="1_0LWR">
+          <node concept="19SUe$" id="4xQJNjc1eV" role="19SJt6">
+            <property role="19SUeA" value="Software Argument Approach – This pattern has an undeveloped goal which can be the overall objective of Handling of Software Failure Mode.&#10;This pattern forms part of a software safety argument pattern catalogue cited at the end of this document, which includes the following patterns: &#10;Component Contributions to System Hazards &#10;Hazardous Software Failure Mode Decomposition &#10;Hazardous Software Failure Mode Classification &#10;Software Safety Argument Approach &#10;Absence of Omission Hazardous Failure Mode &#10;Absence of Commission Hazardous Failure Mode &#10;Absence of Early Hazardous Failure Mode &#10;Absence of Late Hazardous Failure Mode &#10;Absence of Value Hazardous Failure Mode &#10;Effects of Other Components &#10;Handling of Software Failure &#10;Mode Handling of Hardware/Other Component Failure Mode" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4xQJNjc1eW" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known Uses" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4xQJNjc1eX" role="1_0VJ0">
+        <node concept="19SGf9" id="4xQJNjc1eY" role="1_0LWR">
+          <node concept="19SUe$" id="4xQJNjc1eZ" role="19SJt6" />
+          <node concept="2vpllh" id="4xQJNjc1f0" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc1f1" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc1f2" role="19SJt6">
+                <property role="19SUeA" value="Note:" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc1f3" role="19SJt6">
+            <property role="19SUeA" value=" Pattern and documentation taken from: Weaver, R.. “The Safety of Software - Constructing and Assuring Arguments.” (2003)." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="5Pd2jYnBE74" role="Wq1Bf">
+      <property role="Wq1Bt" value="Rob Weaver" />
+    </node>
+    <node concept="Wq1Bs" id="5Pd2jYnBE75" role="Wq1Bf">
+      <property role="Wq1Bt" value="John McDermid" />
+    </node>
+    <node concept="Wq1Bs" id="5Pd2jYnBE76" role="Wq1Bf">
+      <property role="Wq1Bt" value="Tim Kelly" />
+    </node>
+  </node>
+  <node concept="2SbYGP" id="5Pd2jYnBE50">
+    <property role="3GE5qa" value="_105_Weaver_Software_Safety_Pattern_Catalogue" />
+    <property role="TrG5h" value="Config_Handling_of_Software_Failure_Mode" />
+    <node concept="2SbYGw" id="5Pd2jYnBE51" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="5Pd2jYnBE52" role="9PVG_">
+        <property role="3N1Lgt" value="configs/Software_Safety_Pattern_Catalogue_Weaver/Handling_of_Software_Failure_Mode/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="5Pd2jYnBE53" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="5Pd2jYnBE54" role="9PVG_">
+        <property role="3N1Lgt" value="configs/Software_Safety_Pattern_Catalogue_Weaver/Handling_of_Software_Failure_Mode/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="5Pd2jYnBE5t">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_105_Weaver_Software_Safety_Pattern_Catalogue" />
+    <property role="TrG5h" value="Handling_of_Hardware/Other_Component_Pattern" />
+    <ref role="G9hjw" node="5Pd2jYnBE5Y" resolve="Config_Handling_of_Hardware_Other_Component_Pattern" />
+    <ref role="qdN4h" to="hia9:3bxKdImh1mP" resolve="Handling_of_Hardware/Other_Component_Failure_ModePattern" />
+    <node concept="1mvXsy" id="4xQJNjc0yR" role="1_0VJ0">
+      <property role="TrG5h" value="hoHC" />
+      <property role="1_0VJr" value="Handling of Hardware/Other Component Failure Mode" />
+      <node concept="3z_lpU" id="4xQJNjc0yS" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="4xQJNjc0yT" role="3z_lpI">
+          <node concept="2NCMab" id="4xQJNjc0Ad" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:3bxKdImh1mP" resolve="Handling_of_Hardware/Other_Component_Failure_ModePattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4xQJNjc0yV" role="1_0VJ0">
+        <node concept="19SGf9" id="4xQJNjc0yW" role="1_0LWR">
+          <node concept="19SUe$" id="4xQJNjc0yX" role="19SJt6">
+            <property role="19SUeA" value="The intent of this pattern is to develop an argument that the software functionality can handle failures by hardware or other components. The motivation for this pattern is to be identify the ways in which failure modes are detected and handled by the software, depending upon the type of the failure mode." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4xQJNjc0yY" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4xQJNjc0yZ" role="1_0VJ0">
+        <node concept="19SGf9" id="4xQJNjc0z0" role="1_0LWR">
+          <node concept="19SUe$" id="4xQJNjc0z1" role="19SJt6">
+            <property role="19SUeA" value="This pattern identifies the claims about handling a hardware or other component failure mode by a piece of software functionality.&#10;It assumes that the failure mode has been identified. It also assumes that the type of the failure mode can be determined and the software functionality that can handle the software can be identified.&#10;The pattern is only applicable to failure modes that can be detected. Undetectable failure modes cannot be argued about using this pattern." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4xQJNjc0z2" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4xQJNjc0z3" role="1_0VJ0">
+        <node concept="19SGf9" id="4xQJNjc0z4" role="1_0LWR">
+          <node concept="19SUe$" id="4xQJNjc0z5" role="19SJt6">
+            <property role="19SUeA" value="The pattern contains the following " />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc0z6" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0z7" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0z8" role="19SJt6">
+                <property role="19SUeA" value="participants" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0z9" role="19SJt6">
+            <property role="19SUeA" value=":&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc0za" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0zb" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0zc" role="19SJt6" />
+              <node concept="qdJI3" id="4xQJNjc0zd" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh1qJ" resolve="HandlHH/OFM" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc0ze" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0zf" role="19SJt6">
+            <property role="19SUeA" value=" The overall objective of the argument - to provide sufficient support for the claim that that a hardware or other component failure mode can be handled by another component.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc0BD" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0BE" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0Cl" role="19SJt6" />
+              <node concept="qcx9v" id="4xQJNjc0Cj" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh1BR" resolve="HW/OtherDefn" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc0Ck" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0BC" role="19SJt6">
+            <property role="19SUeA" value="This Hardware or Other Component Definition should give a clear description of the system hardware/other component. From the model it should be possible to determine how the failure mode effects the software and what type it is.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc0Cq" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0Cr" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0Cs" role="19SJt6" />
+              <node concept="qcx9v" id="4xQJNjc0Ct" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh1EH" resolve="HH/OFM" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc0Cu" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0Cp" role="19SJt6">
+            <property role="19SUeA" value="This context identifies the Hazardous Hardware or Other Component Failure Mode, for which this pattern develops the handling argument.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc0Da" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0Db" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0Dc" role="19SJt6" />
+              <node concept="qcx9v" id="4xQJNjc0Dd" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh1DH" resolve="HandleSWFunc" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc0De" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0D9" role="19SJt6">
+            <property role="19SUeA" value="This context describes the software functionality that can detect and handle the occurrence of the failure mode.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc0E0" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0E1" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0E2" role="19SJt6" />
+              <node concept="qcx9v" id="4xQJNjc0E3" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh1$q" resolve="SWDefn" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc0E4" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0DZ" role="19SJt6">
+            <property role="19SUeA" value="This Software Definition should give a clear description of the system software. From the model it should be possible to determine how the software functionality can handle the failure of the hardware or other component.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc0EW" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0EX" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0G7" role="19SJt6" />
+              <node concept="qcx6B" id="4xQJNjc0G5" role="19SJt6">
+                <ref role="qcx6E" to="hia9:3bxKdImh1vO" resolve="Detectable" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc0G6" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0EV" role="19SJt6">
+            <property role="19SUeA" value="This argument assumes that the software failure mode is detectable. A handling argument cannot be generated for an undetectable failure mode.&#10;This&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc0Gc" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0Gd" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0Ge" role="19SJt6" />
+              <node concept="qdJI3" id="4xQJNjc0Gf" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh1pF" resolve="SWHandling" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc0Gg" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0Gb" role="19SJt6">
+            <property role="19SUeA" value="This claim asserts that the failure mode of a particular type can be handled by the software functionality&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc0Hk" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0Hl" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0I$" role="19SJt6" />
+              <node concept="qcx9v" id="4xQJNjc0Iy" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh1A6" resolve="FMType" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc0Iz" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0Hj" role="19SJt6">
+            <property role="19SUeA" value="This context identifies the failure mode type which can be one of Omission, Commission, Early, Late and Value. The definitions of these failure modes are: &#10;Omission: The service is never delivered &#10;Commission: The service is delivered when not required &#10;Early: The service occurs earlier than intended &#10;Late: The service occurs later than intended &#10;Value: The information (data) delivered has the wrong value&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc0ID" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0IE" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0JZ" role="19SJt6" />
+              <node concept="qcxat" id="4xQJNjc0JX" role="19SJt6">
+                <ref role="qcx5w" to="hia9:3bxKdImh1us" resolve="ArgDetHandl" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc0JY" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0IC" role="19SJt6">
+            <property role="19SUeA" value="This strategy describes the argument approach – decomposing across the detection and the handling of the failure mode.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc0Ka" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0Kb" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0LA" role="19SJt6" />
+              <node concept="qdJI3" id="4xQJNjc0L$" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh1t9" resolve="DetectHH/OFM{type}" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc0L_" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0K9" role="19SJt6">
+            <property role="19SUeA" value="This claim asserts that the failure mode can be detected by the software functionality.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc0LF" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0LG" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0Nd" role="19SJt6" />
+              <node concept="qcx9v" id="4xQJNjc0Nb" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh1xh" resolve="DetectionMethods" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc0Nc" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0LE" role="19SJt6">
+            <property role="19SUeA" value="This context provides the possible detection methods based upon the type of the failure mode.&#10;Detection methods include: &#10;Omission: Detection on Time (infinite threshold) &#10;Commission: Detection on Time unexpected input (early) and/or unexpected input&#10;Early: Detection on Time (Early) &#10;Late: Detection on Time (Late) &#10;Coarse Value: Detection on out of safe bounds (e.g. range, rate of change) &#10;Subtle value failures can be detected if redundancy is employed.&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc0Ni" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0Nj" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0OU" role="19SJt6" />
+              <node concept="qdJI3" id="4xQJNjc0OS" role="19SJt6">
+                <ref role="qdJxC" to="hia9:3bxKdImh1rV" resolve="HandleHH/OFM{type}" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc0OT" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0Nh" role="19SJt6">
+            <property role="19SUeA" value="This claim asserts that the failure mode can be handled by the software functionality&#10;" />
+          </node>
+          <node concept="2vpllh" id="4xQJNjc0OZ" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0P0" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0QH" role="19SJt6" />
+              <node concept="qcx9v" id="4xQJNjc0QF" role="19SJt6">
+                <ref role="qcx8m" to="hia9:3bxKdImh1yN" resolve="HandlingMethods" />
+              </node>
+              <node concept="19SUe$" id="4xQJNjc0QG" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0OY" role="19SJt6">
+            <property role="19SUeA" value="This context provides the possible handling methods based upon the type of the failure mode and whether redundancy is employed.&#10;&#10;" />
+          </node>
+          <node concept="1jUjqm" id="4xQJNjc0zO" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0zP" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0zQ" role="19SJt6">
+                <property role="19SUeA" value="Collaborations: " />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0zR" role="19SJt6">
+            <property role="19SUeA" value="&#10;• HW/ODefn, " />
+          </node>
+          <node concept="qcx9v" id="4xQJNjc0Ty" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh1EH" resolve="HH/OFM" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0Tx" role="19SJt6">
+            <property role="19SUeA" value=" should be suitable for identifying the type of the failure mode identified in" />
+          </node>
+          <node concept="qcx9v" id="4xQJNjc0UY" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh1A6" resolve="FMType" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0UX" role="19SJt6">
+            <property role="19SUeA" value=".&#10;• " />
+          </node>
+          <node concept="qcx9v" id="4xQJNjc0Ws" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh1$q" resolve="SWDefn" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0Wr" role="19SJt6">
+            <property role="19SUeA" value=", ContribSWFunc should be suitable for identifying the handling software functionality identified in" />
+          </node>
+          <node concept="qdJI3" id="4xQJNjc10S" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1pF" resolve="SWHandling" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc10R" role="19SJt6">
+            <property role="19SUeA" value=".&#10;• " />
+          </node>
+          <node concept="qcx9v" id="4xQJNjc15z" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh1xh" resolve="DetectionMethods" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc15y" role="19SJt6">
+            <property role="19SUeA" value="should be suitable for identifying the argument below " />
+          </node>
+          <node concept="qdJI3" id="4xQJNjc17b" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1t9" resolve="DetectHH/OFM{type}" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc17a" role="19SJt6">
+            <property role="19SUeA" value=".&#10;• " />
+          </node>
+          <node concept="qcx9v" id="4xQJNjc12p" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh1yN" resolve="HandlingMethods" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc12o" role="19SJt6">
+            <property role="19SUeA" value="should be suitable for identifying the argument below " />
+          </node>
+          <node concept="qdJI3" id="4xQJNjc13X" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1t9" resolve="DetectHH/OFM{type}" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc13W" role="19SJt6">
+            <property role="19SUeA" value="." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4xQJNjc0$6" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4xQJNjc0$7" role="1_0VJ0">
+        <node concept="19SGf9" id="4xQJNjc0$8" role="1_0LWR">
+          <node concept="19SUe$" id="4xQJNjc0$9" role="19SJt6">
+            <property role="19SUeA" value="This pattern should be instantiated in a Top Down fashion. All goals and contexts should be instantiated before continuing to a lower level in the pattern. It should be determined whether the failure mode is detectable before trying to decompose the argument. The type of the failure mode must be determined based upon the definitions provided in the Participants section.&#10;After instantiating this pattern the following undeveloped goals will remain: &#10;• " />
+          </node>
+          <node concept="qdJI3" id="4xQJNjc1c7" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1t9" resolve="DetectHH/OFM{type}" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc1c6" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="qdJI3" id="4xQJNjc1cF" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh1rV" resolve="HandleHH/OFM{type}" />
+          </node>
+          <node concept="19SUe$" id="4xQJNjc1cE" role="19SJt6">
+            <property role="19SUeA" value="&#10; To satisfy the decomposition of HandlHH/OFM these goals need to be decomposed.&#10;&#10;" />
+          </node>
+          <node concept="1jUjqm" id="4xQJNjc0$g" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0$h" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0$i" role="19SJt6">
+                <property role="19SUeA" value="Possible Pitfalls" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0$j" role="19SJt6">
+            <property role="19SUeA" value="&#10;• Not correctly determining whether the failure mode is detectable or undetectable can lead to an argument being generated that does not cover the failure mode in all possible contexts.&#10;• Incorrectly identifying the software functionality that can handle the failure mode.&#10;• Not correctly identifying the type of the failure mode can lead to an incorrect argument being developed." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4xQJNjc0$k" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4xQJNjc0$l" role="1_0VJ0">
+        <node concept="19SGf9" id="4xQJNjc0$m" role="1_0LWR">
+          <node concept="19SUe$" id="4xQJNjc0$n" role="19SJt6">
+            <property role="19SUeA" value="Effects of Other Components – This pattern has undeveloped goals which can be the overall objective of Handling of Software Failure Mode.&#10;This pattern forms part of a software safety argument pattern catalogue cited at the end of this document, which includes the following patterns: &#10;Component Contributions to System Hazards &#10;Hazardous Software Failure Mode Decomposition &#10;Hazardous Software Failure Mode Classification &#10;Software Safety Argument Approach &#10;Absence of Omission Hazardous Failure Mode &#10;Absence of Commission Hazardous Failure Mode &#10;Absence of Early Hazardous Failure Mode &#10;Absence of Late Hazardous Failure Mode &#10;Absence of Value Hazardous Failure Mode &#10;Effects of Other Components &#10;Handling of Software Failure &#10;Mode Handling of Hardware/Other Component Failure Mode" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4xQJNjc0$q" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known Uses" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4xQJNjc0$r" role="1_0VJ0">
+        <node concept="19SGf9" id="4xQJNjc0$s" role="1_0LWR">
+          <node concept="19SUe$" id="4xQJNjc0$t" role="19SJt6" />
+          <node concept="2vpllh" id="4xQJNjc0$u" role="19SJt6">
+            <node concept="19SGf9" id="4xQJNjc0$v" role="$DsGW">
+              <node concept="19SUe$" id="4xQJNjc0$w" role="19SJt6">
+                <property role="19SUeA" value="Note:" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4xQJNjc0$x" role="19SJt6">
+            <property role="19SUeA" value=" Pattern and documentation taken from: Weaver, R.. “The Safety of Software - Constructing and Assuring Arguments.” (2003)." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="5Pd2jYnBE6Y" role="Wq1Bf">
+      <property role="Wq1Bt" value="Rob Weaver" />
+    </node>
+    <node concept="Wq1Bs" id="5Pd2jYnBE6Z" role="Wq1Bf">
+      <property role="Wq1Bt" value="John McDermid" />
+    </node>
+    <node concept="Wq1Bs" id="5Pd2jYnBE70" role="Wq1Bf">
+      <property role="Wq1Bt" value="Tim Kelly" />
+    </node>
+  </node>
+  <node concept="2SbYGP" id="5Pd2jYnBE5Y">
+    <property role="3GE5qa" value="_105_Weaver_Software_Safety_Pattern_Catalogue" />
+    <property role="TrG5h" value="Config_Handling_of_Hardware_Other_Component_Pattern" />
+    <node concept="2SbYGw" id="5Pd2jYnBE5Z" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="5Pd2jYnBE60" role="9PVG_">
+        <property role="3N1Lgt" value="configs/Software_Safety_Pattern_Catalogue_Weaver/Handling_of_Hardware_Other_Component_Pattern/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="5Pd2jYnBE61" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="5Pd2jYnBE62" role="9PVG_">
+        <property role="3N1Lgt" value="configs/Software_Safety_Pattern_Catalogue_Weaver/Handling_of_Hardware_Other_Component_Pattern/tmp" />
       </node>
     </node>
   </node>
