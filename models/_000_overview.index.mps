@@ -22,17 +22,12 @@
         <child id="6617418817009206267" name="defaultImagePath" index="A10yx" />
         <child id="5785245534401182264" name="defaultTempPath" index="Cbewh" />
       </concept>
-      <concept id="988357225295489881" name="com.mbeddr.doc.structure.TableOfContents" flags="ng" index="3xmJbL" />
       <concept id="3350625596580225385" name="com.mbeddr.doc.structure.DocumentRef" flags="ng" index="1_0j5j">
         <reference id="3350625596580225386" name="doc" index="1_0j5g" />
-      </concept>
-      <concept id="3350625596580064249" name="com.mbeddr.doc.structure.IDocContentContainer" flags="ng" index="1_0VJ3">
-        <child id="3350625596580064250" name="contents" index="1_0VJ0" />
       </concept>
       <concept id="3350625596579911728" name="com.mbeddr.doc.structure.Document" flags="ng" index="1_1swa">
         <property id="5572730672710143343" name="chapterStartIndex" index="yApLE" />
       </concept>
-      <concept id="3350625596579911760" name="com.mbeddr.doc.structure.EmptyDocContent" flags="ng" index="1_1sxE" />
     </language>
     <language id="d3a0fd26-445a-466c-900e-10444ddfed52" name="com.mbeddr.mpsutil.filepicker">
       <concept id="2642765975824060179" name="com.mbeddr.mpsutil.filepicker.structure.SolutionRelativeDirPicker" flags="ng" index="9PVaO" />
@@ -53,12 +48,6 @@
     <property role="yApLE" value="1" />
     <property role="TrG5h" value="Index" />
     <ref role="G9hjw" node="1To8c6dXEhf" resolve="Index_Config" />
-    <node concept="3xmJbL" id="1To8c6dXEvN" role="1_0VJ0">
-      <property role="TrG5h" value="Patterns_Table_Of_Contents" />
-    </node>
-    <node concept="1_1sxE" id="1To8c6dXEvO" role="1_0VJ0">
-      <property role="TrG5h" value="empty_-1" />
-    </node>
     <node concept="1_0j5j" id="1To8c6dXEvP" role="1DXQ57">
       <ref role="1_0j5g" to="dm5y:5Ac1Q93IR5r" resolve="ALARP" />
     </node>
@@ -71,13 +60,13 @@
     <node concept="2SbYGw" id="1To8c6dXEhg" role="A10yx">
       <property role="TrG5h" value="img" />
       <node concept="9PVaO" id="1To8c6dXEhh" role="9PVG_">
-        <property role="3N1Lgt" value="img" />
+        <property role="3N1Lgt" value="configs/index/img" />
       </node>
     </node>
     <node concept="2SbYGw" id="1To8c6dXEhi" role="Cbewh">
       <property role="TrG5h" value="tmp" />
       <node concept="9PVaO" id="1To8c6dXEhj" role="9PVG_">
-        <property role="3N1Lgt" value="tmp" />
+        <property role="3N1Lgt" value="configs/index/tmp" />
       </node>
     </node>
   </node>

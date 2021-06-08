@@ -22,12 +22,16 @@
     </language>
     <language id="2374bc90-7e37-41f1-a9c4-c2e35194c36a" name="com.mbeddr.doc">
       <concept id="620304030119138923" name="com.mbeddr.doc.structure.BoldFormattedText" flags="ng" index="2vpllh" />
+      <concept id="6165313375056012512" name="com.mbeddr.doc.structure.DocumentInclude" flags="ng" index="$CzcT">
+        <child id="6165313375056012515" name="ref" index="$CzcU" />
+      </concept>
       <concept id="6165313375055797476" name="com.mbeddr.doc.structure.FormattedText" flags="ng" index="$DsGX">
         <child id="6165313375055797477" name="text" index="$DsGW" />
       </concept>
       <concept id="6657644269295214799" name="com.mbeddr.doc.structure.IDocumentLike" flags="ng" index="G9hjZ">
         <reference id="6657644269295214800" name="config" index="G9hjw" />
         <child id="126932837435370865" name="authors" index="Wq1Bf" />
+        <child id="8730648445433290694" name="dependsOn" index="1DXQ57" />
       </concept>
       <concept id="2286331641395252232" name="com.mbeddr.doc.structure.NamedNodeModelContentPointerElement" flags="ng" index="2NCMab">
         <reference id="2286331641395252233" name="node" index="2NCMaa" />
@@ -49,6 +53,7 @@
       </concept>
       <concept id="4457500422381571986" name="com.mbeddr.doc.structure.CodeFormattedText" flags="ng" index="1jUjqm" />
       <concept id="4208238404730191274" name="com.mbeddr.doc.structure.Chapter" flags="ng" index="1mvXsy" />
+      <concept id="988357225295489881" name="com.mbeddr.doc.structure.TableOfContents" flags="ng" index="3xmJbL" />
       <concept id="5185579450379273118" name="com.mbeddr.doc.structure.TextParHeader" flags="ng" index="1xAIan">
         <property id="5185579450379273119" name="text" index="1xAIam" />
       </concept>
@@ -57,6 +62,9 @@
       </concept>
       <concept id="6955693250238922834" name="com.mbeddr.doc.structure.ModelContentAsTextParagraph" flags="ng" index="3z_lpU">
         <property id="6955693250238922836" name="language" index="3z_lpW" />
+      </concept>
+      <concept id="3350625596580225385" name="com.mbeddr.doc.structure.DocumentRef" flags="ng" index="1_0j5j">
+        <reference id="3350625596580225386" name="doc" index="1_0j5g" />
       </concept>
       <concept id="3350625596580089586" name="com.mbeddr.doc.structure.TextParagraph" flags="ng" index="1_0LV8">
         <child id="5185579450379273128" name="header" index="1xAIax" />
@@ -68,6 +76,7 @@
       <concept id="3350625596580064222" name="com.mbeddr.doc.structure.AbstractSection" flags="ng" index="1_0VJ$">
         <property id="3350625596580064225" name="text" index="1_0VJr" />
       </concept>
+      <concept id="3350625596580064455" name="com.mbeddr.doc.structure.Section" flags="ng" index="1_0VNX" />
       <concept id="3350625596579911728" name="com.mbeddr.doc.structure.Document" flags="ng" index="1_1swa">
         <property id="5572730672710143343" name="chapterStartIndex" index="yApLE" />
       </concept>
@@ -369,13 +378,142 @@
           <property role="1xAIam" value="Participants &amp; Collaborations" />
         </node>
       </node>
-      <node concept="1_1sxE" id="2mgWlIyR5Go" role="1_0VJ0">
-        <property role="TrG5h" value="empty_-1" />
-      </node>
       <node concept="1_0LV8" id="2mgWlIyR5C7" role="1_0VJ0">
         <node concept="19SGf9" id="2mgWlIyR5C8" role="1_0LWR">
           <node concept="19SUe$" id="2mgWlIyR5C9" role="19SJt6">
-            <property role="19SUeA" value="Implementation of this pattern involves first instantiating the contexts C1, C2, C3, C4. In the context of the list of hazards referenced by C1, the solutions to goals G2, G3 and G4 can be provided. If no tolerable risks were ever present in the system, then reference to the system hazard log (Sn1) is sufficient to support the claim G2. However, if any intolerable risks have been identified, it is necessary to claim (G5) that these have been resolved through complete elimination of the hazard (G6), or reduction to a tolerable (G7, G8) or negligible (G9) level.&#10;For each tolerable risk identified an argument must be constructed (G6, G10, G11, G12) to demonstrate that it has been addressed in accordance with the ALARP principles. Measures taken in risk reduction must be stated in support of G11. Some evidence / argument of the non cost-effectiveness of further risk reduction measures must be supplied in support of G12, in accordance with the definition given by C5.&#10;Evidence of risk analysis (probably based upon consideration of probability of occurrence) is required in support of each claim of hazards posing negligible risk (G9).&#10;&#10;" />
+            <property role="19SUeA" value="Implementation of this pattern involves first instantiating the contexts: " />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7KfQ" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3IHLeT0mMX0" resolve="C1" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KfP" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7Kg0" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3IHLeT0mN85" resolve="C2" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KfZ" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7Kgc" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3IHLeT0mN4k" resolve="C3" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kgb" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7KgI" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3IHLeT0mN2z" resolve="C4" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KgH" role="19SJt6">
+            <property role="19SUeA" value=". In the context of the list of hazards referenced by " />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7KgY" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3IHLeT0mMX0" resolve="C1" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KgX" role="19SJt6">
+            <property role="19SUeA" value=", the solutions to goals " />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7Khg" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3IHLeT0mNnI" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Khf" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7Kh$" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3IHLeT0mMZv" resolve="G3" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kh_" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7KhU" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3IHLeT0mN0R" resolve="G4" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KhV" role="19SJt6">
+            <property role="19SUeA" value="can be provided. If no tolerable risks were ever present in the system, then reference to the system hazard log (Sn1) is sufficient to support the claim " />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7KiG" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3IHLeT0mNnI" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KiH" role="19SJt6">
+            <property role="19SUeA" value=". However, if any intolerable risks have been identified, it is necessary to claim (" />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7Kii" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3IHLeT0mNlg" resolve="G5" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kij" role="19SJt6">
+            <property role="19SUeA" value=") that these have been resolved through complete elimination of the hazard (" />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7KkC" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3IHLeT0mN6a" resolve="G6" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KkD" role="19SJt6">
+            <property role="19SUeA" value="), or reduction to a tolerable (" />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7Kj8" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3IHLeT0mNsT" resolve="G7" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kj9" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7KjA" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3IHLeT0mNek" resolve="G8" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KjB" role="19SJt6">
+            <property role="19SUeA" value=") or negligible (" />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7Kk6" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3IHLeT0mNqh" resolve="G9" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kk7" role="19SJt6">
+            <property role="19SUeA" value=") level.&#10;For each tolerable risk identified an argument must be constructed (" />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7Klc" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3IHLeT0mN6a" resolve="G6" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kld" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7KlM" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3IHLeT0mNiR" resolve="G10" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KlN" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7Kmq" role="19SJt6">
+            <ref role="qdJxC" to="hia9:2a3o3cy5vr8" resolve="G11" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kmr" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7Kn4" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3IHLeT0mNgz" resolve="G12" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kn5" role="19SJt6">
+            <property role="19SUeA" value=") to demonstrate that it has been addressed in accordance with the ALARP principles. Measures taken in risk reduction must be stated in support of " />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7KnK" role="19SJt6">
+            <ref role="qdJxC" to="hia9:2a3o3cy5vr8" resolve="G11" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KnL" role="19SJt6">
+            <property role="19SUeA" value=". Some evidence / argument of the non cost-effectiveness of further risk reduction measures must be supplied in support of " />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7KpZ" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3IHLeT0mNgz" resolve="G12" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kq0" role="19SJt6">
+            <property role="19SUeA" value=", in accordance with the definition given by " />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7Kot" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3IHLeT0mNvA" resolve="C5" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kou" role="19SJt6">
+            <property role="19SUeA" value=".&#10;Evidence of risk analysis (probably based upon consideration of probability of occurrence) is required in support of each claim of hazards posing negligible risk (" />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7Kpd" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3IHLeT0mNqh" resolve="G9" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kpe" role="19SJt6">
+            <property role="19SUeA" value=").&#10;&#10;" />
           </node>
           <node concept="2vpllh" id="2mgWlIyR5I1" role="19SJt6">
             <node concept="19SGf9" id="2mgWlIyR5I2" role="$DsGW">
@@ -385,15 +523,60 @@
             </node>
           </node>
           <node concept="19SUe$" id="2mgWlIyR5I4" role="19SJt6">
-            <property role="19SUeA" value="&#10;• Not providing complete coverage of levels of risk through definitions C2, C3, C4 &#10;• Expressing definitions C2, C3, C4 in a way that is difficult to apply to the information provided by C1 (and vice versa)&#10;• Not having a commonly agreed concept of when to stop attempting further risk reduction (C1) - this can result in a non- uniform approach to tackling risks where significantly different levels of effort are committed to risks at the same level." />
+            <property role="19SUeA" value="&#10;• Not providing complete coverage of levels of risk through definitions " />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7KqM" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3IHLeT0mN85" resolve="C2" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KqN" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7KrC" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3IHLeT0mN4k" resolve="C3" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Ktm" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7Kv4" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3IHLeT0mN2z" resolve="C4" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KrB" role="19SJt6">
+            <property role="19SUeA" value=" &#10;• Expressing definitions" />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7KvW" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3IHLeT0mN85" resolve="C2" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KvX" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7KvY" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3IHLeT0mN4k" resolve="C3" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KvZ" role="19SJt6">
+            <property role="19SUeA" value=", " />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7Kw0" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3IHLeT0mN2z" resolve="C4" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kw1" role="19SJt6">
+            <property role="19SUeA" value="in a way that is difficult to apply to the information provided by " />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7KwZ" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3IHLeT0mMX0" resolve="C1" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kx0" role="19SJt6">
+            <property role="19SUeA" value=" (and vice versa)&#10;• Not having a commonly agreed concept of when to stop attempting further risk reduction (" />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7Ky0" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3IHLeT0mMX0" resolve="C1" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Ky1" role="19SJt6">
+            <property role="19SUeA" value=") - this can result in a non- uniform approach to tackling risks where significantly different levels of effort are committed to risks at the same level." />
           </node>
         </node>
         <node concept="1xAIan" id="2mgWlIyR5Ca" role="1xAIax">
           <property role="1xAIam" value="Implementation" />
         </node>
-      </node>
-      <node concept="1_1sxE" id="2mgWlIyR5LG" role="1_0VJ0">
-        <property role="TrG5h" value="empty_-1" />
       </node>
       <node concept="1_0LV8" id="2mgWlIyR5JS" role="1_0VJ0">
         <node concept="19SGf9" id="2mgWlIyR5JT" role="1_0LWR">
@@ -1034,9 +1217,6 @@
           <property role="1xAIam" value="Implementation" />
         </node>
       </node>
-      <node concept="1_1sxE" id="6QaAXI9m8vv" role="1_0VJ0">
-        <property role="TrG5h" value="empty_-1" />
-      </node>
       <node concept="1_0LV8" id="6QaAXI9m8vw" role="1_0VJ0">
         <node concept="19SGf9" id="6QaAXI9m8vx" role="1_0LWR">
           <node concept="19SUe$" id="6QaAXI9ma9S" role="19SJt6" />
@@ -1404,9 +1584,6 @@
           <property role="1xAIam" value="Implementation" />
         </node>
       </node>
-      <node concept="1_1sxE" id="6QaAXI9maee" role="1_0VJ0">
-        <property role="TrG5h" value="empty_-1" />
-      </node>
       <node concept="1_0LV8" id="6QaAXI9maef" role="1_0VJ0">
         <node concept="19SGf9" id="6QaAXI9maeg" role="1_0LWR">
           <node concept="19SUe$" id="6QaAXI9maeh" role="19SJt6" />
@@ -1471,7 +1648,7 @@
       <node concept="1_0LV8" id="1To8c6dXF8F" role="1_0VJ0">
         <node concept="19SGf9" id="1To8c6dXF8G" role="1_0LWR">
           <node concept="19SUe$" id="1To8c6dXF8K" role="19SJt6">
-            <property role="19SUeA" value="&#10;Arguments that do not distinguish between the arguments of safety and confidence might lead to:&#10;- voluminous, rambling, ad infinitum arguments;&#10;- poorly documented safety argument and the confidence argument, because the lack of distinction between the two makes it more difficult to spot incompleteness or poor structure in either;&#10;- necessary elements of the argument being sometimes omitted, because the need for the specific elements is lost in the volume of the argument;&#10;- arguments becoming indirect and unfocused, and the link between elements of the argument and risk is often lost;&#10;- unnecessary material bein sometimes included in arguments without proper con- sideration or explanation of its relevance – ‘just in case’;&#10;- arguments becoming difficult to build, and weaknesses of the argument are sometimes not evident and so are easily overlooked;&#10;- arguments becoming difficult to review because of the size and lack of focus;&#10;Separation of the safety and confidence arguments offers the opportunity to&#10;mitigate these difficulties by providing different foci for safety and confidence. In addition, careful attention to linking the two arguments provides a mechanism for guiding analysis of the interrelationship between safety and confidence;&#10;&#10;To gain assurance in the argumentation, the sub-claims put forward to implement the chosen argument strategy need to be, if true, a sufficient basis upon which to infer the conclusion stated in the parent claim.&#10;It is necessary to provide a confidence argument that demonstrates why the asserted in- ference should be believed. The ACP for an asserted inference is the link between the parent claim and its strategy or sub-claims.&#10;&#10;This pattern demonstrates that there is sufficient confidence in the asserted inference by including a sub-argument:&#10;- that the asserted inference is true &#10;- that the assurance deficits relating to the asserted inference have been identified &#10;- that any residual assurance deficits are acceptable.&#10;" />
+            <property role="19SUeA" value="&#10;Arguments that do not distinguish between the arguments of safety and confidence might lead to:&#10;- voluminous, rambling, ad infinitum arguments;&#10;- poorly documented safety argument and the confidence argument, because the lack of distinction between the two makes it more difficult to spot incompleteness or poor structure in either;&#10;- necessary elements of the argument being sometimes omitted, because the need for the specific elements is lost in the volume of the argument;&#10;- arguments becoming indirect and unfocused, and the link between elements of the argument and risk is often lost;&#10;- unnecessary material bein sometimes included in arguments without proper con- sideration or explanation of its relevance – ‘just in case’;&#10;- arguments becoming difficult to build, and weaknesses of the argument are sometimes not evident and so are easily overlooked;&#10;- arguments becoming difficult to review because of the size and lack of focus;&#10;Separation of the safety and confidence arguments offers the opportunity to&#10;mitigate these difficulties by providing different foci for safety and confidence. In addition, careful attention to linking the two arguments provides a mechanism for guiding analysis of the interrelationship between safety and confidence;&#10;&#10;To gain assurance in the argumentation, the sub-claims put forward to implement the chosen argument strategy need to be, if true, a sufficient basis upon which to infer the conclusion stated in the parent claim.&#10;It is necessary to provide a confidence argument that demonstrates why the asserted in- ference should be believed. The ACP for an asserted inference is the link between the parent claim and its strategy or sub-claims.&#10;&#10;This pattern demonstrates that there is sufficient confidence in the asserted inference by including a sub-argument:&#10;- that the asserted inference is true &#10;- that the assurance deficits relating to the asserted inference have been identified &#10;- that any residual assurance deficits are acceptable." />
           </node>
         </node>
         <node concept="1xAIan" id="1To8c6dXF8I" role="1xAIax">
@@ -1488,9 +1665,6 @@
           <property role="1xAIam" value="Context" />
         </node>
       </node>
-      <node concept="1_1sxE" id="1To8c6dXF8Z" role="1_0VJ0">
-        <property role="TrG5h" value="empty_-1" />
-      </node>
       <node concept="1_0LV8" id="1To8c6dXF95" role="1_0VJ0">
         <node concept="19SGf9" id="1To8c6dXF96" role="1_0LWR">
           <node concept="19SUe$" id="1To8c6dXF97" role="19SJt6">
@@ -1500,9 +1674,6 @@
         <node concept="1xAIan" id="1To8c6dXF98" role="1xAIax">
           <property role="1xAIam" value="Participants &amp; Collaborations" />
         </node>
-      </node>
-      <node concept="1_1sxE" id="1To8c6dXF99" role="1_0VJ0">
-        <property role="TrG5h" value="empty_-1" />
       </node>
       <node concept="1_0LV8" id="1To8c6dXF9b" role="1_0VJ0">
         <node concept="19SGf9" id="1To8c6dXF9c" role="1_0LWR">
@@ -1610,7 +1781,7 @@
       <node concept="1_0LV8" id="1To8c6dXFfF" role="1_0VJ0">
         <node concept="19SGf9" id="1To8c6dXFfG" role="1_0LWR">
           <node concept="19SUe$" id="1To8c6dXFfH" role="19SJt6">
-            <property role="19SUeA" value="&#10;Arguments that do not distinguish between the arguments of safety and confidence might lead to:&#10;- voluminous, rambling, ad infinitum arguments;&#10;- poorly documented safety argument and the confidence argument, because the lack of distinction between the two makes it more difficult to spot incompleteness or poor structure in either;&#10;- necessary elements of the argument being sometimes omitted, because the need for the specific elements is lost in the volume of the argument;&#10;- arguments becoming indirect and unfocused, and the link between elements of the argument and risk is often lost;&#10;- unnecessary material bein sometimes included in arguments without proper con- sideration or explanation of its relevance – ‘just in case’;&#10;- arguments becoming difficult to build, and weaknesses of the argument are sometimes not evident and so are easily overlooked;&#10;- arguments becoming difficult to review because of the size and lack of focus;&#10;Separation of the safety and confidence arguments offers the opportunity to&#10;mitigate these difficulties by providing different foci for safety and confidence. In addition, careful attention to linking the two arguments provides a mechanism for guiding analysis of the interrelationship between safety and confidence;&#10;&#10;To gain assurance in the argumentation, the sub-claims put forward to implement the chosen argument strategy need to be, if true, a sufficient basis upon which to infer the conclusion stated in the parent claim.&#10;It is necessary to provide a confidence argument that demonstrates why the asserted in- ference should be believed. The ACP for an asserted inference is the link between the parent claim and its strategy or sub-claims.&#10;&#10;The pattern demonstrates that there is sufficient confidence in the asserted solution by including a sub-argument that:&#10;- the asserted solution is trustworthy &#10;- use of the asserted solution is appropriate.&#10;" />
+            <property role="19SUeA" value="&#10;Arguments that do not distinguish between the arguments of safety and confidence might lead to:&#10;- voluminous, rambling, ad infinitum arguments;&#10;- poorly documented safety argument and the confidence argument, because the lack of distinction between the two makes it more difficult to spot incompleteness or poor structure in either;&#10;- necessary elements of the argument being sometimes omitted, because the need for the specific elements is lost in the volume of the argument;&#10;- arguments becoming indirect and unfocused, and the link between elements of the argument and risk is often lost;&#10;- unnecessary material bein sometimes included in arguments without proper con- sideration or explanation of its relevance – ‘just in case’;&#10;- arguments becoming difficult to build, and weaknesses of the argument are sometimes not evident and so are easily overlooked;&#10;- arguments becoming difficult to review because of the size and lack of focus;&#10;Separation of the safety and confidence arguments offers the opportunity to&#10;mitigate these difficulties by providing different foci for safety and confidence. In addition, careful attention to linking the two arguments provides a mechanism for guiding analysis of the interrelationship between safety and confidence;&#10;&#10;To gain assurance in the argumentation, the sub-claims put forward to implement the chosen argument strategy need to be, if true, a sufficient basis upon which to infer the conclusion stated in the parent claim.&#10;It is necessary to provide a confidence argument that demonstrates why the asserted in- ference should be believed. The ACP for an asserted inference is the link between the parent claim and its strategy or sub-claims.&#10;&#10;The pattern demonstrates that there is sufficient confidence in the asserted solution by including a sub-argument that:&#10;- the asserted solution is trustworthy &#10;- use of the asserted solution is appropriate." />
           </node>
         </node>
         <node concept="1xAIan" id="1To8c6dXFfI" role="1xAIax">
@@ -1627,9 +1798,6 @@
           <property role="1xAIam" value="Context" />
         </node>
       </node>
-      <node concept="1_1sxE" id="1To8c6dXFfN" role="1_0VJ0">
-        <property role="TrG5h" value="empty_-1" />
-      </node>
       <node concept="1_0LV8" id="1To8c6dXFfO" role="1_0VJ0">
         <node concept="19SGf9" id="1To8c6dXFfP" role="1_0LWR">
           <node concept="19SUe$" id="1To8c6dXFfQ" role="19SJt6">
@@ -1639,9 +1807,6 @@
         <node concept="1xAIan" id="1To8c6dXFfR" role="1xAIax">
           <property role="1xAIam" value="Implementation" />
         </node>
-      </node>
-      <node concept="1_1sxE" id="1To8c6dXFfS" role="1_0VJ0">
-        <property role="TrG5h" value="empty_-1" />
       </node>
       <node concept="1_0LV8" id="1To8c6dXFfT" role="1_0VJ0">
         <node concept="19SGf9" id="1To8c6dXFfU" role="1_0LWR">
@@ -1705,7 +1870,7 @@
       <node concept="1_0LV8" id="1To8c6e6q_f" role="1_0VJ0">
         <node concept="19SGf9" id="1To8c6e6q_g" role="1_0LWR">
           <node concept="19SUe$" id="1To8c6e6q_h" role="19SJt6">
-            <property role="19SUeA" value="&#10;Arguments that do not distinguish between the arguments of safety and confidence might lead to:&#10;- voluminous, rambling, ad infinitum arguments;&#10;- poorly documented safety argument and the confidence argument, because the lack of distinction between the two makes it more difficult to spot incompleteness or poor structure in either;&#10;- necessary elements of the argument being sometimes omitted, because the need for the specific elements is lost in the volume of the argument;&#10;- arguments becoming indirect and unfocused, and the link between elements of the argument and risk is often lost;&#10;- unnecessary material bein sometimes included in arguments without proper con- sideration or explanation of its relevance – ‘just in case’;&#10;- arguments becoming difficult to build, and weaknesses of the argument are sometimes not evident and so are easily overlooked;&#10;- arguments becoming difficult to review because of the size and lack of focus;&#10;Separation of the safety and confidence arguments offers the opportunity to&#10;mitigate these difficulties by providing different foci for safety and confidence. In addition, careful attention to linking the two arguments provides a mechanism for guiding analysis of the interrelationship between safety and confidence;&#10;&#10;To gain assurance in the argumentation, the sub-claims put forward to implement the chosen argument strategy need to be, if true, a sufficient basis upon which to infer the conclusion stated in the parent claim.&#10;It is necessary to provide a confidence argument that demonstrates why the asserted in- ference should be believed. The ACP for an asserted inference is the link between the parent claim and its strategy or sub-claims.&#10;" />
+            <property role="19SUeA" value="&#10;Arguments that do not distinguish between the arguments of safety and confidence might lead to:&#10;- voluminous, rambling, ad infinitum arguments;&#10;- poorly documented safety argument and the confidence argument, because the lack of distinction between the two makes it more difficult to spot incompleteness or poor structure in either;&#10;- necessary elements of the argument being sometimes omitted, because the need for the specific elements is lost in the volume of the argument;&#10;- arguments becoming indirect and unfocused, and the link between elements of the argument and risk is often lost;&#10;- unnecessary material bein sometimes included in arguments without proper con- sideration or explanation of its relevance – ‘just in case’;&#10;- arguments becoming difficult to build, and weaknesses of the argument are sometimes not evident and so are easily overlooked;&#10;- arguments becoming difficult to review because of the size and lack of focus;&#10;Separation of the safety and confidence arguments offers the opportunity to&#10;mitigate these difficulties by providing different foci for safety and confidence. In addition, careful attention to linking the two arguments provides a mechanism for guiding analysis of the interrelationship between safety and confidence;&#10;&#10;To gain assurance in the argumentation, the sub-claims put forward to implement the chosen argument strategy need to be, if true, a sufficient basis upon which to infer the conclusion stated in the parent claim.&#10;It is necessary to provide a confidence argument that demonstrates why the asserted in- ference should be believed. The ACP for an asserted inference is the link between the parent claim and its strategy or sub-claims." />
           </node>
         </node>
         <node concept="1xAIan" id="1To8c6e6q_i" role="1xAIax">
@@ -1715,7 +1880,7 @@
       <node concept="1_0LV8" id="1To8c6e6q_j" role="1_0VJ0">
         <node concept="19SGf9" id="1To8c6e6q_k" role="1_0LWR">
           <node concept="19SUe$" id="1To8c6e6q_l" role="19SJt6">
-            <property role="19SUeA" value="&#10;The individual fragments of a confidence argument, each addressing a particular assurance claim point in the safety argument, should be assembled together to form a single overall confidence argument (to accompny the single safety argument). To be truly comprehensive in the construction of this overall confidence argument would require that all of the assertions of the safety argument have an accompanying confidence (sub-)argument. This is illustrated in the three legs of the argument shown in this argumentation (arguing confidence for all inferences, all context and all evidence used in the safety argument).&#10;" />
+            <property role="19SUeA" value="The individual fragments of a confidence argument, each addressing a particular assurance claim point in the safety argument, should be assembled together to form a single overall confidence argument (to accompny the single safety argument). To be truly comprehensive in the construction of this overall confidence argument would require that all of the assertions of the safety argument have an accompanying confidence (sub-)argument. This is illustrated in the three legs of the argument shown in this argumentation (arguing confidence for all inferences, all context and all evidence used in the safety argument)." />
           </node>
         </node>
         <node concept="1xAIan" id="1To8c6e6q_m" role="1xAIax">
@@ -2652,7 +2817,7 @@
       <node concept="1_0LV8" id="3bxKdImh3NL" role="1_0VJ0">
         <node concept="19SGf9" id="3bxKdImh3NM" role="1_0LWR">
           <node concept="19SUe$" id="3bxKdImh3NN" role="19SJt6">
-            <property role="19SUeA" value="Problem: Machine Learning (ML) is now used in a range of systems with results that are reported to exceed, under certain conditions, human performance. Establishing justified confidence in ML forms a core part of the safety case for these systems. Assurance of Machine Learning for use in Autonomous Systems (AMLAS) is a methodology which comprises a set of safety case patterns and a process for (1) systematically integrating safety assurance into the development of ML components and (2) for generating the evidence base for explicitly justifying the acceptable safety of these components when integrated into autonomous system. AMLAS scope covers the following ML lifecycle stages: ML safety assurance scoping, safety requirements elicitation, data management, model learning, model verification and model deployment. &#10;Solution: In this documentation, the ML Model Deployment Pattern is presented to achieve the following objectives:&#10;1. Integrate the machine learnt component into the target system in such a manner that the system satisfies the allocated system safety requirements. The component should be integrated in the pipeline linking its inputs and outputs to other system components.&#10;2. Demonstrate that the allocated system safety requirements are still satisfied during operation of the target system and environment.&#10;3. Create an assurance argument to demonstrate that the ML model will continue to meet the ML safety requirements once integrated into the target system." />
+            <property role="19SUeA" value="Problem: Machine Learning (ML) is now used in a range of systems with results that are reported to exceed, under certain conditions, human performance. Establishing justified confidence in ML forms a core part of the safety case for these systems. Assurance of Machine Learning for use in Autonomous Systems (AMLAS) is a methodology which comprises a set of safety case patterns and a process for (1) systematically integrating safety assurance into the development of ML components and (2) for generating the evidence base for explicitly justifying the acceptable safety of these components when integrated into autonomous system. AMLAS scope covers the following ML lifecycle stages: ML safety assurance scoping, safety requirements elicitation, data management, model learning, model verification and model deployment. &#10;Solution: In this documentation, the ML Model Deployment Pattern is presented to achieve the following objectives:&#10;1. Integrate the machine learnt component into the target system in such a manner that the system satisfies the allocated system safety requirements. The component should be integrated in the pipeline linking its inputs and outputs to other system components.&#10;2. Demonstrate that the allocated system safety requirements are still satisfied during operation of the target system and environment.&#10;3. Create an assurance argument to demonstrate that the ML model will continue to meet the ML safety requirements once integrated into the target system.&#10;" />
           </node>
         </node>
         <node concept="1xAIan" id="3bxKdImh3NO" role="1xAIax">
@@ -3903,9 +4068,6 @@
         <node concept="1xAIan" id="2c7PXw4QOXv" role="1xAIax">
           <property role="1xAIam" value="Implementation" />
         </node>
-      </node>
-      <node concept="1_1sxE" id="2c7PXw4QOXw" role="1_0VJ0">
-        <property role="TrG5h" value="empty_-1" />
       </node>
       <node concept="1_0LV8" id="2c7PXw4QOXx" role="1_0VJ0">
         <node concept="19SGf9" id="2c7PXw4QOXy" role="1_0LWR">
@@ -6071,16 +6233,118 @@
   <node concept="qdN4g" id="1FKYJgs7JlY">
     <property role="yApLE" value="1" />
     <property role="TrG5h" value="Refinement_of_G2_HLRSAT" />
-    <property role="3GE5qa" value="_106_DO-178C_Patterns" />
+    <property role="3GE5qa" value="_106_DO-178C_Arguments" />
     <ref role="G9hjw" node="1FKYJgs7Jni" resolve="Config_Refinement_of_G2_HLRSAT" />
     <ref role="qdN4h" to="hia9:3bxKdImh2EH" resolve="Refinement_of_G2:HLRSAT" />
+    <node concept="1mvXsy" id="OjdO2L9MgY" role="1_0VJ0">
+      <property role="TrG5h" value="argument_lvl_D_G2" />
+      <property role="1_0VJr" value="Refinement of G2:HLRSAT" />
+      <node concept="3z_lpU" id="OjdO2L9MgZ" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="OjdO2L9Mh0" role="3z_lpI">
+          <node concept="2NCMab" id="OjdO2L9MjT" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:3bxKdImh2EH" resolve="Refinement_of_G2:HLRSAT" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_1sxE" id="OjdO2L9Mh2" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
+      </node>
+      <node concept="1_0LV8" id="OjdO2L9Mh3" role="1_0VJ0">
+        <node concept="19SGf9" id="OjdO2L9Mh4" role="1_0LWR">
+          <node concept="19SUe$" id="OjdO2L9Mh5" role="19SJt6">
+            <property role="19SUeA" value="Problem: How should one best proceed when creating the initial candidate arguments for the compliace with the DO-178C standard.&#10;“What software level should be considered first?” &#10;In favor of starting with level A is the fact that the higher the level, the more important the assurance case is; thus, articulating an explicit assurance case for level A has more value than for lower levels. In favor of starting with level D is the fact that its relatively small number of objectives simplifies the tasks of discovering and articulating the explicit case, and makes reviewing the case by others easier. By increasing the likelihood of receiving constructive feedback on the initial effort, starting with level D seems likely to provide the best chance that the final product will be of high quality. So, the answer to the question was determined to be “Level D.”&#10;This documentation presents a detailed argument structure of the " />
+          </node>
+          <node concept="qdJI3" id="OjdO2L9MiC" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh2FM" resolve="HLRSat" />
+          </node>
+          <node concept="19SUe$" id="OjdO2L9MiD" role="19SJt6">
+            <property role="19SUeA" value="from the " />
+          </node>
+          <node concept="2jFPku" id="OjdO2L9MiH" role="19SJt6">
+            <ref role="2jFPkz" node="1FKYJgs7Jrb" resolve="Beginning_of_primary_argument_for_level_D_software" />
+          </node>
+          <node concept="19SUe$" id="OjdO2L9MiI" role="19SJt6">
+            <property role="19SUeA" value="about the software peforming the intended functions at the acceptable level of safety for level D with regards to the satisfaction of system requirements. " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="OjdO2L9Mh6" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="OjdO2L9Mh7" role="1_0VJ0">
+        <node concept="19SGf9" id="OjdO2L9Mh8" role="1_0LWR">
+          <node concept="19SUe$" id="OjdO2L9Mh9" role="19SJt6">
+            <property role="19SUeA" value="This pattern is applicable in the context of the aviation industry, for the compliance with the Software Considerations in Airborne Systems and Equipment Certification (DO-178C) standard." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="OjdO2L9Mha" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="OjdO2L9Mhb" role="1_0VJ0">
+        <node concept="19SGf9" id="OjdO2L9Mhc" role="1_0LWR">
+          <node concept="19SUe$" id="OjdO2L9Mhd" role="19SJt6">
+            <property role="19SUeA" value="Demonstrating satisfaction of " />
+          </node>
+          <node concept="qdJI3" id="OjdO2L9MiP" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh2FM" resolve="HLRSat" />
+          </node>
+          <node concept="19SUe$" id="OjdO2L9MiQ" role="19SJt6">
+            <property role="19SUeA" value=" comprises three sub-goals, which correspond directly to the three DO-178C objectives related to the verification of outputs of software requirements process (summarized in Table A-3) that are imposed for level D software: showing that the high-level requirements comply with system requirements (A-3.1, " />
+          </node>
+          <node concept="qdJI3" id="OjdO2L9MiU" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh2GY" resolve="HLRComply" />
+          </node>
+          <node concept="19SUe$" id="OjdO2L9MiV" role="19SJt6">
+            <property role="19SUeA" value="), are accurate and consistent (A-3.2, " />
+          </node>
+          <node concept="qdJI3" id="OjdO2L9Mj1" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh2Ic" resolve="HLRAccCons" />
+          </node>
+          <node concept="19SUe$" id="OjdO2L9Mj2" role="19SJt6">
+            <property role="19SUeA" value="), and are traceable to system requirements (A-3.6," />
+          </node>
+          <node concept="qdJI3" id="OjdO2L9Mja" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh2FD" resolve="HLRTrace" />
+          </node>
+          <node concept="19SUe$" id="OjdO2L9Mjb" role="19SJt6">
+            <property role="19SUeA" value="). In the figure, context is shown only for the definition of traceable, so as to simply presentation for this paper; but the final complete assurance case will need to include context for definitions / descriptions of comply, accurate, and consistent. According to DO-178C, the evidence for satisfaction of these three objectives is contained in the Software Verification Results, which is a data item described in Chapter 11 of the guidance." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="OjdO2L9Mhq" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="OjdO2L9MhB" role="1_0VJ0">
+        <node concept="19SGf9" id="OjdO2L9MhC" role="1_0LWR">
+          <node concept="19SUe$" id="OjdO2L9MhD" role="19SJt6" />
+          <node concept="2vpllh" id="OjdO2L9MhE" role="19SJt6">
+            <node concept="19SGf9" id="OjdO2L9MhF" role="$DsGW">
+              <node concept="19SUe$" id="OjdO2L9MhG" role="19SJt6">
+                <property role="19SUeA" value="Note:" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="OjdO2L9MhH" role="19SJt6">
+            <property role="19SUeA" value=" Pattern and information has been taken from:&#10;Holloway, C.. “Making the Implicit Explicit: Towards an Assurance Case for DO-178C.” (2013). " />
+          </node>
+        </node>
+      </node>
+      <node concept="1_1sxE" id="OjdO2L9MhI" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
+      </node>
+    </node>
     <node concept="Wq1Bs" id="1FKYJgs7JrF" role="Wq1Bf">
       <property role="Wq1Bt" value="C. Michael Holloway" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9Miw" role="1DXQ57">
+      <ref role="1_0j5g" node="1FKYJgs7Jrb" resolve="Beginning_of_primary_argument_for_level_D_software" />
     </node>
   </node>
   <node concept="2SbYGP" id="1FKYJgs7Jni">
     <property role="TrG5h" value="Config_Refinement_of_G2_HLRSAT" />
-    <property role="3GE5qa" value="_106_DO-178C_Patterns" />
+    <property role="3GE5qa" value="_106_DO-178C_Arguments" />
     <node concept="2SbYGw" id="1FKYJgs7Jnj" role="A10yx">
       <property role="TrG5h" value="img" />
       <node concept="9PVaO" id="1FKYJgs7Jnk" role="9PVG_">
@@ -6096,16 +6360,112 @@
   </node>
   <node concept="qdN4g" id="1FKYJgs7Jp2">
     <property role="yApLE" value="1" />
-    <property role="3GE5qa" value="_106_DO-178C_Patterns" />
+    <property role="3GE5qa" value="_106_DO-178C_Arguments" />
     <property role="TrG5h" value="Refinement_of_G3_EOCSAT" />
     <ref role="G9hjw" node="1FKYJgs7Jpr" resolve="Config_Refinement_of_G3_EOCSAT" />
     <ref role="qdN4h" to="hia9:3bxKdImh2S1" resolve="Refinement_of_G3:EOCSAT" />
+    <node concept="1mvXsy" id="OjdO2L9MjV" role="1_0VJ0">
+      <property role="TrG5h" value="argument_lvl_D_G3" />
+      <property role="1_0VJr" value="Refinement of G3:EOCSAT" />
+      <node concept="3z_lpU" id="OjdO2L9MjW" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="OjdO2L9MjX" role="3z_lpI">
+          <node concept="2NCMab" id="OjdO2L9Ml5" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:3bxKdImh2S1" resolve="Refinement_of_G3:EOCSAT" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_1sxE" id="OjdO2L9MjZ" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
+      </node>
+      <node concept="1_0LV8" id="OjdO2L9Mk0" role="1_0VJ0">
+        <node concept="19SGf9" id="OjdO2L9Mk1" role="1_0LWR">
+          <node concept="19SUe$" id="OjdO2L9Mk2" role="19SJt6">
+            <property role="19SUeA" value="Problem: How should one best proceed when creating the initial candidate arguments for the compliace with the DO-178C standard.&#10;“What software level should be considered first?” &#10;In favor of starting with level A is the fact that the higher the level, the more important the assurance case is; thus, articulating an explicit assurance case for level A has more value than for lower levels. In favor of starting with level D is the fact that its relatively small number of objectives simplifies the tasks of discovering and articulating the explicit case, and makes reviewing the case by others easier. By increasing the likelihood of receiving constructive feedback on the initial effort, starting with level D seems likely to provide the best chance that the final product will be of high quality. So, the answer to the question was determined to be “Level D.”&#10;This documentation presents a detailed argument structure of the " />
+          </node>
+          <node concept="qdJI3" id="OjdO2L9Mk3" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh2XI" resolve="EOCSat" />
+          </node>
+          <node concept="19SUe$" id="OjdO2L9Mk4" role="19SJt6">
+            <property role="19SUeA" value="from the " />
+          </node>
+          <node concept="2jFPku" id="OjdO2L9Mk5" role="19SJt6">
+            <ref role="2jFPkz" node="1FKYJgs7Jrb" resolve="Beginning_of_primary_argument_for_level_D_software" />
+          </node>
+          <node concept="19SUe$" id="OjdO2L9Mk6" role="19SJt6">
+            <property role="19SUeA" value="about the software peforming the intended functions at the acceptable level of safety for level D with regards satisfaction of high-level requirements by the Software Executable Object Code. " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="OjdO2L9Mk7" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="OjdO2L9Mk8" role="1_0VJ0">
+        <node concept="19SGf9" id="OjdO2L9Mk9" role="1_0LWR">
+          <node concept="19SUe$" id="OjdO2L9Mka" role="19SJt6">
+            <property role="19SUeA" value="This pattern is applicable in the context of the aviation industry, for the compliance with the Software Considerations in Airborne Systems and Equipment Certification (DO-178C) standard." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="OjdO2L9Mkb" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="OjdO2L9Mkc" role="1_0VJ0">
+        <node concept="19SGf9" id="OjdO2L9Mkd" role="1_0LWR">
+          <node concept="19SUe$" id="OjdO2L9Mke" role="19SJt6">
+            <property role="19SUeA" value="The argument for satisfaction of" />
+          </node>
+          <node concept="qdJI3" id="OjdO2L9Mlf" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh2XI" resolve="EOCSat" />
+          </node>
+          <node concept="19SUe$" id="OjdO2L9Mlg" role="19SJt6">
+            <property role="19SUeA" value=" refines into four sub-goals. Three of these sub-goals correspond to the three level D applicable objectives for testing of outputs of integration process (summarized in Table A-6); the remaining sub-goal corresponds to the only applicable objective for verification of outputs of software design process (Table A-4). All four applicable software development process (Table A-2) objectives constitute part of the relevant context for this part of the argument. One of these objectives is divided into two parts, because the portion of the objective dealing with the production of Executable Object Code (EOC) seems appropriately part of the context for G3, while the part dealing with loading of the code onto the target computer seems to be better attached to the goal concerning compatibility of EOC and target computer. The evidence for the achievement of the four sub-goals is taken from the three specific data items shown. As was the case for the G2 from " />
+          </node>
+          <node concept="2jFPku" id="OjdO2L9MlJ" role="19SJt6">
+            <ref role="2jFPkz" node="1FKYJgs7JlY" resolve="Refinement_of_G2_HLRSAT" />
+          </node>
+          <node concept="19SUe$" id="OjdO2L9MlK" role="19SJt6">
+            <property role="19SUeA" value=" refinement, the refinement here for " />
+          </node>
+          <node concept="qdJI3" id="OjdO2L9MlQ" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh2XI" resolve="EOCSat" />
+          </node>
+          <node concept="19SUe$" id="OjdO2L9MlR" role="19SJt6">
+            <property role="19SUeA" value=" shows only some of the contextual items that will need to be included in a final, complete assurance case." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="OjdO2L9Mkn" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="OjdO2L9Mko" role="1_0VJ0">
+        <node concept="19SGf9" id="OjdO2L9Mkp" role="1_0LWR">
+          <node concept="19SUe$" id="OjdO2L9Mkq" role="19SJt6" />
+          <node concept="2vpllh" id="OjdO2L9Mkr" role="19SJt6">
+            <node concept="19SGf9" id="OjdO2L9Mks" role="$DsGW">
+              <node concept="19SUe$" id="OjdO2L9Mkt" role="19SJt6">
+                <property role="19SUeA" value="Note:" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="OjdO2L9Mku" role="19SJt6">
+            <property role="19SUeA" value=" Pattern and information has been taken from:&#10;Holloway, C.. “Making the Implicit Explicit: Towards an Assurance Case for DO-178C.” (2013). " />
+          </node>
+        </node>
+      </node>
+      <node concept="1_1sxE" id="OjdO2L9Mkv" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
+      </node>
+    </node>
     <node concept="Wq1Bs" id="1FKYJgs7JrD" role="Wq1Bf">
       <property role="Wq1Bt" value="C. Michael Holloway" />
     </node>
+    <node concept="1_0j5j" id="OjdO2L9MlD" role="1DXQ57">
+      <ref role="1_0j5g" node="1FKYJgs7Jrb" resolve="Beginning_of_primary_argument_for_level_D_software" />
+    </node>
   </node>
   <node concept="2SbYGP" id="1FKYJgs7Jpr">
-    <property role="3GE5qa" value="_106_DO-178C_Patterns" />
+    <property role="3GE5qa" value="_106_DO-178C_Arguments" />
     <property role="TrG5h" value="Config_Refinement_of_G3_EOCSAT" />
     <node concept="2SbYGw" id="1FKYJgs7Jps" role="A10yx">
       <property role="TrG5h" value="img" />
@@ -6122,16 +6482,149 @@
   </node>
   <node concept="qdN4g" id="1FKYJgs7Jrb">
     <property role="yApLE" value="1" />
-    <property role="3GE5qa" value="_106_DO-178C_Patterns" />
+    <property role="3GE5qa" value="_106_DO-178C_Arguments" />
     <property role="TrG5h" value="Beginning_of_primary_argument_for_level_D_software" />
     <ref role="G9hjw" node="1FKYJgs7Jr$" resolve="Config_Beginning_of_primary_argument_for_level_D_software" />
     <ref role="qdN4h" to="hia9:3bxKdImh2oI" resolve="Beginning_of_primary_argument_for_level_D_software" />
+    <node concept="1mvXsy" id="1FKYJgs7KcY" role="1_0VJ0">
+      <property role="TrG5h" value="argument_lvl_D" />
+      <property role="1_0VJr" value="Beginning of primary argument for level D software" />
+      <node concept="3z_lpU" id="1FKYJgs7KcZ" role="1_0VJ0">
+        <property role="3z_lpW" value="mbeddr" />
+        <node concept="2NCZwO" id="1FKYJgs7Kd0" role="3z_lpI">
+          <node concept="2NCMab" id="1FKYJgs7Keo" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:3bxKdImh2oI" resolve="Beginning_of_primary_argument_for_level_D_software" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_1sxE" id="1FKYJgs7Kd2" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
+      </node>
+      <node concept="1_0LV8" id="1FKYJgs7Kd3" role="1_0VJ0">
+        <node concept="19SGf9" id="1FKYJgs7Kd4" role="1_0LWR">
+          <node concept="19SUe$" id="1FKYJgs7Kd5" role="19SJt6">
+            <property role="19SUeA" value="Problem: How should one best proceed when creating the initial candidate arguments for the compliace with the DO-178C standard.&#10;“What software level should be considered first?” &#10;In favor of starting with level A is the fact that the higher the level, the more important the assurance case is; thus, articulating an explicit assurance case for level A has more value than for lower levels. In favor of starting with level D is the fact that its relatively small number of objectives simplifies the tasks of discovering and articulating the explicit case, and makes reviewing the case by others easier. By increasing the likelihood of receiving constructive feedback on the initial effort, starting with level D seems likely to provide the best chance that the final product will be of high quality. So, the answer to the question was determined to be “Level D.”&#10;This documentation presents an argument fragment about the software peforming the intended functions at the acceptable level of safety for level D." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1FKYJgs7Kd6" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1FKYJgs7Kd7" role="1_0VJ0">
+        <node concept="19SGf9" id="1FKYJgs7Kd8" role="1_0LWR">
+          <node concept="19SUe$" id="1FKYJgs7Kd9" role="19SJt6">
+            <property role="19SUeA" value="This pattern is applicable in the context of the aviation industry, for the compliance with the Software Considerations in Airborne Systems and Equipment Certification (DO-178C) standard." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1FKYJgs7Kda" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1FKYJgs7Kdb" role="1_0VJ0">
+        <node concept="19SGf9" id="1FKYJgs7Kdc" role="1_0LWR">
+          <node concept="19SUe$" id="1FKYJgs7Kdd" role="19SJt6">
+            <property role="19SUeA" value="The overall " />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7Ker" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh2qI" resolve="SwAcc" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kes" role="19SJt6">
+            <property role="19SUeA" value="is derived from the stated purpose of DO-178C, modified for the software level. ptable level of safety for level D is derived from the stated purpose of DO-178C, modified for the software level. Three items of context are identified as necessary for this goal to make sense: a a description of the software’s intended function (" />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7Kew" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh2wl" resolve="IntFun" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kex" role="19SJt6">
+            <property role="19SUeA" value="), the definition of software level D (" />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7KeP" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh2uS" resolve="SwLevelD" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KeQ" role="19SJt6">
+            <property role="19SUeA" value="), and the relevant parts of the airworthiness requirements that define what constitutes an acceptable level of safety" />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7KeY" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh2t8" resolve="AwReg" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KeZ" role="19SJt6">
+            <property role="19SUeA" value=". Only the definition of software level D (" />
+          </node>
+          <node concept="qcx9v" id="1FKYJgs7Kfp" role="19SJt6">
+            <ref role="qcx8m" to="hia9:3bxKdImh2uS" resolve="SwLevelD" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7Kfq" role="19SJt6">
+            <property role="19SUeA" value=")is provided directly in DO-178C; the others are external to the document. A critical assumption on which the entire argument rests is that the assignment of level D to the software is correct.&#10;The DO-178C objectives and activities for Level D software imply that the implicit argument for the top-level " />
+          </node>
+          <node concept="qdJI3" id="1FKYJgs7KfA" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh2qI" resolve="SwAcc" />
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KfB" role="19SJt6">
+            <property role="19SUeA" value=" is based on showing that the software is correct relative to the allocated system requirements. This implicit argument relies for its cogency on &#10;(a) the assumption that the allocated system requirements are valid and sufficient with respect to the software’s intended function; and &#10;(b) the justification discussed in the previous section explaining the relationship between correctness and safety in the presence of valid and sufficient requirements.&#10;" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="1FKYJgs7Kdu" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="OjdO2L9MeY" role="1_0VJ0">
+        <node concept="19SGf9" id="OjdO2L9MeZ" role="1_0LWR">
+          <node concept="19SUe$" id="OjdO2L9Mf0" role="19SJt6">
+            <property role="19SUeA" value="For Level D software, arguing by correctness involves two sub-goals: " />
+          </node>
+          <node concept="qdJI3" id="OjdO2L9MfI" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh2pE" resolve="HLRSat" />
+          </node>
+          <node concept="19SUe$" id="OjdO2L9MfJ" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="qdJI3" id="OjdO2L9MfN" role="19SJt6">
+            <ref role="qdJxC" to="hia9:3bxKdImh2rU" resolve="EOCSat" />
+          </node>
+          <node concept="19SUe$" id="OjdO2L9MfO" role="19SJt6">
+            <property role="19SUeA" value=". The former involves showing an appropriate relationship between the developed high-level requirements and the system requirements; the latter involves showing that the developed executable object code implements the high-level requirements. Both of these goals have meaning only within the context of high-level requirements being developed (which is DO-178C objective A-2.1), and any derived high-level requirements being provided to the system processes, including the system safety assessment processes (A-2.2). " />
+          </node>
+          <node concept="2jFPku" id="OjdO2L9MfU" role="19SJt6">
+            <ref role="2jFPkz" node="1FKYJgs7JlY" resolve="Refinement_of_G2_HLRSAT" />
+          </node>
+          <node concept="19SUe$" id="OjdO2L9MfV" role="19SJt6">
+            <property role="19SUeA" value="and " />
+          </node>
+          <node concept="2jFPku" id="OjdO2L9Mg3" role="19SJt6">
+            <ref role="2jFPkz" node="1FKYJgs7Jp2" resolve="Refinement_of_G3_EOCSAT" />
+          </node>
+          <node concept="19SUe$" id="OjdO2L9Mg4" role="19SJt6">
+            <property role="19SUeA" value=" show further refinements of G2 and G3 respectively." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="OjdO2L9Mf1" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="1FKYJgs7Kdz" role="1_0VJ0">
+        <node concept="19SGf9" id="1FKYJgs7Kd$" role="1_0LWR">
+          <node concept="19SUe$" id="1FKYJgs7Kd_" role="19SJt6" />
+          <node concept="2vpllh" id="1FKYJgs7KdA" role="19SJt6">
+            <node concept="19SGf9" id="1FKYJgs7KdB" role="$DsGW">
+              <node concept="19SUe$" id="1FKYJgs7KdC" role="19SJt6">
+                <property role="19SUeA" value="Note:" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="1FKYJgs7KdD" role="19SJt6">
+            <property role="19SUeA" value=" Pattern and information has been taken from:&#10;Holloway, C.. “Making the Implicit Explicit: Towards an Assurance Case for DO-178C.” (2013). " />
+          </node>
+        </node>
+      </node>
+      <node concept="1_1sxE" id="1FKYJgs7KdE" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
+      </node>
+    </node>
     <node concept="Wq1Bs" id="1FKYJgs7JrH" role="Wq1Bf">
       <property role="Wq1Bt" value="C. Michael Holloway" />
     </node>
   </node>
   <node concept="2SbYGP" id="1FKYJgs7Jr$">
-    <property role="3GE5qa" value="_106_DO-178C_Patterns" />
+    <property role="3GE5qa" value="_106_DO-178C_Arguments" />
     <property role="TrG5h" value="Config_Beginning_of_primary_argument_for_level_D_software" />
     <node concept="2SbYGw" id="1FKYJgs7Jr_" role="A10yx">
       <property role="TrG5h" value="img" />
@@ -6143,6 +6636,297 @@
       <property role="TrG5h" value="tmp" />
       <node concept="9PVaO" id="1FKYJgs7JrC" role="9PVG_">
         <property role="3N1Lgt" value="configs/DO-178C_Patterns/Beginning_of_primary_argument_for_level_D_software/tmp" />
+      </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="OjdO2L9MmV">
+    <property role="yApLE" value="1" />
+    <property role="TrG5h" value="Index" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config_Index" />
+    <node concept="3xmJbL" id="1To8c6dXEvN" role="1_0VJ0">
+      <property role="TrG5h" value="Patterns_Table_Of_Contents" />
+    </node>
+    <node concept="1_0VNX" id="OjdO2L9MnS" role="1_0VJ0">
+      <property role="TrG5h" value="conf_patt" />
+      <property role="1_0VJr" value="Confidence patterns" />
+      <node concept="$CzcT" id="OjdO2L9Mor" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9Mp7" role="$CzcU">
+          <ref role="1_0j5g" node="1To8c6dXF0s" resolve="Confidence_Argument_Structure_For_An_Asserted_Inference_Doc" />
+        </node>
+      </node>
+      <node concept="$CzcT" id="OjdO2L9Mpf" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9Mpo" role="$CzcU">
+          <ref role="1_0j5g" node="1To8c6dXFc1" resolve="Confidence_Argument_Structure_For_An_Asserted_Solution_Doc" />
+        </node>
+      </node>
+      <node concept="$CzcT" id="OjdO2L9Mpr" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9Mp_" role="$CzcU">
+          <ref role="1_0j5g" node="1To8c6dXFcR" resolve="The_Overall_Confidence_Argument_Doc" />
+        </node>
+      </node>
+    </node>
+    <node concept="1_0VNX" id="OjdO2L9MqM" role="1_0VJ0">
+      <property role="TrG5h" value="Automotive_Patterns" />
+      <property role="1_0VJr" value="Automotive Patterns" />
+      <node concept="1_0VNX" id="OjdO2L9MqY" role="1_0VJ0">
+        <property role="TrG5h" value="amlas_ML" />
+        <property role="1_0VJr" value="AMLAS Patterns" />
+        <node concept="$CzcT" id="OjdO2L9MrL" role="1_0VJ0">
+          <node concept="1_0j5j" id="OjdO2L9Ms8" role="$CzcU">
+            <ref role="1_0j5g" node="5Ac1Q93IYDJ" resolve="ML_Safety_Assurance_Scoping_Argument_pattern" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="OjdO2L9Msb" role="1_0VJ0">
+          <node concept="1_0j5j" id="OjdO2L9Ms_" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7ThJ" resolve="Assurance_Argument_Pattern_for_ML_Safety_Requirements" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="OjdO2L9MsC" role="1_0VJ0">
+          <node concept="1_0j5j" id="OjdO2L9Mu4" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7Thm" resolve="Assurance_Argument_Pattern_for_ML_Data" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="OjdO2L9Muh" role="1_0VJ0">
+          <node concept="1_0j5j" id="OjdO2L9Muv" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7Tnx" resolve="ML_Model_Learning_Argument_Pattern" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="OjdO2L9Muy" role="1_0VJ0">
+          <node concept="1_0j5j" id="OjdO2L9MuL" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7Tmd" resolve="Assurance_Argument_Pattern_For_ML_Verification" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="OjdO2L9Mvg" role="1_0VJ0">
+          <node concept="1_0j5j" id="OjdO2L9Mvw" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7TkT" resolve="Assurance_Argument_Pattern_for_ML_Model_Deployment" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0VNX" id="OjdO2L9Mri" role="1_0VJ0">
+        <property role="TrG5h" value="safecomp" />
+        <property role="1_0VJr" value="SAFECOMP Palin Automorives" />
+        <node concept="$CzcT" id="OjdO2L9MvM" role="1_0VJ0">
+          <node concept="1_0j5j" id="OjdO2L9Myr" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e6DC4" resolve="High_Level_Vehicle_Safety_Argument_Pattern_Doc" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="OjdO2L9MxK" role="1_0VJ0">
+          <node concept="1_0j5j" id="OjdO2L9Myu" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7R94" resolve="Predefined_Safety_Requirements_Argument_Pattern" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="OjdO2L9My4" role="1_0VJ0">
+          <node concept="1_0j5j" id="OjdO2L9Myx" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7T32" resolve="Risk_Management_Argument_Pattern" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="OjdO2L9MxT" role="1_0VJ0">
+          <node concept="1_0j5j" id="OjdO2L9My$" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7T2D" resolve="Risk_Mitigation_Argument_Pattern" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1_0VNX" id="OjdO2L9Mzq" role="1_0VJ0">
+      <property role="TrG5h" value="formal" />
+      <property role="1_0VJr" value="Formal Verification Patterns" />
+      <node concept="$CzcT" id="OjdO2L9M$u" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9M$y" role="$CzcU">
+          <ref role="1_0j5g" node="1To8c6e6DkJ" resolve="2016_hawkins_fm_verif_evidence_Doc" />
+        </node>
+      </node>
+    </node>
+    <node concept="1_0VNX" id="OjdO2L9M_K" role="1_0VJ0">
+      <property role="TrG5h" value="tim_kelly" />
+      <property role="1_0VJr" value="Timothy Kelly Pattern Catalogue" />
+      <node concept="$CzcT" id="OjdO2L9MAs" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9MEs" role="$CzcU">
+          <ref role="1_0j5g" node="5Ac1Q93IR5r" resolve="ALARP" />
+        </node>
+      </node>
+      <node concept="$CzcT" id="OjdO2L9MAK" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9MEM" role="$CzcU">
+          <ref role="1_0j5g" node="2c7PXw4QOEy" resolve="Fault_Free_Software_Pattern" />
+        </node>
+      </node>
+      <node concept="$CzcT" id="OjdO2L9MAC" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9MEP" role="$CzcU">
+          <ref role="1_0j5g" node="6QaAXI9m8tL" resolve="Fault_Tree_Evidence" />
+        </node>
+      </node>
+      <node concept="$CzcT" id="OjdO2L9MB1" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9MES" role="$CzcU">
+          <ref role="1_0j5g" node="3bxKdImh42t" resolve="Hazard_Avoidance_Pattern" />
+        </node>
+      </node>
+      <node concept="$CzcT" id="OjdO2L9MBc" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9MEV" role="$CzcU">
+          <ref role="1_0j5g" node="3SSXMcyVGQH" resolve="Hazard_Directed_Integriy_Level_Argument" />
+        </node>
+      </node>
+    </node>
+    <node concept="1_0VNX" id="OjdO2L9MGw" role="1_0VJ0">
+      <property role="TrG5h" value="nasa" />
+      <property role="1_0VJr" value="Theory And Application NASA Catalogue" />
+      <node concept="$CzcT" id="OjdO2L9MHB" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9MHI" role="$CzcU">
+          <ref role="1_0j5g" node="2c7PXw4QPhw" resolve="Extended/Hierarchical_Physical_Decomposition_Pattern" />
+        </node>
+      </node>
+      <node concept="$CzcT" id="OjdO2L9MHL" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9MHT" role="$CzcU">
+          <ref role="1_0j5g" node="2c7PXw4QOVH" resolve="Requirements_Breakdown_Pattern" />
+        </node>
+      </node>
+    </node>
+    <node concept="1_0VNX" id="OjdO2L9MIL" role="1_0VJ0">
+      <property role="TrG5h" value="weaver" />
+      <property role="1_0VJr" value="Weaver Software Safety Pattern Catalogue" />
+      <node concept="$CzcT" id="OjdO2L9MNP" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9MO$" role="$CzcU">
+          <ref role="1_0j5g" node="4c4SMF1zbwj" resolve="Component_Contributions_to_System_Hazards" />
+        </node>
+      </node>
+      <node concept="$CzcT" id="OjdO2L9MNW" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9MOB" role="$CzcU">
+          <ref role="1_0j5g" node="5Pd2jYnBE5t" resolve="Handling_of_Hardware/Other_Component_Pattern" />
+        </node>
+      </node>
+      <node concept="$CzcT" id="OjdO2L9MO3" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9MOE" role="$CzcU">
+          <ref role="1_0j5g" node="5Pd2jYnBE4B" resolve="Handling_of_Software_Failure_Mode" />
+        </node>
+      </node>
+      <node concept="$CzcT" id="OjdO2L9MOc" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9MOH" role="$CzcU">
+          <ref role="1_0j5g" node="5Pd2jYnBBYz" resolve="Hazardous_Software_Failure_Mode_Decomposition" />
+        </node>
+      </node>
+      <node concept="$CzcT" id="OjdO2L9MOn" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9MOK" role="$CzcU">
+          <ref role="1_0j5g" node="5Pd2jYnBD9E" resolve="Software_Argument_Approach" />
+        </node>
+      </node>
+    </node>
+    <node concept="1_0VNX" id="OjdO2L9MOX" role="1_0VJ0">
+      <property role="TrG5h" value="do_178C" />
+      <property role="1_0VJr" value="DO-178C Safety Argument Fragments" />
+      <node concept="$CzcT" id="OjdO2L9MSN" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9MSU" role="$CzcU">
+          <ref role="1_0j5g" node="1FKYJgs7Jrb" resolve="Beginning_of_primary_argument_for_level_D_software" />
+        </node>
+      </node>
+      <node concept="$CzcT" id="OjdO2L9MT2" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9MTb" role="$CzcU">
+          <ref role="1_0j5g" node="1FKYJgs7JlY" resolve="Refinement_of_G2_HLRSAT" />
+        </node>
+      </node>
+      <node concept="$CzcT" id="OjdO2L9MTe" role="1_0VJ0">
+        <node concept="1_0j5j" id="OjdO2L9MTo" role="$CzcU">
+          <ref role="1_0j5g" node="1FKYJgs7Jp2" resolve="Refinement_of_G3_EOCSAT" />
+        </node>
+      </node>
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9Mnh" role="1DXQ57">
+      <ref role="1_0j5g" node="5Ac1Q93IR5r" resolve="ALARP" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MoJ" role="1DXQ57">
+      <ref role="1_0j5g" node="1To8c6dXF0s" resolve="Confidence_Argument_Structure_For_An_Asserted_Inference_Doc" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MoR" role="1DXQ57">
+      <ref role="1_0j5g" node="1To8c6dXFc1" resolve="Confidence_Argument_Structure_For_An_Asserted_Solution_Doc" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9Mp1" role="1DXQ57">
+      <ref role="1_0j5g" node="1To8c6dXFcR" resolve="The_Overall_Confidence_Argument_Doc" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9Ms1" role="1DXQ57">
+      <ref role="1_0j5g" node="5Ac1Q93IYDJ" resolve="ML_Safety_Assurance_Scoping_Argument_pattern" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9Mst" role="1DXQ57">
+      <ref role="1_0j5g" node="1To8c6e7ThJ" resolve="Assurance_Argument_Pattern_for_ML_Safety_Requirements" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MsW" role="1DXQ57">
+      <ref role="1_0j5g" node="1To8c6e7Thm" resolve="Assurance_Argument_Pattern_for_ML_Data" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9Mte" role="1DXQ57">
+      <ref role="1_0j5g" node="1To8c6e7Tnx" resolve="ML_Model_Learning_Argument_Pattern" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9Mty" role="1DXQ57">
+      <ref role="1_0j5g" node="1To8c6e7Tmd" resolve="Assurance_Argument_Pattern_For_ML_Verification" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MtS" role="1DXQ57">
+      <ref role="1_0j5g" node="1To8c6e7TkT" resolve="Assurance_Argument_Pattern_for_ML_Model_Deployment" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9Mw6" role="1DXQ57">
+      <ref role="1_0j5g" node="1To8c6e6DC4" resolve="High_Level_Vehicle_Safety_Argument_Pattern_Doc" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9Mww" role="1DXQ57">
+      <ref role="1_0j5g" node="1To8c6e7R94" resolve="Predefined_Safety_Requirements_Argument_Pattern" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MwW" role="1DXQ57">
+      <ref role="1_0j5g" node="1To8c6e7T32" resolve="Risk_Management_Argument_Pattern" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9Mxq" role="1DXQ57">
+      <ref role="1_0j5g" node="1To8c6e7T2D" resolve="Risk_Mitigation_Argument_Pattern" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9M$d" role="1DXQ57">
+      <ref role="1_0j5g" node="1To8c6e6DkJ" resolve="2016_hawkins_fm_verif_evidence_Doc" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MCe" role="1DXQ57">
+      <ref role="1_0j5g" node="2c7PXw4QOEy" resolve="Fault_Free_Software_Pattern" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MCO" role="1DXQ57">
+      <ref role="1_0j5g" node="6QaAXI9m8tL" resolve="Fault_Tree_Evidence" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MDs" role="1DXQ57">
+      <ref role="1_0j5g" node="3bxKdImh42t" resolve="Hazard_Avoidance_Pattern" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9ME6" role="1DXQ57">
+      <ref role="1_0j5g" node="3SSXMcyVGQH" resolve="Hazard_Directed_Integriy_Level_Argument" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MFt" role="1DXQ57">
+      <ref role="1_0j5g" node="2c7PXw4QPhw" resolve="Extended/Hierarchical_Physical_Decomposition_Pattern" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MG9" role="1DXQ57">
+      <ref role="1_0j5g" node="2c7PXw4QOVH" resolve="Requirements_Breakdown_Pattern" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MJY" role="1DXQ57">
+      <ref role="1_0j5g" node="4c4SMF1zbwj" resolve="Component_Contributions_to_System_Hazards" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MKI" role="1DXQ57">
+      <ref role="1_0j5g" node="5Pd2jYnBE5t" resolve="Handling_of_Hardware/Other_Component_Pattern" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MLw" role="1DXQ57">
+      <ref role="1_0j5g" node="5Pd2jYnBE4B" resolve="Handling_of_Software_Failure_Mode" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MMk" role="1DXQ57">
+      <ref role="1_0j5g" node="5Pd2jYnBBYz" resolve="Hazardous_Software_Failure_Mode_Decomposition" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MNa" role="1DXQ57">
+      <ref role="1_0j5g" node="5Pd2jYnBD9E" resolve="Software_Argument_Approach" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MQp" role="1DXQ57">
+      <ref role="1_0j5g" node="1FKYJgs7Jrb" resolve="Beginning_of_primary_argument_for_level_D_software" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MRj" role="1DXQ57">
+      <ref role="1_0j5g" node="1FKYJgs7JlY" resolve="Refinement_of_G2_HLRSAT" />
+    </node>
+    <node concept="1_0j5j" id="OjdO2L9MSf" role="1DXQ57">
+      <ref role="1_0j5g" node="1FKYJgs7Jp2" resolve="Refinement_of_G3_EOCSAT" />
+    </node>
+  </node>
+  <node concept="2SbYGP" id="OjdO2L9Mnc">
+    <property role="TrG5h" value="Config_Index" />
+    <node concept="2SbYGw" id="OjdO2L9Mnd" role="A10yx">
+      <property role="TrG5h" value="img" />
+      <node concept="9PVaO" id="OjdO2L9Mne" role="9PVG_">
+        <property role="3N1Lgt" value="configs/index/img" />
+      </node>
+    </node>
+    <node concept="2SbYGw" id="OjdO2L9Mnf" role="Cbewh">
+      <property role="TrG5h" value="tmp" />
+      <node concept="9PVaO" id="OjdO2L9Mng" role="9PVG_">
+        <property role="3N1Lgt" value="configs/index/tmp" />
       </node>
     </node>
   </node>
