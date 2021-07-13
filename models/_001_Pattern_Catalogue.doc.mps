@@ -4830,7 +4830,7 @@
   </node>
   <node concept="qdN4g" id="5Pd2jYnBD9E">
     <property role="yApLE" value="1" />
-    <property role="3GE5qa" value="_105_Weaver_Software_Safety_Pattern_Catalogue" />
+    <property role="3GE5qa" value="_101_Fault/Failure-Based_Argument_Patterns" />
     <property role="TrG5h" value="Software_Argument_Approach" />
     <ref role="qdN4h" to="hia9:3bxKdImh1e$" resolve="Software_Argument_Approach_Pattern" />
     <ref role="G9hjw" node="5Pd2jYnBD9d" resolve="Config_Software_Argument_Approach" />
