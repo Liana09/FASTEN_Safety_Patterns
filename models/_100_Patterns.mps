@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:f484f3cb-b75d-4857-b03a-36f42bd7a5b9(_001_Pattern_Catalogue.alarp)">
+<model ref="r:f484f3cb-b75d-4857-b03a-36f42bd7a5b9(_100_Patterns)">
   <persistence version="9" />
   <languages>
     <use id="42606624-2faa-4717-ba66-77021cc11b53" name="com.mbeddr.formal.safety.gsn.doc" version="0" />
@@ -8,7 +8,7 @@
     <devkit ref="ac9a2847-3512-4af0-8db9-c20abbe2720a(fasten.safety)" />
   </languages>
   <imports>
-    <import index="dm5y" ref="r:bd72b02e-ded9-45db-b8d7-7f868df59b05(_001_Pattern_Catalogue.doc)" />
+    <import index="dm5y" ref="r:bd72b02e-ded9-45db-b8d7-7f868df59b05(_200_Patterns_Documentation)" />
   </imports>
   <registry>
     <language id="6464626a-ab04-4051-908e-5e8dc75acd78" name="com.mbeddr.formal.safety.gsn.ext">

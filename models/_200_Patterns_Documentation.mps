@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:bd72b02e-ded9-45db-b8d7-7f868df59b05(_001_Pattern_Catalogue.doc)">
+<model ref="r:bd72b02e-ded9-45db-b8d7-7f868df59b05(_200_Patterns_Documentation)">
   <persistence version="9" />
   <languages>
     <use id="42606624-2faa-4717-ba66-77021cc11b53" name="com.mbeddr.formal.safety.gsn.doc" version="0" />
     <devkit ref="54c79f9f-f3ba-4167-91f1-eb4e98a9c47c(com.mbeddr.documentation)" />
   </languages>
   <imports>
-    <import index="hia9" ref="r:f484f3cb-b75d-4857-b03a-36f42bd7a5b9(_001_Pattern_Catalogue.alarp)" />
+    <import index="hia9" ref="r:f484f3cb-b75d-4857-b03a-36f42bd7a5b9(_100_Patterns)" />
   </imports>
   <registry>
     <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
