@@ -23,6 +23,7 @@
       </concept>
     </language>
     <language id="2374bc90-7e37-41f1-a9c4-c2e35194c36a" name="com.mbeddr.doc">
+      <concept id="4317007310193476045" name="com.mbeddr.doc.structure.ScaleDownNotUp100" flags="ng" index="2bctqb" />
       <concept id="620304030119138923" name="com.mbeddr.doc.structure.BoldFormattedText" flags="ng" index="2vpllh" />
       <concept id="6165313375056012512" name="com.mbeddr.doc.structure.DocumentInclude" flags="ng" index="$CzcT">
         <child id="6165313375056012515" name="ref" index="$CzcU" />
@@ -69,11 +70,12 @@
       <concept id="5185579450379273118" name="com.mbeddr.doc.structure.TextParHeader" flags="ng" index="1xAIan">
         <property id="5185579450379273119" name="text" index="1xAIam" />
       </concept>
+      <concept id="6955693250238922827" name="com.mbeddr.doc.structure.ModelContentAsImageParagraph" flags="ng" index="3z_lpz">
+        <child id="6955693250238922832" name="description" index="3z_lpS" />
+        <child id="6955693250238922833" name="sizeSpec" index="3z_lpT" />
+      </concept>
       <concept id="6955693250238922820" name="com.mbeddr.doc.structure.AbstractModelContentParagraph" flags="ng" index="3z_lpG">
         <child id="6955693250238922822" name="codeptr" index="3z_lpI" />
-      </concept>
-      <concept id="6955693250238922834" name="com.mbeddr.doc.structure.ModelContentAsTextParagraph" flags="ng" index="3z_lpU">
-        <property id="6955693250238922836" name="language" index="3z_lpW" />
       </concept>
       <concept id="3350625596580269173" name="com.mbeddr.doc.structure.NullRenderer" flags="ng" index="1_05Lf" />
       <concept id="3350625596580256366" name="com.mbeddr.doc.structure.DocumentExport" flags="ng" index="1_08Dk">
@@ -97,6 +99,11 @@
         <property id="5572730672710143343" name="chapterStartIndex" index="yApLE" />
       </concept>
       <concept id="3350625596579911760" name="com.mbeddr.doc.structure.EmptyDocContent" flags="ng" index="1_1sxE" />
+    </language>
+    <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
+      <concept id="8375407818529178006" name="com.mbeddr.core.base.structure.TextBlock" flags="ng" index="OjmMv">
+        <child id="8375407818529178007" name="text" index="OjmMu" />
+      </concept>
     </language>
     <language id="d3a0fd26-445a-466c-900e-10444ddfed52" name="com.mbeddr.mpsutil.filepicker">
       <concept id="2642765975824060179" name="com.mbeddr.mpsutil.filepicker.structure.SolutionRelativeDirPicker" flags="ng" index="9PVaO" />
@@ -148,10 +155,16 @@
     <node concept="1mvXsy" id="2mgWlIyR5kK" role="1_0VJ0">
       <property role="TrG5h" value="alarp" />
       <property role="1_0VJr" value="ALARP (As-Low-As-Reasonably-Practicable) Safety Argument Pattern" />
-      <node concept="3z_lpU" id="2mgWlIyR5lM" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="2mgWlIyR5lN" role="3z_lpI">
-          <node concept="2NCMab" id="2mgWlIyR5lO" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb$wi" role="1_0VJ0">
+        <property role="TrG5h" value="ALARP" />
+        <node concept="OjmMv" id="55EhOuJb$wk" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb$wl" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb$wm" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb$wo" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb$wq" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb$zk" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:2a3o3cy5vqc" resolve="ALARP" />
           </node>
         </node>
@@ -629,10 +642,16 @@
     <node concept="1mvXsy" id="5Ac1Q93IYHs" role="1_0VJ0">
       <property role="TrG5h" value="scoping_argument_pattern" />
       <property role="1_0VJr" value="ML Safety Assurance Scoping" />
-      <node concept="3z_lpU" id="3bxKdImh3e0" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="3bxKdImh3e1" role="3z_lpI">
-          <node concept="2NCMab" id="3bxKdImh3e9" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJbA2Z" role="1_0VJ0">
+        <property role="TrG5h" value="ML_Safety_Assurance_Scoping_Argument_pattern" />
+        <node concept="OjmMv" id="55EhOuJbA31" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJbA32" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJbA33" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJbA35" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJbA37" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJbA3R" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:3fm$CPEX8Bi" resolve="ML_Safety_Assurance_Scoping_Argument_pattern" />
           </node>
         </node>
@@ -736,10 +755,16 @@
     <node concept="1mvXsy" id="6QaAXI9m8tM" role="1_0VJ0">
       <property role="TrG5h" value="hdila" />
       <property role="1_0VJr" value="Hazard Directed Integrity Level Argument" />
-      <node concept="3z_lpU" id="3bxKdImh4tI" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="3bxKdImh4tJ" role="3z_lpI">
-          <node concept="2NCMab" id="3bxKdImh4wK" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb_3B" role="1_0VJ0">
+        <property role="TrG5h" value="Hazard_Directed_Integrity_Level_Argument" />
+        <node concept="OjmMv" id="55EhOuJb_3D" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb_3E" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb_3F" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb_3H" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb_3J" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb_6X" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:1gQflfExzgk" resolve="Hazard_Directed_Integrity_Level_Argument" />
           </node>
         </node>
@@ -1265,11 +1290,17 @@
     <node concept="1mvXsy" id="6QaAXI9mabm" role="1_0VJ0">
       <property role="TrG5h" value="fte" />
       <property role="1_0VJr" value="Fault Tree Evidence" />
-      <node concept="3z_lpU" id="3bxKdImh4D0" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="3bxKdImh4D1" role="3z_lpI">
-          <node concept="2NCMab" id="3bxKdImh4F6" role="2NCMaf">
-            <ref role="2NCMaa" node="6QaAXI9m8tL" resolve="Fault_Tree_Evidence" />
+      <node concept="3z_lpz" id="55EhOuJb$Uf" role="1_0VJ0">
+        <property role="TrG5h" value="Faul_Tree_Evidence" />
+        <node concept="OjmMv" id="55EhOuJb$Uh" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb$Ui" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb$Uj" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb$Ul" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb$Un" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb$W_" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:6QaAXI9m4gl" resolve="Faul_Tree_Evidence" />
           </node>
         </node>
       </node>
@@ -1620,10 +1651,16 @@
     <node concept="1mvXsy" id="1To8c6dXF7a" role="1_0VJ0">
       <property role="TrG5h" value="confidence_arg_asserted_inference" />
       <property role="1_0VJr" value="Confidence argument structure for an asserted inference" />
-      <node concept="3z_lpU" id="1To8c6dXF7d" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="1To8c6dXF7e" role="3z_lpI">
-          <node concept="2NCMab" id="1To8c6dXF7g" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJbA6R" role="1_0VJ0">
+        <property role="TrG5h" value="Confidence_Argument_Structure_For_An_Asserted_Inference" />
+        <node concept="OjmMv" id="55EhOuJbA6T" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJbA6U" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJbA6V" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJbA6X" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJbA6Z" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJbA7$" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:2S9emLMVNZj" resolve="Confidence_Argument_Structure_For_An_Asserted_Inference" />
           </node>
         </node>
@@ -1721,10 +1758,16 @@
     <node concept="1mvXsy" id="1To8c6dXFfB" role="1_0VJ0">
       <property role="TrG5h" value="confidence_arg_asserted_solution" />
       <property role="1_0VJr" value="Confidence argument structure for an asserted solution" />
-      <node concept="3z_lpU" id="1To8c6dXFfC" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="1To8c6dXFfD" role="3z_lpI">
-          <node concept="2NCMab" id="1To8c6dXFg4" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJbA9t" role="1_0VJ0">
+        <property role="TrG5h" value="Confidence_Argument_Structure_For_An_Asserted_Solution" />
+        <node concept="OjmMv" id="55EhOuJbA9v" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJbA9w" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJbA9x" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJbA9z" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJbA9_" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJbAaa" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:6NzOE2eFNAx" resolve="Confidence_Argument_Structure_For_An_Asserted_Solution" />
           </node>
         </node>
@@ -1794,10 +1837,16 @@
     <node concept="1mvXsy" id="1To8c6e6q_b" role="1_0VJ0">
       <property role="TrG5h" value="the_overall_confidence_argument" />
       <property role="1_0VJr" value="Overall confidence argument" />
-      <node concept="3z_lpU" id="1To8c6e6q_c" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="1To8c6e6q_d" role="3z_lpI">
-          <node concept="2NCMab" id="1To8c6e6q_C" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJbAb7" role="1_0VJ0">
+        <property role="TrG5h" value="The_Overall_Confidence_Argument" />
+        <node concept="OjmMv" id="55EhOuJbAb9" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJbAba" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJbAbb" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJbAbd" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJbAbf" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJbAbO" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:4XZ2U19jXBw" resolve="The_Overall_Confidence_Argument" />
           </node>
         </node>
@@ -1891,16 +1940,19 @@
     <node concept="1mvXsy" id="1To8c6e6Dmb" role="1_0VJ0">
       <property role="TrG5h" value="fm_verif_evidence" />
       <property role="1_0VJr" value="Property Assurance using formal evidence" />
-      <node concept="3z_lpU" id="1To8c6e6Dml" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="1To8c6e6Dmm" role="3z_lpI">
-          <node concept="2NCMab" id="1To8c6e6Dmo" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb_D3" role="1_0VJ0">
+        <property role="TrG5h" value="hawkins_fm_verif_evidence" />
+        <node concept="OjmMv" id="55EhOuJb_D5" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb_D6" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb_D7" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb_D9" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb_Db" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb_E1" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:6T$0vkPi3_N" resolve="2016_hawkins_fm_verif_evidence" />
           </node>
         </node>
-      </node>
-      <node concept="1_1sxE" id="1To8c6e6Dz7" role="1_0VJ0">
-        <property role="TrG5h" value="empty_-1" />
       </node>
       <node concept="1_0LV8" id="1To8c6e6Dmg" role="1_0VJ0">
         <node concept="19SGf9" id="1To8c6e6Dmh" role="1_0LWR">
@@ -2019,10 +2071,16 @@
     <node concept="1mvXsy" id="1To8c6e7R5T" role="1_0VJ0">
       <property role="TrG5h" value="automotive_safety" />
       <property role="1_0VJr" value="High Level Vehicle Argument Pattern" />
-      <node concept="3z_lpU" id="1To8c6e7R6w" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="1To8c6e7R6x" role="3z_lpI">
-          <node concept="2NCMab" id="1To8c6e7R6z" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJbAcU" role="1_0VJ0">
+        <property role="TrG5h" value="High_Level_Vehicle_Safety_Argument_Pattern" />
+        <node concept="OjmMv" id="55EhOuJbAcW" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJbAcX" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJbAcY" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJbAd0" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJbAd2" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJbAdK" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:5xKN$GcBTot" resolve="High_Level_Vehicle_Safety_Argument_Pattern" />
           </node>
         </node>
@@ -2142,10 +2200,16 @@
     <node concept="1mvXsy" id="1To8c6e7T5b" role="1_0VJ0">
       <property role="TrG5h" value="predefined_safety_requirements" />
       <property role="1_0VJr" value="Predefined Safety Requirements Argument Pattern" />
-      <node concept="3z_lpU" id="1To8c6e7T5c" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="1To8c6e7T5d" role="3z_lpI">
-          <node concept="2NCMab" id="1To8c6e7T5J" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJbAeT" role="1_0VJ0">
+        <property role="TrG5h" value="Predefined_Safety_Requirements_Argument_Pattern" />
+        <node concept="OjmMv" id="55EhOuJbAeV" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJbAeW" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJbAeX" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJbAeZ" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJbAf1" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJbAfD" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:1To8c6e7R97" resolve="Predefined_Safety_Requirements_Argument_Pattern" />
           </node>
         </node>
@@ -2231,10 +2295,16 @@
     <node concept="1mvXsy" id="1To8c6e7T8v" role="1_0VJ0">
       <property role="TrG5h" value="risk_mitigation_pattern" />
       <property role="1_0VJr" value="Risk Mitigation Argument Pattern" />
-      <node concept="3z_lpU" id="1To8c6e7T8w" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="1To8c6e7T8x" role="3z_lpI">
-          <node concept="2NCMab" id="1To8c6e7T8V" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJbAim" role="1_0VJ0">
+        <property role="TrG5h" value="Risk_Mitigation_Argument_Pattern" />
+        <node concept="OjmMv" id="55EhOuJbAio" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJbAip" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJbAiq" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJbAis" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJbAiu" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJbAiY" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:6bYkLspKQ9Q" resolve="Risk_Mitigation_Argument_Pattern" />
           </node>
         </node>
@@ -2312,11 +2382,17 @@
     <node concept="1mvXsy" id="1To8c6e7T6P" role="1_0VJ0">
       <property role="TrG5h" value="risk_management_pattern" />
       <property role="1_0VJr" value="Risk Management Argument Pattern" />
-      <node concept="3z_lpU" id="1To8c6e7T6Q" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="1To8c6e7T6R" role="3z_lpI">
-          <node concept="2NCMab" id="1To8c6e7T7j" role="2NCMaf">
-            <ref role="2NCMaa" node="1To8c6e7T32" resolve="Risk_Management_Argument_Pattern" />
+      <node concept="3z_lpz" id="55EhOuJbAgE" role="1_0VJ0">
+        <property role="TrG5h" value="Risk_Management_Argument_Pattern" />
+        <node concept="OjmMv" id="55EhOuJbAgG" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJbAgH" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJbAgI" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJbAgK" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJbAgM" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJbAho" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:6gOiWKwJAFu" resolve="Risk_Management_Argument_Pattern" />
           </node>
         </node>
       </node>
@@ -2395,10 +2471,16 @@
     <node concept="1mvXsy" id="3bxKdImh3vo" role="1_0VJ0">
       <property role="TrG5h" value="data_management_argument_pattern" />
       <property role="1_0VJr" value="Data Management" />
-      <node concept="3z_lpU" id="3bxKdImh3vp" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="3bxKdImh3vq" role="3z_lpI">
-          <node concept="2NCMab" id="3bxKdImh3wO" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb_Qd" role="1_0VJ0">
+        <property role="TrG5h" value="Assurance_Argument_Pattern_for_ML_Data" />
+        <node concept="OjmMv" id="55EhOuJb_Qf" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb_Qg" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb_Qh" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb_Qj" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb_Ql" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb_R5" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:1o6g2PQC_hz" resolve="Assurance_Argument_Pattern_for_ML_Data" />
           </node>
         </node>
@@ -2522,10 +2604,16 @@
     <node concept="1mvXsy" id="3bxKdImh3o3" role="1_0VJ0">
       <property role="TrG5h" value="safety_requirements_argument_pattern" />
       <property role="1_0VJr" value="ML Safety Requirements Assurance" />
-      <node concept="3z_lpU" id="3bxKdImh3o4" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="3bxKdImh3o5" role="3z_lpI">
-          <node concept="2NCMab" id="3bxKdImh3qd" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb_Vk" role="1_0VJ0">
+        <property role="TrG5h" value="Assurance_Argument_Pattern_for_ML_Safety_Requirements" />
+        <node concept="OjmMv" id="55EhOuJb_Vm" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb_Vn" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb_Vo" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb_Vq" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb_Vs" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb_Wg" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:49j4XbEcrI6" resolve="Assurance_Argument_Pattern_for_ML_Safety_Requirements" />
           </node>
         </node>
@@ -2661,10 +2749,16 @@
     <node concept="1mvXsy" id="3bxKdImh3NH" role="1_0VJ0">
       <property role="TrG5h" value="ml_verification_argument_pattern" />
       <property role="1_0VJr" value="ML Verification pattern" />
-      <node concept="3z_lpU" id="3bxKdImh3NI" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="3bxKdImh3NJ" role="3z_lpI">
-          <node concept="2NCMab" id="3bxKdImh3Pr" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb_SA" role="1_0VJ0">
+        <property role="TrG5h" value="Assurance_Argument_Pattern_for_ML_Model_Deployment" />
+        <node concept="OjmMv" id="55EhOuJb_SC" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb_SD" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb_SE" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb_SG" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb_SI" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb_TJ" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:4eWg3s95ulf" resolve="Assurance_Argument_Pattern_for_ML_Model_Deployment" />
           </node>
         </node>
@@ -2830,10 +2924,16 @@
     <node concept="1mvXsy" id="3bxKdImh3FN" role="1_0VJ0">
       <property role="TrG5h" value="ml_verification_argument_pattern" />
       <property role="1_0VJr" value="ML Verification pattern" />
-      <node concept="3z_lpU" id="3bxKdImh3FO" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="3bxKdImh3FP" role="3z_lpI">
-          <node concept="2NCMab" id="3bxKdImh3Hb" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb_XR" role="1_0VJ0">
+        <property role="TrG5h" value="Assurance_Argument_Pattern_For_ML_Verification" />
+        <node concept="OjmMv" id="55EhOuJb_XT" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb_XU" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb_XV" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb_XX" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb_XZ" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb_YZ" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:3aTA1OI2aSS" resolve="Assurance_Argument_Pattern_For_ML_Verification" />
           </node>
         </node>
@@ -3005,10 +3105,16 @@
     <node concept="1mvXsy" id="3bxKdImh3zO" role="1_0VJ0">
       <property role="TrG5h" value="model_learning_argument_pattern" />
       <property role="1_0VJr" value="Model Learning" />
-      <node concept="3z_lpU" id="3bxKdImh3zP" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="3bxKdImh3zQ" role="3z_lpI">
-          <node concept="2NCMab" id="3bxKdImh3_8" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJbA0C" role="1_0VJ0">
+        <property role="TrG5h" value="ML_Model_Learning_Argument_Pattern" />
+        <node concept="OjmMv" id="55EhOuJbA0E" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJbA0F" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJbA0G" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJbA0I" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJbA0K" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJbA1A" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:1X8YE2QmbbO" resolve="ML_Model_Learning_Argument_Pattern" />
           </node>
         </node>
@@ -3150,11 +3256,17 @@
     <node concept="1mvXsy" id="3bxKdImh44k" role="1_0VJ0">
       <property role="TrG5h" value="ha_pattern" />
       <property role="1_0VJr" value="Hazard Avoidance Pattern" />
-      <node concept="3z_lpU" id="3bxKdImh4cE" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="3bxKdImh4cF" role="3z_lpI">
-          <node concept="2NCMab" id="3bxKdImh4eK" role="2NCMaf">
-            <ref role="2NCMaa" node="3bxKdImh42t" resolve="Hazard_Avoidance_Pattern" />
+      <node concept="3z_lpz" id="55EhOuJb$Ze" role="1_0VJ0">
+        <property role="TrG5h" value="Hazard_Avoidance_Pattern" />
+        <node concept="OjmMv" id="55EhOuJb$Zg" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb$Zh" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb$Zi" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb$Zk" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb$Zm" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb$ZY" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:6QaAXI9m4aB" resolve="Hazard_Avoidance_Pattern" />
           </node>
         </node>
       </node>
@@ -3240,10 +3352,16 @@
     <node concept="1mvXsy" id="2c7PXw4QOEz" role="1_0VJ0">
       <property role="TrG5h" value="fault_free_pattern" />
       <property role="1_0VJr" value="Fault Free Pattern" />
-      <node concept="3z_lpU" id="2c7PXw4QOE$" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="2c7PXw4QOE_" role="3z_lpI">
-          <node concept="2NCMab" id="2c7PXw4QOFn" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb_dn" role="1_0VJ0">
+        <property role="TrG5h" value="Fault_Free_Software_Pattern" />
+        <node concept="OjmMv" id="55EhOuJb_dp" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb_dq" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb_dr" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb_dt" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb_dv" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb_el" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:6QaAXI9m3Xg" resolve="Fault_Free_Software_Pattern" />
           </node>
         </node>
@@ -3367,11 +3485,17 @@
     <node concept="1mvXsy" id="2c7PXw4QOVN" role="1_0VJ0">
       <property role="TrG5h" value="req_breakdown_pattern" />
       <property role="1_0VJr" value=" Requirements Breakdown Pattern" />
-      <node concept="3z_lpU" id="2c7PXw4QP9h" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="2c7PXw4QP9i" role="3z_lpI">
-          <node concept="2NCMab" id="2c7PXw4QPa4" role="2NCMaf">
-            <ref role="2NCMaa" node="2c7PXw4QOVH" resolve="Requirements_Breakdown_Pattern" />
+      <node concept="3z_lpz" id="55EhOuJb_KC" role="1_0VJ0">
+        <property role="TrG5h" value="Requirements_Breakdown_Pattern" />
+        <node concept="OjmMv" id="55EhOuJb_KE" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb_KF" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb_KG" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb_KI" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb_KK" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb_Nd" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:3bxKdImh06T" resolve="Requirements_Breakdown_Pattern" />
           </node>
         </node>
       </node>
@@ -3801,10 +3925,16 @@
     <node concept="1mvXsy" id="2c7PXw4QPjX" role="1_0VJ0">
       <property role="TrG5h" value="extended_hierarchical_pattern" />
       <property role="1_0VJr" value=" RExtended / Hierarchical Physical Decomposition Pattern" />
-      <node concept="3z_lpU" id="2c7PXw4QPjY" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="2c7PXw4QPjZ" role="3z_lpI">
-          <node concept="2NCMab" id="2c7PXw4QPlx" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb_aQ" role="1_0VJ0">
+        <property role="TrG5h" value="Extended_Hierarchical_Physical_Decomposition_Pattern" />
+        <node concept="OjmMv" id="55EhOuJb_aS" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb_aT" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb_aU" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb_aW" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb_aY" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb_bQ" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:3bxKdImh07S" resolve="Extended/Hierarchical_Physical_Decomposition_Pattern" />
           </node>
         </node>
@@ -3938,10 +4068,16 @@
     <node concept="1mvXsy" id="4c4SMF1zb_b" role="1_0VJ0">
       <property role="TrG5h" value="ccsh" />
       <property role="1_0VJr" value="Component Contributions to System Hazards" />
-      <node concept="3z_lpU" id="4c4SMF1zb_c" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="4c4SMF1zb_d" role="3z_lpI">
-          <node concept="2NCMab" id="4c4SMF1zbDl" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb$L$" role="1_0VJ0">
+        <property role="TrG5h" value="Component_Contributions_to_System_Hazards" />
+        <node concept="OjmMv" id="55EhOuJb$LA" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb$LB" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb$LC" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb$LE" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb$LG" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb$OX" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:3bxKdImh0BI" resolve="Component_Contributions_to_System_Hazards" />
           </node>
         </node>
@@ -4462,10 +4598,16 @@
     <node concept="1mvXsy" id="5Pd2jYnBCE3" role="1_0VJ0">
       <property role="TrG5h" value="hsfmd" />
       <property role="1_0VJr" value="Hazardous Software Failure Mode Decomposition" />
-      <node concept="3z_lpU" id="5Pd2jYnBCE4" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="5Pd2jYnBCE5" role="3z_lpI">
-          <node concept="2NCMab" id="5Pd2jYnBCKC" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb_vt" role="1_0VJ0">
+        <property role="TrG5h" value="Hazardous_Software_Failure_Mode_Decomposition_Pattern" />
+        <node concept="OjmMv" id="55EhOuJb_vv" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb_vw" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb_vx" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb_vz" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb_v_" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb_xq" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:3bxKdImh15q" resolve="Hazardous_Software_Failure_Mode_Decomposition_Pattern" />
           </node>
         </node>
@@ -4745,10 +4887,16 @@
     <node concept="1mvXsy" id="5Pd2jYnBD9F" role="1_0VJ0">
       <property role="TrG5h" value="saa" />
       <property role="1_0VJr" value="Software Argument Approach" />
-      <node concept="3z_lpU" id="5Pd2jYnBD9G" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="5Pd2jYnBD9H" role="3z_lpI">
-          <node concept="2NCMab" id="5Pd2jYnBDd4" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb__1" role="1_0VJ0">
+        <property role="TrG5h" value="Software_Argument_Approach_Pattern" />
+        <node concept="OjmMv" id="55EhOuJb__3" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb__4" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb__5" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb__7" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb__9" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb_B8" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:3bxKdImh1e$" resolve="Software_Argument_Approach_Pattern" />
           </node>
         </node>
@@ -5053,10 +5201,16 @@
     <node concept="1mvXsy" id="4xQJNjc1cR" role="1_0VJ0">
       <property role="TrG5h" value="hoSFM" />
       <property role="1_0VJr" value="Handling of Software Failure Mode" />
-      <node concept="3z_lpU" id="4xQJNjc1cS" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="4xQJNjc1cT" role="3z_lpI">
-          <node concept="2NCMab" id="4xQJNjc1hh" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb_oz" role="1_0VJ0">
+        <property role="TrG5h" value="Handling_of_Software_Failure_Mode" />
+        <node concept="OjmMv" id="55EhOuJb_o_" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb_oA" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb_oB" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb_oD" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb_oF" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb_rg" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:3bxKdImh1Q8" resolve="Handling_of_Software_Failure_Mode" />
           </node>
         </node>
@@ -5450,10 +5604,16 @@
     <node concept="1mvXsy" id="4xQJNjc0yR" role="1_0VJ0">
       <property role="TrG5h" value="hoHC" />
       <property role="1_0VJr" value="Handling of Hardware/Other Component Failure Mode" />
-      <node concept="3z_lpU" id="4xQJNjc0yS" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="4xQJNjc0yT" role="3z_lpI">
-          <node concept="2NCMab" id="4xQJNjc0Ad" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb_hl" role="1_0VJ0">
+        <property role="TrG5h" value="Handling_of_Hardware_Other_Component_Failure_ModePattern" />
+        <node concept="OjmMv" id="55EhOuJb_hn" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb_ho" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb_hp" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb_hr" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb_ht" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb_jO" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:3bxKdImh1mP" resolve="Handling_of_Hardware/Other_Component_Failure_ModePattern" />
           </node>
         </node>
@@ -5815,16 +5975,19 @@
     <node concept="1mvXsy" id="OjdO2L9MgY" role="1_0VJ0">
       <property role="TrG5h" value="argument_lvl_D_G2" />
       <property role="1_0VJr" value="Refinement of G2:HLRSAT" />
-      <node concept="3z_lpU" id="OjdO2L9MgZ" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="OjdO2L9Mh0" role="3z_lpI">
-          <node concept="2NCMab" id="OjdO2L9MjT" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb_EN" role="1_0VJ0">
+        <property role="TrG5h" value="Refinement_of_G2_HLRSAT" />
+        <node concept="OjmMv" id="55EhOuJb_EP" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb_EQ" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb_ER" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb_ET" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb_EV" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb_FD" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:3bxKdImh2EH" resolve="Refinement_of_G2:HLRSAT" />
           </node>
         </node>
-      </node>
-      <node concept="1_1sxE" id="OjdO2L9Mh2" role="1_0VJ0">
-        <property role="TrG5h" value="empty_-1" />
       </node>
       <node concept="1_0LV8" id="OjdO2L9Mh3" role="1_0VJ0">
         <node concept="19SGf9" id="OjdO2L9Mh4" role="1_0LWR">
@@ -5927,16 +6090,19 @@
     <node concept="1mvXsy" id="OjdO2L9MjV" role="1_0VJ0">
       <property role="TrG5h" value="argument_lvl_D_G3" />
       <property role="1_0VJr" value="Refinement of G3:EOCSAT" />
-      <node concept="3z_lpU" id="OjdO2L9MjW" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="OjdO2L9MjX" role="3z_lpI">
-          <node concept="2NCMab" id="OjdO2L9Ml5" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJb_GS" role="1_0VJ0">
+        <property role="TrG5h" value="Refinement_of_G3_EOCSAT" />
+        <node concept="OjmMv" id="55EhOuJb_GU" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJb_GV" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJb_GW" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJb_GY" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJb_H0" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJb_HG" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:3bxKdImh2S1" resolve="Refinement_of_G3:EOCSAT" />
           </node>
         </node>
-      </node>
-      <node concept="1_1sxE" id="OjdO2L9MjZ" role="1_0VJ0">
-        <property role="TrG5h" value="empty_-1" />
       </node>
       <node concept="1_0LV8" id="OjdO2L9Mk0" role="1_0VJ0">
         <node concept="19SGf9" id="OjdO2L9Mk1" role="1_0LWR">
@@ -6033,16 +6199,19 @@
     <node concept="1mvXsy" id="1FKYJgs7KcY" role="1_0VJ0">
       <property role="TrG5h" value="argument_lvl_D" />
       <property role="1_0VJr" value="Beginning of primary argument for level D software" />
-      <node concept="3z_lpU" id="1FKYJgs7KcZ" role="1_0VJ0">
-        <property role="3z_lpW" value="mbeddr" />
-        <node concept="2NCZwO" id="1FKYJgs7Kd0" role="3z_lpI">
-          <node concept="2NCMab" id="1FKYJgs7Keo" role="2NCMaf">
+      <node concept="3z_lpz" id="55EhOuJbA4z" role="1_0VJ0">
+        <property role="TrG5h" value="Beginning_of_primary_argument_for_level_D_software" />
+        <node concept="OjmMv" id="55EhOuJbA4_" role="3z_lpS">
+          <node concept="19SGf9" id="55EhOuJbA4A" role="OjmMu">
+            <node concept="19SUe$" id="55EhOuJbA4B" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="55EhOuJbA4D" role="3z_lpT" />
+        <node concept="2NCZwO" id="55EhOuJbA4F" role="3z_lpI">
+          <node concept="2NCMab" id="55EhOuJbA5_" role="2NCMaf">
             <ref role="2NCMaa" to="hia9:3bxKdImh2oI" resolve="Beginning_of_primary_argument_for_level_D_software" />
           </node>
         </node>
-      </node>
-      <node concept="1_1sxE" id="1FKYJgs7Kd2" role="1_0VJ0">
-        <property role="TrG5h" value="empty_-1" />
       </node>
       <node concept="1_0LV8" id="1FKYJgs7Kd3" role="1_0VJ0">
         <node concept="19SGf9" id="1FKYJgs7Kd4" role="1_0LWR">
