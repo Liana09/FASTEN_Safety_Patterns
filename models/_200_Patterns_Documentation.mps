@@ -6462,114 +6462,24 @@
       <node concept="1_0LV8" id="11ac4fGX4x6" role="1_0VJ0">
         <node concept="19SGf9" id="11ac4fGX4x7" role="1_0LWR">
           <node concept="19SUe$" id="11ac4fGX4x8" role="19SJt6">
-            <property role="19SUeA" value="This is a catalogue of patterns." />
+            <property role="19SUeA" value="A catalogue of safety patterns." />
           </node>
         </node>
       </node>
       <node concept="3xmJbL" id="11ac4fGX4xn" role="1_0VJ0">
         <property role="TrG5h" value="Patterns_Table_Of_Contents" />
       </node>
-      <node concept="1_0VNX" id="11ac4fGX4xo" role="1_0VJ0">
-        <property role="TrG5h" value="conf_patt" />
-        <property role="1_0VJr" value="Confidence patterns" />
-        <node concept="$CzcT" id="11ac4fGX4xp" role="1_0VJ0">
-          <node concept="1_0j5j" id="11ac4fGX4xq" role="$CzcU">
-            <ref role="1_0j5g" node="1To8c6dXF0s" resolve="Confidence_Argument_Structure_For_An_Asserted_Inference_Doc" />
-          </node>
-        </node>
-        <node concept="$CzcT" id="11ac4fGX4xr" role="1_0VJ0">
-          <node concept="1_0j5j" id="11ac4fGX4xs" role="$CzcU">
-            <ref role="1_0j5g" node="1To8c6dXFc1" resolve="Confidence_Argument_Structure_For_An_Asserted_Solution_Doc" />
-          </node>
-        </node>
-        <node concept="$CzcT" id="11ac4fGX4xt" role="1_0VJ0">
-          <node concept="1_0j5j" id="11ac4fGX4xu" role="$CzcU">
-            <ref role="1_0j5g" node="1To8c6dXFcR" resolve="The_Overall_Confidence_Argument_Doc" />
-          </node>
-        </node>
-      </node>
-      <node concept="1_0VNX" id="11ac4fGX4xv" role="1_0VJ0">
-        <property role="TrG5h" value="Automotive_Patterns" />
-        <property role="1_0VJr" value="Automotive Patterns" />
-        <node concept="1_0VNX" id="11ac4fGX4xw" role="1_0VJ0">
-          <property role="TrG5h" value="amlas_ML" />
-          <property role="1_0VJr" value="AMLAS Patterns" />
-          <node concept="$CzcT" id="11ac4fGX4xx" role="1_0VJ0">
-            <node concept="1_0j5j" id="11ac4fGX4xy" role="$CzcU">
-              <ref role="1_0j5g" node="5Ac1Q93IYDJ" resolve="ML_Safety_Assurance_Scoping_Argument_pattern" />
-            </node>
-          </node>
-          <node concept="$CzcT" id="11ac4fGX4xz" role="1_0VJ0">
-            <node concept="1_0j5j" id="11ac4fGX4x$" role="$CzcU">
-              <ref role="1_0j5g" node="1To8c6e7ThJ" resolve="Assurance_Argument_Pattern_for_ML_Safety_Requirements" />
-            </node>
-          </node>
-          <node concept="$CzcT" id="11ac4fGX4x_" role="1_0VJ0">
-            <node concept="1_0j5j" id="11ac4fGX4xA" role="$CzcU">
-              <ref role="1_0j5g" node="1To8c6e7Thm" resolve="Assurance_Argument_Pattern_for_ML_Data" />
-            </node>
-          </node>
-          <node concept="$CzcT" id="11ac4fGX4xB" role="1_0VJ0">
-            <node concept="1_0j5j" id="11ac4fGX4xC" role="$CzcU">
-              <ref role="1_0j5g" node="1To8c6e7Tnx" resolve="ML_Model_Learning_Argument_Pattern" />
-            </node>
-          </node>
-          <node concept="$CzcT" id="11ac4fGX4xD" role="1_0VJ0">
-            <node concept="1_0j5j" id="11ac4fGX4xE" role="$CzcU">
-              <ref role="1_0j5g" node="1To8c6e7Tmd" resolve="Assurance_Argument_Pattern_For_ML_Verification" />
-            </node>
-          </node>
-          <node concept="$CzcT" id="11ac4fGX4xF" role="1_0VJ0">
-            <node concept="1_0j5j" id="11ac4fGX4xG" role="$CzcU">
-              <ref role="1_0j5g" node="1To8c6e7TkT" resolve="Assurance_Argument_Pattern_for_ML_Model_Deployment" />
-            </node>
-          </node>
-        </node>
-        <node concept="1_0VNX" id="11ac4fGX4xH" role="1_0VJ0">
-          <property role="TrG5h" value="safecomp" />
-          <property role="1_0VJr" value="SAFECOMP Palin Automorives" />
-          <node concept="$CzcT" id="11ac4fGX4xI" role="1_0VJ0">
-            <node concept="1_0j5j" id="11ac4fGX4xJ" role="$CzcU">
-              <ref role="1_0j5g" node="1To8c6e6DC4" resolve="High_Level_Vehicle_Safety_Argument_Pattern" />
-            </node>
-          </node>
-          <node concept="$CzcT" id="11ac4fGX4xK" role="1_0VJ0">
-            <node concept="1_0j5j" id="11ac4fGX4xL" role="$CzcU">
-              <ref role="1_0j5g" node="1To8c6e7R94" resolve="Predefined_Safety_Requirements_Argument_Pattern" />
-            </node>
-          </node>
-          <node concept="$CzcT" id="11ac4fGX4xM" role="1_0VJ0">
-            <node concept="1_0j5j" id="11ac4fGX4xN" role="$CzcU">
-              <ref role="1_0j5g" node="1To8c6e7T32" resolve="Risk_Management_Argument_Pattern" />
-            </node>
-          </node>
-          <node concept="$CzcT" id="11ac4fGX4xO" role="1_0VJ0">
-            <node concept="1_0j5j" id="11ac4fGX4xP" role="$CzcU">
-              <ref role="1_0j5g" node="1To8c6e7T2D" resolve="Risk_Mitigation_Argument_Pattern" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="1_0VNX" id="11ac4fGX4xQ" role="1_0VJ0">
-        <property role="TrG5h" value="formal" />
-        <property role="1_0VJr" value="Formal Verification Patterns" />
-        <node concept="$CzcT" id="11ac4fGX4xR" role="1_0VJ0">
-          <node concept="1_0j5j" id="11ac4fGX4xS" role="$CzcU">
-            <ref role="1_0j5g" node="1To8c6e6DkJ" resolve="2016_hawkins_fm_verif_evidence_Doc" />
-          </node>
-        </node>
-      </node>
-      <node concept="1_0VNX" id="11ac4fGX4xT" role="1_0VJ0">
-        <property role="TrG5h" value="tim_kelly" />
-        <property role="1_0VJr" value="Timothy Kelly Pattern Catalogue" />
+      <node concept="1_0VNX" id="3mhrdIoatFP" role="1_0VJ0">
+        <property role="TrG5h" value="risk_based" />
+        <property role="1_0VJr" value="Risk-Based Argument Patterns" />
         <node concept="$CzcT" id="11ac4fGX4xU" role="1_0VJ0">
           <node concept="1_0j5j" id="11ac4fGX4xV" role="$CzcU">
             <ref role="1_0j5g" node="5Ac1Q93IR5r" resolve="ALARP" />
           </node>
         </node>
-        <node concept="$CzcT" id="11ac4fGX4xW" role="1_0VJ0">
-          <node concept="1_0j5j" id="11ac4fGX4xX" role="$CzcU">
-            <ref role="1_0j5g" node="2c7PXw4QOEy" resolve="Fault_Free_Software_Pattern" />
+        <node concept="$CzcT" id="11ac4fGX4ya" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4yb" role="$CzcU">
+            <ref role="1_0j5g" node="4c4SMF1zbwj" resolve="Component_Contributions_to_System_Hazards" />
           </node>
         </node>
         <node concept="$CzcT" id="11ac4fGX4xY" role="1_0VJ0">
@@ -6588,26 +6498,17 @@
           </node>
         </node>
       </node>
-      <node concept="1_0VNX" id="11ac4fGX4y4" role="1_0VJ0">
-        <property role="TrG5h" value="nasa" />
-        <property role="1_0VJr" value="Theory And Application NASA Catalogue" />
+      <node concept="1_0VNX" id="3mhrdIoatM0" role="1_0VJ0">
+        <property role="TrG5h" value="fault_failure" />
+        <property role="1_0VJr" value=" Fault/Failure-Based Argument Patterns" />
         <node concept="$CzcT" id="11ac4fGX4y5" role="1_0VJ0">
           <node concept="1_0j5j" id="11ac4fGX4y6" role="$CzcU">
             <ref role="1_0j5g" node="2c7PXw4QPhw" resolve="Extended/Hierarchical_Physical_Decomposition_Pattern" />
           </node>
         </node>
-        <node concept="$CzcT" id="11ac4fGX4y7" role="1_0VJ0">
-          <node concept="1_0j5j" id="11ac4fGX4y8" role="$CzcU">
-            <ref role="1_0j5g" node="2c7PXw4QOVH" resolve="Requirements_Breakdown_Pattern" />
-          </node>
-        </node>
-      </node>
-      <node concept="1_0VNX" id="11ac4fGX4y9" role="1_0VJ0">
-        <property role="TrG5h" value="weaver" />
-        <property role="1_0VJr" value="Weaver Software Safety Pattern Catalogue" />
-        <node concept="$CzcT" id="11ac4fGX4ya" role="1_0VJ0">
-          <node concept="1_0j5j" id="11ac4fGX4yb" role="$CzcU">
-            <ref role="1_0j5g" node="4c4SMF1zbwj" resolve="Component_Contributions_to_System_Hazards" />
+        <node concept="$CzcT" id="11ac4fGX4xW" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4xX" role="$CzcU">
+            <ref role="1_0j5g" node="2c7PXw4QOEy" resolve="Fault_Free_Software_Pattern" />
           </node>
         </node>
         <node concept="$CzcT" id="11ac4fGX4yc" role="1_0VJ0">
@@ -6631,12 +6532,21 @@
           </node>
         </node>
       </node>
-      <node concept="1_0VNX" id="11ac4fGX4yk" role="1_0VJ0">
-        <property role="TrG5h" value="do_178C" />
-        <property role="1_0VJr" value="DO-178C Safety Argument Fragments" />
-        <node concept="$CzcT" id="11ac4fGX4yl" role="1_0VJ0">
-          <node concept="1_0j5j" id="11ac4fGX4ym" role="$CzcU">
-            <ref role="1_0j5g" node="1FKYJgs7Jrb" resolve="Beginning_of_primary_argument_for_level_D_software" />
+      <node concept="1_0VNX" id="11ac4fGX4xQ" role="1_0VJ0">
+        <property role="TrG5h" value="verif" />
+        <property role="1_0VJr" value="Verification-based Argument Patterns" />
+        <node concept="$CzcT" id="11ac4fGX4xR" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4xS" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e6DkJ" resolve="2016_hawkins_fm_verif_evidence_Doc" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0VNX" id="11ac4fGX4y4" role="1_0VJ0">
+        <property role="TrG5h" value="requirement" />
+        <property role="1_0VJr" value="Requirements-based Argument Patterns" />
+        <node concept="$CzcT" id="11ac4fGX4y7" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4y8" role="$CzcU">
+            <ref role="1_0j5g" node="2c7PXw4QOVH" resolve="Requirements_Breakdown_Pattern" />
           </node>
         </node>
         <node concept="$CzcT" id="11ac4fGX4yn" role="1_0VJ0">
@@ -6650,8 +6560,91 @@
           </node>
         </node>
       </node>
-      <node concept="1_1sxE" id="11ac4fGX4xh" role="1_0VJ0">
-        <property role="TrG5h" value="empty_-1" />
+      <node concept="1_0VNX" id="11ac4fGX4xv" role="1_0VJ0">
+        <property role="TrG5h" value="ML" />
+        <property role="1_0VJr" value="ML-specific Argument Patterns" />
+        <node concept="$CzcT" id="11ac4fGX4xx" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4xy" role="$CzcU">
+            <ref role="1_0j5g" node="5Ac1Q93IYDJ" resolve="ML_Safety_Assurance_Scoping_Argument_pattern" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="11ac4fGX4xz" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4x$" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7ThJ" resolve="Assurance_Argument_Pattern_for_ML_Safety_Requirements" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="11ac4fGX4x_" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4xA" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7Thm" resolve="Assurance_Argument_Pattern_for_ML_Data" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="11ac4fGX4xB" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4xC" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7Tnx" resolve="ML_Model_Learning_Argument_Pattern" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="11ac4fGX4xD" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4xE" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7Tmd" resolve="Assurance_Argument_Pattern_For_ML_Verification" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="11ac4fGX4xF" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4xG" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7TkT" resolve="Assurance_Argument_Pattern_for_ML_Model_Deployment" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0VNX" id="11ac4fGX4yk" role="1_0VJ0">
+        <property role="TrG5h" value="do_178C" />
+        <property role="1_0VJr" value="DO-178C-Specific Argument Patterns" />
+        <node concept="$CzcT" id="11ac4fGX4yl" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4ym" role="$CzcU">
+            <ref role="1_0j5g" node="1FKYJgs7Jrb" resolve="Beginning_of_primary_argument_for_level_D_software" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0VNX" id="3mhrdIoauhF" role="1_0VJ0">
+        <property role="TrG5h" value="confidence" />
+        <property role="1_0VJr" value="Confidence Argument Patterns" />
+        <node concept="$CzcT" id="3mhrdIoauhG" role="1_0VJ0">
+          <node concept="1_0j5j" id="3mhrdIoauiK" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6dXF0s" resolve="Confidence_Argument_Structure_For_An_Asserted_Inference_Doc" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="3mhrdIoauli" role="1_0VJ0">
+          <node concept="1_0j5j" id="3mhrdIoaulq" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6dXFc1" resolve="Confidence_Argument_Structure_For_An_Asserted_Solution_Doc" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="3mhrdIoaulS" role="1_0VJ0">
+          <node concept="1_0j5j" id="3mhrdIoaum2" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6dXFcR" resolve="The_Overall_Confidence_Argument_Doc" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0VNX" id="11ac4fGX4xH" role="1_0VJ0">
+        <property role="TrG5h" value="safecomp" />
+        <property role="1_0VJr" value="Automotive-Specific Argument Patterns" />
+        <node concept="$CzcT" id="11ac4fGX4xI" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4xJ" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e6DC4" resolve="High_Level_Vehicle_Safety_Argument_Pattern" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="11ac4fGX4xK" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4xL" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7R94" resolve="Predefined_Safety_Requirements_Argument_Pattern" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="11ac4fGX4xM" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4xN" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7T32" resolve="Risk_Management_Argument_Pattern" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="11ac4fGX4xO" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4xP" role="$CzcU">
+            <ref role="1_0j5g" node="1To8c6e7T2D" resolve="Risk_Mitigation_Argument_Pattern" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
