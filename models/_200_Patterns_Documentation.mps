@@ -3273,7 +3273,7 @@
       <node concept="1_0LV8" id="3bxKdImh44s" role="1_0VJ0">
         <node concept="19SGf9" id="3bxKdImh44t" role="1_0LWR">
           <node concept="19SUe$" id="3bxKdImh44u" role="19SJt6">
-            <property role="19SUeA" value="Patterns can emerge at many different levels in the safety argument and at varying degrees of specificity. At the highest level it is possible to identify a number of basic argument structures that are used to decompose ill-defined system safety requirements. In this pattern, the implicit definition of ‘safe’ is ‘hazard avoidance’. " />
+            <property role="19SUeA" value="Patterns can emerge at many different levels in the safety argument and at varying degrees of specificity. &#10;At the highest level it is possible to identify a number of basic argument structures that are used to decompose ill-defined system safety requirements. &#10;In this pattern, the implicit definition of ‘safe’ is ‘hazard avoidance’. " />
           </node>
         </node>
         <node concept="1xAIan" id="3bxKdImh44v" role="1xAIax">
@@ -3299,19 +3299,13 @@
             <ref role="qdJxC" to="hia9:6QaAXI9m4bz" resolve="G1" />
           </node>
           <node concept="19SUe$" id="2c7PXw4QOAP" role="19SJt6">
-            <property role="19SUeA" value="is addressed by arguing that all identified hazards have been addressed " />
-          </node>
-          <node concept="qcxat" id="2c7PXw4QOAT" role="19SJt6">
-            <ref role="qcx5w" to="hia9:6QaAXI9m4cB" resolve="S1" />
-          </node>
-          <node concept="19SUe$" id="2c7PXw4QOAU" role="19SJt6">
-            <property role="19SUeA" value=". This strategy can only be executed in the context of some knowledge of plausible hazards, e.g. identified by Hazard Analysis. Given this information " />
+            <property role="19SUeA" value="is addressed by arguing that all identified hazards have been addressed. &#10;This strategy can only be executed in the context of some knowledge of plausible hazards, e.g. identified by Hazard Analysis. &#10;Given this information" />
           </node>
           <node concept="qcx9v" id="2c7PXw4QOB0" role="19SJt6">
             <ref role="qcx8m" to="hia9:6QaAXI9m4dN" resolve="C1" />
           </node>
           <node concept="19SUe$" id="2c7PXw4QOB1" role="19SJt6">
-            <property role="19SUeA" value=", identifying n hazards, n sub-goals of the form G2 can be constructed. The argument then progresses from these ‘hazard avoidance’ goals. " />
+            <property role="19SUeA" value=", identifying n hazards, n sub-goals of the form G2 can be constructed. &#10;The argument then progresses from these ‘hazard avoidance’ goals. " />
           </node>
         </node>
         <node concept="1xAIan" id="3bxKdImh45R" role="1xAIax">
@@ -3326,7 +3320,7 @@
           <node concept="1jUjqm" id="2c7PXw4QOZC" role="19SJt6">
             <node concept="19SGf9" id="2c7PXw4QOZD" role="$DsGW">
               <node concept="19SUe$" id="2c7PXw4QOZE" role="19SJt6">
-                <property role="19SUeA" value="Pattern and documentation taken from: Kelly, Tim. (2001). Arguing Safety -- A Systematic Approach to Managing Safety Cases Timothy Patrick Kelly. " />
+                <property role="19SUeA" value="Pattern and documentation taken from: Kelly, Tim. (2001). Arguing Safety -- A Systematic Approach to Managing Safety Cases Timothy Patrick Kelly." />
               </node>
             </node>
           </node>
@@ -3341,6 +3335,7 @@
     </node>
     <node concept="Wq1Bs" id="3bxKdImh44i" role="Wq1Bf">
       <property role="Wq1Bt" value="Timothy Patrick Kelly" />
+      <property role="Wq1Bq" value=" " />
     </node>
   </node>
   <node concept="qdN4g" id="2c7PXw4QOEy">
@@ -3942,7 +3937,7 @@
       <node concept="1_0LV8" id="2c7PXw4QPk1" role="1_0VJ0">
         <node concept="19SGf9" id="2c7PXw4QPk2" role="1_0LWR">
           <node concept="19SUe$" id="2c7PXw4QPk3" role="19SJt6">
-            <property role="19SUeA" value="The intent of this pattern is the same as for the physical architecture breakdown pattern, i.e., to assure that failure hazards of a system have been sufficiently mitigated. The pattern was created to extend the physical architecture breakdown pattern, by considering hierarchy in the system structure." />
+            <property role="19SUeA" value="The intent of this pattern is the same as for the physical architecture breakdown pattern, i.e., to assure that failure hazards of a system have been sufficiently mitigated. &#10;The pattern was created to extend the physical architecture breakdown pattern, by considering hierarchy in the system structure." />
           </node>
         </node>
         <node concept="1xAIan" id="2c7PXw4QPk4" role="1xAIax">
@@ -3952,7 +3947,7 @@
       <node concept="1_0LV8" id="2c7PXw4QPny" role="1_0VJ0">
         <node concept="19SGf9" id="2c7PXw4QPnz" role="1_0LWR">
           <node concept="19SUe$" id="2c7PXw4QPn$" role="19SJt6">
-            <property role="19SUeA" value="This pattern is mainly applicable in the context of failure hazards, and when the failure hazard mitigation claim is made in the context of a system which has a physical architecture. In addition to this, the pattern can be applied when there is a nested hierarchy, i.e., when a system has several tiers of subsystems, components, etc." />
+            <property role="19SUeA" value="This pattern is mainly applicable in the context of failure hazards, and when the failure hazard mitigation claim is made in the context of a system which has a physical architecture. &#10;In addition to this, the pattern can be applied when there is a nested hierarchy, i.e., when a system has several tiers of subsystems, components, etc." />
           </node>
         </node>
         <node concept="1xAIan" id="2c7PXw4QPo6" role="1xAIax">
@@ -3968,7 +3963,7 @@
             <ref role="qcx5w" to="hia9:3bxKdImh0wP" resolve="S2" />
           </node>
           <node concept="19SUe$" id="4n5Vvd8Dg3B" role="19SJt6">
-            <property role="19SUeA" value=") when addressing the claim of failure hazard mitigation at either the system or subsystem level. Hierarchy in the physical architecture is addressed by iterating on over the parent strategy of argument over the physical architecture breakdown (" />
+            <property role="19SUeA" value=") when addressing the claim of failure hazard mitigation &#10;at either the system or subsystem level. Hierarchy in the physical architecture is addressed by iterating on over the parent strategy of argument over the &#10;physical architecture breakdown (" />
           </node>
           <node concept="qcxat" id="4n5Vvd8Dg3K" role="19SJt6">
             <ref role="qcx5w" to="hia9:3bxKdImh0Ab" resolve="S1" />
@@ -3980,7 +3975,7 @@
             <ref role="qcx5w" to="hia9:3bxKdImh0wP" resolve="S2" />
           </node>
           <node concept="19SUe$" id="4n5Vvd8Dg4V" role="19SJt6">
-            <property role="19SUeA" value=", which is yet to be instantiated, represents any admissible set of failure mitigation strategies at the system/sub-system level, e.g., redundancy, design diversity, failure masking, etc.&#10;&#10;" />
+            <property role="19SUeA" value=", which is yet to be instantiated, represents any admissible set of failure mitigation strategies at the &#10;system/sub-system level, e.g., redundancy, design diversity, failure masking, etc.&#10;&#10;" />
           </node>
           <node concept="1jUjqm" id="2c7PXw4QPks" role="19SJt6">
             <node concept="19SGf9" id="2c7PXw4QPkt" role="$DsGW">
@@ -3990,7 +3985,7 @@
             </node>
           </node>
           <node concept="19SUe$" id="2c7PXw4QPkv" role="19SJt6">
-            <property role="19SUeA" value="As indicated, the main difference between the extended physical decomposition pattern and the physical architecture breakdown pattern is the choice of strategies with which to develop the main claim and its sub-claims, in the pattern. Whereas in the latter, only one strategy (" />
+            <property role="19SUeA" value="&#10;As indicated, the main difference between the extended physical decomposition pattern and the physical architecture breakdown pattern &#10;is the choice of strategies with which to develop the main claim and its sub-claims, in the pattern. &#10;Whereas in the latter, only one strategy (" />
           </node>
           <node concept="qcxat" id="4n5Vvd8Dg3W" role="19SJt6">
             <ref role="qcx5w" to="hia9:3bxKdImh0Ab" resolve="S1" />
@@ -4002,7 +3997,7 @@
             <ref role="qdJxC" to="hia9:3bxKdImh0vD" resolve="G1" />
           </node>
           <node concept="19SUe$" id="4n5Vvd8Dg4D" role="19SJt6">
-            <property role="19SUeA" value=" can be developed either by argument over physical breakdown (" />
+            <property role="19SUeA" value=" can be developed either by argument over &#10;physical breakdown (" />
           </node>
           <node concept="qcxat" id="4n5Vvd8Dg4o" role="19SJt6">
             <ref role="qcx5w" to="hia9:3bxKdImh0Ab" resolve="S1" />
@@ -4014,7 +4009,7 @@
             <ref role="qcx5w" to="hia9:3bxKdImh0wP" resolve="S2" />
           </node>
           <node concept="19SUe$" id="4n5Vvd8Dg48" role="19SJt6">
-            <property role="19SUeA" value="). For the collaboration between the remaining elements," />
+            <property role="19SUeA" value="). " />
           </node>
         </node>
         <node concept="1xAIan" id="2c7PXw4QPkw" role="1xAIax">
@@ -4024,7 +4019,7 @@
       <node concept="1_0LV8" id="2c7PXw4QPky" role="1_0VJ0">
         <node concept="19SGf9" id="2c7PXw4QPkz" role="1_0LWR">
           <node concept="19SUe$" id="2c7PXw4QPk$" role="19SJt6">
-            <property role="19SUeA" value="In addition to the elements instantiated as in the physical architecture breakdown pattern from the mentioned publication at the end of this document, on instantiating the extended physical decomposition pattern, strategy S1 is also instantiated, where an appropriate failure mitigation strategy {r :: strategy} is referenced." />
+            <property role="19SUeA" value="In addition to the elements instantiated as in the physical architecture breakdown pattern from the mentioned publication at the end of this document, &#10;on instantiating the extended physical decomposition pattern, strategy S1 is also instantiated, where an appropriate failure mitigation strategy {r :: strategy} is referenced." />
           </node>
         </node>
         <node concept="1xAIan" id="2c7PXw4QPk_" role="1xAIax">
@@ -4054,9 +4049,11 @@
     </node>
     <node concept="Wq1Bs" id="2c7PXw4QPjO" role="Wq1Bf">
       <property role="Wq1Bt" value="Ewen W. Denney" />
+      <property role="Wq1Bq" value="ewen.denney@nasa.gov" />
     </node>
     <node concept="Wq1Bs" id="2c7PXw4QPjQ" role="Wq1Bf">
       <property role="Wq1Bt" value="Ganesh J. Pai" />
+      <property role="Wq1Bq" value="ganesh.pai@nasa.gov Abstract—We" />
     </node>
   </node>
   <node concept="qdN4g" id="4c4SMF1zbwj">
@@ -4870,12 +4867,15 @@
     </node>
     <node concept="Wq1Bs" id="5Pd2jYnBBZ9" role="Wq1Bf">
       <property role="Wq1Bt" value="Rob Weaver" />
+      <property role="Wq1Bq" value=" " />
     </node>
     <node concept="Wq1Bs" id="5Pd2jYnBBZa" role="Wq1Bf">
       <property role="Wq1Bt" value="John McDermid" />
+      <property role="Wq1Bq" value=" " />
     </node>
     <node concept="Wq1Bs" id="5Pd2jYnBBZb" role="Wq1Bf">
       <property role="Wq1Bt" value="Tim Kelly" />
+      <property role="Wq1Bq" value=" " />
     </node>
   </node>
   <node concept="qdN4g" id="5Pd2jYnBD9E">
