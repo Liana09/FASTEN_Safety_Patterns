@@ -2189,12 +2189,12 @@
     <property role="TrG5h" value="Predefined_Safety_Requirements_Argument_Pattern" />
     <ref role="qdN4h" to="hia9:1To8c6e7R97" resolve="Predefined_Safety_Requirements_Argument_Pattern" />
     <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
-    <node concept="Wq1Bs" id="1To8c6e7T8p" role="Wq1Bf">
+    <node concept="Wq1Bs" id="6uWvPOBYHOi" role="Wq1Bf">
       <property role="Wq1Bt" value="Robert Palin" />
       <property role="Wq1Bq" value="rpalin@jaguarlandrover.com" />
     </node>
-    <node concept="Wq1Bs" id="1To8c6e7T8q" role="Wq1Bf">
-      <property role="Wq1Bt" value="Jaguar Land Rover" />
+    <node concept="Wq1Bs" id="6uWvPOBYHOj" role="Wq1Bf">
+      <property role="Wq1Bt" value="Ibrahim Habli" />
       <property role="Wq1Bq" value="Ibrahim.Habli@cs.york.ac.uk" />
     </node>
     <node concept="1mvXsy" id="1To8c6e7T5b" role="1_0VJ0">
@@ -2356,12 +2356,12 @@
         </node>
       </node>
     </node>
-    <node concept="Wq1Bs" id="1To8c6e7T8r" role="Wq1Bf">
+    <node concept="Wq1Bs" id="6uWvPOBYHOq" role="Wq1Bf">
       <property role="Wq1Bt" value="Robert Palin" />
       <property role="Wq1Bq" value="rpalin@jaguarlandrover.com" />
     </node>
-    <node concept="Wq1Bs" id="1To8c6e7T8s" role="Wq1Bf">
-      <property role="Wq1Bt" value="Jaguar Land Rover" />
+    <node concept="Wq1Bs" id="6uWvPOBYHOr" role="Wq1Bf">
+      <property role="Wq1Bt" value="Ibrahim Habli" />
       <property role="Wq1Bq" value="Ibrahim.Habli@cs.york.ac.uk" />
     </node>
   </node>
@@ -2371,12 +2371,12 @@
     <property role="TrG5h" value="Risk_Management_Argument_Pattern" />
     <ref role="qdN4h" to="hia9:6gOiWKwJAFu" resolve="Risk_Management_Argument_Pattern" />
     <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
-    <node concept="Wq1Bs" id="1To8c6e7T8t" role="Wq1Bf">
+    <node concept="Wq1Bs" id="6uWvPOBYHOm" role="Wq1Bf">
       <property role="Wq1Bt" value="Robert Palin" />
       <property role="Wq1Bq" value="rpalin@jaguarlandrover.com" />
     </node>
-    <node concept="Wq1Bs" id="1To8c6e7T8u" role="Wq1Bf">
-      <property role="Wq1Bt" value="Jaguar Land Rover" />
+    <node concept="Wq1Bs" id="6uWvPOBYHOn" role="Wq1Bf">
+      <property role="Wq1Bt" value="Ibrahim Habli" />
       <property role="Wq1Bq" value="Ibrahim.Habli@cs.york.ac.uk" />
     </node>
     <node concept="1mvXsy" id="1To8c6e7T6P" role="1_0VJ0">
@@ -6744,6 +6744,102 @@
       <property role="Wq1Bt" value="Tim Kelly" />
       <property role="Wq1Bq" value="tim.kelly@cs.york.ac.uk" />
     </node>
+  </node>
+  <node concept="qdN4g" id="6uWvPOBYHxR">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_109_Diverse_Patterns" />
+    <property role="TrG5h" value="Diverse_Barriers_Pattern" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+    <ref role="qdN4h" to="hia9:6uWvPOBYHuh" resolve="Diverse_Barriers_Pattern" />
+  </node>
+  <node concept="qdN4g" id="6uWvPOBYHyg">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_109_Diverse_Patterns" />
+    <property role="TrG5h" value="Diverse_Argument_Pattern" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+    <ref role="qdN4h" to="hia9:31qnjCBcI0l" resolve="Diverse_Argument_Pattern" />
+  </node>
+  <node concept="qdN4g" id="6uWvPOBYHHE">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_109_Diverse_Patterns" />
+    <property role="TrG5h" value="Diverse_Evidence_Pattern" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+  </node>
+  <node concept="qdN4g" id="6uWvPOBYHK1">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_107_Confidence_Argument_Patterns" />
+    <property role="TrG5h" value="Assurance_Argument_Pattern_For_Confidence_Arguments" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+  </node>
+  <node concept="qdN4g" id="6uWvPOBYHLp">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_104_Requirements-Based_Argument_Patterns" />
+    <property role="TrG5h" value="Assurance_Argument_Pattern_For_Artefacts" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+    <ref role="qdN4h" to="hia9:6uWvPOBYHGi" resolve="Assurance_Argument_Pattern_For_Artefacts" />
+  </node>
+  <node concept="qdN4g" id="6uWvPOBYHML">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_103_Verification-Based_Argument_Patterns" />
+    <property role="TrG5h" value="Property_Assurance_Argument_Using_Formal_Evidence" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+    <ref role="qdN4h" to="hia9:6uWvPOBYH$i" resolve="Property_Assurance_Argument_Using_Formal_Evidence" />
+  </node>
+  <node concept="qdN4g" id="6uWvPOBYHOd">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_108_Automotive-Specific_Argument_Patterns" />
+    <property role="TrG5h" value="Alert_And_Warning_Argument_Pattern" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+    <ref role="qdN4h" to="hia9:6uWvPOBYHMP" resolve="Alert_And_Warning_Argument_Pattern" />
+    <node concept="Wq1Bs" id="6uWvPOBYHOe" role="Wq1Bf">
+      <property role="Wq1Bt" value="Robert Palin" />
+      <property role="Wq1Bq" value="rpalin@jaguarlandrover.com" />
+    </node>
+    <node concept="Wq1Bs" id="6uWvPOBYHOf" role="Wq1Bf">
+      <property role="Wq1Bt" value="Ibrahim Habli" />
+      <property role="Wq1Bq" value="Ibrahim.Habli@cs.york.ac.uk" />
+    </node>
+  </node>
+  <node concept="qdN4g" id="6uWvPOBYHPT">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_105_ML-Specific_Argument_Patterns" />
+    <property role="TrG5h" value="NN_Algorithm_Structure_Pattern" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+    <ref role="qdN4h" to="hia9:6uWvPOBYHOx" resolve="NN_Algorithm_Structure_Pattern" />
+    <node concept="Wq1Bs" id="6uWvPOBYHPU" role="Wq1Bf">
+      <property role="Wq1Bt" value="Gesina Schwalbe" />
+      <property role="Wq1Bq" value="schwalbe@continental-corporation.com" />
+    </node>
+    <node concept="Wq1Bs" id="6uWvPOBYHPW" role="Wq1Bf">
+      <property role="Wq1Bt" value="Martin Schels" />
+      <property role="Wq1Bq" value="schels@continental-corporation.com" />
+    </node>
+  </node>
+  <node concept="qdN4g" id="6uWvPOBYHSP">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_108_Automotive-Specific_Argument_Patterns" />
+    <property role="TrG5h" value="Homogeneous_Duplex_Redundancy_Pattern" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+  </node>
+  <node concept="qdN4g" id="6uWvPOBYHUd">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_105_ML-Specific_Argument_Patterns" />
+    <property role="TrG5h" value="A_Template_Of_Safety_Arguments_For_Obtaining_Partial_Prior_Knowledge" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+  </node>
+  <node concept="qdN4g" id="6uWvPOBYHVD">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_101_Fault/Failure-Based_Argument_Patterns" />
+    <property role="TrG5h" value="Safety-Critical_Function_Failure_Modes" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+    <ref role="qdN4h" to="hia9:6uWvPOBYHUh" resolve="Safety-Critical_Function_Failure_Modes" />
+  </node>
+  <node concept="qdN4g" id="6uWvPOBYHYw">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_105_ML-Specific_Argument_Patterns" />
+    <property role="TrG5h" value="Preliminary_Safety_Criteria_For_Artificial_Neural_Networks" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+    <ref role="qdN4h" to="hia9:6uWvPOBYHX8" resolve="Preliminary_Safety_Criteria_For_Artificial_Neural_Networks" />
   </node>
 </model>
 
