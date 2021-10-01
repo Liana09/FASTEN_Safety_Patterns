@@ -6656,7 +6656,7 @@
     <ref role="qdN4h" to="hia9:31qnjCBcHnZ" resolve="Extended_Diverse_Argument_Safety_Case_Pattern" />
     <node concept="1mvXsy" id="31qnjCBcHXA" role="1_0VJ0">
       <property role="TrG5h" value="Extended_Diverse_Argument_Safety_Case_Pattern" />
-      <property role="1_0VJr" value="Extended Diverse Argument Safety Case Pattern\nIt" />
+      <property role="1_0VJr" value="Extended Diverse Argument Safety Case Pattern" />
       <node concept="3z_lpz" id="31qnjCBcHXB" role="1_0VJ0">
         <property role="TrG5h" value="Extended_Diverse_Argument_Safety_Case_Pattern" />
         <node concept="OjmMv" id="31qnjCBcHXC" role="3z_lpS">
@@ -6750,20 +6750,133 @@
     <property role="3GE5qa" value="_109_Diverse_Patterns" />
     <property role="TrG5h" value="Diverse_Barriers_Pattern" />
     <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
-    <ref role="qdN4h" to="hia9:6uWvPOBYHuh" resolve="Diverse_Barriers_Pattern" />
+    <ref role="qdN4h" to="hia9:6uWvPOBYHuh" resolve="Diverse_Argument_Pattern" />
+    <node concept="Wq1Bs" id="2ozeuzkI1vr" role="Wq1Bf">
+      <property role="Wq1Bt" value="Mark A. Sujan" />
+      <property role="Wq1Bq" value=" " />
+    </node>
+    <node concept="Wq1Bs" id="2ozeuzkI1vt" role="Wq1Bf">
+      <property role="Wq1Bt" value="Shamus P. Smith" />
+      <property role="Wq1Bq" value=" " />
+    </node>
+    <node concept="Wq1Bs" id="2ozeuzkI1vw" role="Wq1Bf">
+      <property role="Wq1Bt" value="Michael D. Harrison" />
+      <property role="Wq1Bq" value=" " />
+    </node>
+    <node concept="1mvXsy" id="2ozeuzkI1sQ" role="1_0VJ0">
+      <property role="TrG5h" value="Diverse_Argument_Pattern" />
+      <property role="1_0VJr" value="Diverse Argument Pattern" />
+      <node concept="3z_lpz" id="2ozeuzkI1sR" role="1_0VJ0">
+        <property role="TrG5h" value="Diverse_Barriers_Pattern" />
+        <node concept="OjmMv" id="2ozeuzkI1sS" role="3z_lpS">
+          <node concept="19SGf9" id="2ozeuzkI1sT" role="OjmMu">
+            <node concept="19SUe$" id="2ozeuzkI1sU" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="2ozeuzkI1sV" role="3z_lpT" />
+        <node concept="2NCZwO" id="2ozeuzkI1sW" role="3z_lpI">
+          <node concept="2NCMab" id="2ozeuzkI1v$" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:6uWvPOBYHrg" resolve="Diverse_Barriers_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2ozeuzkI1sY" role="1_0VJ0">
+        <node concept="19SGf9" id="2ozeuzkI1sZ" role="1_0LWR">
+          <node concept="19SUe$" id="2ozeuzkI1t0" role="19SJt6">
+            <property role="19SUeA" value="Problem: To address uncertainty inherent in the evidence or in the warrant the breadth of an argument should be increased. For example, even though experimental workload assessments may be indicative of workload experienced in real environments, how well these results transfer to the real world might be unclear. There is inherent uncer- tainty attached to this kind of evidence. For a reason such as this the auditor could, for example, request additional evidence. &#10;A response to this might be to explain in greater detail the experimental analysis. The problem is that such a depth approach does not mitigate the uncertainty inherent in the evidence, breadth approaches are needed that give diversity to the evidence. Consequently, to make the overall argument more acceptable and to increase confidence in the claim, additional diverse evidence should be provided thereby increasing the breadth of the argument. This pattern provides a generic example of different ways to strengthen arguments by increasing their breadth in order to reduce uncertainty.&#10;&#10;\bold[Note]: Documentation provided from the following publication:                                                                                                                                                           &#10;Sujan, Mark A., Shamus P. Smith, and Michael D. Harrison. “Qualitative Analysis of Dependability Argument Structure.” Structure for Dependability: Computer-Based Systems from an Interdisciplinary Perspective 269–287. Crossref. Web." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2ozeuzkI1t1" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="qdN4g" id="6uWvPOBYHyg">
     <property role="yApLE" value="1" />
     <property role="3GE5qa" value="_109_Diverse_Patterns" />
     <property role="TrG5h" value="Diverse_Argument_Pattern" />
     <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
-    <ref role="qdN4h" to="hia9:31qnjCBcI0l" resolve="Diverse_Argument_Pattern" />
+    <ref role="qdN4h" to="hia9:31qnjCBcI0l" resolve="Diverse_Evidence_Pattern" />
+    <node concept="1mvXsy" id="2ozeuzkI1rp" role="1_0VJ0">
+      <property role="TrG5h" value="Diverse_Argument_Pattern" />
+      <property role="1_0VJr" value="Diverse Argument Pattern" />
+      <node concept="3z_lpz" id="2ozeuzkI1rq" role="1_0VJ0">
+        <property role="TrG5h" value="Diverse_Argument_Pattern" />
+        <node concept="OjmMv" id="2ozeuzkI1rr" role="3z_lpS">
+          <node concept="19SGf9" id="2ozeuzkI1rs" role="OjmMu">
+            <node concept="19SUe$" id="2ozeuzkI1rt" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="2ozeuzkI1ru" role="3z_lpT" />
+        <node concept="2NCZwO" id="2ozeuzkI1rv" role="3z_lpI">
+          <node concept="2NCMab" id="2ozeuzkI1sp" role="2NCMaf">
+            <ref role="2NCMaa" node="6uWvPOBYHyg" resolve="Diverse_Argument_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2ozeuzkI1rx" role="1_0VJ0">
+        <node concept="19SGf9" id="2ozeuzkI1ry" role="1_0LWR">
+          <node concept="19SUe$" id="2ozeuzkI1rz" role="19SJt6">
+            <property role="19SUeA" value="Problem: To address uncertainty inherent in the evidence or in the warrant the breadth of an argument should be increased. For example, even though experimental workload assessments may be indicative of workload experienced in real environments, how well these results transfer to the real world might be unclear. There is inherent uncer- tainty attached to this kind of evidence. For a reason such as this the auditor could, for example, request additional evidence. &#10;A response to this might be to explain in greater detail the experimental analysis. The problem is that such a depth approach does not mitigate the uncertainty inherent in the evidence, breadth approaches are needed that give diversity to the evidence. Consequently, to make the overall argument more acceptable and to increase confidence in the claim, additional diverse evidence should be provided thereby increasing the breadth of the argument. This pattern provides a generic example of different ways to strengthen arguments by increasing their breadth in order to reduce uncertainty.&#10;&#10;\bold[Note]: Documentation provided from the following publication:                                                                                                                                                           &#10;Sujan, Mark A., Shamus P. Smith, and Michael D. Harrison. “Qualitative Analysis of Dependability Argument Structure.” Structure for Dependability: Computer-Based Systems from an Interdisciplinary Perspective 269–287. Crossref. Web." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2ozeuzkI1r$" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="qdN4g" id="6uWvPOBYHHE">
     <property role="yApLE" value="1" />
     <property role="3GE5qa" value="_109_Diverse_Patterns" />
     <property role="TrG5h" value="Diverse_Evidence_Pattern" />
     <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+    <ref role="qdN4h" to="hia9:31qnjCBcI0l" resolve="Diverse_Evidence_Pattern" />
+    <node concept="1mvXsy" id="2ozeuzkI1te" role="1_0VJ0">
+      <property role="TrG5h" value="Diverse_Argument_Pattern" />
+      <property role="1_0VJr" value="Diverse Argument Pattern" />
+      <node concept="3z_lpz" id="2ozeuzkI1tf" role="1_0VJ0">
+        <property role="TrG5h" value="Diverse_Evidence_Pattern" />
+        <node concept="OjmMv" id="2ozeuzkI1tg" role="3z_lpS">
+          <node concept="19SGf9" id="2ozeuzkI1th" role="OjmMu">
+            <node concept="19SUe$" id="2ozeuzkI1ti" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="2ozeuzkI1tj" role="3z_lpT" />
+        <node concept="2NCZwO" id="2ozeuzkI1tk" role="3z_lpI">
+          <node concept="2NCMab" id="2ozeuzkI1tA" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:31qnjCBcI0l" resolve="Diverse_Evidence_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2ozeuzkI1tm" role="1_0VJ0">
+        <node concept="19SGf9" id="2ozeuzkI1tn" role="1_0LWR">
+          <node concept="19SUe$" id="2ozeuzkI1to" role="19SJt6">
+            <property role="19SUeA" value="Problem: To address uncertainty inherent in the evidence or in the warrant the breadth of an argument should be increased. For example, even though experimental workload assessments may be indicative of workload experienced in real environments, how well these results transfer to the real world might be unclear. There is inherent uncer- tainty attached to this kind of evidence. For a reason such as this the auditor could, for example, request additional evidence. &#10;A response to this might be to explain in greater detail the experimental analysis. The problem is that such a depth approach does not mitigate the uncertainty inherent in the evidence, breadth approaches are needed that give diversity to the evidence. Consequently, to make the overall argument more acceptable and to increase confidence in the claim, additional diverse evidence should be provided thereby increasing the breadth of the argument. This pattern provides a generic example of different ways to strengthen arguments by increasing their breadth in order to reduce uncertainty. To make the overall argument more acceptable and to increase confidence in the claim, additional diverse evidence should be provided thereby increasing the breadth of the argument. " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2ozeuzkI1tp" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="2ozeuzkI1ue" role="1_0VJ0">
+        <node concept="19SGf9" id="2ozeuzkI1uf" role="1_0LWR">
+          <node concept="19SUe$" id="2ozeuzkI1ug" role="19SJt6">
+            <property role="19SUeA" value="For example, in order to support the top-level claim (controller performance is acceptable) a second argument leg could be introduced claiming that all relevant hazards have been reduced as low as reasonably practicable (ALARP). This claim, " />
+          </node>
+          <node concept="qdJI3" id="2ozeuzkI1vm" role="19SJt6">
+            <ref role="qdJxC" to="hia9:6uWvPOBYH50" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="2ozeuzkI1vn" role="19SJt6">
+            <property role="19SUeA" value=", could then, in turn, be supported by reference to a Functional Hazard Analysis. Taken together, the two legs “all hazards being ALARP” and “RVSM reducing operator workload” may provide sufficient grounds to move from the evidence to the claim.&#10;&#10;\bold[Note]: Documentation provided from the following publication:                                                                                                                                                           &#10;Sujan, Mark-Alexander et al. “Qualitative analysis of dependability argument structure ( Extract ).” (2005)." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="2ozeuzkI1uh" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="qdN4g" id="6uWvPOBYHK1">
     <property role="yApLE" value="1" />
