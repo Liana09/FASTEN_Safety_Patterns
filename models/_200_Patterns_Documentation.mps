@@ -2179,7 +2179,7 @@
       <property role="Wq1Bq" value="rpalin@jaguarlandrover.com" />
     </node>
     <node concept="Wq1Bs" id="1To8c6e7R5O" role="Wq1Bf">
-      <property role="Wq1Bt" value="Jaguar Land Rover" />
+      <property role="Wq1Bt" value="Ibrahim Habli" />
       <property role="Wq1Bq" value="Ibrahim.Habli@cs.york.ac.uk" />
     </node>
   </node>
@@ -6646,6 +6646,103 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="qdN4g" id="31qnjCBcHVs">
+    <property role="yApLE" value="1" />
+    <property role="TrG5h" value="Extended_Diverse_Argument_Safety_Case_Pattern" />
+    <property role="3GE5qa" value="_109_Diverse_Patterns" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+    <ref role="qdN4h" to="hia9:31qnjCBcHnZ" resolve="Extended_Diverse_Argument_Safety_Case_Pattern" />
+    <node concept="1mvXsy" id="31qnjCBcHXA" role="1_0VJ0">
+      <property role="TrG5h" value="Extended_Diverse_Argument_Safety_Case_Pattern" />
+      <property role="1_0VJr" value="Extended Diverse Argument Safety Case Pattern\nIt" />
+      <node concept="3z_lpz" id="31qnjCBcHXB" role="1_0VJ0">
+        <property role="TrG5h" value="Extended_Diverse_Argument_Safety_Case_Pattern" />
+        <node concept="OjmMv" id="31qnjCBcHXC" role="3z_lpS">
+          <node concept="19SGf9" id="31qnjCBcHXD" role="OjmMu">
+            <node concept="19SUe$" id="31qnjCBcHXE" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="31qnjCBcHXF" role="3z_lpT" />
+        <node concept="2NCZwO" id="31qnjCBcHXG" role="3z_lpI">
+          <node concept="2NCMab" id="31qnjCBcHYG" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:31qnjCBcHnZ" resolve="Extended_Diverse_Argument_Safety_Case_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="31qnjCBcHXI" role="1_0VJ0">
+        <node concept="19SGf9" id="31qnjCBcHXJ" role="1_0LWR">
+          <node concept="19SUe$" id="31qnjCBcHXK" role="19SJt6">
+            <property role="19SUeA" value="Problem: Evidence independence is particularly necessary to protect against common mode failures. Although diversity might be proven by referring to the conceptual and mechanistic differences between evidence types (e.g. analysis and testing), underestimating diversity at the process level (e.g. independence of personnel and verification environment) can challenge the diversity of product evidence. This pattern can justify diversity of items of evidence at both the product and process levels by using the modular features of the Goal Structuring Notation (GSN)." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="31qnjCBcHXL" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="31qnjCBcHXM" role="1_0VJ0">
+        <node concept="19SGf9" id="31qnjCBcHXN" role="1_0LWR">
+          <node concept="19SUe$" id="31qnjCBcHXO" role="19SJt6">
+            <property role="19SUeA" value="Rather than arguing safety based on compliance with a prescribed and fixed process, product-based certification standards require the submission of a well structured and reasoned safety case. Ideally, the safety case presents an argument that justifies the acceptability of safety based on product-specific and targeted evidence. However, the role of process assurance should not be underestimated even in product arguments. Lack of process assurance can undermine even the seemingly strongest product safety evidence. However, unlike the SIL-based process arguments, the process argument of the type we suggest are targeted and assured against specific safety case claims. In this way, a close association between product and process safety arguments can be carefully maintained. &#10;" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="31qnjCBcHXP" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="31qnjCBcHXQ" role="1_0VJ0">
+        <node concept="19SGf9" id="31qnjCBcHXR" role="1_0LWR">
+          <node concept="19SUe$" id="31qnjCBcHXS" role="19SJt6">
+            <property role="19SUeA" value="The diversity " />
+          </node>
+          <node concept="qcxat" id="31qnjCBcHZJ" role="19SJt6">
+            <ref role="qcx5w" to="hia9:31qnjCBcHq7" resolve="S1" />
+          </node>
+          <node concept="19SUe$" id="31qnjCBcHZK" role="19SJt6">
+            <property role="19SUeA" value="is supported by one or more distinct statements " />
+          </node>
+          <node concept="qdJI3" id="31qnjCBcHZO" role="19SJt6">
+            <ref role="qdJxC" to="hia9:31qnjCBcHrn" resolve="Gn" />
+          </node>
+          <node concept="19SUe$" id="31qnjCBcHZP" role="19SJt6">
+            <property role="19SUeA" value=". The " />
+          </node>
+          <node concept="qdJI3" id="31qnjCBcHZV" role="19SJt6">
+            <ref role="qdJxC" to="hia9:31qnjCBcHsD" resolve="GArgDiverse" />
+          </node>
+          <node concept="19SUe$" id="31qnjCBcHZW" role="19SJt6">
+            <property role="19SUeA" value="is used as an away goal to justify diversity of the items of evidence (Gn) at both the product and process levels. It may be complicated to attach a process argument to each item of product evidence. However, this can be simplified by using GSN modular features, i.e. away goals. Away goals can support process claims by arguments located in another part of the safety case (modules). It may also be possible to present process justification in less detail. Instead of linking a process argument to each item of product evidence (i.e. solutions), it may be feasible to link the process argument to a high-level strategy, as shown in the safety case pattern by using " />
+          </node>
+          <node concept="qdJI3" id="31qnjCBcI04" role="19SJt6">
+            <ref role="qdJxC" to="hia9:31qnjCBcHsD" resolve="GArgDiverse" />
+          </node>
+          <node concept="19SUe$" id="31qnjCBcI05" role="19SJt6">
+            <property role="19SUeA" value="." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="31qnjCBcHY3" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="31qnjCBcHY4" role="1_0VJ0">
+        <node concept="19SGf9" id="31qnjCBcHY5" role="1_0LWR">
+          <node concept="19SUe$" id="31qnjCBcHY6" role="19SJt6">
+            <property role="19SUeA" value="This pattern is related to the &quot;Diverse Argument Safety Case Pattern&quot; presented in paper &quot;Arguing safety – a systematic approach to safety case management. DPhil Thesis, Department of Computer Science, University of York, UK, 1998&quot;. &#10;The pattern presented here is introduced in &quot;Achieving Integrated Process and Product Safety Arguments&quot;" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="31qnjCBcHY7" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known uses" />
+        </node>
+      </node>
+    </node>
+    <node concept="Wq1Bs" id="31qnjCBcHXr" role="Wq1Bf">
+      <property role="Wq1Bt" value="Ibrahim Habli" />
+      <property role="Wq1Bq" value="Ibrahim.Habli@cs.york.ac.uk" />
+    </node>
+    <node concept="Wq1Bs" id="31qnjCBcHXw" role="Wq1Bf">
+      <property role="Wq1Bt" value="Tim Kelly" />
+      <property role="Wq1Bq" value="tim.kelly@cs.york.ac.uk" />
     </node>
   </node>
 </model>
