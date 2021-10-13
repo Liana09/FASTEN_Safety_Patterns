@@ -20187,6 +20187,34 @@
           </node>
         </node>
       </node>
+      <node concept="37mRIm" id="5H7$3rZbeDe" role="37mRID">
+        <property role="37mO49" value="6577384346681665974" />
+        <node concept="gqqVs" id="5H7$3rZbeDd" role="37mO4d">
+          <property role="gqqTZ" value="754.0" />
+          <property role="gqqTW" value="21.852872483377013" />
+          <property role="gqqTX" value="182.0" />
+          <property role="gqqTy" value="114.0" />
+          <property role="TgtnS" value="1.0;0.0;0.0;1.0;0.0;0.0" />
+        </node>
+      </node>
+      <node concept="37mRIm" id="5H7$3rZbePT" role="37mRID">
+        <property role="37mO49" value="6577384346681666847" />
+        <node concept="2VclpC" id="5H7$3rZbePS" role="37mO4d">
+          <node concept="3ul5H1" id="5H7$3rZbePU" role="3ul5Gx">
+            <property role="3ul5GH" value="label" />
+            <node concept="3wpmZ1" id="5H7$3rZbePV" role="3ul5Gz">
+              <node concept="2VclrF" id="5H7$3rZbePW" role="3wpmZR">
+                <property role="2Vclpx" value="679.9902565344246" />
+                <property role="2Vclpz" value="80.10287248337701" />
+              </node>
+              <node concept="2VclrF" id="5H7$3rZbePX" role="3wpmZP">
+                <property role="2Vclpx" value="0.0" />
+                <property role="2Vclpz" value="0.0" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2vmxQI" id="3GnkPsTWlID" role="2vn1q5">
       <property role="TrG5h" value="S1" />
@@ -20267,14 +20295,6 @@
         <node concept="20_7u3" id="6H9fvJFRLvI" role="19SJt6" />
         <node concept="19SUe$" id="6H9fvJFRLvJ" role="19SJt6">
           <property role="19SUeA" value="&#10;nu = # unsafe control &#10;actions" />
-        </node>
-      </node>
-    </node>
-    <node concept="2vmxSQ" id="3GnkPsTWlSK" role="2vn1q5">
-      <property role="TrG5h" value="A1" />
-      <node concept="19SGf9" id="3GnkPsTWlSL" role="2vnaTZ">
-        <node concept="19SUe$" id="3GnkPsTWlSM" role="19SJt6">
-          <property role="19SUeA" value="The mitigation of&#10;hazards identified by STPA&#10;deals with accidents caused&#10;by these hazards" />
         </node>
       </node>
     </node>
@@ -20458,6 +20478,18 @@
     <node concept="2vhqFZ" id="4zECRQeKhF9" role="2vhqc$">
       <ref role="3VeSjP" node="3GnkPsTWlLb" resolve="S2" />
       <ref role="3VeSjQ" node="3GnkPsTWlUw" resolve="A2" />
+    </node>
+    <node concept="2XiGWt" id="5H7$3rZbeAQ" role="2vn1q5">
+      <property role="TrG5h" value="A1" />
+      <node concept="19SGf9" id="5H7$3rZbeAR" role="2vnaTZ">
+        <node concept="19SUe$" id="5H7$3rZbeAS" role="19SJt6">
+          <property role="19SUeA" value="The mitigation of&#10;hazards identified by STPA&#10;deals with accidents caused&#10;by these hazards" />
+        </node>
+      </node>
+    </node>
+    <node concept="2vhqFZ" id="5H7$3rZbeOv" role="2vhqc$">
+      <ref role="3VeSjP" node="3GnkPsTWlHx" resolve="G1" />
+      <ref role="3VeSjQ" node="5H7$3rZbeAQ" resolve="A1" />
     </node>
   </node>
   <node concept="1VB52S" id="31qnjCBcHnZ">
