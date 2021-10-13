@@ -75,6 +75,7 @@
         <child id="6955693250238922833" name="sizeSpec" index="3z_lpT" />
       </concept>
       <concept id="6955693250238922820" name="com.mbeddr.doc.structure.AbstractModelContentParagraph" flags="ng" index="3z_lpG">
+        <property id="6955693250238922823" name="showContents" index="3z_lpJ" />
         <child id="6955693250238922822" name="codeptr" index="3z_lpI" />
       </concept>
       <concept id="3350625596580269173" name="com.mbeddr.doc.structure.NullRenderer" flags="ng" index="1_05Lf" />
@@ -6372,6 +6373,9 @@
     <node concept="1_0j5j" id="11ac4fGX4wc" role="1DXQ57">
       <ref role="1_0j5g" node="5Ac1Q93IR5r" resolve="ALARP" />
     </node>
+    <node concept="1_0j5j" id="4zECRQeK880" role="1DXQ57">
+      <ref role="1_0j5g" node="4zECRQeK86D" resolve="Free_From_Unacceptable_Risks_Leading_To_Accidents_Pattern" />
+    </node>
     <node concept="1_0j5j" id="11ac4fGX4wd" role="1DXQ57">
       <ref role="1_0j5g" node="1To8c6dXF0s" resolve="Confidence_Argument_Structure_For_An_Asserted_Inference_Doc" />
     </node>
@@ -6482,14 +6486,19 @@
             <ref role="1_0j5g" node="4c4SMF1zbwj" resolve="Component_Contributions_to_System_Hazards" />
           </node>
         </node>
-        <node concept="$CzcT" id="11ac4fGX4xY" role="1_0VJ0">
-          <node concept="1_0j5j" id="11ac4fGX4xZ" role="$CzcU">
-            <ref role="1_0j5g" node="6QaAXI9m8tL" resolve="Fault_Tree_Evidence" />
-          </node>
-        </node>
         <node concept="$CzcT" id="11ac4fGX4y0" role="1_0VJ0">
           <node concept="1_0j5j" id="11ac4fGX4y1" role="$CzcU">
             <ref role="1_0j5g" node="3bxKdImh42t" resolve="Hazard_Avoidance_Pattern" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="4zECRQeK89D" role="1_0VJ0">
+          <node concept="1_0j5j" id="4zECRQeK8at" role="$CzcU">
+            <ref role="1_0j5g" node="4zECRQeK86D" resolve="Free_From_Unacceptable_Risks_Leading_To_Accidents_Pattern" />
+          </node>
+        </node>
+        <node concept="$CzcT" id="11ac4fGX4xY" role="1_0VJ0">
+          <node concept="1_0j5j" id="11ac4fGX4xZ" role="$CzcU">
+            <ref role="1_0j5g" node="6QaAXI9m8tL" resolve="Fault_Tree_Evidence" />
           </node>
         </node>
         <node concept="$CzcT" id="11ac4fGX4y2" role="1_0VJ0">
@@ -6883,6 +6892,84 @@
     <property role="3GE5qa" value="_107_Confidence_Argument_Patterns" />
     <property role="TrG5h" value="Assurance_Argument_Pattern_For_Confidence_Arguments" />
     <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+    <ref role="qdN4h" to="hia9:6uWvPOBYHFf" resolve="Assurance_Argument_Pattern_For_Confidence_Arguments" />
+    <node concept="Wq1Bs" id="4nlEUgbll4g" role="Wq1Bf">
+      <property role="Wq1Bt" value="Richard Hawkins" />
+      <property role="Wq1Bq" value=" " />
+    </node>
+    <node concept="Wq1Bs" id="4nlEUgbll4h" role="Wq1Bf">
+      <property role="Wq1Bt" value="Thomas Richardson" />
+      <property role="Wq1Bq" value=" " />
+    </node>
+    <node concept="Wq1Bs" id="4nlEUgbll4i" role="Wq1Bf">
+      <property role="Wq1Bt" value="Tim Kelly" />
+      <property role="Wq1Bq" value=" " />
+    </node>
+    <node concept="1mvXsy" id="4nlEUgbll3q" role="1_0VJ0">
+      <property role="TrG5h" value="Extended_Diverse_Argument_Safety_Case_Pattern" />
+      <property role="1_0VJr" value="Extended Diverse Argument Safety Case Pattern" />
+      <node concept="3z_lpz" id="4nlEUgbll3r" role="1_0VJ0">
+        <property role="TrG5h" value="Property_Assurance_Argument_Using_Formal_Evidence" />
+        <node concept="OjmMv" id="4nlEUgbll3s" role="3z_lpS">
+          <node concept="19SGf9" id="4nlEUgbll3t" role="OjmMu">
+            <node concept="19SUe$" id="4nlEUgbll3u" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="4nlEUgbll3v" role="3z_lpT" />
+        <node concept="2NCZwO" id="4nlEUgbll3w" role="3z_lpI">
+          <node concept="2NCMab" id="4nlEUgbll3x" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:6uWvPOBYH$i" resolve="Property_Assurance_Argument_Using_Formal_Evidence" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4nlEUgbll3y" role="1_0VJ0">
+        <node concept="19SGf9" id="4nlEUgbll3z" role="1_0LWR">
+          <node concept="19SUe$" id="4nlEUgbll3$" role="19SJt6">
+            <property role="19SUeA" value="Problem: The assurance of a system requires the generation of evidence (from the development and analysis of the system) and also a reasoned and compelling justification that explains how the evidence demonstrates the required properties are met. The evidence and justifications are often presented in an assurance case. A compelling justification will always require both a technical risk argument (reasoning about assurance mitigations of the system) and confidence arguments (documenting the reasons for having confidence in the technical argument). Although both technical argu- ments and arguments of confidence are included in most assurance cases, we find that often the focus is on the technical aspects of assurance and that confidence is often dealt with in very general terms. In [8] we discuss the need for confidence arguments to be specific and explicit within an assurance case. The confidence argument should consider all the assertions made as part of the technical argu- ment. In this paper we focus on one important aspect of this - demonstrating the trustworthiness of the artefacts used as evidence in the technical argument. The pattern presented here presents small extract from an assurance argument that uses evidence from formal verification to demonstrate than an assurance property of the system is satisfied. This pattern presents a technical argument and a claim showing that there is sufficient confidence in the technical argument." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4nlEUgbll3_" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4nlEUgbll3A" role="1_0VJ0">
+        <node concept="19SGf9" id="4nlEUgbll3B" role="1_0LWR">
+          <node concept="19SUe$" id="4nlEUgbll3C" role="19SJt6">
+            <property role="19SUeA" value="The pattern present a technical argument (the left-hand leg), " />
+          </node>
+          <node concept="qdJI3" id="4nlEUgbll3D" role="19SJt6">
+            <ref role="qdJxC" to="hia9:2ozeuzkHYXW" resolve="Goal: verifResults" />
+          </node>
+          <node concept="19SUe$" id="4nlEUgbll3E" role="19SJt6">
+            <property role="19SUeA" value=", and also a claim that there is sufficient confidence in the verification results that are presented in that technical argument (" />
+          </node>
+          <node concept="qdJI3" id="4nlEUgbll3F" role="19SJt6">
+            <ref role="qdJxC" to="hia9:2ozeuzkHZ4M" resolve="Goal: formalConf" />
+          </node>
+          <node concept="19SUe$" id="4nlEUgbll3G" role="19SJt6">
+            <property role="19SUeA" value=". The level of confidence required in the verification results is determined by both the assurance required for the system as a whole, and the role of those verification results in the overall system argument." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="4nlEUgbll3H" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="4nlEUgbll3I" role="1_0VJ0">
+        <node concept="19SGf9" id="4nlEUgbll3J" role="1_0LWR">
+          <node concept="19SUe$" id="4nlEUgbll3K" role="19SJt6" />
+          <node concept="2vpllh" id="4nlEUgbll3L" role="19SJt6">
+            <node concept="19SGf9" id="4nlEUgbll3M" role="$DsGW">
+              <node concept="19SUe$" id="4nlEUgbll3N" role="19SJt6">
+                <property role="19SUeA" value="Note" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="4nlEUgbll3O" role="19SJt6">
+            <property role="19SUeA" value=": Documentation provided from the following publication:&#10;&quot;Using Process Models in System Assurance&quot;, SAFECOMP 2016: 27-38, Richard Hawkins, Thomas Richardson, Tim Kelly" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="qdN4g" id="6uWvPOBYHLp">
     <property role="yApLE" value="1" />
@@ -6899,16 +6986,19 @@
     <ref role="qdN4h" to="hia9:6uWvPOBYH$i" resolve="Property_Assurance_Argument_Using_Formal_Evidence" />
     <node concept="Wq1Bs" id="5GRwMu3A$7v" role="Wq1Bf">
       <property role="Wq1Bt" value="Richard Hawkins" />
+      <property role="Wq1Bq" value=" " />
     </node>
     <node concept="Wq1Bs" id="5GRwMu3A$7x" role="Wq1Bf">
       <property role="Wq1Bt" value="Thomas Richardson" />
+      <property role="Wq1Bq" value=" " />
     </node>
     <node concept="Wq1Bs" id="5GRwMu3A$7$" role="Wq1Bf">
       <property role="Wq1Bt" value="Tim Kelly" />
+      <property role="Wq1Bq" value=" " />
     </node>
     <node concept="1mvXsy" id="5GRwMu3A$5g" role="1_0VJ0">
-      <property role="TrG5h" value="Extended_Diverse_Argument_Safety_Case_Pattern" />
-      <property role="1_0VJr" value="Extended Diverse Argument Safety Case Pattern" />
+      <property role="TrG5h" value="Property_Assurance_Argument_Using_Formal_Evidence" />
+      <property role="1_0VJr" value="Property Assurance Argument Using Formal Evidence" />
       <node concept="3z_lpz" id="5GRwMu3A$5h" role="1_0VJ0">
         <property role="TrG5h" value="Property_Assurance_Argument_Using_Formal_Evidence" />
         <node concept="OjmMv" id="5GRwMu3A$5i" role="3z_lpS">
@@ -6926,7 +7016,7 @@
       <node concept="1_0LV8" id="5GRwMu3A$5o" role="1_0VJ0">
         <node concept="19SGf9" id="5GRwMu3A$5p" role="1_0LWR">
           <node concept="19SUe$" id="5GRwMu3A$5q" role="19SJt6">
-            <property role="19SUeA" value="Problem: The assurance of a sys- tem requires the generation of evidence (from the development and analysis of the system) and also a reasoned and compelling justification that explains how the evidence demonstrates the required properties are met. The evidence and justifications are often presented in an assurance case. A compelling justification will always require both a technical risk argument (reasoning about assurance mitigations of the system) and confidence arguments (documenting the reasons for having confidence in the technical argument). Although both technical argu- ments and arguments of confidence are included in most assurance cases, we find that often the focus is on the technical aspects of assurance and that confidence is often dealt with in very general terms. In [8] we discuss the need for confidence arguments to be specific and explicit within an assurance case. The confidence argument should consider all the assertions made as part of the technical argu- ment. In this paper we focus on one important aspect of this - demonstrating the trustworthiness of the artefacts used as evidence in the technical argument. The pattern presented here presents small extract from an assurance argument that uses evidence from formal verification to demonstrate than an assurance property of the system is satisfied. This pattern presents a technical argument and a claim showing that there is sufficient confidence in the technical argument." />
+            <property role="19SUeA" value="Problem: The assurance of a system requires the generation of evidence (from the development and analysis of the system) and also a reasoned and compelling justification that explains how the evidence demonstrates the required properties are met. The evidence and justifications are often presented in an assurance case. A compelling justification will always require both a technical risk argument (reasoning about assurance mitigations of the system) and confidence arguments (documenting the reasons for having confidence in the technical argument). Although both technical argu- ments and arguments of confidence are included in most assurance cases, we find that often the focus is on the technical aspects of assurance and that confidence is often dealt with in very general terms. In [8] we discuss the need for confidence arguments to be specific and explicit within an assurance case. The confidence argument should consider all the assertions made as part of the technical argu- ment. In this paper we focus on one important aspect of this - demonstrating the trustworthiness of the artefacts used as evidence in the technical argument. The pattern presented here presents small extract from an assurance argument that uses evidence from formal verification to demonstrate than an assurance property of the system is satisfied. This pattern presents a technical argument and a claim showing that there is sufficient confidence in the technical argument." />
           </node>
         </node>
         <node concept="1xAIan" id="5GRwMu3A$5r" role="1xAIax">
@@ -6957,9 +7047,7 @@
       </node>
       <node concept="1_0LV8" id="5GRwMu3A$5G" role="1_0VJ0">
         <node concept="19SGf9" id="5GRwMu3A$5H" role="1_0LWR">
-          <node concept="19SUe$" id="5GRwMu3A$5I" role="19SJt6">
-            <property role="19SUeA" value="&#10;" />
-          </node>
+          <node concept="19SUe$" id="5GRwMu3A$5I" role="19SJt6" />
           <node concept="2vpllh" id="5GRwMu3A$6s" role="19SJt6">
             <node concept="19SGf9" id="5GRwMu3A$6t" role="$DsGW">
               <node concept="19SUe$" id="5GRwMu3A$6u" role="19SJt6">
@@ -7029,6 +7117,28 @@
     <property role="TrG5h" value="Preliminary_Safety_Criteria_For_Artificial_Neural_Networks" />
     <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
     <ref role="qdN4h" to="hia9:6uWvPOBYHX8" resolve="Preliminary_Safety_Criteria_For_Artificial_Neural_Networks" />
+  </node>
+  <node concept="qdN4g" id="4zECRQeK86D">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_100_Risk-Based_Argument_Patterns" />
+    <property role="TrG5h" value="Free_From_Unacceptable_Risks_Leading_To_Accidents_Pattern" />
+    <ref role="qdN4h" to="hia9:3GnkPsTWlGx" resolve="Free_From_Unacceptable_Risks_Leading_To_Accidents_Pattern" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+    <node concept="3z_lpz" id="4zECRQeK86E" role="1_0VJ0">
+      <property role="TrG5h" value="Free_From_Unacceptable_Risks_Leading_To_Accidents_Pattern" />
+      <property role="3z_lpJ" value="true" />
+      <node concept="OjmMv" id="4zECRQeK86F" role="3z_lpS">
+        <node concept="19SGf9" id="4zECRQeK86G" role="OjmMu">
+          <node concept="19SUe$" id="4zECRQeK86H" role="19SJt6" />
+        </node>
+      </node>
+      <node concept="2bctqb" id="4zECRQeK86I" role="3z_lpT" />
+      <node concept="2NCZwO" id="4zECRQeK86J" role="3z_lpI">
+        <node concept="2NCMab" id="4zECRQeKbVM" role="2NCMaf">
+          <ref role="2NCMaa" to="hia9:3GnkPsTWlGx" resolve="Free_From_Unacceptable_Risks_Leading_To_Accidents_Pattern" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
