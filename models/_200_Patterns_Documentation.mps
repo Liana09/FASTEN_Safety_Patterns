@@ -6907,7 +6907,7 @@
     </node>
     <node concept="1mvXsy" id="4nlEUgbll3q" role="1_0VJ0">
       <property role="TrG5h" value="Assurance_Argument_Pattern_For_Confidence_Arguments" />
-      <property role="1_0VJr" value="Extended Diverse Argument Safety Case Pattern" />
+      <property role="1_0VJr" value="Assurance Argument Pattern For Confidence Arguments" />
       <node concept="3z_lpz" id="4nlEUgbll3r" role="1_0VJ0">
         <property role="TrG5h" value="Assurance_Argument_Pattern_For_Confidence_Arguments" />
         <node concept="OjmMv" id="4nlEUgbll3s" role="3z_lpS">
@@ -6925,38 +6925,326 @@
       <node concept="1_0LV8" id="4nlEUgbll3y" role="1_0VJ0">
         <node concept="19SGf9" id="4nlEUgbll3z" role="1_0LWR">
           <node concept="19SUe$" id="4nlEUgbll3$" role="19SJt6">
-            <property role="19SUeA" value="Problem: The assurance of a system requires the generation of evidence (from the development and analysis of the system) and also a reasoned and compelling justification that explains how the evidence demonstrates the required properties are met. The evidence and justifications are often presented in an assurance case. A compelling justification will always require both a technical risk argument (reasoning about assurance mitigations of the system) and confidence arguments (documenting the reasons for having confidence in the technical argument). Although both technical argu- ments and arguments of confidence are included in most assurance cases, we find that often the focus is on the technical aspects of assurance and that confidence is often dealt with in very general terms. The confidence argument should consider all the assertions made as part of the technical argu- ment. In this paper we focus on one important aspect of this - demonstrating the trustworthiness of the artefacts used as evidence in the technical argument. The pattern presented here presents small extract from an assurance argument that uses evidence from formal verification to demonstrate than an assurance property of the system is satisfied. This pattern presents a technical argument and a claim showing that there is sufficient confidence in the technical argument." />
+            <property role="19SUeA" value="This pattern is used to create an argument for any process used during the development and analysis of a D-MILS system. The trustworthiness of the processes adopted is an important part of the assurance case. Process arguments are used as part of the argument made within other modules of the D-MILS assurance case. This pattern is instantiated for the process relevant to the argument at that point. Where process models have been created, these process models can be used to automatically instantiate the process argument pattern. Processes are considered to be activities, which can be composed of further sub-activities. All activities (and sub-activities) may have any number of participants. Participants may be classified as tools, people or organisations. Activities may require and produce any number of artefacts. Activities are undertaken using a defined technique. " />
           </node>
         </node>
         <node concept="1xAIan" id="4nlEUgbll3_" role="1xAIax">
           <property role="1xAIam" value="Problem and Solution" />
         </node>
       </node>
-      <node concept="1_0LV8" id="4nlEUgbll3A" role="1_0VJ0">
-        <node concept="19SGf9" id="4nlEUgbll3B" role="1_0LWR">
-          <node concept="19SUe$" id="4nlEUgbll3C" role="19SJt6">
-            <property role="19SUeA" value="The pattern present a technical argument (the left-hand leg), " />
+      <node concept="1_0LV8" id="5sXJF9yuu2b" role="1_0VJ0">
+        <node concept="19SGf9" id="5sXJF9yuu2c" role="1_0LWR">
+          <node concept="19SUe$" id="5sXJF9yuu2d" role="19SJt6">
+            <property role="19SUeA" value="The pattern contains the following " />
           </node>
-          <node concept="qdJI3" id="4nlEUgbll3D" role="19SJt6">
-            <ref role="qdJxC" to="hia9:2ozeuzkHYXW" resolve="Goal: verifResults" />
+          <node concept="2vpllh" id="5sXJF9yuu3F" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuu3G" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuu3H" role="19SJt6">
+                <property role="19SUeA" value="participants" />
+              </node>
+            </node>
           </node>
-          <node concept="19SUe$" id="4nlEUgbll3E" role="19SJt6">
-            <property role="19SUeA" value=", and also a claim that there is sufficient confidence in the verification results that are presented in that technical argument (" />
+          <node concept="19SUe$" id="5sXJF9yuu3I" role="19SJt6">
+            <property role="19SUeA" value=":&#10;• " />
           </node>
-          <node concept="qdJI3" id="4nlEUgbll3F" role="19SJt6">
-            <ref role="qdJxC" to="hia9:2ozeuzkHZ4M" resolve="Goal: formalConf" />
+          <node concept="2vpllh" id="5sXJF9yuu3J" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuu3K" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuu3L" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuu3M" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZaK" resolve="Goal: activityTrust" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuu3N" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
           </node>
-          <node concept="19SUe$" id="4nlEUgbll3G" role="19SJt6">
-            <property role="19SUeA" value=". The level of confidence required in the verification results is determined by both the assurance required for the system as a whole, and the role of those verification results in the overall system argument." />
+          <node concept="19SUe$" id="5sXJF9yuu3O" role="19SJt6">
+            <property role="19SUeA" value=" There are many points within the D-MILS assurance case where the trustworthiness of an activity (process) must be assured.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuu4i" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuu4j" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuu4k" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuu4l" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZd8" resolve="Goal: activityParts" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuu4m" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuu4h" role="19SJt6">
+            <property role="19SUeA" value=" It must be demonstrated that each of the participants in an activity are suffi- ciently trustworthy to undertake that activity.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuu4E" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuu4F" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuu4G" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuu4H" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZkk" resolve="Goal: partTrust" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuu4I" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuu4J" role="19SJt6">
+            <property role="19SUeA" value=" A claim of this type is made for each of the participants in an activity. The appro- priate supporting claim for this must be selected based upon the type of the participant (tool, person or organisation).&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuu68" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuu69" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuu6a" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuu6b" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZtt" resolve="Goal: tool_Tool" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuu6c" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuu6d" role="19SJt6">
+            <property role="19SUeA" value=" This claim is made where the participant in an activity is a tool. This claim is supported by an argument of the form presented in the Tool argument pattern (see&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuu6H" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuu6I" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuu6J" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuu6K" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZvx" resolve="Goal: person_Person" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuu6L" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuu6M" role="19SJt6">
+            <property role="19SUeA" value=" This claim is made where the participant in an activity is a person. This claim is supported by an argument of the form presented in the Person argument pattern (see&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuu7n" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuu7o" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuu7p" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuu7q" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZxE" resolve="Goal: organisation_Organisation" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuu7r" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuu7s" role="19SJt6">
+            <property role="19SUeA" value=" This claim is made where the participant in an activity is an organisation. This claim is supported by an argument of the form presented in the Organisation argument pattern&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuu87" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuu88" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuu89" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuu8a" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZeq" resolve="Goal: activityReqs" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuu8b" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuu8c" role="19SJt6">
+            <property role="19SUeA" value=" It must be demonstrated that each of the artefacts required in order to perform the activity is sufficiently trustworthy.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuxP" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuuxQ" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuxR" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuxS" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZlZ" resolve="Goal: reqArtTrust _Artefact" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuuxT" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuuxO" role="19SJt6">
+            <property role="19SUeA" value=" A claim of this type is created for each artefact required by an activity. This claim is supported by an argument of the form presented in the Artefact argument pattern&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuu8X" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuu8Y" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuu8Z" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuu90" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZhd" resolve="Goal: activityTech" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuu91" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuu8W" role="19SJt6">
+            <property role="19SUeA" value=" It must be demonstrated that the techniques used to perform the activity are suf- ficiently trustworthy.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuu9W" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuu9X" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuu9Y" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuu9Z" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZfL" resolve="Goal: activityProds" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuua0" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuu9V" role="19SJt6">
+            <property role="19SUeA" value=" It must be demonstrated that each of the artefacts generated as a result of per- forming an activity is sufficiently trustworthy.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuaZ" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuub0" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuub1" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuub2" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZiI" resolve="Goal: subActivities" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuub3" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuub4" role="19SJt6">
+            <property role="19SUeA" value=" It must be demonstrated that each of the sub-activities of an activity is suffi- ciently trustworthy.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuc7" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuuc8" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuc9" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuca" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZru" resolve="Goal: subActivit" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuucb" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuucc" role="19SJt6">
+            <property role="19SUeA" value=" A claim of this type is created for each sub-activity. This claim is supported by applying the same process argument pattern (as described here) to each sub-activity i.e. the argument for a sub-activity has the same form as that for the activity itself." />
           </node>
         </node>
-        <node concept="1xAIan" id="4nlEUgbll3H" role="1xAIax">
-          <property role="1xAIam" value="Participants &amp; collaborations" />
+        <node concept="1xAIan" id="5sXJF9yuu2e" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5sXJF9yutZ5" role="1_0VJ0">
+        <node concept="19SGf9" id="5sXJF9yutZ6" role="1_0LWR">
+          <node concept="19SUe$" id="5sXJF9yutZ7" role="19SJt6">
+            <property role="19SUeA" value="This pattern can be used along with" />
+          </node>
+          <node concept="2jFPku" id="5sXJF9yutZB" role="19SJt6">
+            <ref role="2jFPkz" node="6uWvPOBYHML" resolve="Property_Assurance_Argument_Using_Formal_Evidence" />
+          </node>
+          <node concept="19SUe$" id="5sXJF9yutZC" role="19SJt6">
+            <property role="19SUeA" value=". This pattern is applicable to any process. An example process model is provided below, however note that it is not required to produce a process model in order to apply this pattern." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5sXJF9yutZ8" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5sXJF9yuuoG" role="1_0VJ0">
+        <node concept="19SGf9" id="5sXJF9yuuoH" role="1_0LWR">
+          <node concept="19SUe$" id="5sXJF9yuuoI" role="19SJt6">
+            <property role="19SUeA" value="When instantiating the pattern information regarding the process model of the target system is required.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuv4" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuuv5" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuv6" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuv7" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZtt" resolve="Goal: tool_Tool" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuuv8" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuuv3" role="19SJt6">
+            <property role="19SUeA" value=" This claim must be supported by argument and evidence as defined by the Tool assurance case pattern.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuvj" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuuvk" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuvl" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuvm" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZvx" resolve="Goal: person_Person" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuuvn" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuuvo" role="19SJt6">
+            <property role="19SUeA" value=" This claim must be supported by argument and evidence as defined by the Person assurance case pattern.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuvB" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuuvC" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuvD" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuvE" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZxE" resolve="Goal: organisation_Organisation" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuuvF" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuuvG" role="19SJt6">
+            <property role="19SUeA" value=" This claim must be supported by argument and evidence as defined by the Or- ganisation assurance case pattern.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuw1" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuuw2" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuw3" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuw4" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZlZ" resolve="Goal: reqArtTrust _Artefact" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuuw5" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuuw6" role="19SJt6">
+            <property role="19SUeA" value=" This claim must be supported by argument and evidence as defined by the Artefact assurance case pattern.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuwx" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuuwy" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuwz" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuw$" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZp$" resolve="Goal: techniqueTrust_Technique" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuuw_" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuuww" role="19SJt6">
+            <property role="19SUeA" value=" This claim must be supported by argument and evidence as defined by the Technique assurance case pattern.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuux8" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuux9" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuxa" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuxb" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZnJ" resolve="Goal: prodArtTrust_Artefact" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuuxc" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuux7" role="19SJt6">
+            <property role="19SUeA" value=" This claim must be supported by argument and evidence as defined by the Arte- fact assurance case pattern." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5sXJF9yuuoJ" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5sXJF9yuuz9" role="1_0VJ0">
+        <node concept="19SGf9" id="5sXJF9yuuza" role="1_0LWR">
+          <node concept="19SUe$" id="5sXJF9yuuzb" role="19SJt6">
+            <property role="19SUeA" value="The argument created from this pattern supports the arguments created using the D-MILS composition and implementation patterns and requires support from arguments created using the tool, person, organisation, artefact and technique argument patterns." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5sXJF9yuuzc" role="1xAIax">
+          <property role="1xAIam" value="Related Patterns" />
         </node>
       </node>
       <node concept="1_0LV8" id="4nlEUgbll3I" role="1_0VJ0">
         <node concept="19SGf9" id="4nlEUgbll3J" role="1_0LWR">
-          <node concept="19SUe$" id="4nlEUgbll3K" role="19SJt6" />
+          <node concept="19SUe$" id="4nlEUgbll3K" role="19SJt6">
+            <property role="19SUeA" value="&#10;" />
+          </node>
           <node concept="2vpllh" id="4nlEUgbll3L" role="19SJt6">
             <node concept="19SGf9" id="4nlEUgbll3M" role="$DsGW">
               <node concept="19SUe$" id="4nlEUgbll3N" role="19SJt6">
@@ -6965,7 +7253,7 @@
             </node>
           </node>
           <node concept="19SUe$" id="4nlEUgbll3O" role="19SJt6">
-            <property role="19SUeA" value=": Documentation provided from the following publication:&#10;&quot;Using Process Models in System Assurance&quot;, SAFECOMP 2016: 27-38, Richard Hawkins, Thomas Richardson, Tim Kelly" />
+            <property role="19SUeA" value=": Documentation provided from the following publications:&#10;[1] &quot;Using Process Models in System Assurance&quot;, SAFECOMP 2016: 27-38, Richard Hawkins, Thomas Richardson, Tim Kelly&#10;[2] Integration of Formal Evidence and Expression in MILS Assurance Case. Technical Report D4.3, D-MILS Project, March 2015. http://www.d-mils.org/page/results." />
           </node>
         </node>
       </node>
@@ -6997,47 +7285,177 @@
       <node concept="1_0LV8" id="3kC7yoxDqAB" role="1_0VJ0">
         <node concept="19SGf9" id="3kC7yoxDqAC" role="1_0LWR">
           <node concept="19SUe$" id="3kC7yoxDqAD" role="19SJt6">
-            <property role="19SUeA" value="Problem: The assurance of a system requires the generation of evidence (from the development and analysis of the system) and also a reasoned and compelling justification that explains how the evidence demonstrates the required properties are met. The evidence and justifications are often presented in an assurance case. A compelling justification will always require both a technical risk argument (reasoning about assurance mitigations of the system) and confidence arguments (documenting the reasons for having confidence in the technical argument). Although both technical argu- ments and arguments of confidence are included in most assurance cases, we find that often the focus is on the technical aspects of assurance and that confidence is often dealt with in very general terms. The confidence argument should consider all the assertions made as part of the technical argu- ment. In this paper we focus on one important aspect of this - demonstrating the trustworthiness of the artefacts used as evidence in the technical argument. The pattern presented here presents small extract from an assurance argument that uses evidence from formal verification to demonstrate than an assurance property of the system is satisfied. This pattern presents a technical argument and a claim showing that there is sufficient confidence in the technical argument." />
+            <property role="19SUeA" value="This pattern is used to argue about the trustworthiness of artefacts either required by, or produced by, activities included in the assurance case." />
           </node>
         </node>
         <node concept="1xAIan" id="3kC7yoxDqAE" role="1xAIax">
           <property role="1xAIam" value="Problem and Solution" />
         </node>
       </node>
-      <node concept="1_0LV8" id="3kC7yoxDqAF" role="1_0VJ0">
-        <node concept="19SGf9" id="3kC7yoxDqAG" role="1_0LWR">
-          <node concept="19SUe$" id="3kC7yoxDqAH" role="19SJt6">
-            <property role="19SUeA" value="The pattern present a technical argument (the left-hand leg), " />
-          </node>
-          <node concept="qdJI3" id="3kC7yoxDqAI" role="19SJt6">
-            <ref role="qdJxC" to="hia9:2ozeuzkHYXW" resolve="Goal: verifResults" />
-          </node>
-          <node concept="19SUe$" id="3kC7yoxDqAJ" role="19SJt6">
-            <property role="19SUeA" value=", and also a claim that there is sufficient confidence in the verification results that are presented in that technical argument (" />
-          </node>
-          <node concept="qdJI3" id="3kC7yoxDqAK" role="19SJt6">
-            <ref role="qdJxC" to="hia9:2ozeuzkHZ4M" resolve="Goal: formalConf" />
-          </node>
-          <node concept="19SUe$" id="3kC7yoxDqAL" role="19SJt6">
-            <property role="19SUeA" value=". The level of confidence required in the verification results is determined by both the assurance required for the system as a whole, and the role of those verification results in the overall system argument." />
+      <node concept="1_0LV8" id="5sXJF9yuuNq" role="1_0VJ0">
+        <node concept="19SGf9" id="5sXJF9yuuNr" role="1_0LWR">
+          <node concept="19SUe$" id="5sXJF9yuuNs" role="19SJt6">
+            <property role="19SUeA" value="This pattern is applicable to any artefact required by or produced by a process activity. " />
           </node>
         </node>
-        <node concept="1xAIan" id="3kC7yoxDqAM" role="1xAIax">
-          <property role="1xAIam" value="Participants &amp; collaborations" />
+        <node concept="1xAIan" id="5sXJF9yuuNt" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5sXJF9yuuAe" role="1_0VJ0">
+        <node concept="19SGf9" id="5sXJF9yuuAf" role="1_0LWR">
+          <node concept="19SUe$" id="5sXJF9yuuAg" role="19SJt6">
+            <property role="19SUeA" value="• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuA8" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuuA9" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuAa" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuAb" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZB8" resolve="Goal: reqArtTrust" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuuAc" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuuA7" role="19SJt6">
+            <property role="19SUeA" value=" It must be demonstrated that all artefacts required in order to perform an activity are trustworthy. This is done performing evaluations of the artefact.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuAL" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuuAM" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuAN" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuAO" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZG9" resolve="Goal: evaluation" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuuAP" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuuAQ" role="19SJt6">
+            <property role="19SUeA" value=" For each evaluation performed on an artifact a claim is created that the evaluation demonstrates the correctness of that artefact. A claim of this type is created for each evaluation performed of the artefact.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuB5" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuuB6" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuB7" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuB8" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZCg" resolve="Goal: evaluations" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuuB9" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuuB4" role="19SJt6">
+            <property role="19SUeA" value=" A number of evaluations may be performed on an artefact, such as tests or re- views, to show that the artefact is correct. The type and number of evaluations performed will depend upon the required integrity of the artefact.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuBu" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuuBv" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuBw" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuBx" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZH_" resolve="Goal: evalRes" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuuBy" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuuBt" role="19SJt6">
+            <property role="19SUeA" value=" Each evaluation performed on an artefact must have criterion defined that specify explicitly what the evaluation is trying to demonstrate. A claim should be made that the results of the evaluation are able to demonstrate that the criterion are met. Rationale explaining the relevance of the evaluation result may also be provided.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuBX" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuuBY" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuBZ" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuC0" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZO7" resolve="Goal: evalAppropriate" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuuC1" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuuBW" role="19SJt6">
+            <property role="19SUeA" value=" It must be shown that the evaluation results used are appropriate for the artefact being evaluated. In particular it must be shown that the evaluation was performed on the correct version of the artefact.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuCy" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuuCz" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuC$" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuC_" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZDw" resolve="Goal: artefactConf" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuuCA" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuuCx" role="19SJt6">
+            <property role="19SUeA" value=" It must be shown that the evaluation, or set of evaluations, that are performed on the artefact are appropriate to provide the required level of confidence in the correctness of the artefact." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5sXJF9yuuAh" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5sXJF9yuuQp" role="1_0VJ0">
+        <node concept="19SGf9" id="5sXJF9yuuQq" role="1_0LWR">
+          <node concept="19SUe$" id="5sXJF9yuuQr" role="19SJt6">
+            <property role="19SUeA" value="When instantiating the pattern information regarding the process model of the target system is required.&#10;Once this pattern is instantiated, the following claims will be created that require support: &#10;" />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuSM" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuuSN" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuSO" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuSP" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZDw" resolve="Goal: artefactConf" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuuSQ" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuuSR" role="19SJt6">
+            <property role="19SUeA" value=" and evidence must be provided to demonstrate that the evaluations performed on the artefact provide the required confidence in that artefact’s correctness.&#10;" />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuuS$" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuuS_" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuuSA" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuuSB" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZO7" resolve="Goal: evalAppropriate" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuuSC" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuuSz" role="19SJt6">
+            <property role="19SUeA" value=" and evidence must be provided to demonstrate that the referenced evaluation result is an appropriate item of evidence for the artefact under consideration." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5sXJF9yuuQs" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5sXJF9yuuT5" role="1_0VJ0">
+        <node concept="19SGf9" id="5sXJF9yuuT6" role="1_0LWR">
+          <node concept="19SUe$" id="5sXJF9yuuT7" role="19SJt6">
+            <property role="19SUeA" value="The argument created from this pattern supports the arguments created using the D-MILS process pattern." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5sXJF9yuuT8" role="1xAIax">
+          <property role="1xAIam" value="Related Patterns" />
         </node>
       </node>
       <node concept="1_0LV8" id="3kC7yoxDqAN" role="1_0VJ0">
         <node concept="19SGf9" id="3kC7yoxDqAO" role="1_0LWR">
-          <node concept="19SUe$" id="3kC7yoxDqAP" role="19SJt6" />
-          <node concept="2vpllh" id="3kC7yoxDqAQ" role="19SJt6">
-            <node concept="19SGf9" id="3kC7yoxDqAR" role="$DsGW">
-              <node concept="19SUe$" id="3kC7yoxDqAS" role="19SJt6">
+          <node concept="19SUe$" id="5sXJF9yuv1d" role="19SJt6" />
+          <node concept="2vpllh" id="5sXJF9yuv19" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuv1a" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuv1b" role="19SJt6">
                 <property role="19SUeA" value="Note" />
               </node>
             </node>
           </node>
-          <node concept="19SUe$" id="3kC7yoxDqAT" role="19SJt6">
-            <property role="19SUeA" value=": Documentation provided from the following publication:&#10;&quot;Using Process Models in System Assurance&quot;, SAFECOMP 2016: 27-38, Richard Hawkins, Thomas Richardson, Tim Kelly" />
+          <node concept="19SUe$" id="5sXJF9yuv1c" role="19SJt6">
+            <property role="19SUeA" value=": Documentation provided from the following publications:                                                                                            &#10;[1] &quot;Using Process Models in System Assurance&quot;, SAFECOMP 2016: 27-38, Richard Hawkins, Thomas Richardson, Tim Kelly                                             &#10;[2] Integration of Formal Evidence and Expression in MILS Assurance Case. Technical Report D4.3, D-MILS Project, March 2015. http://www.d-mils.org/page/results." />
           </node>
         </node>
       </node>
@@ -7081,7 +7499,7 @@
       <node concept="1_0LV8" id="5GRwMu3A$5o" role="1_0VJ0">
         <node concept="19SGf9" id="5GRwMu3A$5p" role="1_0LWR">
           <node concept="19SUe$" id="5GRwMu3A$5q" role="19SJt6">
-            <property role="19SUeA" value="Problem: The assurance of a system requires the generation of evidence (from the development and analysis of the system) and also a reasoned and compelling justification that explains how the evidence demonstrates the required properties are met. The evidence and justifications are often presented in an assurance case. A compelling justification will always require both a technical risk argument (reasoning about assurance mitigations of the system) and confidence arguments (documenting the reasons for having confidence in the technical argument). Although both technical argu- ments and arguments of confidence are included in most assurance cases, we find that often the focus is on the technical aspects of assurance and that confidence is often dealt with in very general terms. The confidence argument should consider all the assertions made as part of the technical argument. In this paper we focus on one important aspect of this - demonstrating the trustworthiness of the artefacts used as evidence in the technical argument. The pattern presented here presents small extract from an assurance argument that uses evidence from formal verification to demonstrate than an assurance property of the system is satisfied. This pattern presents a technical argument and a claim showing that there is sufficient confidence in the technical argument." />
+            <property role="19SUeA" value="This pattern should be used to create arguments that formally defined properties of a D-MILS are satisfied by a MILS-AADL model of that system." />
           </node>
         </node>
         <node concept="1xAIan" id="5GRwMu3A$5r" role="1xAIax">
@@ -7091,39 +7509,182 @@
       <node concept="1_0LV8" id="5GRwMu3A$5w" role="1_0VJ0">
         <node concept="19SGf9" id="5GRwMu3A$5x" role="1_0LWR">
           <node concept="19SUe$" id="5GRwMu3A$5y" role="19SJt6">
-            <property role="19SUeA" value="The pattern present a technical argument (the left-hand leg), " />
+            <property role="19SUeA" value="• " />
           </node>
-          <node concept="qdJI3" id="5GRwMu3A$7b" role="19SJt6">
-            <ref role="qdJxC" to="hia9:2ozeuzkHYXW" resolve="Goal: verifResults" />
+          <node concept="2vpllh" id="5sXJF9yuv4i" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuv4j" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuv4k" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuv4l" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHYWO" resolve="Goal: propSat" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuv4m" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
           </node>
-          <node concept="19SUe$" id="5GRwMu3A$7c" role="19SJt6">
-            <property role="19SUeA" value=", and also a claim that there is sufficient confidence in the verification results that are presented in that technical argument (" />
+          <node concept="19SUe$" id="5sXJF9yuv4n" role="19SJt6">
+            <property role="19SUeA" value=" It is necessary to demonstrate that each of the formal properties specified in the MILS-AADL model is satisfied. This is done using a formal verification approach.&#10;• " />
           </node>
-          <node concept="qdJI3" id="5GRwMu3A$7g" role="19SJt6">
-            <ref role="qdJxC" to="hia9:2ozeuzkHZ4M" resolve="Goal: formalConf" />
+          <node concept="2vpllh" id="5sXJF9yuv4w" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuv4x" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuv4y" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuv4z" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHYXW" resolve="Goal: verifResults" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuv4$" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
           </node>
-          <node concept="19SUe$" id="5GRwMu3A$7h" role="19SJt6">
-            <property role="19SUeA" value=". The level of confidence required in the verification results is determined by both the assurance required for the system as a whole, and the role of those verification results in the overall system argument." />
+          <node concept="19SUe$" id="5sXJF9yuv4A" role="19SJt6">
+            <property role="19SUeA" value=" The results of the formal verification are used to demonstrate that the formal property is satisfied. The type of formal technique used to verify the property will depend on the property itself.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuv4P" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuv4Q" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuvaz" role="19SJt6" />
+              <node concept="qcx9v" id="5sXJF9yuvax" role="19SJt6">
+                <ref role="qcx8m" to="hia9:2ozeuzkHZ0u" resolve="Con: components" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuvay" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuv4O" role="19SJt6">
+            <property role="19SUeA" value=" As part of the verification of the formal properties, formal requirements may be specified for components of the system that refine the formal system property. Components for which a requirement has been specified are referred to as trusted software components. The trusted software components are referred to from elsewhere in the D-MILS assurance case.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuv5e" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuv5f" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuvaE" role="19SJt6" />
+              <node concept="qcx9v" id="5sXJF9yuvaC" role="19SJt6">
+                <ref role="qcx8m" to="hia9:2ozeuzkHZ1P" resolve="Con: enviroProps" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuvaD" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuv5d" role="19SJt6">
+            <property role="19SUeA" value=" As part of the verification of the formal properties, assumptions may be made regarding properties of the environment of the D-MILS system. The assumed environmental properties are referred to from elsewhere in the D-MILS assurance case.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuv5H" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuv5I" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuvaL" role="19SJt6" />
+              <node concept="qcx9v" id="5sXJF9yuvaJ" role="19SJt6">
+                <ref role="qcx8m" to="hia9:2ozeuzkHZ3h" resolve="Con: platformProps" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuvaK" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuv5G" role="19SJt6">
+            <property role="19SUeA" value=" As part of the verification of the formal properties, it may be necessary to make additional assumptions made about the properties of the D-MILS platform over and above the generic platform properties described in the DMILS platform pattern. The assumed platform properties are referred to from elsewhere in the D-MILS assurance case.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuv6i" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuv6j" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuv6k" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuv6l" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZ4M" resolve="Goal: formalConf" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuv6m" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuv6h" role="19SJt6">
+            <property role="19SUeA" value=" As well as presenting the results of the formal verification, it is also necessary to demonstrate that there is sufficient confidence in the correctness of those formal verification results.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuv6X" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuv6Y" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuv6Z" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuv70" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZ6o" resolve="Goal: verification" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuv71" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuv6W" role="19SJt6">
+            <property role="19SUeA" value=" The verification technique applied will be selected based upon the type of prop- erty to be verified. It must be demonstrated that the process of verification using the technique generates trustworthy results.&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuv7I" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuv7J" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuv7K" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuv7L" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZ83" resolve="Goal: activityTrust _Process" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuv7M" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuv7H" role="19SJt6">
+            <property role="19SUeA" value=" A claim is made that the activity of performing the verification using the applied technique is sufficiently trustworthy. This claim is supported by an assurance case module for the verification process, which is an instantiation of the generic process argument pattern. Where a process model of the verification activity is provided, the appropriate process model is selected according to the name of the technique used (as specified in the MILS-AADL model of the system).&#10;• " />
+          </node>
+          <node concept="2vpllh" id="5sXJF9yuv8_" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuv8A" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuv8B" role="19SJt6" />
+              <node concept="qdJI3" id="5sXJF9yuv8C" role="19SJt6">
+                <ref role="qdJxC" to="hia9:2ozeuzkHZ83" resolve="Goal: activityTrust _Process" />
+              </node>
+              <node concept="19SUe$" id="5sXJF9yuv8D" role="19SJt6">
+                <property role="19SUeA" value=":" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuv8$" role="19SJt6">
+            <property role="19SUeA" value=" It must be demonstrated that the MILS-AADL error model is complete and cor- rect." />
           </node>
         </node>
         <node concept="1xAIan" id="5GRwMu3A$5F" role="1xAIax">
           <property role="1xAIam" value="Participants &amp; collaborations" />
         </node>
       </node>
-      <node concept="1_0LV8" id="5GRwMu3A$5G" role="1_0VJ0">
-        <node concept="19SGf9" id="5GRwMu3A$5H" role="1_0LWR">
-          <node concept="19SUe$" id="5GRwMu3A$5I" role="19SJt6" />
-          <node concept="2vpllh" id="5GRwMu3A$6s" role="19SJt6">
-            <node concept="19SGf9" id="5GRwMu3A$6t" role="$DsGW">
-              <node concept="19SUe$" id="5GRwMu3A$6u" role="19SJt6">
+      <node concept="1_0LV8" id="5sXJF9yuvez" role="1_0VJ0">
+        <node concept="19SGf9" id="5sXJF9yuve$" role="1_0LWR">
+          <node concept="19SUe$" id="5sXJF9yuve_" role="19SJt6">
+            <property role="19SUeA" value="To instantiate the pattern, the following information is required: formal system property relating to a D-MILS system property, subcomponents of the system for which a formal requirement relat- ing to the system property has been specified, the assumptions made as part of the formal property,&#10;properties assumed as part of the system property verification, reference to the results of the formal verification of the formal property, the name of the formal technique used for the verification of the for- mal property, the type of the formal property under consideration.&#10;Once this pattern is instantiated, the following claims will be created that require support:&#10;" />
+          </node>
+          <node concept="qdJI3" id="5sXJF9yuvfR" role="19SJt6">
+            <ref role="qdJxC" to="hia9:2ozeuzkHZ83" resolve="Goal: activityTrust _Process" />
+          </node>
+          <node concept="19SUe$" id="5sXJF9yuvfS" role="19SJt6">
+            <property role="19SUeA" value=" Two instances of this goal will be created, one for the verification activity, and one for the error model process. These claims will form public goals of the process assurance case module. The way in which this claim is supported is described by the process pattern." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5sXJF9yuveA" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5sXJF9yuvir" role="1_0VJ0">
+        <node concept="19SGf9" id="5sXJF9yuvis" role="1_0LWR">
+          <node concept="19SUe$" id="5sXJF9yuvit" role="19SJt6">
+            <property role="19SUeA" value="The argument created from this pattern supports the arguments created using the D-MILS process pattern." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5sXJF9yuviu" role="1xAIax">
+          <property role="1xAIam" value="Related Patterns" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5sXJF9yuviv" role="1_0VJ0">
+        <node concept="19SGf9" id="5sXJF9yuviw" role="1_0LWR">
+          <node concept="19SUe$" id="5sXJF9yuvix" role="19SJt6" />
+          <node concept="2vpllh" id="5sXJF9yuviy" role="19SJt6">
+            <node concept="19SGf9" id="5sXJF9yuviz" role="$DsGW">
+              <node concept="19SUe$" id="5sXJF9yuvi$" role="19SJt6">
                 <property role="19SUeA" value="Note" />
               </node>
             </node>
           </node>
-          <node concept="19SUe$" id="5GRwMu3A$6r" role="19SJt6">
-            <property role="19SUeA" value=": Documentation provided from the following publication:&#10;&quot;Using Process Models in System Assurance&quot;, SAFECOMP 2016: 27-38, Richard Hawkins, Thomas Richardson, Tim Kelly" />
+          <node concept="19SUe$" id="5sXJF9yuvi_" role="19SJt6">
+            <property role="19SUeA" value=": Documentation provided from the following publications:                                                                                            &#10;[1] &quot;Using Process Models in System Assurance&quot;, SAFECOMP 2016: 27-38, Richard Hawkins, Thomas Richardson, Tim Kelly                                             &#10;[2] Integration of Formal Evidence and Expression in MILS Assurance Case. Technical Report D4.3, D-MILS Project, March 2015. http://www.d-mils.org/page/results." />
           </node>
         </node>
+      </node>
+      <node concept="1_1sxE" id="5sXJF9yuvhe" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
       </node>
     </node>
   </node>
@@ -7133,6 +7694,54 @@
     <property role="TrG5h" value="Alert_And_Warning_Argument_Pattern" />
     <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
     <ref role="qdN4h" to="hia9:6uWvPOBYHMP" resolve="Alert_And_Warning_Argument_Pattern" />
+    <node concept="1mvXsy" id="5sXJF9yuryg" role="1_0VJ0">
+      <property role="TrG5h" value="automotive_safety" />
+      <property role="1_0VJr" value="Alert and Warning Argument Pattern" />
+      <node concept="3z_lpz" id="5sXJF9yuryh" role="1_0VJ0">
+        <property role="TrG5h" value="Alert_And_Warning_Argument_Pattern" />
+        <node concept="OjmMv" id="5sXJF9yuryi" role="3z_lpS">
+          <node concept="19SGf9" id="5sXJF9yuryj" role="OjmMu">
+            <node concept="19SUe$" id="5sXJF9yuryk" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="5sXJF9yuryl" role="3z_lpT" />
+        <node concept="2NCZwO" id="5sXJF9yurym" role="3z_lpI">
+          <node concept="2NCMab" id="5sXJF9yurzw" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:6uWvPOBYHMP" resolve="Alert_And_Warning_Argument_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5sXJF9yuryo" role="1_0VJ0">
+        <node concept="19SGf9" id="5sXJF9yuryp" role="1_0LWR">
+          <node concept="19SUe$" id="5sXJF9yuryq" role="19SJt6">
+            <property role="19SUeA" value="Problem: The automotive industry has never been required to produce a safety case. Instead, it has relied on compliance with extensive regional and national regulation. With the imminent introduction of the automotive safety standard ISO 26262, the production of a safety case is now explicitly required by the standard for electrical and electronic systems. This presents both opportunities and challenges to safety practitioners and researchers within that industry. &#10;Solution: The High Level Vehicle Argument Pattern concerns the overall safety of a vehicle and is the top-level goal of an Argument Pattern Catalogue for the automotive industry." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5sXJF9yuryr" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5sXJF9yurys" role="1_0VJ0">
+        <node concept="19SGf9" id="5sXJF9yuryt" role="1_0LWR">
+          <node concept="19SUe$" id="5sXJF9yuryu" role="19SJt6">
+            <property role="19SUeA" value="It is sometimes the case that certain hazards cannot be contained and therefore require either driver intervention or the specification of emergency procedures. This case is considered in the ‘Alert and Warning Argument’ pattern." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5sXJF9yuryv" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="5sXJF9yuryO" role="1_0VJ0">
+        <node concept="19SGf9" id="5sXJF9yuryP" role="1_0LWR">
+          <node concept="19SUe$" id="5sXJF9yuryQ" role="19SJt6">
+            <property role="19SUeA" value="The pattern presented here is part of an Architecture Argument Pattern Catalogue for the automotive domain. All the information provided here is found in the following publication:&#10;Robert Palin and Ibrahim Habli. 2010. Assurance of automotive safety - a safety case approach. In Proceedings of the 29th international conference on Computer safety, reliability, and security (SAFECOMP'10). Springer-Verlag, Berlin, Heidelberg, 82–96." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="5sXJF9yuryR" role="1xAIax">
+          <property role="1xAIam" value="Related patterns &amp; Known uses" />
+        </node>
+      </node>
+    </node>
     <node concept="Wq1Bs" id="6uWvPOBYHOe" role="Wq1Bf">
       <property role="Wq1Bt" value="Robert Palin" />
       <property role="Wq1Bq" value="rpalin@jaguarlandrover.com" />
