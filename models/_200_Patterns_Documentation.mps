@@ -4805,7 +4805,7 @@
             <ref role="qdJxC" to="hia9:3bxKdImh17q" resolve="SWContribIdent" />
           </node>
           <node concept="19SUe$" id="5Pd2jYnBCOe" role="19SJt6">
-            <property role="19SUeA" value="&amp; " />
+            <property role="19SUeA" value="&amp;" />
           </node>
           <node concept="qdJI3" id="5Pd2jYnBCOo" role="19SJt6">
             <ref role="qdJxC" to="hia9:3bxKdImh18A" resolve="SWSRTraceability" />
@@ -6906,10 +6906,10 @@
       <property role="Wq1Bq" value=" " />
     </node>
     <node concept="1mvXsy" id="4nlEUgbll3q" role="1_0VJ0">
-      <property role="TrG5h" value="Extended_Diverse_Argument_Safety_Case_Pattern" />
+      <property role="TrG5h" value="Assurance_Argument_Pattern_For_Confidence_Arguments" />
       <property role="1_0VJr" value="Extended Diverse Argument Safety Case Pattern" />
       <node concept="3z_lpz" id="4nlEUgbll3r" role="1_0VJ0">
-        <property role="TrG5h" value="Property_Assurance_Argument_Using_Formal_Evidence" />
+        <property role="TrG5h" value="Assurance_Argument_Pattern_For_Confidence_Arguments" />
         <node concept="OjmMv" id="4nlEUgbll3s" role="3z_lpS">
           <node concept="19SGf9" id="4nlEUgbll3t" role="OjmMu">
             <node concept="19SUe$" id="4nlEUgbll3u" role="19SJt6" />
@@ -6917,15 +6917,15 @@
         </node>
         <node concept="2bctqb" id="4nlEUgbll3v" role="3z_lpT" />
         <node concept="2NCZwO" id="4nlEUgbll3w" role="3z_lpI">
-          <node concept="2NCMab" id="4nlEUgbll3x" role="2NCMaf">
-            <ref role="2NCMaa" to="hia9:6uWvPOBYH$i" resolve="Property_Assurance_Argument_Using_Formal_Evidence" />
+          <node concept="2NCMab" id="3kC7yoxDqAt" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:6uWvPOBYHFf" resolve="Assurance_Argument_Pattern_For_Confidence_Arguments" />
           </node>
         </node>
       </node>
       <node concept="1_0LV8" id="4nlEUgbll3y" role="1_0VJ0">
         <node concept="19SGf9" id="4nlEUgbll3z" role="1_0LWR">
           <node concept="19SUe$" id="4nlEUgbll3$" role="19SJt6">
-            <property role="19SUeA" value="Problem: The assurance of a system requires the generation of evidence (from the development and analysis of the system) and also a reasoned and compelling justification that explains how the evidence demonstrates the required properties are met. The evidence and justifications are often presented in an assurance case. A compelling justification will always require both a technical risk argument (reasoning about assurance mitigations of the system) and confidence arguments (documenting the reasons for having confidence in the technical argument). Although both technical argu- ments and arguments of confidence are included in most assurance cases, we find that often the focus is on the technical aspects of assurance and that confidence is often dealt with in very general terms. In [8] we discuss the need for confidence arguments to be specific and explicit within an assurance case. The confidence argument should consider all the assertions made as part of the technical argu- ment. In this paper we focus on one important aspect of this - demonstrating the trustworthiness of the artefacts used as evidence in the technical argument. The pattern presented here presents small extract from an assurance argument that uses evidence from formal verification to demonstrate than an assurance property of the system is satisfied. This pattern presents a technical argument and a claim showing that there is sufficient confidence in the technical argument." />
+            <property role="19SUeA" value="Problem: The assurance of a system requires the generation of evidence (from the development and analysis of the system) and also a reasoned and compelling justification that explains how the evidence demonstrates the required properties are met. The evidence and justifications are often presented in an assurance case. A compelling justification will always require both a technical risk argument (reasoning about assurance mitigations of the system) and confidence arguments (documenting the reasons for having confidence in the technical argument). Although both technical argu- ments and arguments of confidence are included in most assurance cases, we find that often the focus is on the technical aspects of assurance and that confidence is often dealt with in very general terms. The confidence argument should consider all the assertions made as part of the technical argu- ment. In this paper we focus on one important aspect of this - demonstrating the trustworthiness of the artefacts used as evidence in the technical argument. The pattern presented here presents small extract from an assurance argument that uses evidence from formal verification to demonstrate than an assurance property of the system is satisfied. This pattern presents a technical argument and a claim showing that there is sufficient confidence in the technical argument." />
           </node>
         </node>
         <node concept="1xAIan" id="4nlEUgbll3_" role="1xAIax">
@@ -6977,6 +6977,71 @@
     <property role="TrG5h" value="Assurance_Argument_Pattern_For_Artefacts" />
     <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
     <ref role="qdN4h" to="hia9:6uWvPOBYHGi" resolve="Assurance_Argument_Pattern_For_Artefacts" />
+    <node concept="1mvXsy" id="3kC7yoxDqAv" role="1_0VJ0">
+      <property role="TrG5h" value="Assurance_Argument_Pattern_For_Artefacts" />
+      <property role="1_0VJr" value="Extended Diverse Argument Safety Case Pattern" />
+      <node concept="3z_lpz" id="3kC7yoxDqAw" role="1_0VJ0">
+        <property role="TrG5h" value="Assurance_Argument_Pattern_For_Artefacts" />
+        <node concept="OjmMv" id="3kC7yoxDqAx" role="3z_lpS">
+          <node concept="19SGf9" id="3kC7yoxDqAy" role="OjmMu">
+            <node concept="19SUe$" id="3kC7yoxDqAz" role="19SJt6" />
+          </node>
+        </node>
+        <node concept="2bctqb" id="3kC7yoxDqA$" role="3z_lpT" />
+        <node concept="2NCZwO" id="3kC7yoxDqA_" role="3z_lpI">
+          <node concept="2NCMab" id="3kC7yoxDqBl" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:6uWvPOBYHGi" resolve="Assurance_Argument_Pattern_For_Artefacts" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3kC7yoxDqAB" role="1_0VJ0">
+        <node concept="19SGf9" id="3kC7yoxDqAC" role="1_0LWR">
+          <node concept="19SUe$" id="3kC7yoxDqAD" role="19SJt6">
+            <property role="19SUeA" value="Problem: The assurance of a system requires the generation of evidence (from the development and analysis of the system) and also a reasoned and compelling justification that explains how the evidence demonstrates the required properties are met. The evidence and justifications are often presented in an assurance case. A compelling justification will always require both a technical risk argument (reasoning about assurance mitigations of the system) and confidence arguments (documenting the reasons for having confidence in the technical argument). Although both technical argu- ments and arguments of confidence are included in most assurance cases, we find that often the focus is on the technical aspects of assurance and that confidence is often dealt with in very general terms. The confidence argument should consider all the assertions made as part of the technical argu- ment. In this paper we focus on one important aspect of this - demonstrating the trustworthiness of the artefacts used as evidence in the technical argument. The pattern presented here presents small extract from an assurance argument that uses evidence from formal verification to demonstrate than an assurance property of the system is satisfied. This pattern presents a technical argument and a claim showing that there is sufficient confidence in the technical argument." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3kC7yoxDqAE" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3kC7yoxDqAF" role="1_0VJ0">
+        <node concept="19SGf9" id="3kC7yoxDqAG" role="1_0LWR">
+          <node concept="19SUe$" id="3kC7yoxDqAH" role="19SJt6">
+            <property role="19SUeA" value="The pattern present a technical argument (the left-hand leg), " />
+          </node>
+          <node concept="qdJI3" id="3kC7yoxDqAI" role="19SJt6">
+            <ref role="qdJxC" to="hia9:2ozeuzkHYXW" resolve="Goal: verifResults" />
+          </node>
+          <node concept="19SUe$" id="3kC7yoxDqAJ" role="19SJt6">
+            <property role="19SUeA" value=", and also a claim that there is sufficient confidence in the verification results that are presented in that technical argument (" />
+          </node>
+          <node concept="qdJI3" id="3kC7yoxDqAK" role="19SJt6">
+            <ref role="qdJxC" to="hia9:2ozeuzkHZ4M" resolve="Goal: formalConf" />
+          </node>
+          <node concept="19SUe$" id="3kC7yoxDqAL" role="19SJt6">
+            <property role="19SUeA" value=". The level of confidence required in the verification results is determined by both the assurance required for the system as a whole, and the role of those verification results in the overall system argument." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="3kC7yoxDqAM" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; collaborations" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="3kC7yoxDqAN" role="1_0VJ0">
+        <node concept="19SGf9" id="3kC7yoxDqAO" role="1_0LWR">
+          <node concept="19SUe$" id="3kC7yoxDqAP" role="19SJt6" />
+          <node concept="2vpllh" id="3kC7yoxDqAQ" role="19SJt6">
+            <node concept="19SGf9" id="3kC7yoxDqAR" role="$DsGW">
+              <node concept="19SUe$" id="3kC7yoxDqAS" role="19SJt6">
+                <property role="19SUeA" value="Note" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="3kC7yoxDqAT" role="19SJt6">
+            <property role="19SUeA" value=": Documentation provided from the following publication:&#10;&quot;Using Process Models in System Assurance&quot;, SAFECOMP 2016: 27-38, Richard Hawkins, Thomas Richardson, Tim Kelly" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="qdN4g" id="6uWvPOBYHML">
     <property role="yApLE" value="1" />
@@ -7016,7 +7081,7 @@
       <node concept="1_0LV8" id="5GRwMu3A$5o" role="1_0VJ0">
         <node concept="19SGf9" id="5GRwMu3A$5p" role="1_0LWR">
           <node concept="19SUe$" id="5GRwMu3A$5q" role="19SJt6">
-            <property role="19SUeA" value="Problem: The assurance of a system requires the generation of evidence (from the development and analysis of the system) and also a reasoned and compelling justification that explains how the evidence demonstrates the required properties are met. The evidence and justifications are often presented in an assurance case. A compelling justification will always require both a technical risk argument (reasoning about assurance mitigations of the system) and confidence arguments (documenting the reasons for having confidence in the technical argument). Although both technical argu- ments and arguments of confidence are included in most assurance cases, we find that often the focus is on the technical aspects of assurance and that confidence is often dealt with in very general terms. In [8] we discuss the need for confidence arguments to be specific and explicit within an assurance case. The confidence argument should consider all the assertions made as part of the technical argu- ment. In this paper we focus on one important aspect of this - demonstrating the trustworthiness of the artefacts used as evidence in the technical argument. The pattern presented here presents small extract from an assurance argument that uses evidence from formal verification to demonstrate than an assurance property of the system is satisfied. This pattern presents a technical argument and a claim showing that there is sufficient confidence in the technical argument." />
+            <property role="19SUeA" value="Problem: The assurance of a system requires the generation of evidence (from the development and analysis of the system) and also a reasoned and compelling justification that explains how the evidence demonstrates the required properties are met. The evidence and justifications are often presented in an assurance case. A compelling justification will always require both a technical risk argument (reasoning about assurance mitigations of the system) and confidence arguments (documenting the reasons for having confidence in the technical argument). Although both technical argu- ments and arguments of confidence are included in most assurance cases, we find that often the focus is on the technical aspects of assurance and that confidence is often dealt with in very general terms. The confidence argument should consider all the assertions made as part of the technical argument. In this paper we focus on one important aspect of this - demonstrating the trustworthiness of the artefacts used as evidence in the technical argument. The pattern presented here presents small extract from an assurance argument that uses evidence from formal verification to demonstrate than an assurance property of the system is satisfied. This pattern presents a technical argument and a claim showing that there is sufficient confidence in the technical argument." />
           </node>
         </node>
         <node concept="1xAIan" id="5GRwMu3A$5r" role="1xAIax">
