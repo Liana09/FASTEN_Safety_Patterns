@@ -7814,5 +7814,12 @@
       </node>
     </node>
   </node>
+  <node concept="qdN4g" id="1Vb_4xA6_KT">
+    <property role="yApLE" value="1" />
+    <property role="3GE5qa" value="_105_ML-Specific_Argument_Patterns" />
+    <property role="TrG5h" value="Safety_Case_Pattern_For_Obtaining_Partial_Prior_Knowledge" />
+    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
+    <ref role="qdN4h" to="hia9:1Vb_4xA6$1j" resolve="Safety_Case_Pattern_For_Obtaining_Partial_Prior_Knowledge" />
+  </node>
 </model>
 
