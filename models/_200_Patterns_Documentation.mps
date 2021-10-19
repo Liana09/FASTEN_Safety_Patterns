@@ -7757,6 +7757,168 @@
     <property role="TrG5h" value="NN_Algorithm_Structure_Pattern" />
     <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
     <ref role="qdN4h" to="hia9:6uWvPOBYHOx" resolve="NN_Algorithm_Structure_Pattern" />
+    <node concept="1mvXsy" id="61Czc198BnY" role="1_0VJ0">
+      <property role="TrG5h" value="NN_Algorithm_Structure_Pattern" />
+      <property role="1_0VJr" value="NN Algorithm Structure Pattern" />
+      <node concept="3z_lpz" id="61Czc198BnZ" role="1_0VJ0">
+        <property role="TrG5h" value="NN_Algorithm_Structure_Pattern" />
+        <node concept="OjmMv" id="61Czc198Bo0" role="3z_lpS">
+          <node concept="19SGf9" id="61Czc198Bo1" role="OjmMu">
+            <node concept="19SUe$" id="61Czc198Bo2" role="19SJt6">
+              <property role="19SUeA" value="NN Algorithm Structure Pattern" />
+            </node>
+          </node>
+        </node>
+        <node concept="2bctqb" id="61Czc198Bo3" role="3z_lpT" />
+        <node concept="2NCZwO" id="61Czc198Bo4" role="3z_lpI">
+          <node concept="2NCMab" id="61Czc198Bp2" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:6uWvPOBYHOx" resolve="NN_Algorithm_Structure_Pattern" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="61Czc198Bo6" role="1_0VJ0">
+        <node concept="19SGf9" id="61Czc198Bo7" role="1_0LWR">
+          <node concept="19SUe$" id="61Czc198Bo8" role="19SJt6">
+            <property role="19SUeA" value="Problem &amp; Solution: Neural networks (NN) are prone to systematic faults which are hard to detect using the methods recommended by the ISO 26262 automotive functional safety standard. This pattern proposes a template excerpt from a safety case structure for a NN algorithm, fo- cusing on product argumentation regarding NN model specifics  " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="61Czc198Bo9" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="61Czc198B$4" role="1_0VJ0">
+        <node concept="19SGf9" id="61Czc198B$5" role="1_0LWR">
+          <node concept="19SUe$" id="61Czc198B$6" role="19SJt6">
+            <property role="19SUeA" value="The pattern proposes a structure for the NN specific functional safety parts of a safety argumentation. The idea of decomposition is to split into product " />
+          </node>
+          <node concept="qcxat" id="61Czc198Bz1" role="19SJt6">
+            <ref role="qcx5w" to="hia9:1Vb_4xA6zSH" resolve="S1" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Bz2" role="19SJt6">
+            <property role="19SUeA" value=" and process " />
+          </node>
+          <node concept="qdJI3" id="61Czc198Bz3" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1Vb_4xA6zA9" resolve="G1" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Bz4" role="19SJt6">
+            <property role="19SUeA" value="argumentation. Within the process argumentation " />
+          </node>
+          <node concept="qcxat" id="61Czc198Bz5" role="19SJt6">
+            <ref role="qcx5w" to="hia9:1Vb_4xA6zXG" resolve="S2" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Bz6" role="19SJt6">
+            <property role="19SUeA" value=", the pattern locates the need for a modularization strategy for overly complex models " />
+          </node>
+          <node concept="qcx8k" id="61Czc198Bz7" role="19SJt6">
+            <ref role="qcx8r" to="hia9:1Vb_4xA6zO2" resolve="Sn1" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Bz8" role="19SJt6">
+            <property role="19SUeA" value=": Due to the black-box character and complexity of NNs, the effort for the corresponding safety argumentation increases exponentially with the size of the network. A NN product argumentation requires special care compared to traditional software models. Reasons are that the intended functionality might be little understood, that a high probability of remaining systematic faults requires proper safety mechanisms " />
+          </node>
+          <node concept="qdJI3" id="61Czc198Bz9" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1Vb_4xA6zoF" resolve="G3" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Bza" role="19SJt6">
+            <property role="19SUeA" value=", and that the absence of safety relevant systematic faults introduced by NN specific problems " />
+          </node>
+          <node concept="qdJI3" id="61Czc198Bzb" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1Vb_4xA6z$u" resolve="G4" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Bzc" role="19SJt6">
+            <property role="19SUeA" value="needs to be proven, but such are not considered in the ISO 26262 standard so far." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="61Czc198B$7" role="1xAIax">
+          <property role="1xAIam" value="Context" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="61Czc198Boe" role="1_0VJ0">
+        <node concept="19SGf9" id="61Czc198Bof" role="1_0LWR">
+          <node concept="19SUe$" id="61Czc198Bog" role="19SJt6">
+            <property role="19SUeA" value="The pattern concentrates on an argumentation strategy which can provide reasonable confidence for the last goal. The pattern categorizes NNs specific failure modes into three categories: Robustness against small input changes, wrong internal representation or logic of the black-box which we are dealing with in our method proposal, and bad generalization performance due to training data representativity. The pattern suggests that faults of NNs " />
+          </node>
+          <node concept="qcxat" id="61Czc198BsJ" role="19SJt6">
+            <ref role="qcx5w" to="hia9:1Vb_4xA6zLO" resolve="S3" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BsK" role="19SJt6">
+            <property role="19SUeA" value=" leading to one of those failure modes can be found by one of the following verification and validation approaches: One is thorough testing " />
+          </node>
+          <node concept="qdJI3" id="61Czc198Bt0" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1Vb_4xA6zxn" resolve="G5" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Bt1" role="19SJt6">
+            <property role="19SUeA" value=" on systematically acquired test cases " />
+          </node>
+          <node concept="qcxat" id="61Czc198BtT" role="19SJt6">
+            <ref role="qcx5w" to="hia9:1Vb_4xA6zVa" resolve="S4" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BtU" role="19SJt6">
+            <property role="19SUeA" value=". Another aspect is robustness assurance " />
+          </node>
+          <node concept="qdJI3" id="61Czc198Bue" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1Vb_4xA6zvV" resolve="G7" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Buf" role="19SJt6">
+            <property role="19SUeA" value=" for all relevant input perturbations " />
+          </node>
+          <node concept="qcxat" id="61Czc198Bu_" role="19SJt6">
+            <ref role="qcx5w" to="hia9:1Vb_4xA6zFC" resolve="S5" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BuA" role="19SJt6">
+            <property role="19SUeA" value=". Lastly, due to the complexity of the considered input space, the pattern claims that evidence for a sensible internal structure of the algorithm " />
+          </node>
+          <node concept="qdJI3" id="61Czc198BuY" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1Vb_4xA6zu$" resolve="G6" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BuZ" role="19SJt6">
+            <property role="19SUeA" value=" is required. Sensible here means beneficial or necessary for the intended functionality according to expert judgment. For example classifying speed signs requires the ability to detect and distinguish digits. The internal structure includes the internal representation " />
+          </node>
+          <node concept="qdJI3" id="61Czc198Bvp" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1Vb_4xA6zti" resolve="G8" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Bvq" role="19SJt6">
+            <property role="19SUeA" value=" and the internal logic " />
+          </node>
+          <node concept="qdJI3" id="61Czc198BvQ" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1Vb_4xA6zs2" resolve="G9" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BvR" role="19SJt6">
+            <property role="19SUeA" value=" applied to it. The latter can either be directly assessed " />
+          </node>
+          <node concept="qdJI3" id="61Czc198Bwl" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1Vb_4xA6zBT" resolve="G11" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Bwm" role="19SJt6">
+            <property role="19SUeA" value=" via local or global rule extraction, or can be verified by comparison with given rules " />
+          </node>
+          <node concept="qdJI3" id="61Czc198BxS" role="19SJt6">
+            <ref role="qdJxC" to="hia9:1Vb_4xA6zyS" resolve="G10" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BxT" role="19SJt6">
+            <property role="19SUeA" value=", which can be done by formal verification, or by enforcement of rules. Similar to rule extraction for logic assessment, qualitative methods for inner representation assessment are available. Such are analysis of attention, or analysis of inherent intermediate features. However, the pattern identified a lack of quantitative methods for the analysis and improvement of domain knowledge usage in the inner representation " />
+          </node>
+          <node concept="qcx8k" id="61Czc198Byr" role="19SJt6">
+            <ref role="qcx8r" to="hia9:1Vb_4xA6zQl" resolve="Sn2" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Bys" role="19SJt6">
+            <property role="19SUeA" value=". The quantitative proposal of concept enforcement builds upon these and fills a gap here.&#10;&#10;" />
+          </node>
+          <node concept="2vpllh" id="61Czc198BA6" role="19SJt6">
+            <node concept="19SGf9" id="61Czc198BA7" role="$DsGW">
+              <node concept="19SUe$" id="61Czc198BA8" role="19SJt6">
+                <property role="19SUeA" value="Note" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="61Czc198BA9" role="19SJt6">
+            <property role="19SUeA" value=": Documentation provided from the following publication:&#10;S. Burton, L. Gauerhof, B. B. Sethy, I. Habli, and R. Hawkins. “Confidence arguments for evidence of performance in machine learning for highly automated driving func- tions”. In: International Conference on Computer Safety, Reliability, and Security. Springer. 2019, pp. 365–377." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="61Czc198Bor" role="1xAIax">
+          <property role="1xAIam" value="Implementation &amp; Participants &amp; collaborations" />
+        </node>
+      </node>
+    </node>
     <node concept="Wq1Bs" id="6uWvPOBYHPU" role="Wq1Bf">
       <property role="Wq1Bt" value="Gesina Schwalbe" />
       <property role="Wq1Bq" value="schwalbe@continental-corporation.com" />
@@ -7766,24 +7928,161 @@
       <property role="Wq1Bq" value="schels@continental-corporation.com" />
     </node>
   </node>
-  <node concept="qdN4g" id="6uWvPOBYHSP">
-    <property role="yApLE" value="1" />
-    <property role="3GE5qa" value="_108_Automotive-Specific_Argument_Patterns" />
-    <property role="TrG5h" value="Homogeneous_Duplex_Redundancy_Pattern" />
-    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
-  </node>
   <node concept="qdN4g" id="6uWvPOBYHUd">
     <property role="yApLE" value="1" />
     <property role="3GE5qa" value="_105_ML-Specific_Argument_Patterns" />
-    <property role="TrG5h" value="A_Template_Of_Safety_Arguments_For_Obtaining_Partial_Prior_Knowledge" />
+    <property role="TrG5h" value="Safety_Case_Pattern_For_Machine_Learning_Model" />
     <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
-  </node>
-  <node concept="qdN4g" id="6uWvPOBYHVD">
-    <property role="yApLE" value="1" />
-    <property role="3GE5qa" value="_101_Fault/Failure-Based_Argument_Patterns" />
-    <property role="TrG5h" value="Safety-Critical_Function_Failure_Modes" />
-    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
-    <ref role="qdN4h" to="hia9:6uWvPOBYHUh" resolve="Safety-Critical_Function_Failure_Modes" />
+    <ref role="qdN4h" to="hia9:6uWvPOBYHW5" resolve="Safety_Case_Pattern_For_Machine_Learning_Model" />
+    <node concept="Wq1Bs" id="61Czc198Bbc" role="Wq1Bf">
+      <property role="Wq1Bt" value="Simon Burton" />
+      <property role="Wq1Bq" value=" " />
+    </node>
+    <node concept="Wq1Bs" id="61Czc198Bbe" role="Wq1Bf">
+      <property role="Wq1Bt" value="Lydia Gauerhof" />
+      <property role="Wq1Bq" value=" " />
+    </node>
+    <node concept="Wq1Bs" id="61Czc198Bbh" role="Wq1Bf">
+      <property role="Wq1Bt" value="Bibhuti Bhusan Sethy" />
+      <property role="Wq1Bq" value=" " />
+    </node>
+    <node concept="Wq1Bs" id="61Czc198Bbl" role="Wq1Bf">
+      <property role="Wq1Bt" value="Ibrahim Habli" />
+      <property role="Wq1Bq" value=" " />
+    </node>
+    <node concept="Wq1Bs" id="61Czc198Bbq" role="Wq1Bf">
+      <property role="Wq1Bt" value="Richard Hawkins" />
+      <property role="Wq1Bq" value=" " />
+    </node>
+    <node concept="1mvXsy" id="61Czc198BD3" role="1_0VJ0">
+      <property role="TrG5h" value="Safety_Case_Pattern_For_Machine_Learning_Model" />
+      <property role="1_0VJr" value="Safety Case Pattern For Machine Learning Model" />
+      <node concept="3z_lpz" id="61Czc198Bgr" role="1_0VJ0">
+        <property role="TrG5h" value="Safety_Case_Pattern_For_Machine_Learning_Model" />
+        <node concept="OjmMv" id="61Czc198Bgs" role="3z_lpS">
+          <node concept="19SGf9" id="61Czc198Bgt" role="OjmMu">
+            <node concept="19SUe$" id="61Czc198Bgu" role="19SJt6">
+              <property role="19SUeA" value="Safety Case Pattern For Machine Learning Model" />
+            </node>
+          </node>
+        </node>
+        <node concept="2bctqb" id="61Czc198Bgv" role="3z_lpT" />
+        <node concept="2NCZwO" id="61Czc198Bgw" role="3z_lpI">
+          <node concept="2NCMab" id="61Czc198Bha" role="2NCMaf">
+            <ref role="2NCMaa" node="6uWvPOBYHUd" resolve="Safety_Case_Pattern_For_Machine_Learning_Model" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="61Czc198Bcv" role="1_0VJ0">
+        <node concept="19SGf9" id="61Czc198Bcw" role="1_0LWR">
+          <node concept="19SUe$" id="61Czc198Bcx" role="19SJt6">
+            <property role="19SUeA" value="Problem: Due to their ability to efficiently process unstructured and highly dimensional input data, machine learning algorithms are being applied to perception tasks for highly automated driving functions. The consequences of failures and insufficiencies in such algorithms are severe and a convincing assurance case that the algorithms meet certain safety requirements is therefore required. However, the task of demonstrating the performance of such algorithms is non-trivial, and as yet, no con- sensus has formed regarding an appropriate set of verification measures.&#10;Solution: A generic safety case pattern for arguing the performance of machine learning models, which is then used to derive a model for reasoning about the contribution of evidence to this assurance case pattern." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="61Czc198Bcy" role="1xAIax">
+          <property role="1xAIam" value="Problem and Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="61Czc198BcH" role="1_0VJ0">
+        <node concept="19SGf9" id="61Czc198BcI" role="1_0LWR">
+          <node concept="19SUe$" id="61Czc198BcJ" role="19SJt6">
+            <property role="19SUeA" value="In order to support the claim that the Machine Learning Model (MLM) meets its performance requirements, it is important to understand the causes of such insufficiencies. &#10;Different causes of performance limitations in machine learning functions might be: distributional shifts, robustness deficits of the trained function, and differences between the training and execution platforms.&#10;This pattern describes a generic assurance case pattern for arguing the safety properties of a machine learning function. This assurance case pattern is centered on discharging the claim that the MLM fulfills its safety properties (defined by benchmarks) to a required level of performance in a defined operation environment.&#10;In contrast to classical software-based approaches, existing safety standards do not define a set of accepted methods for evaluating the performance of machine learning in a safety critical context. Therefore during assessment and ho- mologation, any proposed assurance case will inevitably lead to questions re- garding the strength of argument presented and the relevance of the presented supporting evidence. For this reason, the pattern contains assurance claim points (ACPs), which are used to represent points in the argument where further assurance is required through the provision of a more detailed confidence argument. All connections in this pattern should be annotated with assurance claim points (ACPs). FASTEN does not supports the use of ACPs and this is why they are not currently included in the graphical reprentation.&#10;&#10;These confidence arguments can be then used to aid the certification process, especially where accepted best practice has yet to be defined.&#10;– ACP1 (between " />
+          </node>
+          <node concept="qcx9v" id="61Czc198BcT" role="19SJt6">
+            <ref role="qcx8m" to="hia9:77UiCn32Iad" resolve="Operating env" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BcU" role="19SJt6">
+            <property role="19SUeA" value="and " />
+          </node>
+          <node concept="qdJI3" id="61Czc198BcY" role="19SJt6">
+            <ref role="qdJxC" to="hia9:77UiCn32I95" resolve="Performance Claim" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BcZ" role="19SJt6">
+            <property role="19SUeA" value="): Argument that the assumptions made on the operational design domain as well as on the interfaces to other technical components within the system are valid.&#10;– ACP2 (between " />
+          </node>
+          <node concept="qcx9v" id="61Czc198Bd5" role="19SJt6">
+            <ref role="qcx8m" to="hia9:77UiCn32Icx" resolve="Benchmark" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Bd6" role="19SJt6">
+            <property role="19SUeA" value="and " />
+          </node>
+          <node concept="qdJI3" id="61Czc198Bde" role="19SJt6">
+            <ref role="qdJxC" to="hia9:77UiCn32I95" resolve="Performance Claim" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Bdf" role="19SJt6">
+            <property role="19SUeA" value="): Argument that the benchmark performance requirements allocated to the guarantees of the safety contract for the MLM are sufficient to fulfill the overall system safety requirements.&#10;– ACP3 (between " />
+          </node>
+          <node concept="qcx9v" id="61Czc198Bdp" role="19SJt6">
+            <ref role="qcx8m" to="hia9:77UiCn32IdI" resolve="Machine Learning Model" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Bdq" role="19SJt6">
+            <property role="19SUeA" value="and " />
+          </node>
+          <node concept="qdJI3" id="61Czc198BdA" role="19SJt6">
+            <ref role="qdJxC" to="hia9:77UiCn32I95" resolve="Performance Claim" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BdB" role="19SJt6">
+            <property role="19SUeA" value="): Argument that the adopted training process and the choice of model and hyperparameters lead to a function that fulfills its requirements.&#10;– ACP4 (between " />
+          </node>
+          <node concept="qcx9v" id="61Czc198BdP" role="19SJt6">
+            <ref role="qcx8m" to="hia9:77UiCn32If5" resolve="Development Data" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BdQ" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="qdJI3" id="61Czc198Be6" role="19SJt6">
+            <ref role="qdJxC" to="hia9:77UiCn32I95" resolve="Performance Claim" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Be7" role="19SJt6">
+            <property role="19SUeA" value="): Argument that the training data are sufficient to lead to a MLM that fulfills its performance requirements.&#10;– ACP5 (between " />
+          </node>
+          <node concept="qcx9v" id="61Czc198Bep" role="19SJt6">
+            <ref role="qcx8m" to="hia9:77UiCn32Igx" resolve="Test Data" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Beq" role="19SJt6">
+            <property role="19SUeA" value=" and " />
+          </node>
+          <node concept="qdJI3" id="61Czc198BeI" role="19SJt6">
+            <ref role="qdJxC" to="hia9:77UiCn32I95" resolve="Performance Claim" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BeJ" role="19SJt6">
+            <property role="19SUeA" value="): Argument that the test data that is used is sufficient to support the performance claim.&#10;– ACP6 (between " />
+          </node>
+          <node concept="qcx8k" id="61Czc198Bf5" role="19SJt6">
+            <ref role="qcx8r" to="hia9:77UiCn32Ii2" resolve="Performance Evidence" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Bf6" role="19SJt6">
+            <property role="19SUeA" value="and " />
+          </node>
+          <node concept="qdJI3" id="61Czc198Bfu" role="19SJt6">
+            <ref role="qdJxC" to="hia9:77UiCn32I95" resolve="Performance Claim" />
+          </node>
+          <node concept="19SUe$" id="61Czc198Bfv" role="19SJt6">
+            <property role="19SUeA" value="): Argument that the performance evidence generated from the test data is sufficient to support the performance claim. " />
+          </node>
+        </node>
+        <node concept="1xAIan" id="61Czc198BcK" role="1xAIax">
+          <property role="1xAIam" value="Implementation" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="61Czc198BhR" role="1_0VJ0">
+        <node concept="19SGf9" id="61Czc198BhS" role="1_0LWR">
+          <node concept="19SUe$" id="61Czc198BhT" role="19SJt6">
+            <property role="19SUeA" value="" />
+          </node>
+          <node concept="2vpllh" id="61Czc198BiC" role="19SJt6">
+            <node concept="19SGf9" id="61Czc198BiD" role="$DsGW">
+              <node concept="19SUe$" id="61Czc198BiE" role="19SJt6">
+                <property role="19SUeA" value="Note" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="61Czc198BiF" role="19SJt6">
+            <property role="19SUeA" value=": Documentation provided from the following publication:&#10;S. Burton, L. Gauerhof, B. B. Sethy, I. Habli, and R. Hawkins. “Confidence arguments for evidence of performance in machine learning for highly automated driving func- tions”. In: International Conference on Computer Safety, Reliability, and Security. Springer. 2019, pp. 365–377." />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="qdN4g" id="6uWvPOBYHYw">
     <property role="yApLE" value="1" />
@@ -7791,6 +8090,137 @@
     <property role="TrG5h" value="Preliminary_Safety_Criteria_For_Artificial_Neural_Networks" />
     <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
     <ref role="qdN4h" to="hia9:6uWvPOBYHX8" resolve="Preliminary_Safety_Criteria_For_Artificial_Neural_Networks" />
+    <node concept="1mvXsy" id="61Czc198BkA" role="1_0VJ0">
+      <property role="TrG5h" value="Preliminary_Safety_Criteria_For_Artificial_Neural_Networks" />
+      <property role="1_0VJr" value="Preliminary Safety Criteria For Artificial Neural Networks" />
+      <node concept="1_1sxE" id="61Czc198Bq$" role="1_0VJ0">
+        <property role="TrG5h" value="empty_-1" />
+      </node>
+      <node concept="3z_lpz" id="61Czc198BkB" role="1_0VJ0">
+        <property role="TrG5h" value="Preliminary_Safety_Criteria_For_Artificial_Neural_Networks" />
+        <node concept="OjmMv" id="61Czc198BkC" role="3z_lpS">
+          <node concept="19SGf9" id="61Czc198BkD" role="OjmMu">
+            <node concept="19SUe$" id="61Czc198BkE" role="19SJt6">
+              <property role="19SUeA" value="Preliminary Safety Criteria For Artificial Neural Networks" />
+            </node>
+          </node>
+        </node>
+        <node concept="2bctqb" id="61Czc198BkF" role="3z_lpT" />
+        <node concept="2NCZwO" id="61Czc198BkG" role="3z_lpI">
+          <node concept="2NCMab" id="61Czc198Bpc" role="2NCMaf">
+            <ref role="2NCMaa" to="hia9:6uWvPOBYHX8" resolve="Preliminary_Safety_Criteria_For_Artificial_Neural_Networks" />
+          </node>
+        </node>
+      </node>
+      <node concept="1_0LV8" id="61Czc198BKH" role="1_0VJ0">
+        <node concept="19SGf9" id="61Czc198BKI" role="1_0LWR">
+          <node concept="19SUe$" id="61Czc198BKJ" role="19SJt6">
+            <property role="19SUeA" value="Any potential safety case must overcome problems associated with typical neural networks. Some typical problems may be concerned with ANN structure and topol- ogy. These are factors that may influence the generalisation performance of the ANN. Another problem lies in determining the training and test set where they must repre- sent the desired function using a limited number of samples. Dealing with noise during training is also problematic to ensure that the network does not deviate from the required target function. Other issues related to the learning or training process may involve forgetting of data particularly when using the back-propagation algorithm. This could lead to poor generalisation and long training times. Furthermore, problems during training may result in learning settling in local minima instead of global and deciding upon appropriate stopping points for the training process. This could be aided by cross-validation [12] but relies heavily on test sets. One of the key problems is the inability to analyse the network such that a white-box view of the behaviour can be presented. This contributes to the need for using test sets to determine generalisation performance as an overall error and the lack of explanation mechanisms for network outputs. The inability to analyse also makes it difficult to identify and control potential hazards in the system and provide assurance that some set of requirements are met.&#10;Solution: The paper in which this pattern has been presented has attempted to establish safety criteria for ANNs (Artificial Neural Networks) that defines minimum behavioural properties which must be enforced for safety- critical contexts. By defining requirements from a high-level perspective, the criteria are intended to apply to most types of neural networks. Figure" />
+          </node>
+        </node>
+        <node concept="1xAIan" id="61Czc198BKK" role="1xAIax">
+          <property role="1xAIam" value="Problem &amp; Solution" />
+        </node>
+      </node>
+      <node concept="1_0LV8" id="61Czc198BMt" role="1_0VJ0">
+        <node concept="19SGf9" id="61Czc198BMu" role="1_0LWR">
+          <node concept="19SUe$" id="61Czc198BMv" role="19SJt6">
+            <property role="19SUeA" value="The upper part of the safety criteria consists of a top-goal, strategy and other contextual information. The " />
+          </node>
+          <node concept="qdJI3" id="61Czc198BML" role="19SJt6">
+            <ref role="qdJxC" to="hia9:2ozeuzkHYlg" resolve="G1" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BMM" role="19SJt6">
+            <property role="19SUeA" value=" if achieved, allows the neural network to be used in safety-critical applications. " />
+          </node>
+          <node concept="qcx9v" id="61Czc198BMQ" role="19SJt6">
+            <ref role="qcx8m" to="hia9:2ozeuzkHYnC" resolve="C1" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BMR" role="19SJt6">
+            <property role="19SUeA" value=" requires that a specific ANN model is defined such as multi-layered perceptron or other models. " />
+          </node>
+          <node concept="qcx9v" id="61Czc198BMX" role="19SJt6">
+            <ref role="qcx8m" to="hia9:2ozeuzkHYqh" resolve="C2" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BMY" role="19SJt6">
+            <property role="19SUeA" value=" intends for the ANN to be used when conventional software or other systems cannot provide the desired advantages. " />
+          </node>
+          <node concept="qcx9v" id="61Czc198BN6" role="19SJt6">
+            <ref role="qcx8m" to="hia9:2ozeuzkHYoU" resolve="C3" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BN7" role="19SJt6">
+            <property role="19SUeA" value=" attempts to highlight that ‘acceptably safe’ is related to product and process based arguments and will rely heavily on sub-goals. The " />
+          </node>
+          <node concept="qcxat" id="61Czc198BNh" role="19SJt6">
+            <ref role="qcx5w" to="hia9:2ozeuzkHYmo" resolve="S1" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BNi" role="19SJt6">
+            <property role="19SUeA" value=" will attempt to generate safety arguments from the sub-goals (which form the criteria) to fulfil " />
+          </node>
+          <node concept="qdJI3" id="61Czc198BNu" role="19SJt6">
+            <ref role="qdJxC" to="hia9:2ozeuzkHYrH" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BNv" role="19SJt6">
+            <property role="19SUeA" value=". The goals &quot;" />
+          </node>
+          <node concept="qdJI3" id="61Czc198BNH" role="19SJt6">
+            <ref role="qdJxC" to="hia9:2ozeuzkHYrH" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BNI" role="19SJt6">
+            <property role="19SUeA" value="&quot; to &quot;" />
+          </node>
+          <node concept="qdJI3" id="61Czc198BNY" role="19SJt6">
+            <ref role="qdJxC" to="hia9:2ozeuzkHYwv" resolve="G5" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BNZ" role="19SJt6">
+            <property role="19SUeA" value="&quot; presents the following criteria:&#10;• Criterion of" />
+          </node>
+          <node concept="qdJI3" id="61Czc198BOh" role="19SJt6">
+            <ref role="qdJxC" to="hia9:2ozeuzkHYrH" resolve="G2" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BOi" role="19SJt6">
+            <property role="19SUeA" value=": ensures that the function performed by the network represents the target or desired function. The function represented by the network may be considered as input-output mappings and the term ‘correct’ refers to the target function. As expressed in " />
+          </node>
+          <node concept="qcx9v" id="61Czc198BOA" role="19SJt6">
+            <ref role="qcx8m" to="hia9:2ozeuzkHYyf" resolve="C4" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BOB" role="19SJt6">
+            <property role="19SUeA" value=", the network may also represent a subset of the target function. This is a more realistic condition, if all hazards can be identified and mitigated for the subset. This may also avoid concerns for attempting to solve a problem where analysis may not be able to determine whether totality of the target function is achieved. Previous work on dealing with and refining partial specification for neural networks [5] may apply. However, additional methods to analyse specifications in terms of performance and safety (existence of potential hazards) may be necessary. Forms of sub-goals or strategies for arguing G2 may involve using analytical methods such as decompositional approaches [13]. This attempts to extract behaviour by analysing the intrinsic structure of the ANN such as each neuron or weight. This will help analyse the function performed by the ANN and help present a white-box view of the network. Techniques to achieve this may involve determining suitable ANN architectures whereby a meaningful mapping exists from each network parameter to some functional description. On the other hand, pedagogical approaches involve determin- ing the function by analysing outputs for input patterns such as sensitivity analysis [14]. This methodology however, maintains a black-box perspective and will not be enough to provide satisfactory arguments for G2. Overall, approaches must attempt to overcome problems associated with the ability of the ANN to explain outputs and generalisation behaviour.&#10;• Criterion of" />
+          </node>
+          <node concept="qdJI3" id="61Czc198BOY" role="19SJt6">
+            <ref role="qdJxC" to="hia9:2ozeuzkHYte" resolve="G3" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BOX" role="19SJt6">
+            <property role="19SUeA" value="will provide assurance that safety is maintained during ANN learning. The ‘observable behaviour’ of the neuron means the input and output mappings that take place regardless of the weights stored on each connection. The ANN must be predictable given examples learnt during training. ‘Repeatable’ ensures that any pre- vious valid mapping or output does not become flawed during learning. The forgetting of previously learnt samples must not occur given adaptation to a changing environ- ment. Possible forms of arguments may be associated with functional properties. This may involve providing assurance that learning maintains safety by abiding to some set of behavioural constraints identified through processes such as hazard analysis.&#10;• Criterion of" />
+          </node>
+          <node concept="qdJI3" id="61Czc198BPp" role="19SJt6">
+            <ref role="qdJxC" to="hia9:2ozeuzkHYuO" resolve="G4" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BPo" role="19SJt6">
+            <property role="19SUeA" value=": ensures the ANN is robust and safe under all input conditions. An&#10;assumption is made that the ANN might be exposed to training samples that do not represent the desired function. Achievement of this goal is optional as it could be considered specific to the application context. The network must either detect these inputs and suppress them, or ensure a safe state with respect to the output and weight configuration. Other possible forms of argument and solutions may involve ‘gating networks’ [15] which receives data within a specific validation area of the input space.&#10;• Criterion of" />
+          </node>
+          <node concept="qdJI3" id="61Czc198BPQ" role="19SJt6">
+            <ref role="qdJxC" to="hia9:2ozeuzkHYwv" resolve="G5" />
+          </node>
+          <node concept="19SUe$" id="61Czc198BPR" role="19SJt6">
+            <property role="19SUeA" value=": is based upon arguments similar to G2. However, this goal focuses&#10;solely on the network output. This will result in a robust ANN, which through training and utilisation, ensures that the output is not hazardous regardless of the integrity of the input. For example, output monitors or bounds might be used as possible solutions. Other possible forms of arguments may include derivatives of ‘guarded networks’ [15] that receives all data but is monitored to ensure that behaviour does not deviate too much from expectations.&#10;&#10;" />
+          </node>
+          <node concept="2vpllh" id="61Czc198BU6" role="19SJt6">
+            <node concept="19SGf9" id="61Czc198BU7" role="$DsGW">
+              <node concept="19SUe$" id="61Czc198BU8" role="19SJt6">
+                <property role="19SUeA" value="Note" />
+              </node>
+            </node>
+          </node>
+          <node concept="19SUe$" id="61Czc198BU9" role="19SJt6">
+            <property role="19SUeA" value=": Documentation provided from the following publication:&#10;Z. Kurd and T. Kelly. “Establishing safety criteria for artificial neural networks”. In: International Conference on Knowledge-Based and Intelligent Information and Engineering Systems. Springer. 2003, pp. 163–169." />
+          </node>
+        </node>
+        <node concept="1xAIan" id="61Czc198BMw" role="1xAIax">
+          <property role="1xAIam" value="Participants &amp; Collaborations &amp; Implementation" />
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="qdN4g" id="4zECRQeK86D">
     <property role="yApLE" value="1" />
@@ -7813,13 +8243,6 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="qdN4g" id="1Vb_4xA6_KT">
-    <property role="yApLE" value="1" />
-    <property role="3GE5qa" value="_105_ML-Specific_Argument_Patterns" />
-    <property role="TrG5h" value="Safety_Case_Pattern_For_Obtaining_Partial_Prior_Knowledge" />
-    <ref role="G9hjw" node="OjdO2L9Mnc" resolve="Config" />
-    <ref role="qdN4h" to="hia9:1Vb_4xA6$1j" resolve="Safety_Case_Pattern_For_Obtaining_Partial_Prior_Knowledge" />
   </node>
 </model>
 
